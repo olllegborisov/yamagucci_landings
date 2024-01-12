@@ -17,12 +17,21 @@ const Landing: FC<LandingTypes> = ({ landingName }) => {
     const styles = doc.querySelectorAll('link[rel="stylesheet"]')
     /** скрипты */
     const scripts = doc.querySelectorAll('script')
+    /** скрипты */
+    const metas = doc.querySelectorAll('meta')
     /** скрипты массив */
     const scriptSrcs = Array.from(scripts).map(script => script.getAttribute('src')).filter(Boolean)
     /** контент */
     const content = doc.querySelector('body')?.innerHTML
 
     setHtmlContent(content)
+    metas?.forEach((meta: HTMLMetaElement) => {
+      /** тег мета */
+      const element = document.createElement('meta')
+      element.name = meta.name
+      element.content = meta.content
+      document.head.appendChild(element)
+    })
     scriptSrcs?.forEach(src => {
       /** тег скрипт */
       const element = document.createElement('script')
