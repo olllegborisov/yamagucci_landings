@@ -11,6 +11,7 @@ import CustomSearch from './CustomSearch/CustomSearch'
 import CustomSelect from './CustomSelect/CustomSelect'
 import CustomTextarea from './CustomTextarea/CustomTextarea'
 import styles from './Form.module.scss'
+import ListCardQrcodes from './ListCardQrcodes/ListCardQrcodes'
 import RentAndSizeVariants from './RentAndSizeVariants/RentAndSizeVariants'
 import SearchAdditionalProduct from './SearchAdditionalProduct/SearchAdditionalProduct'
 import TechParamsList from './TechParamsList/TechParamsList'
@@ -95,6 +96,13 @@ const Form: FC<FormTypes> = ({ formContent }) => (
     switch (item?.type) {
       case 'group':
         return _createInputGroup(item, index)
+      case 'borbozaSearch':
+        return (
+          <BorbozaSearch
+            {...item}
+            key={index}
+          />
+        )
       case 'searchAdditionalProduct':
         return (
           <SearchAdditionalProduct
@@ -130,16 +138,16 @@ const Form: FC<FormTypes> = ({ formContent }) => (
             key={index}
           />
         )
-      case 'size':
+      case 'q_r_codes':
         return (
-          <RentAndSizeVariants
+          <ListCardQrcodes
             {...item}
             key={index}
           />
         )
-      case 'borbozaSearch':
+      case 'size':
         return (
-          <BorbozaSearch
+          <RentAndSizeVariants
             {...item}
             key={index}
           />

@@ -1,0 +1,61 @@
+@import 'styles/variables';
+.card {
+  padding: 30px 25px;
+  border-bottom: 1px solid $bad-white;
+}
+
+.imgAndLinksWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.img {
+  width: 350px;
+  height: 350px;
+}
+
+.input {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__labelAndTooltip {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__label {
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  &__input {
+    padding: 20px 30px;
+    border: 1px solid $gray-main;
+    border-radius: 15px;
+    max-height: 60px;
+
+    &:focus {
+      border-color: $black;
+    }
+    &::placeholder {
+      font-size: 18px;
+      color: $gray-main;
+    }
+  }
+}
+
+.grayBg {
+  background-color: $bad-white;
+}

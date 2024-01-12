@@ -9,14 +9,14 @@ import IconWrapper from '@/src/components/atoms/IconWrapper/IconWrapper'
 import LoaderQuery from '@/src/components/atoms/LoaderQuery/LoaderQuery'
 import { ColumnResultProducts } from '@/src/components/TableWithModal/_types'
 import TableWithModal from '@/src/components/TableWithModal/TableWithModal'
-import { PAGE_PRODUCTS } from '@/src/constants/constants'
-import { IconExternalLink, IconPen, IconSearch } from '@/src/constants/icons'
+import { PAGE_CATEGORIES, PAGE_PRODUCTS } from '@/src/constants/constants'
+import { IconExternalLink, IconSearch } from '@/src/constants/icons'
 import times from '@/src/lib/times'
 
-import styles from './ProductsPage.module.scss'
+import styles from './AdminProductsPage.module.scss'
 
 /** страница тестовая */
-const ProductPage = () => {
+const AdminProductPage = () => {
   /** получаем все продукты */
   const { data, isLoading } = useFetchProducts()
 
@@ -44,6 +44,14 @@ const ProductPage = () => {
       },
       {
         accessorKey: 'model',
+        cell: info => (
+          <Link
+            href={`${PAGE_PRODUCTS}/${info?.row?.original?.id}`}
+            title='Редактировать'
+          >
+            {info?.row?.original?.model}
+          </Link>
+        ),
         header: '',
         id: 'model'
       },
@@ -64,6 +72,14 @@ const ProductPage = () => {
       },
       {
         accessorKey: 'category',
+        cell: info => (
+          <Link
+            href={`${PAGE_CATEGORIES}/${info?.row?.original?.category_id}`}
+            title='Редактировать'
+          >
+            {info?.row?.original?.category}
+          </Link>
+        ),
         header: '',
         id: 'category'
       },
@@ -95,19 +111,6 @@ const ProductPage = () => {
         enableColumnFilter: false,
         header: 'Поп.',
         id: 'popularity'
-      },
-      {
-        cell: info => (
-          <Link
-            href={`${PAGE_PRODUCTS}/${info?.row?.original?.id}`}
-            title='Редактировать'
-          >
-            <IconWrapper IconComponent={IconPen} />
-          </Link>
-        ),
-        enableColumnFilter: false,
-        header: '',
-        id: 'edit'
       },
       {
         accessorKey: 'status',
@@ -142,4 +145,4 @@ const ProductPage = () => {
   )
 }
 
-export default React.memo(ProductPage)
+export default React.memo(AdminProductPage)
