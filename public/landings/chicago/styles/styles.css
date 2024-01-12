@@ -1440,7 +1440,7 @@ table {
     .chicago3 .chicago3_title-bg {
     width: 56%}
 .chicago4 {
-    background: url(../images/landing/bg/chicago/chicago_04-sm.webp) no-repeat!important;
+    /* background: url(../images/landing/bg/chicago/chicago_04-sm.webp) no-repeat!important; */
     background-size: cover!important;
     height: auto;
 }
