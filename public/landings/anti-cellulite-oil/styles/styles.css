@@ -1,0 +1,1569 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local("Montserrat"), local("Montserrat-Regular"),
+    url("/landings/anti-cellulite-oil/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("/landings/anti-cellulite-oil/fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local("Montserrat"), local("Montserrat-Regular"),
+    url("/landings/anti-cellulite-oil/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("/landings/anti-cellulite-oil/fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("/landings/anti-cellulite-oil/fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("/landings/anti-cellulite-oil/fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cy Grotesk";
+  font-display: swap;
+  src: url("/landings/anti-cellulite-oil/fonts/cy-grotesk-grand-dark.otf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Europe ext regular";
+  src: url("/landings/anti-cellulite-oil/fonts/europeext.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* 
+html {
+    scroll-behavior: smooth;
+    font-weight: 400;
+  }
+  
+  body {
+  margin: 0;
+  min-width: 320px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  background: #181818;
+  color: #fff;
+  }
+  
+  article, aside, figure, footer, header, main, nav, section {
+  display: block;
+  margin: 0;
+  padding: 0;
+  }
+  
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  *,
+  ::after,
+  ::before {
+  box-sizing: border-box;
+  }
+  
+  ul{
+  margin: 0;
+  padding: 0;
+  list-style: outside none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #fff;
+    outline: 0;
+  }
+  
+  p{
+  margin: 0;
+  padding: 0;
+  }
+  
+  button {
+    outline: 0;
+    border: 0;
+  }
+  
+  img{
+    border: 0;
+    vertical-align: middle;
+  } */
+  
+  .main-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  }
+  
+  .container-box {
+  width: 1230px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  }
+  @media all and (max-width: 1240px) {
+  .container-box {
+    width: 1023px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  }
+  @media all and (max-width: 1240px) and (max-width: 1023px) {
+  .container-box {
+    width: 708px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  }
+  @media all and (max-width: 1240px) and (max-width: 1023px) and (max-width: 767px) {
+  .container-box {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  }
+  
+  .main-wrapper section {
+  box-sizing: border-box;
+  }
+  
+  figure, figcaption {
+  margin: 0;
+  /* padding: 0; */
+  }
+  @media all and (max-width: 767px) {
+  .container-box {
+    padding: 0 3%;
+  }
+  }
+  .section {
+  min-height: 900px;
+  font-family: Montserrat, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+  }
+  @media all and (max-width: 767px) {
+  .section {
+    min-height: unset;
+  }
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Montserrat, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+canvas,
+img,
+svg {
+  vertical-align: top;
+}
+body {
+  scroll-behavior: smooth;
+}
+.section {
+  min-height: 900px;
+}
+@media all and (max-width: 767px) {
+  .section {
+    min-height: unset;
+  }
+}
+@media all and (max-width: 767px) {
+  .container-box {
+    padding: 0 2%;
+  }
+}
+@media all and (max-width: 767px) {
+  .no-display-mob {
+    display: none;
+  }
+}
+.display-mob {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .display-mob {
+    display: inline;
+  }
+}
+.anti-cellulite {
+  position: relative;
+  background: url('/landings/anti-cellulite-oil/images/anti-cellulite-bgr-desc-v2.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+}
+@media all and (max-width: 767px) {
+  .anti-cellulite {
+    background: url('/landings/anti-cellulite-oil/images/anti-cellulite-bgr-mob.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+  }
+}
+.anti-cellulite._active .anti-cellulite__content-title {
+  animation: text-springs-to-right 0.25s linear normal forwards;
+}
+.anti-cellulite__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  padding-top: 42px;
+  padding-bottom: 39px;
+}
+@media all and (max-width: 767px) {
+  .anti-cellulite__container {
+    padding-bottom: 8vw;
+    padding-top: 14vw;
+  }
+}
+.anti-cellulite__content-title {
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .anti-cellulite__content-title {
+    opacity: 1;
+    animation: none;
+  }
+}
+.anti-cellulite__content p {
+  color: #fff;
+  font-family: "Europe ext regular";
+  font-size: clamp(17px, 4vw, 39px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: clamp(20px, 4vw, 49px);
+}
+@media all and (max-width: 767px) {
+  .anti-cellulite__content p {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+}
+.anti-cellulite__content h3 {
+  color: #6058a6;
+  font-family: "Cy Grotesk";
+  font-size: clamp(17px, 6vw, 47px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: clamp(21px, 6vw, 61px);
+  letter-spacing: -0.472px;
+}
+@media all and (max-width: 767px) {
+  .anti-cellulite__content h3 {
+    font-size: 5.2vw;
+    line-height: 8.5vw;
+  }
+}
+.anti-cellulite__content span {
+  color: #6058a6;
+  font-family: "Cy Grotesk";
+  font-size: clamp(17px, 6vw, 47px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: clamp(21px, 6vw, 61px);
+  letter-spacing: -0.472px;
+}
+@media all and (max-width: 767px) {
+  .anti-cellulite__content span {
+    font-size: 9vw;
+    line-height: 7vw;
+  }
+}
+.anti-cellulite__img {
+  height: 100%;
+  margin-right: 42px;
+}
+@media all and (max-width: 767px) {
+  .anti-cellulite__img {
+    height: 80vw;
+    margin-right: unset;
+  }
+}
+.accent {
+  position: relative;
+  background: url('/landings/anti-cellulite-oil/images/accent-bgr-desc.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+}
+@media all and (max-width: 767px) {
+  .accent {
+    background: url('/landings/anti-cellulite-oil/images/accent-bgr-mob.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+  }
+}
+.accent._active .accent__heading {
+  animation: slide-left 0.25s linear normal forwards;
+}
+.accent__container {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 59px;
+}
+@media all and (max-width: 767px) {
+  .accent__container {
+    padding-bottom: 8vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .accent__content {
+    padding-top: 5vw;
+  }
+}
+.accent__heading {
+  position: relative;
+  display: block;
+  color: #6058a6;
+  font-family: "Cy Grotesk";
+  font-size: clamp(26px, 6vw, 72px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: clamp(34px, 6vw, 93px);
+  letter-spacing: -0.721px;
+  margin-bottom: 34px;
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .accent__heading {
+    margin-bottom: 108vw;
+    font-size: 8vw;
+    line-height: 11vw;
+  }
+}
+.accent__heading::before {
+  content: "";
+  position: absolute;
+  background: url('/landings/anti-cellulite-oil/images/bottle-text.webp');
+  width: 174px;
+  height: 488px;
+  bottom: 142px;
+  left: 19%;
+  transform: rotate(27deg);
+}
+@media all and (max-width: 767px) {
+  .accent__heading::before {
+    display: none;
+  }
+}
+.accent__heading br {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .accent__heading br {
+    display: block;
+  }
+}
+.accent__text {
+  color: #6058a6;
+  font-family: Montserrat;
+  font-size: clamp(15px, 4vw, 22px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: clamp(25px, 4vw, 37px);
+  max-width: 602px;
+  display: block;
+}
+@media all and (max-width: 767px) {
+  .accent__text {
+    font-size: 4.67vw;
+    line-height: 8vw;
+  }
+}
+.effect {
+  position: relative;
+  height: 900px;
+  padding: 41px 0 0;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  background: url('/landings/anti-cellulite-oil/images/effect-bgr-desc.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media all and (max-width: 767px) {
+  .effect {
+    position: static;
+    height: auto;
+    padding: 8% 0 20%;
+    background: url('/landings/anti-cellulite-oil/images/effect-bgr-mob.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.effect._active .effect__title-top-string {
+  animation: text-springs-to-right 0.25s linear normal forwards;
+}
+@media all and (max-width: 767px) {
+  .effect .container-box {
+    padding: 0 3%;
+  }
+}
+.effect__swiper {
+  width: 1920px;
+  height: fit-content;
+  padding: 0 38px 0;
+}
+@media all and (max-width: 767px) {
+  .effect__swiper {
+    width: 100%;
+    padding: 0 5%;
+  }
+}
+.effect__title-top-string {
+  opacity: 0;
+}
+.effect__title {
+  margin: 0 auto 58px;
+  font-family: "Cy Grotesk";
+  font-size: 43.103px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: -0.561px;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(
+    270deg,
+    #fcb3df -26.01%,
+    #cc97fe 29.87%,
+    #6058a6 113.19%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media all and (max-width: 767px) {
+  .effect__title {
+    font-size: 4.5vw;
+    line-height: 2vw;
+  }
+}
+.effect__title p {
+  font-family: "Cy Grotesk";
+  font-size: 56.103px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 77px;
+  letter-spacing: -0.561px;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(
+    270deg,
+    #fcb3df -26.01%,
+    #cc97fe 29.87%,
+    #6058a6 113.19%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media all and (max-width: 767px) {
+  .effect__title p {
+    font-size: 10vw;
+    line-height: 12vw;
+  }
+}
+.effect__list {
+  display: flex;
+  justify-content: space-between;
+}
+.effect__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: clamp(278px, 21vw, 443px);
+  align-items: center;
+}
+@media all and (max-width: 767px) {
+  .effect__item {
+    width: 100%;
+  }
+}
+@media all and (max-width: 450px) {
+  .effect__item {
+    width: 100%;
+  }
+}
+.effect__item img {
+  width: 90%;
+  margin-top: 8px;
+  margin-bottom: 68px;
+}
+@media all and (max-width: 767px) {
+  .effect__item img {
+    margin-bottom: 13%;
+  }
+}
+.effect__item_title {
+  display: flex;
+  margin: 0 auto;
+}
+.effect__item_title img {
+  width: 33px;
+}
+@media all and (max-width: 767px) {
+  .effect__item_title img {
+    width: 7vw;
+  }
+}
+.effect__item_title span {
+  padding-left: 7px;
+  font-weight: 400;
+  font-size: 20.7101px;
+  line-height: 31px;
+  letter-spacing: -0.01em;
+  color: #9419ff;
+}
+@media all and (max-width: 767px) {
+  .effect__item_title span {
+    font-size: 4.16vw;
+    line-height: 150%;
+    padding-left: 4vw;
+  }
+}
+.effect__text {
+  font-size: clamp(13px, 1vw, 20px);
+  line-height: 150%;
+  display: flex;
+  align-items: flex-start;
+  letter-spacing: -0.01em;
+  color: #fff;
+  margin-top: 59px;
+  width: 350px;
+}
+@media all and (max-width: 767px) {
+  .effect__text {
+    margin-top: 37px;
+  }
+}
+.effect__text::before {
+  margin-right: 5px;
+  content: url("/landings/anti-cellulite-oil/images/check-white.svg");
+}
+.effect__description-slide img {
+  transform: translateY(-40px);
+}
+@media all and (max-width: 767px) {
+  .effect__description-slide img {
+    transform: translateY(-8%);
+  }
+}
+@media all and (max-width: 767px) {
+  .effect__text {
+    width: 200px;
+  }
+}
+.effect__text_1 {
+  width: 311px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_1 {
+    width: 64vw;
+  }
+}
+.effect__text_2 {
+  width: 277px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_2 {
+    width: 58vw;
+  }
+}
+.effect__text_3 {
+  width: 295px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_3 {
+    width: 50vw;
+  }
+}
+.effect__text_4 {
+  width: 316px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_4 {
+    width: 64vw;
+  }
+}
+.effect__text_5 {
+  width: 272px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_5 {
+    width: 60vw;
+  }
+}
+.effect__text_6 {
+  width: 265px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_6 {
+    width: 55vw;
+  }
+}
+.effect__text_7 {
+  width: 285px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_7 {
+    width: 61vw;
+  }
+}
+.effect__text_8 {
+  width: 287px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_8 {
+    width: 60vw;
+  }
+}
+.effect__text_9 {
+  width: 259px;
+}
+@media all and (max-width: 767px) {
+  .effect__text_9 {
+    width: 55vw;
+  }
+}
+.bottom-swiper__img {
+  width: 100%;
+}
+@media all and (max-width: 767px) {
+  .bottom-swiper .swiper-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.ems-cross {
+  position: relative;
+  height: 1px;
+  background-image: url('/landings/anti-cellulite-oil/images/ems-cross-bg.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media all and (max-width: 767px) {
+  .ems-cross {
+    min-height: 262.5vw;
+    padding: 6.25% 0 7.82%;
+    background-image: url('/landings/anti-cellulite-oil/images/ems-cross-bg-mob.svg');
+    background-size: 100%;
+  }
+}
+.ems-cross._active .ems-cross__img {
+  transform: none;
+  opacity: 1;
+}
+.ems-cross._active .ems-cross__title {
+  animation: text-scale 0.25s linear normal forwards;
+}
+.ems-cross__container {
+  display: flex;
+  height: 100%;
+  padding: 67px 0 78px;
+}
+@media all and (max-width: 767px) {
+  .ems-cross__container {
+    padding: 0 2%;
+    position: relative;
+  }
+}
+.ems-cross__wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+@media all and (max-width: 767px) {
+  .ems-cross__wrapper {
+    width: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  .ems-cross__wrapper:last-child {
+    position: static;
+    width: 0;
+    height: 0;
+  }
+}
+.ems-cross__title {
+  opacity: 0;
+  max-width: 590px;
+  margin-bottom: 55px;
+  font-family: "Cy Grotesk";
+  font-size: 103.636px;
+  font-weight: 800;
+  line-height: 90%;
+  letter-spacing: -1.036px;
+  background: linear-gradient(270deg, #fcb3df 0, #cc97fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media all and (max-width: 767px) {
+  .ems-cross__title {
+    max-width: unset;
+    margin-bottom: auto;
+    font-size: 16.44vw;
+    letter-spacing: -0.526px;
+    text-align: center;
+  }
+}
+.ems-cross__descr {
+  max-width: 438px;
+  margin-bottom: auto;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 170%;
+  color: #6058a6;
+}
+@media all and (max-width: 767px) {
+  .ems-cross__descr {
+    max-width: unset;
+    margin-bottom: 9%;
+    font-size: 4.1vw;
+  }
+}
+.ems-cross__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 510px;
+  height: 55px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+  color: #fff;
+  border-radius: 160px;
+  background: linear-gradient(
+    96deg,
+    #f2c4ee -26.47%,
+    #c084f6 55.19%,
+    #6058a6 120.06%
+  );
+}
+@media all and (max-width: 767px) {
+  .ems-cross__link {
+    width: 100%;
+    height: 13vw;
+    font-size: 4.1vw;
+    border-radius: 15px;
+  }
+}
+.ems-cross__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(
+    96deg,
+    #6058a6 -26.47%,
+    #c084f6 55.19%,
+    #f2c4ee 120.06%
+  );
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  border-radius: inherit;
+}
+.ems-cross__link:hover::before {
+  opacity: 1;
+}
+.ems-cross__link span {
+  position: relative;
+  z-index: 2;
+}
+@media all and (max-width: 767px) {
+  .ems-cross__link span span {
+    display: none;
+  }
+}
+.ems-cross__img {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.6s 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.ems-cross__img_oil {
+  bottom: 17px;
+  left: 35px;
+  transform: translateY(50%) scale(0.2);
+}
+@media all and (max-width: 767px) {
+  .ems-cross__img_oil {
+    width: 59.4vw;
+    top: 38%;
+    bottom: unset;
+    left: 2vw;
+    transform: translateX(-100%) scale(0.2);
+  }
+}
+.ems-cross__img_ems {
+  top: -75px;
+  right: -201px;
+  transform: translateY(-50%) scale(0.2);
+}
+@media all and (max-width: 767px) {
+  .ems-cross__img_ems {
+    width: 95.65vw;
+    top: 8%;
+    right: 0;
+    transform: translateX(100%) scale(0.2);
+  }
+}
+.ems-cross__circle {
+  position: absolute;
+  bottom: -75px;
+  left: 5%;
+}
+@media all and (max-width: 767px) {
+  .ems-cross__circle {
+    display: none;
+  }
+}
+.natural {
+  position: relative;
+  height: 1px;
+  padding: 70px 0 113px;
+  background-image: url('/landings/anti-cellulite-oil/images/natural-bg.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media all and (max-width: 1239px) {
+  .natural {
+    padding: 5% 0;
+  }
+}
+@media all and (max-width: 767px) {
+  .natural {
+    height: 229.4vw;
+    padding: 4% 0 0;
+    background-image: url('/landings/anti-cellulite-oil/images/natural-bg-mob.webp');
+  }
+}
+.natural._active .natural__title {
+  animation: text-scale-line 0.5s linear normal infinite;
+}
+.natural__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+.natural__title {
+  max-width: 880px;
+  margin-bottom: 48px;
+  font-family: Cy Grotesk;
+  font-size: 67.089px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 87.459px;
+  letter-spacing: -0.671px;
+  color: #6058a6;
+}
+@media all and (max-width: 1239px) {
+  .natural__title {
+    text-align: end;
+    font-size: 4vw;
+    line-height: 120%;
+  }
+}
+@media all and (max-width: 767px) {
+  .natural__title {
+    max-width: 100%;
+    margin-bottom: 0;
+    text-align: start;
+    font-size: 7.15vw;
+    line-height: 130%;
+    order: 1;
+  }
+}
+.natural__descr {
+  max-width: 598px;
+  margin-right: 275px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  color: #6058a6;
+}
+@media all and (max-width: 1239px) {
+  .natural__descr {
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 767px) {
+  .natural__descr {
+    order: 3;
+    max-width: 68%;
+    font-size: 4.375vw;
+  }
+}
+.natural__action-img {
+  margin-right: 165px;
+}
+@media all and (max-width: 1239px) {
+  .natural__action-img {
+    width: 80%;
+    margin: 0 auto 5%;
+    order: 2;
+  }
+}
+.natural__circle {
+  position: absolute;
+  bottom: -150px;
+  right: 110px;
+  z-index: 1;
+}
+@media all and (max-width: 767px) {
+  .natural__circle {
+    display: none;
+  }
+}
+.composition {
+  position: relative;
+  padding: 58px 0 37px;
+  background-color: #e3dff9;
+}
+@media all and (max-width: 767px) {
+  .composition {
+    padding: 12px 0;
+  }
+}
+.composition__container {
+  position: relative;
+  z-index: 2;
+}
+.composition__title {
+  margin-bottom: 30px;
+  font-family: Cy Grotesk;
+  font-size: 54.059px;
+  font-weight: 800;
+  line-height: 110%;
+  color: #6058a6;
+  letter-spacing: -0.541px;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media all and (max-width: 767px) {
+  .composition__title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+  }
+}
+.composition__title span {
+  font: inherit;
+}
+@media all and (max-width: 767px) {
+  .composition__title span {
+    line-height: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  .composition__title span:nth-child(1) {
+    font-size: 5.15vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .composition__title span:nth-child(2) {
+    font-size: 7.45vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .composition__title span:nth-child(3) {
+    font-size: 5.68vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .composition__title span:nth-child(4) {
+    align-self: flex-end;
+    font-size: 5.935vw;
+    margin-right: 5.8vw;
+  }
+}
+.composition__swiper {
+  margin-bottom: 35px;
+}
+@media all and (max-width: 767px) {
+  .composition__swiper {
+    margin-bottom: 11.4%;
+  }
+}
+.composition .swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+.composition .swiper-slide {
+  width: 25%;
+}
+.composition__slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.composition__slide-img {
+  margin-bottom: 23px;
+}
+@media all and (max-width: 767px) {
+  .composition__slide-img {
+    width: 100%;
+  }
+}
+.composition__slide-title {
+  margin-bottom: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 170%;
+  letter-spacing: -0.2px;
+  color: #6058a6;
+  text-align: center;
+}
+@media all and (max-width: 767px) {
+  .composition__slide-title {
+    margin-bottom: 12%;
+    font-size: 6.25vw;
+  }
+}
+.composition__slide-title_4 {
+  width: 75%;
+  margin-bottom: 12px;
+}
+@media all and (max-width: 767px) {
+  .composition__slide-title_4 {
+    padding-left: 4%;
+    margin-bottom: 5%;
+  }
+}
+.composition__slide-descr {
+  width: 80%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 170%;
+  letter-spacing: -0.15px;
+  color: #6058a6;
+}
+@media all and (max-width: 767px) {
+  .composition__slide-descr {
+    font-size: 4.7vw;
+  }
+}
+.composition__open-modal-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 55px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 170%;
+  color: #fff;
+  border-radius: 15px;
+  width: auto;
+  padding: 30px;
+  background: linear-gradient(
+    93deg,
+    #f2c4ee -2.78%,
+    #bfc5eb 20.44%,
+    #b98bf4 97.71%
+  );
+}
+@media all and (max-width: 767px) {
+  .composition__open-modal-btn {
+    width: 100%;
+    height: 18.75vw;
+    font-size: 6.1vw;
+    border-radius: 16.328px;
+  }
+}
+.composition__open-modal-btn:hover::before {
+  opacity: 1;
+}
+.composition__open-modal-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(
+    93deg,
+    #b98bf4 -2.78%,
+    #bfc5eb 20.44%,
+    #f2c4ee 97.71%
+  );
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
+  border-radius: inherit;
+}
+.composition__open-modal-btn span {
+  position: relative;
+  z-index: 2;
+}
+.composition__modal {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  backdrop-filter: blur(3px);
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .composition__modal {
+    backdrop-filter: unset;
+    z-index: 99999;
+  }
+}
+.composition__modal._active {
+  display: flex;
+  animation: in 0.2s ease-in-out forwards;
+}
+@keyframes in {
+  100% {
+    opacity: 1;
+  }
+}
+.composition__modal-window {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  min-height: 800px;
+  height: 1px;
+  padding: 46px 33px 72px;
+  overflow: hidden;
+  border-radius: 50px;
+  background-image: url('/landings/anti-cellulite-oil/images/modal-bg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media all and (max-width: 767px) {
+  .composition__modal-window {
+    width: 100%;
+    height: 100vh;
+    padding: 11px 15px 30px;
+    border-radius: 0;
+    background-color: #fff;
+    background-image: url('/landings/anti-cellulite-oil/images/modal-bg-mob.svg');
+    overflow-y: auto;
+  }
+}
+.composition__modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 53px;
+}
+@media all and (max-width: 767px) {
+  .composition__modal-head {
+    align-items: flex-start;
+    margin-bottom: 5%;
+  }
+}
+.composition__modal-title {
+  font-size: 32.524px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.325px;
+  text-transform: uppercase;
+  color: #6058a6;
+}
+@media all and (max-width: 767px) {
+  .composition__modal-title {
+    max-width: 65%;
+    font-size: 4.7vw;
+    line-height: 130%;
+  }
+}
+@media all and (max-width: 767px) {
+  .composition__modal-close-btn {
+    width: 4.7vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .composition__modal-close-btn-icon {
+    width: 100%;
+  }
+}
+.composition__modal-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+@media all and (max-width: 767px) {
+  .composition__modal-body {
+    margin-bottom: 10%;
+  }
+}
+.composition__modal-composition {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+@media all and (max-width: 767px) {
+  .composition__modal-composition {
+    flex-direction: column;
+    justify-content: unset;
+    margin-bottom: 5%;
+  }
+}
+.composition__body-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 170%;
+  letter-spacing: -0.18px;
+  color: #6058a6;
+}
+@media all and (max-width: 767px) {
+  .composition__body-title {
+    margin-bottom: 3%;
+    font-size: 4.375vw;
+  }
+}
+.composition__body-descr {
+  max-width: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+  color: #6058a6;
+  letter-spacing: -0.16px;
+}
+@media all and (max-width: 767px) {
+  .composition__body-descr {
+    max-width: 100%;
+    font-size: 4vw;
+  }
+}
+.composition__modal-method {
+  display: flex;
+}
+@media all and (max-width: 767px) {
+  .composition__modal-method {
+    flex-direction: column;
+  }
+}
+.composition__modal-footer {
+  align-self: flex-end;
+  width: 80%;
+}
+@media all and (max-width: 767px) {
+  .composition__modal-footer {
+    align-self: center;
+    width: 75%;
+  }
+}
+.composition__modal-footer-descr {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 170%;
+  color: #6058a6;
+  letter-spacing: -0.18px;
+}
+@media all and (max-width: 767px) {
+  .composition__modal-footer-descr {
+    font-size: 4vw;
+    text-align: center;
+  }
+}
+.composition__circle {
+  position: absolute;
+}
+.composition__circle_left {
+  top: 40px;
+  left: -120px;
+}
+.composition__circle_bottom {
+  right: 5%;
+  bottom: -160px;
+  z-index: 1;
+}
+@media all and (max-width: 767px) {
+  .composition__circle_bottom {
+    width: 34vw;
+    height: 34vw;
+    bottom: -13vw;
+    left: -11vw;
+    z-index: 2;
+    transform: rotate(-75deg);
+  }
+}
+@media all and (max-width: 767px) {
+  .composition__circle_left {
+    display: none;
+  }
+}
+.composition__circle_little-mob,
+.composition__circle_mob {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .composition__circle_little-mob,
+  .composition__circle_mob {
+    display: block;
+  }
+}
+.working-method {
+  position: relative;
+  padding-top: 55px;
+  background-image: url('/landings/anti-cellulite-oil/images/working-method-bg-v2.webp');
+}
+@media all and (max-width: 767px) {
+  .working-method {
+    padding-top: 4.7vw;
+    padding-bottom: 4.4vw;
+    background-image: url('/landings/anti-cellulite-oil/images/working-method-bg-mob.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.working-method._active .working-method__title {
+  animation: scale-text 0.25s ease-in-out forwards;
+}
+.working-method._active .working-method__leaf-left-wrapper {
+  animation: leaf-left 0.5s ease-in-out 0.2s forwards;
+}
+.working-method._active .working-method__leaf-right-wrapper {
+  animation: leaf-right 0.5s ease-in-out 0.3s forwards;
+}
+@media all and (max-width: 767px) {
+  .working-method__container-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.working-method__title {
+  opacity: 0;
+  width: 47%;
+  margin-bottom: 45px;
+  font: normal 800 45px/100% "Cy Grotesk";
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+@media all and (max-width: 767px) {
+  .working-method__title {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    margin-bottom: 0;
+    order: 1;
+    margin-bottom: 6.6vw;
+    font-size: 7.2vw;
+    text-align: center;
+  }
+}
+.working-method__text-block {
+  max-width: 520px;
+  font-size: 18px;
+  line-height: 170%;
+}
+@media all and (max-width: 767px) {
+  .working-method__text-block {
+    max-width: 100%;
+    font-size: 4.4vw;
+    order: 3;
+  }
+}
+.working-method__img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 585px;
+}
+@media all and (max-width: 767px) {
+  .working-method__img-wrapper {
+    position: static;
+    height: 88.8vw;
+    margin-bottom: 3vw;
+    order: 2;
+  }
+  .working-method__img-wrapper::before {
+    content: "";
+    width: 96.3vw;
+    height: 89vw;
+    position: absolute;
+    top: 32.5vw;
+    left: 5.6px;
+    display: block;
+    backdrop-filter: blur(11px);
+    z-index: 0;
+  }
+}
+@media all and (max-width: 767px) {
+  .working-method__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 22.6px;
+    position: relative;
+    z-index: 2;
+  }
+}
+.working-method__leaf-left-wrapper {
+  opacity: 0;
+  width: 341px;
+  height: 634px;
+  position: absolute;
+  transform: rotate(-50deg);
+  left: 257px;
+  top: 390px;
+}
+@media all and (max-width: 767px) {
+  .working-method__leaf-left-wrapper {
+    display: none;
+  }
+}
+.working-method__leaf-left {
+  width: 100%;
+  height: 100%;
+}
+.working-method__leaf-right-wrapper {
+  opacity: 0;
+  width: 726px;
+  height: 504px;
+  position: absolute;
+  right: 4px;
+  bottom: 0;
+}
+@media all and (max-width: 767px) {
+  .working-method__leaf-right-wrapper {
+    display: none;
+  }
+}
+@keyframes leaf-left {
+  0% {
+    transform: rotate(-105deg) translateX(-15vw) translateY(2vw);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(-50deg) translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes leaf-right {
+  0% {
+    transform: rotate(-105deg) translateX(-15vw) translateY(2vw);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes scale-text {
+  0% {
+    scale: 1.5;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-80%);
+    transform: translateX(-80%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes text-scale {
+  0% {
+    opacity: 0;
+    scale: 1.6;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes text-scale-line {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.0075;
+  }
+  100% {
+    scale: 1;
+  }
+}
+@keyframes text-springs-to-right {
+  0% {
+    opacity: 0;
+    transform: translateX(40vw);
+  }
+  50% {
+    transform: translateX(-9vw);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
