@@ -9,7 +9,7 @@ import UserMeta from './UserMeta/UserMeta'
 /** аватарка пользователя */
 const UserInfo: React.FC = () => {
   /** получаем данные пользователя */
-  const { data: user } = useFetchUser({})
+  const { data: user } = useFetchUser({ webApi: 'https://api.yamaguchi.ru/api' })
 
   return (
     user?.first_name && (

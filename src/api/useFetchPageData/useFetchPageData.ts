@@ -20,7 +20,8 @@ export const getPageData = async ({ slug }: FetchPageDataParams): Promise<FetchP
 }
 
 /** хук запроса списка продуктов */
-const useFetchPageData = ({ slug }: FetchPageDataParams): UseQueryResult<FetchPageDataOriginalResult, Error> => useQuery<FetchPageDataOriginalResult, Error, FetchPageDataOriginalResult, FetchPageDataQueryKeyType>({
+const useFetchPageData = ({ isAdminPage, slug }: FetchPageDataParams): UseQueryResult<FetchPageDataOriginalResult, Error> => useQuery<FetchPageDataOriginalResult, Error, FetchPageDataOriginalResult, FetchPageDataQueryKeyType>({
+  enabled: !!slug && !isAdminPage,
   queryFn: () => getPageData({ slug }),
   queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { slug }]
 })

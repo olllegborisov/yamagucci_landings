@@ -9,17 +9,17 @@ import { FetchCategoriesOriginalResult, FetchCategoriesQueryKeyType } from './_t
 export const QUERY_KEY_FETCH_CATEGORIES = 'categories'
 
 /** функция запроса продуктов */
-export const getCategories = async (): Promise<FetchCategoriesOriginalResult> => {
+export const getCategories = async ({ webApi }): Promise<FetchCategoriesOriginalResult> => {
   /** дата продуктов */
-  const { data } = await axiosBearerGet.get<FetchCategoriesOriginalResult>(CATEGORIES_SCHEMA_API)
+  const { data } = await axiosBearerGet.get<FetchCategoriesOriginalResult>(webApi + CATEGORIES_SCHEMA_API)
 
   return data
 }
 
 /** хук запроса списка продуктов */
-const useFetchCategories = (): UseQueryResult<FetchCategoriesOriginalResult, Error> => useQuery<FetchCategoriesOriginalResult, Error, FetchCategoriesOriginalResult, FetchCategoriesQueryKeyType>({
-  queryFn: getCategories,
-  queryKey: [QUERY_KEY_FETCH_CATEGORIES]
+const useFetchCategories = ({ webApi }): UseQueryResult<FetchCategoriesOriginalResult, Error> => useQuery<FetchCategoriesOriginalResult, Error, FetchCategoriesOriginalResult, FetchCategoriesQueryKeyType>({
+  queryFn: () => getCategories({ webApi }),
+  queryKey: [QUERY_KEY_FETCH_CATEGORIES, { webApi }]
 })
 
 export default useFetchCategories

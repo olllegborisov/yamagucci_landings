@@ -7,23 +7,24 @@ import ProductsPage from '@/src/components/pages/AdminProductsPage/AdminProducts
 
 /** загрузка данных. */
 // ts-prune-ignore-next
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+  // console.log('getServerSideProps', ctx.req.headers.host)
+
   /** queryClient */
   const queryClient = new QueryClient()
 
   try {
     await Promise.all([
       queryClient.prefetchQuery({
-        queryFn: () => getProducts(),
-        queryKey: [QUERY_KEY_FETCH_PRODUCTS]
+        queryFn: () => getProducts({ webApi: 'https://api.yamaguchi.ru/api' }),
+        queryKey: [QUERY_KEY_FETCH_PRODUCTS, { webApi: 'https://api.yamaguchi.ru/api' }]
       })
     ])
 
     return {
       props: {
         dehydratedState: dehydrate(queryClient)
-      },
-      revalidate: 1800
+      }
     }
   } catch (error) {
     // eslint-disable-next-line no-console

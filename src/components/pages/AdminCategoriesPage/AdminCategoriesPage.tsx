@@ -12,12 +12,12 @@ import { PAGE_CATEGORIES } from '@/src/constants/constants'
 import { IconMinusInSquare, IconPlusInSquare } from '@/src/constants/icons'
 import times from '@/src/lib/times'
 
-import styles from './CategoriesPage.module.scss'
+import styles from './AdminCategoriesPage.module.scss'
 
 /** страница тестовая */
-const CategoriesPage = () => {
+const AdminCategoriesPage = () => {
   /** получаем все продукты */
-  const { data, isLoading } = useFetchCategories()
+  const { data, isLoading } = useFetchCategories({ webApi: 'https://api.yamaguchi.ru/api' })
 
   /** колонки хэдера и футера */
   const columns = React.useMemo<ColumnDef<ColumnResultCategories, any>[]>(
@@ -129,4 +129,4 @@ const CategoriesPage = () => {
   )
 }
 
-export default React.memo(CategoriesPage)
+export default React.memo(AdminCategoriesPage)

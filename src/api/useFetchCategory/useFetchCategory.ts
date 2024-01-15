@@ -9,18 +9,18 @@ import { FetchCategoryOriginalResult, FetchCategoryParams, FetchCategoryQueryKey
 export const QUERY_KEY_FETCH_CATEGORY = 'category'
 
 /** функция запроса продуктов */
-export const getCategory = async ({ categoryId }: FetchCategoryParams): Promise<FetchCategoryOriginalResult> => {
+export const getCategory = async ({ categoryId, webApi }: FetchCategoryParams): Promise<FetchCategoryOriginalResult> => {
   /** дата продуктов */
-  const { data } = await axiosBearerGet.get<FetchCategoryOriginalResult>(`${CATEGORY_API}/${categoryId}`)
+  const { data } = await axiosBearerGet.get<FetchCategoryOriginalResult>(`${webApi}${CATEGORY_API}/${categoryId}`)
 
   return data
 }
 
 /** хук запроса списка продуктов */
-const useFetchCategory = ({ categoryId }: FetchCategoryParams): UseQueryResult<FetchCategoryOriginalResult, Error> => useQuery<FetchCategoryOriginalResult, Error, FetchCategoryOriginalResult, FetchCategoryQueryKeyType>({
+const useFetchCategory = ({ categoryId, webApi }: FetchCategoryParams): UseQueryResult<FetchCategoryOriginalResult, Error> => useQuery<FetchCategoryOriginalResult, Error, FetchCategoryOriginalResult, FetchCategoryQueryKeyType>({
   enabled: !!categoryId,
-  queryFn: () => getCategory({ categoryId }),
-  queryKey: [QUERY_KEY_FETCH_CATEGORY, { categoryId }]
+  queryFn: () => getCategory({ categoryId, webApi }),
+  queryKey: [QUERY_KEY_FETCH_CATEGORY, { categoryId, webApi }]
 })
 
 export default useFetchCategory

@@ -2,18 +2,35 @@ import { useRouter } from 'next/router'
 import type { FC } from 'react'
 
 import useFetchPageData from '@/src/api/useFetchPageData/useFetchPageData'
+import AdminCategoryPage from '@/src/components/pages/AdminCategoryPage/AdminCategoryPage'
+import AdminProductPage from '@/src/components/pages/AdminProductPage/AdminProductPage'
 import PublicProductPage from '@/src/components/pages/PublicProductPage/PublicProductPage'
 
+import { WrapperTypes } from './_types'
+
 /** динамическая страница */
-const DynamicPage: FC = () => {
+const DynamicPage: FC<WrapperTypes> = ({ webApi }) => {
   /** роутер */
   const { query: { slug } } = useRouter()
+  /** проверка на админку */
+  const isAdminPage = slug?.includes('admin')
 
   /** получение данных */
-  const { data, isLoading } = useFetchPageData({ slug })
+  const { data, isLoading } = useFetchPageData({ isAdminPage, slug })
 
-  /** рендер страницы */
-  const renderPage = () => {
+  if (isAdminPage) {
+    if (slug?.includes('categories')) {
+      return (
+        <AdminCategoryPage webApi={webApi} />
+      )
+    } else if (slug.includes('products')) {
+      return (
+        <AdminProductPage webApi={webApi} />
+      )
+    } else {
+      return 'AdminDefaultPage'
+    }
+  } else {
     switch (data?.data?.page_type) {
       case 'product':
         return (
@@ -23,11 +40,9 @@ const DynamicPage: FC = () => {
           />
         )
       default:
-        return '<NotFoundPage />'
+        return 'NotFoundPage'
     }
   }
-
-  return renderPage()
 }
 
 export default DynamicPage

@@ -70,9 +70,9 @@ const ListMiniBanners: FC = () => (
         >
           <Link href={banner.href || '#'}>
             <Img
+              alt={banner.title}
               imgClassname={styles.img}
               src={banner.img}
-              title={banner.title}
             />
           </Link>
         </li>

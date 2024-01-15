@@ -5,6 +5,8 @@ import { QUERY_KEY_FETCH_CATEGORY } from './useFetchCategory'
 export type FetchCategoryParams = {
   /** id продукта */
   categoryId: string
+  /** адрес апи */
+  webApi: string
 }
 
 export type FetchCategoryQueryKeyType = [typeof QUERY_KEY_FETCH_CATEGORY, FetchCategoryParams];

@@ -23,7 +23,8 @@ const monserrat = Montserrat({
 /** app */
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   /** роутер */
-  const { pathname } = useRouter()
+  const { pathname, query: { slug } } = useRouter()
+
   /** queryClient */
   const [queryClient] = useState(
     () =>
@@ -39,7 +40,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
   )
 
   /** проверка на роут админки */
-  const isAdminRoute = pathname?.includes('admin')
+  const isAdminRoute = slug?.includes('admin') || pathname?.includes('admin')
 
   return (
     <QueryClientProvider client={queryClient}>

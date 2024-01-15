@@ -7,13 +7,11 @@ import { COOKIES, ENV_AUTH_TOKEN, WEBAPI } from '@/src/constants/constants'
 /** axios инстанс */
 // ts-prune-ignore-next
 export const axiosAPI: AxiosInstance = axios.create({
-  baseURL: WEBAPI,
   withCredentials: false
 })
 /** axios инстанс post с bearer токеном */
 // ts-prune-ignore-next
 export const axiosBearerPost: AxiosInstance = axios.create({
-  baseURL: WEBAPI,
   method: 'post'
 })
 
@@ -34,7 +32,6 @@ axiosBearerPost.interceptors.request.use(
 
 /** axios инстанс get запроса с bearer токеном */
 export const axiosBearerGet: AxiosInstance = axios.create({
-  baseURL: WEBAPI,
   method: 'get'
 })
 

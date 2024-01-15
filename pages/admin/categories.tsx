@@ -1,29 +1,30 @@
 import { dehydrate, QueryClient } from '@tanstack/react-query'
-import { GetStaticProps } from 'next'
+import { GetServerSideProps } from 'next'
 import { memo } from 'react'
 
 import { getCategories, QUERY_KEY_FETCH_CATEGORIES } from '@/src/api/useFetchCategories/useFetchCategories'
-import CategoriesPage from '@/src/components/pages/CategoriesPage/CategoriesPage'
+import AdminCategoriesPage from '@/src/components/pages/AdminCategoriesPage/AdminCategoriesPage'
 
 /** загрузка данных. */
 // ts-prune-ignore-next
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+  // console.log('getServerSideProps', ctx.req.headers.host)
+
   /** queryClient */
   const queryClient = new QueryClient()
 
   try {
     await Promise.all([
       queryClient.prefetchQuery({
-        queryFn: getCategories,
-        queryKey: [QUERY_KEY_FETCH_CATEGORIES]
+        queryFn: () => getCategories({ webApi: 'https://api.yamaguchi.ru/api' }),
+        queryKey: [QUERY_KEY_FETCH_CATEGORIES, { webApi: 'https://api.yamaguchi.ru/api' }]
       })
     ])
 
     return {
       props: {
         dehydratedState: dehydrate(queryClient)
-      },
-      revalidate: 1800
+      }
     }
   } catch (error) {
     // eslint-disable-next-line no-console
@@ -39,4 +40,4 @@ export const getStaticProps: GetStaticProps = async () => {
 }
 
 // ts-prune-ignore-next
-export default memo(CategoriesPage)
+export default memo(AdminCategoriesPage)

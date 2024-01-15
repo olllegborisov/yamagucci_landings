@@ -9,6 +9,30 @@ const nextConfig = {
       },
     ]
   },
+  async rewrites() {
+    return [
+      {
+        has: [
+          {
+            type: 'host',
+            value: '(?<host>.*)',
+          },
+        ],
+        source: '/',
+        destination: '/:host',
+      },
+      {
+        has: [
+          {
+            type: 'host',
+            value: '(?<host>.*)',
+          },
+        ],
+        source: '/:path*',
+        destination: '/:host/:path*',
+      },
+    ];
+  },
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>

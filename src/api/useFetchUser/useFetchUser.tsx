@@ -10,9 +10,9 @@ export const QUERY_KEY_FETCH_USER = 'user'
 
 /** функция запроса продуктов */
 // ts-prune-ignore-next
-export const getUser = async ({ mockVariant }: FetchMeParams): Promise<FetchMeOriginalResult> => {
+export const getUser = async ({ mockVariant, webApi }: FetchMeParams): Promise<FetchMeOriginalResult> => {
   /** дата продуктов */
-  const { data } = await axiosBearerPost.post<FetchMeOriginalResult>(USER_API,
+  const { data } = await axiosBearerPost.post<FetchMeOriginalResult>(webApi + USER_API,
     {
       params: {
         ...Object.assign(
@@ -27,9 +27,9 @@ export const getUser = async ({ mockVariant }: FetchMeParams): Promise<FetchMeOr
 }
 
 /** хук запроса списка продуктов */
-const useFetchUser = ({ mockVariant }: FetchMeParams): UseQueryResult<FetchMeOriginalResult, Error> => useQuery<FetchMeOriginalResult, Error, FetchMeOriginalResult, FetchMeQueryKeyType>({
-  queryFn: () => getUser({ mockVariant }),
-  queryKey: [QUERY_KEY_FETCH_USER, { mockVariant }]
+const useFetchUser = ({ mockVariant, webApi }: FetchMeParams): UseQueryResult<FetchMeOriginalResult, Error> => useQuery<FetchMeOriginalResult, Error, FetchMeOriginalResult, FetchMeQueryKeyType>({
+  queryFn: () => getUser({ mockVariant, webApi }),
+  queryKey: [QUERY_KEY_FETCH_USER, { mockVariant, webApi }]
 })
 
 export default useFetchUser

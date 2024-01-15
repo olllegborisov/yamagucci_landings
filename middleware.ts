@@ -6,6 +6,9 @@ import { ADMIN_ROLE, COOKIES, PAGE_HOME, PAGE_LOGIN, PAGE_NOT_FOUND } from './sr
 const mainMiddleware = async (req: NextRequest): Promise<any> => {
   /** кука токена */
   const AUTH_TOKEN = req.cookies.get(COOKIES.AUTH_TOKEN)?.value
+  /** имя хоста */
+  const host = req.nextUrl.hostname
+  console.log('host', host)
 
   /** абсолютная ссылка для редиректа */
   const url = req.nextUrl.clone()

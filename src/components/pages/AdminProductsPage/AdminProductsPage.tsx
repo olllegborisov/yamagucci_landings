@@ -18,7 +18,7 @@ import styles from './AdminProductsPage.module.scss'
 /** страница тестовая */
 const AdminProductPage = () => {
   /** получаем все продукты */
-  const { data, isLoading } = useFetchProducts()
+  const { data, isLoading } = useFetchProducts({ webApi: 'https://api.yamaguchi.ru/api' })
 
   /** колонки хэдера и футера */
   const columns = React.useMemo<ColumnDef<ColumnResultProducts, any>[]>(

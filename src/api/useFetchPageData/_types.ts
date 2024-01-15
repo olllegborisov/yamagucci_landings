@@ -3,6 +3,8 @@ import { paths as schema } from '@/src/types/schema'
 import { QUERY_KEY_FETCH_PAGE_DATA } from './useFetchPageData'
 
 export type FetchPageDataParams = {
+  /** признак админской страницы */
+  isAdminPage?: boolean
   /** слаг страницы */
   slug: string[] | string
 }
