@@ -1,0 +1,1130 @@
+@charset "UTF-8";
+    @font-face {
+    font-family: Gothic;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/centurygothic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/PTSans.eot);
+    src: url(/landings/superlight/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/PTSans.woff2) format("woff2"), url(/landings/superlight/fonts/PTSans.woff) format("woff"), url(/landings/superlight/fonts/PTSans.ttf) format("truetype"), url(/landings/superlight/fonts/PTSans.svg#PTSans) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/PTSansBold.eot);
+    src: url(/landings/superlight/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/PTSansBold.woff2) format("woff2"), url(/landings/superlight/fonts/PTSansBold.woff) format("woff"), url(/landings/superlight/fonts/PTSansBold.ttf) format("truetype"), url(/landings/superlight/fonts/PTSansBold.svg#PTSans) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/PTSansItalic.ttf) format("truetype");
+    src: url(/landings/superlight/fonts/PTSansItalic.woff2) format("woff2"), url(/landings/superlight/fonts/PTSansItalic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/PTSansNarrow.eot);
+    src: url(/landings/superlight/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/PTSansNarrow.woff2) format("woff2"), url(/landings/superlight/fonts/PTSansNarrow.woff) format("woff"), url(/landings/superlight/fonts/PTSansNarrow.ttf) format("truetype"), url(/landings/superlight/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/PTSansNarrowBold.eot);
+    src: url(/landings/superlight/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/landings/superlight/fonts/PTSansNarrowBold.woff) format("woff"), url(/landings/superlight/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/landings/superlight/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: MyriadProLight;
+    src: url(/landings/superlight/fonts/MyriadProLight.eot);
+    src: url(/landings/superlight/fonts/MyriadProLight.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/MyriadProLight.woff) format("woff"), url(/landings/superlight/fonts/MyriadProLight.woff2) format("woff2"), url(/landings/superlight/fonts/MyriadProLight.ttf) format("truetype"), url(/landings/superlight/fonts/MyriadProLight.svg#MyriadProLight) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(/landings/superlight/fonts/MyriadPro.otf) format("opentype");
+    src: url(/landings/superlight/fonts/MyriadPro.woff2) format("woff2"), url(/landings/superlight/fonts/MyriadPro.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url(/landings/superlight/fonts/MyriadProBold.otf) format("opentype");
+    src: url(/landings/superlight/fonts/MyriadProBold.woff2) format("woff2"), url(/landings/superlight/fonts/MyriadProBold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/landings/superlight/fonts/PTPragmaticaCyrillic.ttf) format("opentype");
+    src: url(/landings/superlight/fonts/PTPragmaticaCyrillic.woff2) format("woff2"), url(/landings/superlight/fonts/PTPragmaticaCyrillic.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/landings/superlight/fonts/PTPragmaticaBoldCyrillic.ttf) format("opentype");
+    src: url(/landings/superlight/fonts/PTPragmaticaBoldCyrillic.woff2) format("woff2"), url(/landings/superlight/fonts/PTPragmaticaBoldCyrillic.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/Circe-Thin.eot);
+    src: url(/landings/superlight/fonts/Circe-Thin.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/Circe-Thin.woff) format("woff"), url(/landings/superlight/fonts/Circe-Thin.woff2) format("woff2"), url(/landings/superlight/fonts/Circe-Thin.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/Circe-ExtraLight.eot);
+    src: url(/landings/superlight/fonts/Circe-ExtraLight.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/Circe-ExtraLight.woff) format("woff"), url(/landings/superlight/fonts/Circe-ExtraLight.woff2) format("woff2"), url(/landings/superlight/fonts/Circe-ExtraLight.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/Circe-Light.eot);
+    src: url(/landings/superlight/fonts/Circe-Light.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/Circe-Light.woff) format("woff"), url(/landings/superlight/fonts/Circe-Light.woff2) format("woff2"), url(/landings/superlight/fonts/Circe-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/Circe-Regular.eot);
+    src: url(/landings/superlight/fonts/Circe-Regular.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/Circe-Regular.woff) format("woff"), url(/landings/superlight/fonts/Circe-Regular.woff2) format("woff2"), url(/landings/superlight/fonts/Circe-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/Circe-Bold.eot);
+    src: url(/landings/superlight/fonts/Circe-Bold.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/Circe-Bold.woff) format("woff"), url(/landings/superlight/fonts/Circe-Bold.woff2) format("woff2"), url(/landings/superlight/fonts/Circe-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/Circe-ExtraBold.eot);
+    src: url(/landings/superlight/fonts/Circe-ExtraBold.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/Circe-ExtraBold.woff) format("woff"), url(/landings/superlight/fonts/Circe-ExtraBold.woff2) format("woff2"), url(/landings/superlight/fonts/Circe-ExtraBold.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/superlight/fonts/bebasneuethin.woff2) format("woff2");
+    src: local("☺"), url(/landings/superlight/fonts/bebasneuethin.woff) format("woff"), url(/landings/superlight/fonts/bebasneuethin.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/superlight/fonts/bebasneuelight.woff2) format("woff2");
+    src: local("☺"), url(/landings/superlight/fonts/bebasneuelight.ttf) format("truetype"), url(/landings/superlight/fonts/bebasneuelight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/superlight/fonts/bebasneueregular.eot);
+    src: local("☺"), url(/landings/superlight/fonts/bebasneueregular.woff2) format("woff2"), url(/landings/superlight/fonts/bebasneueregular.woff) format("woff"), url(/landings/superlight/fonts/bebasneueregular.ttf) format("truetype"), url(/landings/superlight/fonts/bebasneueregular.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/superlight/fonts/bebasneuebold.eot);
+    src: local("☺"), url(/landings/superlight/fonts/bebasneuebold.woff2) format("woff2"), url(/landings/superlight/fonts/bebasneuebold.woff) format("woff"), url(/landings/superlight/fonts/bebasneuebold.ttf) format("truetype"), url(/landings/superlight/fonts/bebasneuebold.svg) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Light"), local("Montserrat-Light"), url(/landings/superlight/fonts/Montserrat-Light.woff2) format("woff2"), url(/landings/superlight/fonts/Montserrat-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/superlight/fonts/Montserrat-Regular.woff2) format("woff2"), url(/landings/superlight/fonts/Montserrat-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/superlight/fonts/Montserrat-Medium.woff2) format("woff2"), url(/landings/superlight/fonts/Montserrat-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Bold"), local("Montserrat-Bold"), url(/landings/superlight/fonts/Montserrat-Bold.woff2) format("woff2"), url(/landings/superlight/fonts/Montserrat-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Black"), local("Montserrat-Black"), url(/landings/superlight/fonts/Montserrat-Black.woff2) format("woff2"), url(/landings/superlight/fonts/Montserrat-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Morpha;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/Morpha-Bold.woff2) format("woff2");
+    src: local("☺"), url(/landings/superlight/fonts/Morpha-Bold.woff) format("woff"), url(/landings/superlight/fonts/Morpha-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Bold"), local("NeueMachina-Bold"), url(/landings/superlight/fonts/NeueMachina-Bold.woff2) format("woff2"), url(/landings/superlight/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Black"), local("NeueMachina-Black"), url(/landings/superlight/fonts/NeueMachina-Black.woff2) format("woff2"), url(/landings/superlight/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Norican;
+    font-display: swap;
+    src: url(/landings/superlight/fonts/norican-regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cy Grotesk";
+    font-display: swap;
+    src: url(/landings/superlight/fonts/cy-grotesk-grand-dark.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: RainerTestv04;
+    src: url(/landings/superlight/fonts/RainerTestv04-Bold.woff2), url(/landings/superlight/fonts/RainerTestv04-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Anticva;
+    font-display: swap;
+    src: local("Anticva"), local("Anticva"), url(/landings/superlight/fonts/Anticva-Regular.woff2) format("woff2"), url(/landings/superlight/fonts/Anticva-Regular.woff) format("woff"), url(/landings/superlight/fonts/Anticva-Regular.otf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Halvar Breitschrift";
+    src: local("HalvarBreit-Blk"), local("HalvarBreit-Blk"), url(/landings/superlight/fonts/HalvarBreit-Blk.woff2) format("woff2"), url(/landings/superlight/fonts/HalvarBreit-Blk.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Damn;
+    font-display: swap;
+    src: local("Damn"), local("Damn"), url(/landings/superlight/fonts/Damn.woff2) format("woff2"), url(/landings/superlight/fonts/Damn.woff) format("woff"), url(/landings/superlight/fonts/Damn.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Monologue DEMO";
+    font-display: swap;
+    src: local("Monologue_DEMO"), local("Monologue_DEMO"), url(/landings/superlight/fonts/Monologue_DEMO.woff) format("woff"), url(/landings/superlight/fonts/Monologue_DEMO.ttf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Nasalization;
+    font-display: swap;
+    src: local("Nasalization"), local("Nasalization"), url(/landings/superlight/fonts/Nasalization.woff) format("woff"), url(/landings/superlight/fonts/Nasalization.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PatsySans;
+    font-display: swap;
+    src: local("PatsySans"), local("PatsySans"), url(/landings/superlight/fonts/PatsySans.woff) format("woff"), url(/landings/superlight/fonts/PatsySans.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lighthaus;
+    src: url(/landings/superlight/fonts/Lighthaus.eot);
+    src: url(/landings/superlight/fonts/Lighthaus.eot?#iefix) format("embedded-opentype"), url(/landings/superlight/fonts/Lighthaus.woff2) format("woff2"), url(/landings/superlight/fonts/Lighthaus.woff) format("woff"), url(/landings/superlight/fonts/Lighthaus.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: UltramonoWide-LightItalic;
+    src: url(/landings/superlight/fonts/UltramonoWide-LightItalic.woff2) format("woff2"), url(/landings/superlight/fonts/UltramonoWide-LightItalic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: UltramonoWide-Light;
+    src: url(/landings/superlight/fonts/UltramonoWide-Light.woff2) format("woff2"), url(/landings/superlight/fonts/UltramonoWide-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Nikkyou Sans";
+    src: url(/landings/superlight/fonts/NikkyouSans.woff2) format("woff2"), url(/landings/superlight/fonts/NikkyouSans.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Corvetta;
+    src: url(/landings/superlight/fonts/Corvetta.woff2) format("woff2"), url(/landings/superlight/fonts/Corvetta.woff) format("woff"), url(/landings/superlight/fonts/Corvetta.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: a_LCDNovaObl;
+    src: url(/landings/superlight/fonts/a_lcdnovaobl.woff) format("woff"), url(/landings/superlight/fonts/a_lcdnovaobl.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Felidae;
+    src: url(/landings/superlight/fonts/Felidae.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/superlight/fonts/MullerNextExtraCondTrial-Thin.otf);
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/superlight/fonts/MullerNextExpandedTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/superlight/fonts/MullerNextExpandedTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/superlight/fonts/MullerNextExpandedTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/superlight/fonts/MullerNextExpandedTrial-ExtraBoldItalic.otf);
+    font-weight: 750;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/superlight/fonts/MullerNextExpandedTrial-Heavy.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/superlight/fonts/MullerNextExpandedTrialThinItalic.otf);
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/superlight/fonts/MullerNextExtraCondTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial Heavy";
+    src: url(/landings/superlight/fonts/MullerNextExtraCondTrial-HeavyItalic.otf) format("opentype"), url(/landings/superlight/fonts/MullerNextExtraCondTrial-HeavyItalic.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/superlight/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf) format("truetype"), url(/landings/superlight/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2) format("woff2");
+    font-weight: 750;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/superlight/fonts/MullerNextExtraCondTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/superlight/fonts/MullerNextExtraCondTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/superlight/fonts/MullerNextExtraCondTrialThin.otf);
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Trial";
+    src: url(/landings/superlight/fonts/MullerNextTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Trial";
+    src: url(/landings/superlight/fonts/MullerNextTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Wide Trial";
+    src: url(/landings/superlight/fonts/MullerNextTrial-ThinItalic.woff2);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: Cakra;
+    src: url(/landings/superlight/fonts/Cakra-Normal.otf) format("opentype");
+    src: url(/landings/superlight/fonts/Cakra-Normal.woff2) format("woff2"), url(/landings/superlight/fonts/Cakra-Normal.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Noteworthy;
+    src: url(/landings/superlight/fonts/NoteworthyLight.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Technology;
+    src: url(/landings/superlight/fonts/Technology.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Technology;
+    src: url(/landings/superlight/fonts/Technology-Bold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Unbounded;
+    src: url(/landings/superlight/fonts/Unbounded-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Unbounded;
+    src: url(/landings/superlight/fonts/Unbounded-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Inter;
+    src: url(/landings/superlight/fonts/Inter-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Inter;
+    src: url(/landings/superlight/fonts/Inter-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url(/landings/superlight/fonts/MontserratAlternates-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Snell Roundhand";
+    src: url(/landings/superlight/fonts/snell-roundhand-900.otf) format("opentype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Snell Roundhand";
+    src: url(/landings/superlight/fonts/snell-roundhand-700.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Lighthaus;
+    src: url(/landings/superlight/fonts/Lighthaus-400.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Code pro black";
+    src: url(/landings/superlight/fonts/code_pro_black.otf) format("opentype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Boldstrom;
+    src: url(/landings/superlight/fonts/Boldstrom-b.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext regular";
+    src: url(/landings/superlight/fonts/europeext.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext bold";
+    src: url(/landings/superlight/fonts/europeext_bold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext bold italic";
+    src: url(/landings/superlight/fonts/europeext_bold_italic.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "TT Smalls Trial";
+    src: url(/landings/superlight/fonts/TT-Smalls-Trial-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Mak;
+    src: url(/landings/superlight/fonts/MAK.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: GTEestiProDisplay;
+    src: url(/landings/superlight/fonts/GTEestiProDisplay-Bold.woff2) format("woff2");
+    src: url(/landings/superlight/fonts/GTEestiProDisplay-Bold.woff) format("woff");
+    src: url(/landings/superlight/fonts/GTEestiProDisplay-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: EuropeExt;
+    src: url(/landings/superlight/fonts/europeextnormal.woff2) format("woff2");
+    src: url(/landings/superlight/fonts/europeextnormal.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.landing-card {
+    font-family: PTSans, sans-serif!important;
+    padding-bottom: 120px;
+}
+@media all and (max-width:1023px) {
+    .landing-card {
+    padding-bottom: 60px;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card {
+    padding-bottom: 40px;
+}
+}.landing-card__cap-block {
+    padding: 70px 0 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media all and (max-width:1023px) {
+    .landing-card__cap-block {
+    padding: 50px 0 20px 0;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card__cap-block {
+    padding: 30px 0 30px 0;
+}
+}.landing-card__caption {
+    font-family: PTSans, sans-serif;
+    font-size: 54px;
+    color: #49344b;
+    line-height: 1;
+    text-align: center;
+    font-weight: 700;
+}
+@media all and (max-width:1023px) {
+    .landing-card__caption {
+    font-size: 36px;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card__caption {
+    font-size: 26px;
+}
+}.landing-card .category-name {
+    display: block;
+    font-size: 42px;
+}
+.landing-card__cap-green {
+    color: #68ab49;
+}
+.landing-card .p-head__br {
+    width: 364px;
+    height: 3px;
+    margin: 16px auto 23px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(50%, rgba(110, 174, 80, .7)), to(rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(110, 174, 80, .7) 50%, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(110, 174, 80, .7) 50%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(110, 174, 80, .7) 50%, rgba(255, 255, 255, 0) 100%);
+    display: block;
+    left: calc(50% - 182px);
+}
+@media all and (max-width:1023px) {
+    .landing-card .p-head__br {
+    margin: 10px auto 12px;
+}
+}.landing-card__slogan {
+    font-size: 35px;
+}
+@media all and (max-width:1239px) {
+    .landing-card__slogan {
+    font-size: 28px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .landing-card__slogan {
+    font-size: 24px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .landing-card__slogan {
+    font-size: 18px;
+}
+}.landing-card__price-left .ruble-icon {
+    fill: #000;
+}
+.landing-card__price-right .ruble-icon {
+    fill: #000;
+}
+.landing-card__price-action {
+    color: #e03638;
+}
+.landing-card__old-price-text {
+    color: #e03638;
+}
+.landing-card__old-price .ruble-icon {
+    fill: #000;
+}
+.landing-card__bonus-value {
+    color: #62b14e;
+}
+.landing-card__bonus-points {
+    color: #62b14e;
+}
+.landing-card__compare-btn {
+    border: 1px solid #b9b9d2;
+}
+.landing-card .credit-btn {
+    border: 1px solid #b9b9d2;
+}
+.landing-card .credit-btn .percent {
+    color: #e95c20;
+}
+.landing-card .credit-btn .credit-text {
+    color: #000;
+}
+.landing-card .credit-btn .red-price {
+    color: #e95c20;
+}
+.landing-card__warranty {
+    color: #000;
+}
+.landing-card__warranty {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+@media all and (max-width:1239px) {
+    .landing-card__warranty {
+    right: 16px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .landing-card__warranty {
+    top: 124px;
+    z-index: 1;
+    right: 0;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .landing-card__warranty {
+    right: 16px;
+}
+}.landing-card .b-product__detail-link {
+    position: absolute;
+    bottom: -96px;
+}
+@media all and (max-width:1239px) {
+    .landing-card .b-product__detail-link {
+    display: none;
+}
+}.prod-img-wrapper {
+    margin-top: 130px;
+    text-align: center;
+}
+@media all and (max-width:1239px) {
+    .prod-img-wrapper {
+    margin-top: 150px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .prod-img-wrapper {
+    margin-top: 40px;
+}
+}.landing-slider {
+    padding: 0 30px 0 56px;
+    margin-top: 100px;
+}
+@media all and (max-width:1239px) {
+    .landing-slider {
+    padding: 0 30px 0 37px;
+    margin-top: 120px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .landing-slider {
+    padding: 0 24px 0 52px;
+    margin-top: 40px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .landing-slider {
+    padding: 0 24px 0 6%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) {
+    .landing-slider {
+    padding: 0 24px 0 10%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) and (max-width:400px) {
+    .landing-slider {
+    padding: 0 30px 0 10%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) and (max-width:400px) and (max-width:370px) {
+    .landing-slider {
+    padding: 0 32px 0 17%}
+}.landing-slider .slick-arrow {
+    width: 30px;
+}
+.landing-slider .slick-prev {
+    height: 100%;
+    left: 0;
+    background: url(../images/svg/l-slick-prev.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-prev:hover {
+    background: url(../images/svg/l-slick-prev-hov-st.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-next {
+    height: 100%;
+    right: 0;
+    background: url(../images/svg/l-slick-next.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-next:hover {
+    background: url(../images/svg/l-slick-next-hov-st.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-slide img {
+    border-radius: 10px;
+    border: 1px solid #b9b9d2;
+}
+@media all and (max-width:1239px) {
+    .landing-slider .slick-slide img {
+    width: 88px;
+}
+}.l-video-link {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 184px;
+    width: 149px;
+    height: 35px;
+    background: url(../images/svg/landing-video.svg) no-repeat;
+}
+@media all and (max-width:1239px) {
+    .l-video-link {
+    bottom: 176px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .l-video-link {
+    bottom: 184px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .l-video-link {
+    display: none;
+}
+}.social-block {
+    margin-top: 30px;
+}
+.superlight {
+    background: #fff;
+    color: #000;
+}
+@media all and (max-width:1023px) {
+    .superlight {
+    height: auto;
+    padding-bottom: 70px;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .superlight {
+    padding-bottom: 40px;
+}
+}.superlight-top {
+    height: 945px;
+    background: #fff;
+}
+.p-head__title--superlight {
+    line-height: 120px!important;
+}
+.p-head__slogan--superlight {
+    font-weight: 400;
+    display: block;
+    position: relative;
+}
+.p-head__slogan--superlight:before {
+    position: absolute;
+    content: "";
+    width: 364px;
+    height: 3px;
+    margin: 8px auto 12px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(50%, rgba(110, 174, 80, .7)), to(rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(110, 174, 80, .7) 50%, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(110, 174, 80, .7) 50%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(110, 174, 80, .7) 50%, rgba(255, 255, 255, 0) 100%);
+    display: block;
+    left: calc(50% - 182px);
+    top: -25px;
+}
+.superlight1 {
+    height: 1010px;
+}
+.superlight1__title {
+    position: absolute;
+    top: 14px;
+    right: 72px;
+    text-align: right;
+    color: red;
+}
+.superlight1__text {
+    position: absolute;
+    top: 218px;
+    right: 49px;
+    width: 295px;
+    color: #231f20;
+}
+.superlight1__blocks {
+    position: absolute;
+    left: 36px;
+}
+.superlight1__blocks--1 {
+    top: 667px;
+}
+.superlight1__blocks--2 {
+    bottom: 67px;
+}
+.superlight1__block {
+    float: left;
+    width: 200px;
+    margin: 0 0 0 3px;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #231f20;
+}
+.superlight2 {
+    height: 462px;
+}
+.superlight2__title {
+    position: absolute;
+    top: 24px;
+    left: 63px;
+    color: #347c00;
+}
+.superlight2__video {
+    position: absolute;
+    top: 34px;
+    left: 402px;
+    width: 640px;
+    height: 360px;
+}
+.superlight3 {
+    height: 729px;
+}
+.superlight3__title {
+    position: absolute;
+    top: 17px;
+    right: 52px;
+    text-align: right;
+    color: #0367af;
+}
+.superlight3__text {
+    position: absolute;
+    top: 478px;
+    left: 73px;
+    width: 470px;
+    padding: 13px 24px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #231f20;
+    background: rgba(255, 255, 255, .7);
+}
+.superlight4 {
+    height: 715px;
+}
+.superlight4__title {
+    position: absolute;
+    top: 22px;
+    right: 91px;
+    text-align: right;
+    color: #78b120;
+}
+.superlight4__text {
+    position: absolute;
+    top: 159px;
+    right: 102px;
+    width: 412px;
+    color: #231f20;
+}
+.superlight4__weight {
+    position: absolute;
+    bottom: 226px;
+    right: 137px;
+    font-family: PTSans, sans-serif;
+    font-size: 105px;
+    font-weight: 700;
+    line-height: 87px;
+    border-bottom: 5px solid #78b120;
+    color: #78b120;
+}
+.superlight5 {
+    height: 400px;
+}
+.superlight5__title {
+    position: absolute;
+    top: 19px;
+    left: 63px;
+    color: #fff;
+}
+.superlight5__text {
+    position: absolute;
+    top: 42px;
+    left: 641px;
+    width: 380px;
+    color: #231f20;
+}
+.superlight6 {
+    height: 637px;
+}
+.superlight6__title {
+    position: absolute;
+    top: 15px;
+    left: 63px;
+}
+.superlight6__text {
+    position: absolute;
+    top: 133px;
+    left: 65px;
+    width: 420px;
+    font-size: 27px;
+    line-height: 32px;
+    color: #fff;
+}
+.superlight6__weight {
+    position: absolute;
+    top: 362px;
+    left: 222px;
+    width: 150px;
+    font-family: PTSans, sans-serif;
+    font-size: 21px;
+    text-align: center;
+}
+.superlight6__weight .t-extrabold {
+    font-size: 34px;
+    line-height: 29px;
+}
+.superlight7 {
+    height: 779px;
+}
+.superlight7__desc {
+    position: absolute;
+    top: 40px;
+    left: 73px;
+    width: 425px;
+}
+.superlight7__text {
+    color: #231f20;
+}
+.superlight7__title {
+    margin: 0 0 26px 0;
+    color: #ff6900;
+}
+.superlight7__block {
+    position: absolute;
+    bottom: 93px;
+    width: 135px;
+    font-size: 23px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #231f20;
+}
+.superlight7__block--1 {
+    left: 100px;
+}
+.superlight7__block--2 {
+    left: 323px;
+}
+.superlight8 {
+    height: 728px;
+}
+.superlight8__desc {
+    position: absolute;
+    top: 39px;
+    left: 570px;
+    width: 500px;
+}
+.superlight8__title {
+    margin: 0 0 6px 0;
+    color: #231f20;
+}
+.superlight8__text {
+    color: #231f20;
+}
+.superlight9 {
+    height: 1009px;
+}
+.superlight9__title {
+    padding: 16px 0 0 0;
+    text-align: center;
+    color: #231f20;
+}
+.superlight9__title .t-bold {
+    font-size: 45.35px;
+    line-height: 51px;
+}
+
+.superlight9__table {
+    position: absolute;
+}
+.superlight9__table--1 {
+    top: 504px;
+    left: 128px;
+    width: 522px;
+}
+.superlight9__table--2 {
+    top: 504px;
+    right: 93px;
+    width: 340px;
+}
+.superlight9__table--3 {
+    top: 655px;
+    right: 93px;
+    width: 340px;
+}
+.superlight-bottom {
+    height: 744px;
+}
+.superlight-bottom .form--landing {
+    top: 173px;
+    right: 120px;
+}
+.superlight-bottom__title {
+    margin: 0 0 0 -19px;
+    padding: 34px 0 0 0;
+    font-family: PTSans, sans-serif;
+    font-size: 32.6px;
+    line-height: 39px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #231f20;
+}
+.superlight-bottom__title .t-bold {
+    font-size: 40px;
+    line-height: 45px;
+}
+.landing-form-21__img {
+    background-color: #fff;
+}
+.landing-form-21__img img {
+    object-fit: contain;
+    width: 100%}
+
+
+/* Неватающие стили при переносе лендингов */
+table {
+    border-collapse: collapse;
+}
