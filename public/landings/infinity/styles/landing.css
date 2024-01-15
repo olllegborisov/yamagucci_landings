@@ -5,7 +5,7 @@
   left: 10px;
   width: 196px;
   height: 196px;
-  background: url(../images/actions/yam_nobius_and_walker.png) 0 0 no-repeat;
+  background: url(../images/actions/yam_nobius_and_walker.webp) 0 0 no-repeat;
 }
 .action-body-massagers {
   position: absolute;
@@ -13,7 +13,7 @@
   right: 10px;
   width: 195px;
   height: 152px;
-  background: url(../images/actions/yam_body_massagers_and_joy.png) 0 0
+  background: url(../images/actions/yam_body_massagers_and_joy.webp) 0 0
     no-repeat;
 }
 .action-drive {
@@ -22,13 +22,13 @@
   height: 195px;
   top: 0;
   left: 0;
-  background: url(../images/actions/yam_drive_and_scales.png) 0 0 no-repeat;
+  background: url(../images/actions/yam_drive_and_scales.webp) 0 0 no-repeat;
 }
 .action-bqueen {
   position: absolute;
   width: 282px;
   height: 272px;
-  background: url(../images/actions/yam_bqueen_and_joy.png) 0 0 no-repeat;
+  background: url(../images/actions/yam_bqueen_and_joy.webp) 0 0 no-repeat;
 }
 .action-bqueen-mini {
   position: absolute;
@@ -36,7 +36,7 @@
   height: 175px;
   bottom: 5px;
   right: 5px;
-  background: url(../images/actions/yam_bqueen_and_joy_mini.png) 0 0 no-repeat;
+  background: url(../images/actions/yam_bqueen_and_joy_mini.webp) 0 0 no-repeat;
 }
 .action-chairs {
   position: absolute;
@@ -44,7 +44,7 @@
   left: 0;
   width: 210px;
   height: 210px;
-  background: url(../images/actions/yum_massage_chairs_and_pure_diamond.png) 0 0
+  background: url(../images/actions/yum_massage_chairs_and_pure_diamond.webp) 0 0
     no-repeat;
 }
 .action-chairs--top {
@@ -496,329 +496,329 @@ section.block {
 .icon--arrow-gray-big-left {
   width: 17px;
   height: 25px;
-  background: url(../images/landing/src/arrow_gray_big_left.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_gray_big_left.webp) 0 0 no-repeat;
 }
 .icon--arrow-gray-big-right {
   width: 17px;
   height: 25px;
-  background: url(../images/landing/src/arrow_gray_big_right.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_gray_big_right.webp) 0 0 no-repeat;
 }
 .icon--arrow-more-info {
   width: 45px;
   height: 21px;
-  background: url(../images/landing/src/arrow_more_info.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_more_info.webp) 0 0 no-repeat;
 }
 .icon--arrow-greydark-bottom-small {
   width: 22px;
   height: 11px;
-  background: url(../images/landing/src/arrow_gray_dark_bottom_small.png) 0 0
+  background: url(../images/landing/src/arrow_gray_dark_bottom_small.webp) 0 0
     no-repeat;
 }
 .icon--arrow-blue-right-small {
   width: 5px;
   height: 12px;
-  background: url(../images/landing/src/arrow_blue_right_small.png) 0 0
+  background: url(../images/landing/src/arrow_blue_right_small.webp) 0 0
     no-repeat;
 }
 .icon--arrow-white-big-left {
   width: 46px;
   height: 47px;
-  background: url(../images/landing/src/arrow_white_big_left.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_white_big_left.webp) 0 0 no-repeat;
 }
 .icon--arrow-white-left-l {
   width: 20px;
   height: 31px;
-  background: url(../images/landing/src/arrow_white_left_l.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_white_left_l.webp) 0 0 no-repeat;
 }
 .arrow_green_left {
   width: 19px;
   height: 37px;
-  background: url(../images/landing/src/arrow_green_left.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_green_left.webp) 0 0 no-repeat;
 }
 .arrow_green_right {
   width: 19px;
   height: 37px;
-  background: url(../images/landing/src/arrow_green_right.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_green_right.webp) 0 0 no-repeat;
 }
 .icon--arrow-white-right-l {
   width: 20px;
   height: 31px;
-  background: url(../images/landing/src/arrow_white_right_l.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_white_right_l.webp) 0 0 no-repeat;
 }
 .icon--arrow-trans-black-br-m-left {
   width: 20px;
   height: 34px;
-  background: url(../images/landing/src/arrow_trans_black_br_m_left.png) 0 0
+  background: url(../images/landing/src/arrow_trans_black_br_m_left.webp) 0 0
     no-repeat;
 }
 .icon--arrow-trans-black-br-m-right {
   width: 20px;
   height: 34px;
-  background: url(../images/landing/src/arrow_trans_black_br_m_right.png) 0 0
+  background: url(../images/landing/src/arrow_trans_black_br_m_right.webp) 0 0
     no-repeat;
 }
 .icon--arrow-trans-white-br-m-left {
   width: 20px;
   height: 34px;
-  background: url(../images/landing/src/arrow_trans_white_br_m_left.png) 0 0
+  background: url(../images/landing/src/arrow_trans_white_br_m_left.webp) 0 0
     no-repeat;
 }
 .icon--arrow-trans-white-br-m-right {
   width: 20px;
   height: 34px;
-  background: url(../images/landing/src/arrow_trans_white_br_m_right.png) 0 0
+  background: url(../images/landing/src/arrow_trans_white_br_m_right.webp) 0 0
     no-repeat;
 }
 .icon--arrow-orange-br-m-left {
   width: 18px;
   height: 32px;
-  background: url(../images/landing/src/arrow_orange_br_m_left.png) 0 0
+  background: url(../images/landing/src/arrow_orange_br_m_left.webp) 0 0
     no-repeat;
 }
 .icon--arrow-orange-br-m-right {
   width: 18px;
   height: 32px;
-  background: url(../images/landing/src/arrow_orange_br_m_right.png) 0 0
+  background: url(../images/landing/src/arrow_orange_br_m_right.webp) 0 0
     no-repeat;
 }
 .icon--arrow-white-big-right {
   width: 46px;
   height: 47px;
-  background: url(../images/landing/src/arrow_white_big_right.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_white_big_right.webp) 0 0 no-repeat;
 }
 .icon--arrow-transparent-bottom-s {
   width: 24px;
   height: 9px;
-  background: url(../images/landing/src/arrow_transparent_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_transparent_bottom_s.webp) 0 0
     no-repeat;
 }
 .icon--arrow-trans-black-bottom-s {
   width: 23px;
   height: 10px;
-  background: url(../images/landing/src/arrow_trans_black_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_black_bottom_s.webp) 0 0
     no-repeat;
 }
 .icon--arrow-trans-black45-bottom-s {
   width: 24px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_black45_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_black45_bottom_s.webp) 0 0
     no-repeat;
 }
 .icon--arrow-trans-bottom-m {
   width: 37px;
   height: 12px;
-  background: url(../images/landing/src/arrow_transparent_bottom_m.png) 0 0
+  background: url(../images/landing/src/arrow_transparent_bottom_m.webp) 0 0
     no-repeat;
 }
 .icon--arrow-trans-black-bottom-m {
   width: 44px;
   height: 12px;
-  background: url(../images/landing/src/arrow_trans_black_bottom_m.png) 0 0
+  background: url(../images/landing/src/arrow_trans_black_bottom_m.webp) 0 0
     no-repeat;
 }
 .icon--arrow-trans-black45-bottom-m {
   width: 36px;
   height: 12px;
-  background: url(../images/landing/src/arrow_trans_black45_bottom_m.png) -2px 0
+  background: url(../images/landing/src/arrow_trans_black45_bottom_m.webp) -2px 0
     no-repeat;
 }
 .icon--quadro-brown-bg-arrow {
   width: 36px;
   height: 12px;
-  background: url(../images/landing/src/quadro-brown-bg-arrow.png) -2px 0 no-repeat;
+  background: url(../images/landing/src/quadro-brown-bg-arrow.webp) -2px 0 no-repeat;
 }
 .icon--arrow-gray50-trans-bottom-m {
   width: 36px;
   height: 12px;
-  background: url(../images/landing/src/arrow_gray50_trans_bottom_m.png) 0 0
+  background: url(../images/landing/src/arrow_gray50_trans_bottom_m.webp) 0 0
     no-repeat;
 }
 .icon--arrow-gray20-trans-bottom-m {
   width: 35px;
   height: 12px;
-  background: url(../images/landing/src/arrow_trans_gray20_bottom_m.png) 0 0
+  background: url(../images/landing/src/arrow_trans_gray20_bottom_m.webp) 0 0
     no-repeat;
 }
 .icon--question {
   width: 12px;
   height: 12px;
-  background: url(../images/landing/src/icon_question_red.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_question_red.webp) 0 0 no-repeat;
 }
 .icon--question-gray {
   width: 13px;
   height: 13px;
-  background: url(../images/landing/src/icon_question_gray.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_question_gray.webp) 0 0 no-repeat;
 }
 .icon--cart-big {
   width: 32px;
   height: 26px;
-  background: url(../images/landing/src/icon_cart_b.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_cart_b.webp) 0 0 no-repeat;
 }
 .icon--cart-bb {
   width: 40px;
   height: 33px;
-  background: url(../images/landing/src/icon_cart_bb.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_cart_bb.webp) 0 0 no-repeat;
 }
 .icon--cart2-b {
   width: 32px;
   height: 27px;
-  background: url(../images/landing/src/icon_cart2_b.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_cart2_b.webp) 0 0 no-repeat;
 }
 .icon--cart2-bb {
   width: 40px;
   height: 33px;
-  background: url(../images/landing/src/icon_cart2_bb.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_cart2_bb.webp) 0 0 no-repeat;
 }
 .icon--cart-black-m {
   width: 29px;
   height: 24px;
-  background: url(../images/landing/src/icon_cart_black_m.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_cart_black_m.webp) 0 0 no-repeat;
 }
 .icon--cart-black-l {
   width: 41px;
   height: 34px;
-  background: url(../images/landing/src/icon_cart_black_l.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_cart_black_l.webp) 0 0 no-repeat;
 }
 .icon--cart-red-b {
   width: 40px;
   height: 33px;
-  background: url(../images/landing/src/icon_cart_red_b.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_cart_red_b.webp) 0 0 no-repeat;
 }
 .icon--rocket-big {
   width: 27px;
   height: 27px;
-  background: url(../images/landing/src/icon_roket_b.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_roket_b.webp) 0 0 no-repeat;
 }
 .icon--rocket-bb {
   width: 32px;
   height: 32px;
-  background: url(../images/landing/src/icon_roket_bb.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_roket_bb.webp) 0 0 no-repeat;
 }
 .icon--rocket-solid-b {
   width: 25px;
   height: 25px;
-  background: url(../images/landing/src/icon_rocket_solid_b.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_rocket_solid_b.webp) 0 0 no-repeat;
 }
 .icon--rocket-solid-bb {
   width: 30px;
   height: 30px;
-  background: url(../images/landing/src/icon_rocket_solid_bb.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_rocket_solid_bb.webp) 0 0 no-repeat;
 }
 .icon--rocket-blue-b {
   width: 30px;
   height: 30px;
-  background: url(../images/landing/src/icon_rocket_blue_b.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_rocket_blue_b.webp) 0 0 no-repeat;
 }
 .icon--rocket-red {
   width: 31px;
   height: 31px;
-  background: url(../images/landing/src/icon_roket_red.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_roket_red.webp) 0 0 no-repeat;
 }
 .icon--rocket-green {
   width: 30px;
   height: 30px;
-  background: url(../images/landing/src/icon_roket_green.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_roket_green.webp) 0 0 no-repeat;
 }
 .icon--android {
   width: 20px;
   height: 24px;
-  background: url(../images/landing/src/icon_android.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_android.webp) 0 0 no-repeat;
 }
 .icon--apple {
   width: 21px;
   height: 25px;
-  background: url(../images/landing/src/icon_apple.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_apple.webp) 0 0 no-repeat;
 }
 .icon--apple-white {
   width: 22px;
   height: 26px;
-  background: url(../images/landing/src/icon_apple_white.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_apple_white.webp) 0 0 no-repeat;
 }
 .icon--available {
   width: 14px;
   height: 14px;
-  background: url(../images/landing/src/icon_available_yep2.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_available_yep2.webp) 0 0 no-repeat;
 }
 .icon--available-green-dark {
   width: 11px;
   height: 12px;
-  background: url(../images/landing/src/icon_available_yep3.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_available_yep3.webp) 0 0 no-repeat;
 }
 .icon--available-green-m {
   width: 17px;
   height: 18px;
-  background: url(../images/landing/src/icon_available_yep_green_m.png) 0 0
+  background: url(../images/landing/src/icon_available_yep_green_m.webp) 0 0
     no-repeat;
 }
 .icon--available-brown {
   width: 15px;
   height: 16px;
-  background: url(../images/landing/src/icon_available_yep_brown.png) 0 0
+  background: url(../images/landing/src/icon_available_yep_brown.webp) 0 0
     no-repeat;
 }
 .icon--available-white {
   width: 15px;
   height: 16px;
-  background: url(../images/landing/src/icon_available_yep_white.png) 0 0
+  background: url(../images/landing/src/icon_available_yep_white.webp) 0 0
     no-repeat;
 }
 .icon--delivery-car {
   width: 26px;
   height: 22px;
-  background: url(../images/landing/src/icon_delivery_car.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_delivery_car.webp) 0 0 no-repeat;
 }
 .icon--delivery-fit1 {
   width: 28px;
   height: 23px;
-  background: url(/images/landing/src/icon-fit2.png) center center no-repeat;
+  background: url(/images/landing/src/icon-fit2.webp) center center no-repeat;
   margin-right: 35px;
 }
 .icon--delivery-fit2 {
   width: 25px;
   height: 23px;
-  background: url(/images/landing/src/icon-fit3.png) center center no-repeat;
+  background: url(/images/landing/src/icon-fit3.webp) center center no-repeat;
   margin-right: 32px;
 }
 .icon--delivery-fit3 {
   width: 23px;
   height: 23px;
-  background: url(/images/landing/src/icon-fit1.png) center center no-repeat;
+  background: url(/images/landing/src/icon-fit1.webp) center center no-repeat;
   margin-right: 37px;
 }
 .icon--delivery-car-white {
   width: 24px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_car_white.png) 0 0
+  background: url(../images/landing/src/icon_delivery_car_white.webp) 0 0
     no-repeat;
 }
 .icon--delivery-car-white-m {
   width: 28px;
   height: 23px;
-  background: url(../images/landing/src/icon_delivery_car_white_m.png) 0 0
+  background: url(../images/landing/src/icon_delivery_car_white_m.webp) 0 0
     no-repeat;
 }
 .icon--delivery-car-green {
   width: 33px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_car_green.png) 0 0
+  background: url(../images/landing/src/icon_delivery_car_green.webp) 0 0
     no-repeat;
 }
 .icon--delivery-car-blue {
   width: 33px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_car_blue.png) 0 0
+  background: url(../images/landing/src/icon_delivery_car_blue.webp) 0 0
     no-repeat;
 }
 .icon--delivery-car-venous {
   width: 24px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_car_venous.png) 0 0
+  background: url(../images/landing/src/icon_delivery_car_venous.webp) 0 0
     no-repeat;
 }
 .icon--delivery-car-gray-dark {
   width: 24px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_car_gray_dark.png) 0 0
+  background: url(../images/landing/src/icon_delivery_car_gray_dark.webp) 0 0
     no-repeat;
 }
 .icon--delivery-car-purple {
@@ -831,53 +831,53 @@ section.block {
 .icon--delivery-self {
   width: 26px;
   height: 26px;
-  background: url(../images/landing/src/icon_delivery_self.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_delivery_self.webp) 0 0 no-repeat;
 }
 .icon--delivery-self-white {
   width: 20px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_self_white.png) 0 0
+  background: url(../images/landing/src/icon_delivery_self_white.webp) 0 0
     no-repeat;
 }
 .icon--delivery-self-white-m {
   width: 23px;
   height: 23px;
-  background: url(../images/landing/src/icon_delivery_self_white_m.png) 0 0
+  background: url(../images/landing/src/icon_delivery_self_white_m.webp) 0 0
     no-repeat;
 }
 .icon--delivery-self-green {
   width: 33px;
   height: 24px;
-  background: url(../images/landing/src/icon_delivery_self_green.png) 0 0
+  background: url(../images/landing/src/icon_delivery_self_green.webp) 0 0
     no-repeat;
 }
 .icon--delivery-self-blue {
   width: 33px;
   height: 24px;
-  background: url(../images/landing/src/icon_delivery_self_blue.png) 0 0
+  background: url(../images/landing/src/icon_delivery_self_blue.webp) 0 0
     no-repeat;
 }
 .icon--delivery-self-venous {
   width: 20px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_self_venous.png) 0 0
+  background: url(../images/landing/src/icon_delivery_self_venous.webp) 0 0
     no-repeat;
 }
 .icon--delivery-self-gray-dark {
   width: 20px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_self_gray_dark.png) 0 0
+  background: url(../images/landing/src/icon_delivery_self_gray_dark.webp) 0 0
     no-repeat;
 }
 .icon--exclusive {
   width: 20px;
   height: 18px;
-  background: url(../images/landing/src/icon_exclusive.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_exclusive.webp) 0 0 no-repeat;
 }
 .icon--delivery-store {
   width: 25px;
   height: 23px;
-  background: url(../images/landing/src/icon_delivery_store.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_delivery_store.webp) 0 0 no-repeat;
 }
 .icon--delivery-store-purple {
   width: 24px;
@@ -889,84 +889,84 @@ section.block {
 .icon--delivery-store-white {
   width: 24px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_store_white.png) 0 0
+  background: url(../images/landing/src/icon_delivery_store_white.webp) 0 0
     no-repeat;
 }
 .icon--delivery-store-white-m {
   width: 26px;
   height: 23px;
-  background: url(../images/landing/src/icon_delivery_store_white_m.png) 0 0
+  background: url(../images/landing/src/icon_delivery_store_white_m.webp) 0 0
     no-repeat;
 }
 .icon--delivery-store2-white {
   width: 23px;
   height: 21px;
-  background: url(../images/landing/src/icon_delivery_store_white.png) 0 0
+  background: url(../images/landing/src/icon_delivery_store_white.webp) 0 0
     no-repeat;
 }
 .icon--delivery-store-green {
   width: 33px;
   height: 21px;
-  background: url(../images/landing/src/icon_delivery_store_green.png) 0 0
+  background: url(../images/landing/src/icon_delivery_store_green.webp) 0 0
     no-repeat;
 }
 .icon--delivery-store-blue {
   width: 33px;
   height: 21px;
-  background: url(../images/landing/src/icon_delivery_store_blue.png) 0 0
+  background: url(../images/landing/src/icon_delivery_store_blue.webp) 0 0
     no-repeat;
 }
 .icon--delivery-store-venous {
   width: 27px;
   height: 25px;
-  background: url(../images/landing/src/icon_delivery_store_venous.png) 0 0
+  background: url(../images/landing/src/icon_delivery_store_venous.webp) 0 0
     no-repeat;
 }
 .icon--delivery-store-gray-dark {
   width: 21px;
   height: 20px;
-  background: url(../images/landing/src/icon_delivery_store_gray_dark.png) 0 0
+  background: url(../images/landing/src/icon_delivery_store_gray_dark.webp) 0 0
     no-repeat;
 }
 .icon--axiom-page1-white {
   width: 30px;
   height: 28px;
-  background: url(../images/landing/src/axiom_page1_white.png) 0 0 no-repeat;
+  background: url(../images/landing/src/axiom_page1_white.webp) 0 0 no-repeat;
 }
 .icon--axiom-page1-blue {
   width: 30px;
   height: 28px;
-  background: url(../images/landing/src/axiom_page1_blue.png) 0 0 no-repeat;
+  background: url(../images/landing/src/axiom_page1_blue.webp) 0 0 no-repeat;
 }
 .icon--axiom-page2-white {
   width: 27px;
   height: 25px;
-  background: url(../images/landing/src/axiom_page2_white.png) 0 0 no-repeat;
+  background: url(../images/landing/src/axiom_page2_white.webp) 0 0 no-repeat;
 }
 .icon--axiom-page2-blue {
   width: 27px;
   height: 25px;
-  background: url(../images/landing/src/axiom_page2_blue.png) 0 0 no-repeat;
+  background: url(../images/landing/src/axiom_page2_blue.webp) 0 0 no-repeat;
 }
 .icon--axiom-page3-white {
   width: 27px;
   height: 27px;
-  background: url(../images/landing/src/axiom_page3_white.png) 0 0 no-repeat;
+  background: url(../images/landing/src/axiom_page3_white.webp) 0 0 no-repeat;
 }
 .icon--axiom-page3-blue {
   width: 27px;
   height: 27px;
-  background: url(../images/landing/src/axiom_page3_blue.png) 0 0 no-repeat;
+  background: url(../images/landing/src/axiom_page3_blue.webp) 0 0 no-repeat;
 }
 .icon--y-latter {
   width: 41px;
   height: 47px;
-  background: url(../images/landing/src/icon_y_latter.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_y_latter.webp) 0 0 no-repeat;
 }
 .icon--y-logo {
   width: 57px;
   height: 57px;
-  background: url(../images/landing/src/y_logo.png) 0 0 no-repeat;
+  background: url(../images/landing/src/y_logo.webp) 0 0 no-repeat;
 }
 .b-button {
   display: inline-block;
@@ -1195,12 +1195,12 @@ section.block {
 .button--beauty-gold-l {
   width: 148px;
   height: 37px;
-  background: url(../images/landing/src/btn_beauty_gold_l.png) 0 0 no-repeat;
+  background: url(../images/landing/src/btn_beauty_gold_l.webp) 0 0 no-repeat;
 }
 .button--beauty-gold-r {
   width: 148px;
   height: 37px;
-  background: url(../images/landing/src/btn_beauty_gold_r.png) 0 0 no-repeat;
+  background: url(../images/landing/src/btn_beauty_gold_r.webp) 0 0 no-repeat;
 }
 .button--velvet-gold-gr {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
@@ -1516,7 +1516,7 @@ section.block {
   right: 10%;
   width: 70px;
   height: 70px;
-  background: url(../images/landing/src/btn_up.png);
+  background: url(../images/landing/src/btn_up.webp);
   cursor: pointer;
 }
 @media only screen and (max-width: 1100px) {
@@ -1790,7 +1790,7 @@ section.block {
   color: #bababa;
 }
 .form .chosen-container-single .chosen-single div b {
-  background: url(../images/chosen-sprite.png) no-repeat 2px 2px;
+  background: url(../images/chosen-sprite.webp) no-repeat 2px 2px;
 }
 .form .chosen-container-active.chosen-with-drop .chosen-single div b {
   background-position: -16px 2px;
@@ -1962,7 +1962,7 @@ section.block {
   background: #fff;
 }
 .form--beauty .chosen-container-single .chosen-single div b {
-  background: url(../images/chosen-sprite.png) no-repeat 2px 9px;
+  background: url(../images/chosen-sprite.webp) no-repeat 2px 9px;
 }
 .form--beauty .chosen-container-active.chosen-with-drop .chosen-single div b {
   background-position: -16px 9px;
@@ -2096,38 +2096,38 @@ section.block {
   width: 13%;
 }
 .dop_menu--item1 span {
-  background: url(/images/icons/about.png) center center no-repeat;
+  background: url(/images/icons/about.webp) center center no-repeat;
 }
 .dop_menu--item2 {
   width: 15%;
 }
 .dop_menu--item2 span {
-  background: url(/images/icons/how_job.png) center center no-repeat;
+  background: url(/images/icons/how_job.webp) center center no-repeat;
   left: 0;
 }
 .dop_menu--item3 {
   width: 20%;
 }
 .dop_menu--item3 span {
-  background: url(/images/icons/massage_programm.png) center center no-repeat;
+  background: url(/images/icons/massage_programm.webp) center center no-repeat;
 }
 .dop_menu--item4 {
   width: 26%;
 }
 .dop_menu--item4 span {
-  background: url(/images/icons/tech_char.png) center center no-repeat;
+  background: url(/images/icons/tech_char.webp) center center no-repeat;
 }
 .dop_menu--item5 {
   width: 14%;
 }
 .dop_menu--item5 span {
-  background: url(/images/icons/test_drive.png) center center no-repeat;
+  background: url(/images/icons/test_drive.webp) center center no-repeat;
 }
 .dop_menu--item6 {
   width: 12%;
 }
 .dop_menu--item6 span {
-  background: url(/images/icons/review.png) center center no-repeat;
+  background: url(/images/icons/review.webp) center center no-repeat;
 }
 .list--feet .dop_menu--item1 {
   width: 20%;
@@ -2152,21 +2152,21 @@ section.block {
 }
 .list--beauty .dop_menu--item2 span {
   left: 15%;
-  background: url(/images/icons/how_job.png) center center no-repeat;
+  background: url(/images/icons/how_job.webp) center center no-repeat;
 }
 .list--beauty .dop_menu--item3 {
   width: 25%;
 }
 .list--beauty .dop_menu--item3 span {
   left: 15%;
-  background: url(/images/icons/articles.png) center center no-repeat;
+  background: url(/images/icons/articles.webp) center center no-repeat;
 }
 .list--beauty .dop_menu--item4 {
   width: 25%;
 }
 .list--beauty .dop_menu--item4 span {
   left: 15%;
-  background: url(/images/icons/test_drive.png) center center no-repeat;
+  background: url(/images/icons/test_drive.webp) center center no-repeat;
 }
 .list--eye .dop_menu--item1 {
   width: 17%;
@@ -2205,7 +2205,7 @@ section.block {
   width: 33%;
 }
 .list--panas .dop_menu--item2 span {
-  background: url(/images/icons/review.png) center center no-repeat;
+  background: url(/images/icons/review.webp) center center no-repeat;
   left: 25%;
 }
 .list--panas .dop_menu--item3 {
@@ -2213,7 +2213,7 @@ section.block {
 }
 .list--panas .dop_menu--item3 span {
   left: 25%;
-  background: url(/images/icons/test_drive.png) center center no-repeat;
+  background: url(/images/icons/test_drive.webp) center center no-repeat;
 }
 .list--table .dop_menu--item1 {
   width: 17%;
@@ -2350,7 +2350,7 @@ section.block {
   display: block;
   width: 12px;
   height: 12px;
-  background: url(../images/chosen-sprite.png) -42px 1px no-repeat;
+  background: url(../images/chosen-sprite.webp) -42px 1px no-repeat;
   font-size: 1px;
 }
 .chosen-container-single .chosen-single abbr:hover {
@@ -2371,7 +2371,7 @@ section.block {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../images/chosen-sprite.png) no-repeat 0 2px;
+  background: url(../images/chosen-sprite.webp) no-repeat 0 2px;
 }
 .chosen-container-single .chosen-search {
   position: relative;
@@ -2387,8 +2387,8 @@ section.block {
   height: auto;
   outline: 0;
   border: 1px solid #aaa;
-  background: #fff url(../images/chosen-sprite.png) no-repeat 100% -20px;
-  background: url(../images/chosen-sprite.png) no-repeat 100% -20px;
+  background: #fff url(../images/chosen-sprite.webp) no-repeat 100% -20px;
+  background: url(../images/chosen-sprite.webp) no-repeat 100% -20px;
   font-size: 1em;
   font-family: sans-serif;
   line-height: normal;
@@ -2568,7 +2568,7 @@ section.block {
   display: block;
   width: 12px;
   height: 12px;
-  background: url(../images/chosen-sprite.png) -42px 1px no-repeat;
+  background: url(../images/chosen-sprite.webp) -42px 1px no-repeat;
   font-size: 1px;
 }
 .chosen-container-multi
@@ -2738,8 +2738,8 @@ section.block {
 }
 .chosen-rtl .chosen-search input[type='text'] {
   padding: 4px 5px 4px 20px;
-  background: #fff url(../images/chosen-sprite.png) no-repeat -30px -20px;
-  background: url(../images/chosen-sprite.png) no-repeat -30px -20px;
+  background: #fff url(../images/chosen-sprite.webp) no-repeat -30px -20px;
+  background: url(../images/chosen-sprite.webp) no-repeat -30px -20px;
   direction: rtl;
 }
 .chosen-rtl.chosen-container-single .chosen-single div b {
@@ -3332,7 +3332,7 @@ section.block {
   left: 50px;
   width: 26px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_gray50_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_gray50_bottom_s.webp) 0 0
     no-repeat;
 }
 .delivery--cardio {
@@ -3375,7 +3375,7 @@ section.block {
   left: 50px;
   width: 23px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_gray20_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_gray20_bottom_s.webp) 0 0
     no-repeat;
 }
 .delivery--prestige {
@@ -3462,7 +3462,7 @@ section.block {
   left: 50px;
   width: 23px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_gray20_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_gray20_bottom_s.webp) 0 0
     no-repeat;
 }
 .delivery--velvet {
@@ -3553,7 +3553,7 @@ section.block {
   left: 50px;
   width: 24px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_bluelight40_bottom_s.png) 0
+  background: url(../images/landing/src/arrow_trans_bluelight40_bottom_s.webp) 0
     0 no-repeat;
 }
 .delivery--black {
@@ -4077,19 +4077,19 @@ section.block {
   border: 3px solid #80807c;
 }
 .colors__item--red {
-  background: url(../images/landing/src/color_red.png) 0 0 no-repeat;
+  background: url(../images/landing/src/color_red.webp) 0 0 no-repeat;
 }
 .colors__item--black {
-  background: url(../images/landing/src/color_black.png) 0 0 no-repeat;
+  background: url(../images/landing/src/color_black.webp) 0 0 no-repeat;
 }
 .colors__item--beige {
-  background: url(../images/landing/src/color_beige.png) 0 0 no-repeat;
+  background: url(../images/landing/src/color_beige.webp) 0 0 no-repeat;
 }
 .colors__item--white-beige {
-  background: url(../images/landing/src/color_white_beige.png) 0 0 no-repeat;
+  background: url(../images/landing/src/color_white_beige.webp) 0 0 no-repeat;
 }
 .colors__item--orange {
-  background: url(../images/landing/src/color_orange.jpg) 0 0 no-repeat;
+  background: url(../images/landing/src/color_orange.webp) 0 0 no-repeat;
 }
 .b-product {
   font-family: PTSansNarrow, sans-serif;
@@ -4118,7 +4118,7 @@ section.block {
   right: -24px;
   width: 176px;
   height: 176px;
-  background: url(../images/actions/action_axiom_eye_present.png) 0 0 no-repeat;
+  background: url(../images/actions/action_axiom_eye_present.webp) 0 0 no-repeat;
 }
 .b-product__sticker--eye-champ {
   position: absolute;
@@ -4126,7 +4126,7 @@ section.block {
   left: -72px;
   width: 176px;
   height: 175px;
-  background: url(../images/actions/action_champ_eye.png) 0 0 no-repeat;
+  background: url(../images/actions/action_champ_eye.webp) 0 0 no-repeat;
 }
 .b-product__sticker--turbo-feet {
   position: absolute;
@@ -4134,7 +4134,7 @@ section.block {
   left: 40px;
   width: 130px;
   height: 130px;
-  background: url(../images/actions/action_turbo_axiom_feet.png) 0 0 no-repeat;
+  background: url(../images/actions/action_turbo_axiom_feet.webp) 0 0 no-repeat;
 }
 .b-product__sticker--feet-turbo {
   position: absolute;
@@ -4142,7 +4142,7 @@ section.block {
   left: 5px;
   width: 130px;
   height: 130px;
-  background: url(../images/actions/action_axiom_feet_turbo.png) 0 0 no-repeat;
+  background: url(../images/actions/action_axiom_feet_turbo.webp) 0 0 no-repeat;
 }
 .b-product__images {
   position: relative;
@@ -4678,7 +4678,7 @@ section.block {
   top: 0;
   width: 13px;
   height: 13px;
-  background: url(../images/landing/src/icon_question_gray.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_question_gray.webp) 0 0 no-repeat;
 }
 .b-product--gold .b-product__credit .credit__direct {
   margin-top: 16px;
@@ -5372,7 +5372,7 @@ section.block {
   width: 24px;
   height: 9px;
   margin: 0 auto;
-  background: url(../images/landing/src/arrow_trans_bluelight33_bottom_s.png) 0
+  background: url(../images/landing/src/arrow_trans_bluelight33_bottom_s.webp) 0
     0 no-repeat;
 }
 .b-product--silk .b-product__img-wrap {
@@ -5395,7 +5395,7 @@ section.block {
 .b-product--silk .delivery__triangle {
   width: 26px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_violetlight40_bottom_s.png)
+  background: url(../images/landing/src/arrow_trans_violetlight40_bottom_s.webp)
     0 0 no-repeat;
 }
 .b-product--silk .form--landing {
@@ -5421,7 +5421,7 @@ section.block {
 .b-product--darsonval .delivery__triangle {
   width: 26px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_violet40_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_violet40_bottom_s.webp) 0 0
     no-repeat;
 }
 .b-product--darsonval .b-product__detail-btn {
@@ -5436,7 +5436,7 @@ section.block {
 .b-product--darsonval .b-product__detail-icon {
   width: 31px;
   height: 10px;
-  background: url(../images/landing/src/arrow_trans_violet20_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_violet20_bottom_s.webp) 0 0
     no-repeat;
 }
 .b-product--darsonval .form--landing {
@@ -5462,7 +5462,7 @@ section.block {
 .b-product--diamond_ .delivery__triangle {
   width: 26px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_violet40_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_violet40_bottom_s.webp) 0 0
     no-repeat;
 }
 .b-product--diamond_ .b-product__detail-btn {
@@ -5477,7 +5477,7 @@ section.block {
 .b-product--diamond_ .b-product__detail-icon {
   width: 31px;
   height: 10px;
-  background: url(../images/landing/src/arrow_trans_violet20_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_violet20_bottom_s.webp) 0 0
     no-repeat;
 }
 .b-product--diamond_ .form--landing {
@@ -5517,7 +5517,7 @@ section.block {
 .b-product--aqua .icon--arrow-trans-aqua_violet-bottom-s {
   width: 24px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_aqua_violet_bottom_s.png) 0
+  background: url(../images/landing/src/arrow_trans_aqua_violet_bottom_s.webp) 0
     0 no-repeat;
 }
 .b-product--aqua .b-product__detail {
@@ -5534,7 +5534,7 @@ section.block {
   width: 36px;
   height: 12px;
   margin: 0 auto;
-  background: url(../images/landing/src/arrow_trans_aqua_violet_bottom_m.png) 0
+  background: url(../images/landing/src/arrow_trans_aqua_violet_bottom_m.webp) 0
     0 no-repeat;
 }
 .b-product--diamond .b-product__left {
@@ -5572,7 +5572,7 @@ section.block {
 .b-product--diamond .icon--arrow-trans-diamond_blue-bottom-s {
   width: 24px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_diamond_blue_bottom_s.png) 0
+  background: url(../images/landing/src/arrow_trans_diamond_blue_bottom_s.webp) 0
     0 no-repeat;
 }
 .b-product--diamond .b-product__detail {
@@ -5585,7 +5585,7 @@ section.block {
   width: 36px;
   height: 12px;
   margin: 0 auto;
-  background: url(../images/landing/src/arrow_trans_diamond_blue_bottom_m.png) 0
+  background: url(../images/landing/src/arrow_trans_diamond_blue_bottom_m.webp) 0
     0 no-repeat;
 }
 .b-product--emerald .b-product__left {
@@ -5603,7 +5603,7 @@ section.block {
   border-radius: 10px;
 }
 .b-product--emerald .price-sticker--red-b {
-  background: url(../images/landing/src/sticker_price_green.png) 0 0 no-repeat;
+  background: url(../images/landing/src/sticker_price_green.webp) 0 0 no-repeat;
 }
 .b-product--emerald .b-product__cart-add {
   color: #d51c24;
@@ -5614,7 +5614,7 @@ section.block {
 .b-product--emerald .delivery__triangle {
   width: 24px;
   height: 9px;
-  background: url(../images/landing/src/arrow_trans_green50_bottom_s.png) 0 0
+  background: url(../images/landing/src/arrow_trans_green50_bottom_s.webp) 0 0
     no-repeat;
 }
 .b-product--axiom-b .price__num__changeble {
@@ -5667,7 +5667,7 @@ section.block {
 .b-product--axiom-b .b-product__credit .credit__question {
   width: 13px;
   height: 13px;
-  background: url(../images/landing/src/icon_question_gray.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_question_gray.webp) 0 0 no-repeat;
 }
 .b-product--axiom-b .b-product__credit .credit__direct {
   margin-top: 18px;
@@ -5810,10 +5810,10 @@ section.block {
   width: 0;
 }
 .landing__page .slick-prev {
-  background: url(../images/landing/src/arrow_gray_big_left.png) no-repeat;
+  background: url(../images/landing/src/arrow_gray_big_left.webp) no-repeat;
 }
 .landing__page .slick-next {
-  background: url(../images/landing/src/arrow_gray_big_right.png) no-repeat;
+  background: url(../images/landing/src/arrow_gray_big_right.webp) no-repeat;
 }
 .product__comments .slick-arrow {
   transform: translateY(-50%);
@@ -5918,13 +5918,13 @@ section.block {
   left: 0;
   width: 53px;
   height: 84px;
-  background: url(../images/landing/src/arrow_gold_left.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_gold_left.webp) 0 0 no-repeat;
 }
 .slider-images--gold .owl-next {
   right: 0;
   width: 34px;
   height: 84px;
-  background: url(../images/landing/src/arrow_gold_right.png) 0 0 no-repeat;
+  background: url(../images/landing/src/arrow_gold_right.webp) 0 0 no-repeat;
 }
 .slider-images--panas .owl-item {
   width: 103px !important;
@@ -5978,7 +5978,7 @@ section.block {
 }
 .slider-images--infinity .owl-prev {
   left: 0;
-  background: url(../images/landing/src/arrow_bg_infinity_left.png) 0 0
+  background: url(../images/landing/src/arrow_bg_infinity_left.webp) 0 0
     no-repeat;
 }
 .slider-images--infinity .owl-prev .icon {
@@ -6152,7 +6152,7 @@ section.block {
   height: 71px;
   padding: 8px 0 0 50px;
   color: #fff;
-  background: url(../images/landing/src/sticker_price_gray.png) 0 0 no-repeat;
+  background: url(../images/landing/src/sticker_price_gray.webp) 0 0 no-repeat;
   background-size: 100%;
 }
 .price-sticker--gray.price-sticker--action {
@@ -6174,7 +6174,7 @@ section.block {
   height: 81px;
   padding: 8px 0 0 44px;
   color: #fff;
-  background: url(../images/landing/src/price_sticker_red_grad.png) 0 0
+  background: url(../images/landing/src/price_sticker_red_grad.webp) 0 0
     no-repeat;
   background-size: 100%;
 }
@@ -6213,7 +6213,7 @@ section.block {
   height: 72px;
   padding: 10px 0 0 44px;
   color: #7a1315;
-  background: url(../images/landing/src/sticker_price_gold.png) 0 0 no-repeat;
+  background: url(../images/landing/src/sticker_price_gold.webp) 0 0 no-repeat;
   position: relative;
 }
 .price-sticker--gold.price-sticker--action {
@@ -6243,7 +6243,7 @@ section.block {
   height: 72px;
   padding: 8px 0 0 55px;
   color: #fff;
-  background: url(../images/landing/src/sticker_price_trans_black40.png) 0 0
+  background: url(../images/landing/src/sticker_price_trans_black40.webp) 0 0
     no-repeat;
 }
 .price-sticker--panas.price-sticker--action {
@@ -6263,7 +6263,7 @@ section.block {
   height: 70px;
   padding: 12px 14px 0 60px;
   color: #fff;
-  background: url(../images/product/prestige/landing/price.png) 0 0 no-repeat;
+  background: url(../images/product/prestige/landing/price.webp) 0 0 no-repeat;
   background-size: 100%;
 }
 .price-sticker--prestige.price-sticker--action {
@@ -6304,10 +6304,10 @@ section.block {
   line-height: 35px;
 }
 .price-sticker--red-r {
-  background: url(../images/landing/src/price_sticker_red_r.png) 0 0 no-repeat;
+  background: url(../images/landing/src/price_sticker_red_r.webp) 0 0 no-repeat;
 }
 .price-sticker--red-l {
-  background: url(../images/landing/src/price_sticker_red_l.png) 0 0 no-repeat;
+  background: url(../images/landing/src/price_sticker_red_l.webp) 0 0 no-repeat;
 }
 .price-sticker--red-b {
   width: 209px;
@@ -6315,7 +6315,7 @@ section.block {
   padding: 11px 14px 0 55px;
   font-family: 'Myriad Pro', Calibri, 'Lucida Sans', 'Segoe UI', sans serif;
   color: #fff;
-  background: url(../images/landing/src/price_sticker_red_b.png) 0 0 no-repeat;
+  background: url(../images/landing/src/price_sticker_red_b.webp) 0 0 no-repeat;
 }
 .price-sticker--red-b .price-sticker__num {
   font-size: 42px;
@@ -6348,7 +6348,7 @@ section.block {
   height: 72px;
   padding: 6px 0 0 50px;
   color: #fff;
-  background: url(../images/landing/src/sticker_price_black.png) 0 0 no-repeat;
+  background: url(../images/landing/src/sticker_price_black.webp) 0 0 no-repeat;
   background-size: 100%;
 }
 .price-sticker--black.price-sticker--action {
@@ -6380,7 +6380,7 @@ section.block {
   width: 160px;
   height: 170px;
   font: bold 30px/30px PTSansNarrow, sans-serif;
-  background: url(../images/landing/src/price_sticker.png) 0 0 no-repeat;
+  background: url(../images/landing/src/price_sticker.webp) 0 0 no-repeat;
 }
 .price-circle--red .price-circle__sign {
   font: 25px PTSans, sans-serif;
@@ -6423,7 +6423,7 @@ section.block {
   padding: 7px 0 7px 20px;
 }
 .l-table--green-bg {
-  background: #5d902a url(../images/landing/table_massage_bg.jpg) bottom right
+  background: #5d902a url(../images/landing/table_massage_bg.webp) bottom right
     no-repeat;
 }
 .l-table--green-bg .l-table__tr {
@@ -6433,7 +6433,7 @@ section.block {
   border-right: 1px solid #8eb26a;
 }
 .l-table--blue-bg {
-  background: #3c5480 url(../images/landing/table_star_bg.jpg) bottom right
+  background: #3c5480 url(../images/landing/table_star_bg.webp) bottom right
     no-repeat;
 }
 .l-table--blue-bg .l-table__tr {
@@ -6443,7 +6443,7 @@ section.block {
   border-right: 1px solid #596d93;
 }
 .l-table--brown-bg {
-  background: #522c0e url(../images/landing/table_gear_bg.jpg) bottom left
+  background: #522c0e url(../images/landing/table_gear_bg.webp) bottom left
     no-repeat;
 }
 .l-table--brown-bg .l-table__tr {
@@ -6606,7 +6606,7 @@ section.block {
   bottom: 0;
   width: 61px;
   height: 51px;
-  background-image: url(../images/landing/sprite_popup.png);
+  background-image: url(../images/landing/sprite_popup.webp);
   background-repeat: no-repeat;
 }
 .l-popup__box--down {
@@ -6652,11 +6652,11 @@ section.block {
   width: 10px;
   height: 10px;
   margin: 0 3px;
-  background: url(../images/landing/src/icon_pager_white.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_pager_white.webp) 0 0 no-repeat;
   text-indent: -9999px;
 }
 .slider-pager--whitered-dotte .owl-page.active {
-  background: url(../images/landing/src/icon_pager_red.png) 0 0 no-repeat;
+  background: url(../images/landing/src/icon_pager_red.webp) 0 0 no-repeat;
 }
 .landing__page {
   font-family: PTSansNarrow, sans-serif;
@@ -7154,7 +7154,7 @@ section.block {
 }
 .axiom-top {
   height: 1040px;
-  background: url(../images/landing/bg/axiom/axiom_01.jpg) top center no-repeat;
+  background: url(../images/landing/bg/axiom/axiom_01.webp) top center no-repeat;
 }
 .axiom-top .b-product__ontime {
   color: #000;
@@ -7393,12 +7393,12 @@ section.block {
 }
 .axiom2 {
   height: 681px;
-  background: url(/images/landing/bg/axiom/bg_page1_02.jpg) center center
+  background: url(/images/landing/bg/axiom/bg_page1_02.webp) center center
     no-repeat;
 }
 @media (max-width: 1200px) {
   .axiom2 {
-    background: url(/images/product/axiom/landing/adaptive/axiom2_bg.jpg) center
+    background: url(/images/product/axiom/landing/adaptive/axiom2_bg.webp) center
       center no-repeat;
   }
 }
@@ -7483,13 +7483,13 @@ section.block {
 }
 .axiom3 {
   height: 684px;
-  background: url(/images/product/axiom/landing/adaptive/slide_axiom_krukov.jpg)
+  background: url(/images/product/axiom/landing/adaptive/slide_axiom_krukov.webp)
     center center no-repeat;
   overflow: hidden;
 }
 @media (max-width: 1024px) {
   .axiom3 {
-    background: url(/images/product/axiom/landing/adaptive/axiom3_bg.jpg) center
+    background: url(/images/product/axiom/landing/adaptive/axiom3_bg.webp) center
       center no-repeat;
   }
 }
@@ -7592,12 +7592,12 @@ section.block {
   height: 679px;
   font-family: PTSans, sans-serif;
   overflow: hidden;
-  background: url(/images/landing/slider/slide_axiom_line.jpg) center center
+  background: url(/images/landing/slider/slide_axiom_line.webp) center center
     no-repeat;
 }
 @media (max-width: 1200px) {
   .axiom4 {
-    background: url(/images/product/axiom/landing/adaptive/axiom4_bg.jpg) center
+    background: url(/images/product/axiom/landing/adaptive/axiom4_bg.webp) center
       center no-repeat;
   }
 }
@@ -8320,7 +8320,7 @@ section.block {
   width: 19px;
   height: 36px;
   margin: 0 0 0 2px;
-  background: url(../images/landing/src/sign_usd.png) 0 0 no-repeat;
+  background: url(../images/landing/src/sign_usd.webp) 0 0 no-repeat;
 }
 .axiom10__text {
   font-family: PTSans, sans-serif;
@@ -8498,7 +8498,7 @@ section.block {
   width: 467px;
   height: 168px;
   float: right;
-  background: url(/images/product/axiom/landing/adaptive/fact-bcg.png) center
+  background: url(/images/product/axiom/landing/adaptive/fact-bcg.webp) center
     center no-repeat;
 }
 @media (max-width: 960px) {
@@ -8822,7 +8822,7 @@ section.block {
   height: 683px;
   font-family: PTSans, sans-serif;
   overflow: hidden;
-  background: url(/images/product/axiom/landing/adaptive/axiom13_bg.jpg) center
+  background: url(/images/product/axiom/landing/adaptive/axiom13_bg.webp) center
     center no-repeat;
 }
 @media (max-width: 450px) {
@@ -9586,14 +9586,14 @@ section.block {
 .axiom_touch {
   font: 20px/1.2 PTSans, sans-serif;
   color: #fff;
-  background: url(/images/product/axiom/landing/screen_touch.jpg) center top;
+  background: url(/images/product/axiom/landing/screen_touch.webp) center top;
   background-size: cover;
   max-width: 1920px;
   margin: auto;
 }
 .axiom_touch .block__inner {
   min-height: 850px;
-  background: url(/images/product/axiom/landing/screen_touch_element.png) left
+  background: url(/images/product/axiom/landing/screen_touch_element.webp) left
     top no-repeat;
   background-size: contain;
 }
@@ -9675,7 +9675,7 @@ section.block {
   padding-left: 20px;
   height: 62px;
   margin: 60px 0 35px 0;
-  background: url(/images/product/axiom/landing/screen_touch_price.png) center
+  background: url(/images/product/axiom/landing/screen_touch_price.webp) center
     center no-repeat;
   text-align: center;
   font: 34px/58px PTSansNarrow, sans-serif;
@@ -10076,7 +10076,7 @@ section.block {
 .axiom20__video-block {
   width: 559px;
   height: 337px;
-  background: url(/images/product/axiom/landing/adaptive/axiom20_video-border.png)
+  background: url(/images/product/axiom/landing/adaptive/axiom20_video-border.webp)
     center center no-repeat;
   float: right;
   margin-top: 200px;
@@ -10926,14 +10926,14 @@ section.block {
   }
 }
 .axiom26 {
-  background: url(/images/landing/bg/axiom/bg_page3_02.jpg) center center
+  background: url(/images/landing/bg/axiom/bg_page3_02.webp) center center
     no-repeat;
   height: 1632px;
   overflow: hidden;
 }
 @media (max-width: 960px) {
   .axiom26 {
-    background: url(/images/product/axiom/landing/adaptive/screen1.jpg) center
+    background: url(/images/product/axiom/landing/adaptive/screen1.webp) center
       center no-repeat;
     background-size: cover !important;
     height: auto;
@@ -11214,7 +11214,7 @@ section.block {
 .axiom27 {
   overflow: hidden;
   padding-bottom: 60px;
-  background: url(/images/product/axiom/landing/adaptive/axiom27_bg.jpg) center
+  background: url(/images/product/axiom/landing/adaptive/axiom27_bg.webp) center
     center no-repeat;
   background-size: cover !important;
 }
@@ -11312,7 +11312,7 @@ section.block {
 .pro24__block {
   margin: auto;
   float: left;
-  background: url(/images/product/axiom/landing/24pro_line.png) center 12px
+  background: url(/images/product/axiom/landing/24pro_line.webp) center 12px
     no-repeat;
   width: 540px;
   min-height: 165px;
@@ -11352,11 +11352,11 @@ section.block {
 }
 .axiom28 {
   height: 842px;
-  background: url(/images/landing/bg/axiom/axiom28.jpg) center center no-repeat;
+  background: url(/images/landing/bg/axiom/axiom28.webp) center center no-repeat;
 }
 @media (max-width: 1200px) {
   .axiom28 {
-    background: url(/images/product/axiom/landing/adaptive/axiom28_bg.jpg)
+    background: url(/images/product/axiom/landing/adaptive/axiom28_bg.webp)
       center center no-repeat;
   }
 }
@@ -11693,7 +11693,7 @@ section.block {
 @media (max-width: 1200px) {
   .axiom-top {
     height: auto;
-    background: url(../images/landing/bg/axiom/axiom_01.jpg) top center
+    background: url(../images/landing/bg/axiom/axiom_01.webp) top center
       no-repeat;
     background-size: cover;
   }
@@ -11989,14 +11989,14 @@ section.block {
   display: inline;
 }
 .slick-next {
-  background: url(../images/landing/src/arrow_gray_big_right.png) no-repeat;
+  background: url(../images/landing/src/arrow_gray_big_right.webp) no-repeat;
   right: -10px;
   top: 50%;
   bottom: 50%;
   margin: auto;
 }
 .slick-prev {
-  background: url(../images/landing/src/arrow_gray_big_left.png) no-repeat;
+  background: url(../images/landing/src/arrow_gray_big_left.webp) no-repeat;
   left: -10px;
   top: 0;
   bottom: 0;
@@ -12076,7 +12076,7 @@ section.block {
 .ax-review {
   font-family: PTSans, sans-serif;
   height: 685px;
-  background-image: url(/images/product/axiom/landing/ax-review.jpg);
+  background-image: url(/images/product/axiom/landing/ax-review.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12211,7 +12211,7 @@ section.block {
   max-width: 1920px;
   margin-top: -1px;
   overflow: hidden;
-  background: url(../images/product/axiom/landing/axiom-app-bg.jpg) no-repeat;
+  background: url(../images/product/axiom/landing/axiom-app-bg.webp) no-repeat;
   height: 714px;
 }
 .axiom-ya-6000-app__block-inner {
@@ -12446,7 +12446,7 @@ section.block {
 .star_reviews__block .star_reviews__lefttext .star_reviews__readme {
   display: block;
   padding: 110px 0 160px 264px;
-  background: url(../images/landing/star_reviews/readme.png) no-repeat;
+  background: url(../images/landing/star_reviews/readme.webp) no-repeat;
   background-position-y: 5px;
   background-position-x: 66px;
   background-size: 253px;
@@ -12486,7 +12486,7 @@ section.block {
   right: 0;
   width: 1050px;
   height: 167px;
-  background: url(../images/landing/star_reviews/captoin_bg.png) no-repeat;
+  background: url(../images/landing/star_reviews/captoin_bg.webp) no-repeat;
 }
 .semenovich-slide .star_reviews__singulare {
   width: 300px;
@@ -12497,23 +12497,23 @@ section.block {
   z-index: 1;
 }
 .star_reviews6 {
-  background: url(../images/landing/star_reviews/volosojar.jpg) no-repeat center
+  background: url(../images/landing/star_reviews/volosojar.webp) no-repeat center
     bottom;
 }
 .star_reviews11 {
-  background: url(../images/landing/star_reviews/krukov.jpg) no-repeat center
+  background: url(../images/landing/star_reviews/krukov.webp) no-repeat center
     bottom;
 }
 .star_reviews9 {
-  background: url(../images/landing/star_reviews/tokarev.jpg) no-repeat center
+  background: url(../images/landing/star_reviews/tokarev.webp) no-repeat center
     bottom;
 }
 .star_reviews8 {
-  background: url(../images/landing/star_reviews/sadalskiy.jpg) no-repeat center
+  background: url(../images/landing/star_reviews/sadalskiy.webp) no-repeat center
     bottom;
 }
 .star_reviews10 {
-  background: url(../images/landing/star_reviews/semenovich.jpg) no-repeat
+  background: url(../images/landing/star_reviews/semenovich.webp) no-repeat
     center bottom;
 }
 @media (max-width: 1700px) {
@@ -12570,7 +12570,7 @@ section.block {
     display: none;
   }
   .whiteblock {
-    background: url(../images/landing/star_reviews/s-r_bg.jpg);
+    background: url(../images/landing/star_reviews/s-r_bg.webp);
     background-size: cover;
     height: 580px;
   }
@@ -13193,7 +13193,7 @@ section.block {
 }
 .axiom-b8 {
   height: 657px;
-  background: url(../images/landing/bg/axiom-black/axiom-b_08.jpg) no-repeat
+  background: url(../images/landing/bg/axiom-black/axiom-b_08.webp) no-repeat
     center;
   background-size: auto, cover;
   font-family: PTSans, sans-serif;
@@ -13852,7 +13852,7 @@ section.block {
   max-width: 1920px;
   margin-top: -1px;
   overflow: hidden;
-  background: url(../images/product/axiom-black/landing/axiom-black-app.jpg)
+  background: url(../images/product/axiom-black/landing/axiom-black-app.webp)
     no-repeat;
   height: 658px;
 }
@@ -14324,10 +14324,10 @@ section.block {
   margin: 0 5px 5px 0;
 }
 .axiom-c5__iphone {
-  background: url(../images/landing/src/btn_app_store.png) 0 0 no-repeat;
+  background: url(../images/landing/src/btn_app_store.webp) 0 0 no-repeat;
 }
 .axiom-c5__android {
-  background: url(../images/landing/src/btn_google_play.png) 0 0 no-repeat;
+  background: url(../images/landing/src/btn_google_play.webp) 0 0 no-repeat;
 }
 .axiom-c5__text {
   margin: 14px 0 0 0;
@@ -14390,7 +14390,7 @@ section.block {
 }
 @media (max-width: 1024px) {
   .axiom-c6 {
-    background-image: url(../../images/landing/bg/axiom-chrome/axiom-c_06-2.jpg) !important;
+    background-image: url(../../images/landing/bg/axiom-chrome/axiom-c_06-2.webp) !important;
     background-size: cover;
     height: auto;
   }
@@ -14597,7 +14597,7 @@ section.block {
 }
 .axiom-c11 {
   height: 657px;
-  background: url(../images/landing/bg/axiom-chrome/axiom-c_11.jpg) no-repeat
+  background: url(../images/landing/bg/axiom-chrome/axiom-c_11.webp) no-repeat
     center;
   background-size: auto, cover;
   font-family: PTSans, sans-serif;
@@ -15059,7 +15059,7 @@ section.block {
 .axiom-chr-app {
   max-width: 1920px;
   overflow: hidden;
-  background: url(../images/product/axiom-chrome/landing/chrome-app-bg.jpg)
+  background: url(../images/product/axiom-chrome/landing/chrome-app-bg.webp)
     no-repeat;
   height: 712px;
 }
@@ -15224,19 +15224,19 @@ section.block {
 .b-product--champ .slick-next {
   width: 20px;
   height: 34px;
-  background: url(../images/landing/src/arrow_trans_white_br_m_right.png)
+  background: url(../images/landing/src/arrow_trans_white_br_m_right.webp)
     no-repeat;
 }
 .b-product--champ .slick-prev {
   width: 20px;
   height: 34px;
-  background: url(../images/landing/src/arrow_trans_white_br_m_left.png)
+  background: url(../images/landing/src/arrow_trans_white_br_m_left.webp)
     no-repeat;
 }
 .axiom-champ1 {
   height: 416px;
   overflow: hidden;
-  background: url(/images/product/axiom-champagne/landing/screen_champ1.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champ1.webp)
     center center no-repeat;
   font-family: PTSans, sans-serif;
   color: #684826;
@@ -15372,7 +15372,7 @@ section.block {
 }
 .champ-top {
   height: 852px;
-  background: url(../images/product/axiom-champagne/landing/screen1.jpg) top
+  background: url(../images/product/axiom-champagne/landing/screen1.webp) top
     center no-repeat;
   overflow: hidden;
 }
@@ -15774,7 +15774,7 @@ section.block {
   }
 }
 .axiom-champ11 .axiom11__round-img-group {
-  background: url(/images/product/axiom-champagne/landing/fact.png) center
+  background: url(/images/product/axiom-champagne/landing/fact.webp) center
     center no-repeat;
 }
 @media (max-width: 450px) {
@@ -15806,13 +15806,13 @@ section.block {
   line-height: 1;
 }
 .axiom-champ13 {
-  background: url(/images/product/axiom-champagne/landing/axiom_13.jpg) center
+  background: url(/images/product/axiom-champagne/landing/axiom_13.webp) center
     center no-repeat;
   background-size: cover !important;
   overflow: hidden;
 }
 .axiom-champ13 .pro24__block {
-  background: url(/images/product/axiom/landing/24pro_line_white.png) center
+  background: url(/images/product/axiom/landing/24pro_line_white.webp) center
     12px no-repeat;
 }
 .axiom-champ13 .pro24__title {
@@ -15847,7 +15847,7 @@ section.block {
 }
 .axiom-champ4 {
   height: 871px;
-  background: url(/images/product/axiom-champagne/landing/axiom_13.jpg) center
+  background: url(/images/product/axiom-champagne/landing/axiom_13.webp) center
     bottom no-repeat;
   overflow: hidden;
 }
@@ -15861,7 +15861,7 @@ section.block {
   position: absolute;
   width: 638px;
   height: 107px;
-  background: url(/images/product/axiom-champagne/landing/axiom_4-title.png)
+  background: url(/images/product/axiom-champagne/landing/axiom_4-title.webp)
     center center no-repeat;
   top: 70px;
   left: 31.9%;
@@ -15928,7 +15928,7 @@ section.block {
 }
 .axiom-champ5 {
   height: 534px;
-  background: url(/images/product/axiom-champagne/landing/screen_champ5.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champ5.webp)
     center center no-repeat;
   font-family: PTSans, sans-serif;
 }
@@ -15997,7 +15997,7 @@ section.block {
 }
 .axiom-champ6 {
   height: 833px;
-  background: url(/images/product/axiom-champagne/landing/screen_champ6.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champ6.webp)
     center center no-repeat;
   font-family: PTSans, sans-serif;
 }
@@ -16092,7 +16092,7 @@ section.block {
 }
 .axiom-champ7 {
   height: 731px;
-  background: url(/images/product/axiom-champagne/landing/screen_champ7.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champ7.webp)
     center center no-repeat;
   font-family: PTSans, sans-serif;
 }
@@ -16246,7 +16246,7 @@ section.block {
   height: 868px;
   font-family: PTSans, sans-serif;
   background: #070708
-    url(/images/product/axiom-champagne/landing/screen_champ8.jpg) center top
+    url(/images/product/axiom-champagne/landing/screen_champ8.webp) center top
     no-repeat;
 }
 @media (max-width: 1024px) {
@@ -16335,7 +16335,7 @@ section.block {
   display: block;
 }
 .axiom2--champ {
-  background: #080808 url(/images/product/axiom-champagne/landing/screen8.jpg)
+  background: #080808 url(/images/product/axiom-champagne/landing/screen8.webp)
     top center no-repeat;
 }
 @media (max-width: 780px) {
@@ -16428,7 +16428,7 @@ section.block {
   height: 772px;
   overflow: hidden;
   font-family: PTSans, sans-serif;
-  background: url(/images/product/axiom-champagne/landing/axiom_7.jpg) center
+  background: url(/images/product/axiom-champagne/landing/axiom_7.webp) center
     center no-repeat;
 }
 @media (min-width: 2100px) {
@@ -16445,7 +16445,7 @@ section.block {
 }
 @media (max-width: 1024px) {
   .axiom-champ3 {
-    background: url(/images/product/axiom-champagne/landing/axiom_7-2.jpg)
+    background: url(/images/product/axiom-champagne/landing/axiom_7-2.webp)
       center center no-repeat;
   }
 }
@@ -16608,7 +16608,7 @@ section.block {
 }
 .axiom-champ3_1 {
   height: 356px;
-  background: url(/images/product/axiom-champagne/landing/screen_champ3_1.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champ3_1.webp)
     center center no-repeat;
   font-family: PTSans, sans-serif;
 }
@@ -16856,7 +16856,7 @@ section.block {
 }
 .axiom-champ26 {
   height: 782px;
-  background: url(/images/product/axiom-champagne/landing/screen_champ26.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champ26.webp)
     center center no-repeat;
   overflow: hidden;
 }
@@ -17018,7 +17018,7 @@ section.block {
   left: 0;
   bottom: 0;
   margin: auto;
-  background: url(/images/product/axiom-champagne/landing/axiom_26-chair.png)
+  background: url(/images/product/axiom-champagne/landing/axiom_26-chair.webp)
     center center no-repeat;
 }
 @media (max-width: 1024px) {
@@ -17087,7 +17087,7 @@ section.block {
   font-family: PTSans, sans-serif;
 }
 .axiom-champ13 {
-  background: url(/images/product/axiom-champagne/landing/screen_champ13.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champ13.webp)
     center center no-repeat;
   font-family: PTSans, sans-serif;
 }
@@ -17222,7 +17222,7 @@ section.block {
   justify-content: space-around;
 }
 .axiom-champ13__item {
-  background-image: url(/images/landing/bg/axiom/types-line.png);
+  background-image: url(/images/landing/bg/axiom/types-line.webp);
   background-repeat: no-repeat;
   background-position: -5px 60px;
   position: relative;
@@ -17230,7 +17230,7 @@ section.block {
   width: 180px;
 }
 .axiom-champ13__h4 {
-  background-image: url(/images/product/axiom-champagne/landing/msg-type.png);
+  background-image: url(/images/product/axiom-champagne/landing/msg-type.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -17260,7 +17260,7 @@ section.block {
   bottom: 0;
 }
 .axiom-champ13__type {
-  background-image: url(/images/product/axiom-champagne/landing/msg-types.png);
+  background-image: url(/images/product/axiom-champagne/landing/msg-types.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -17288,7 +17288,7 @@ section.block {
   }
 }
 .axiom-champ14 {
-  background: url(/images/product/axiom-champagne/landing/screen_champ14.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champ14.webp)
     top center no-repeat;
   padding-bottom: 40px;
   height: 615px;
@@ -17399,7 +17399,7 @@ section.block {
   }
 }
 .axiom-champ_gabarit {
-  background: url(/images/product/axiom-champagne/landing/screen_champ15.jpg);
+  background: url(/images/product/axiom-champagne/landing/screen_champ15.webp);
   height: 693px;
   background-size: cover;
   color: #000;
@@ -17425,7 +17425,7 @@ section.block {
 }
 .axiom-champ__bottom {
   height: 525px;
-  background: url(/images/product/axiom-champagne/landing/screen_champBottom.jpg)
+  background: url(/images/product/axiom-champagne/landing/screen_champBottom.webp)
     center center no-repeat;
   font-family: PTSans, sans-serif;
 }
@@ -17525,7 +17525,7 @@ section.block {
 .axiom-chp-app {
   max-width: 1920px;
   overflow: hidden;
-  background: url(../images/product/axiom-champagne/landing/chamgagne-app-bg.jpg)
+  background: url(../images/product/axiom-champagne/landing/chamgagne-app-bg.webp)
     no-repeat;
   height: 714px;
 }
@@ -17668,16 +17668,16 @@ section.block {
 }
 .axiom-top {
   height: 1040px;
-  background: url(../images/landing/bg/axiom/axiom_01.jpg) top center no-repeat;
+  background: url(../images/landing/bg/axiom/axiom_01.webp) top center no-repeat;
 }
 .champ-top {
   height: 1015px;
-  background: url(../images/landing/bg/champ/champ_01.jpg) top center no-repeat;
+  background: url(../images/landing/bg/champ/champ_01.webp) top center no-repeat;
   overflow: hidden;
 }
 .gold-top {
   height: 1017px;
-  background: url(../images/landing/bg/gold/gold_01.jpg) top center no-repeat;
+  background: url(../images/landing/bg/gold/gold_01.webp) top center no-repeat;
   overflow: hidden;
 }
 .axiom1 {
@@ -17902,13 +17902,13 @@ section.block {
 }
 .axiom3 {
   height: 684px;
-  background: url(/images/product/axiom/landing/adaptive/slide_axiom_krukov.jpg)
+  background: url(/images/product/axiom/landing/adaptive/slide_axiom_krukov.webp)
     center center no-repeat;
   overflow: hidden;
 }
 @media (max-width: 1024px) {
   .axiom3 {
-    background: url(/images/product/axiom/landing/adaptive/axiom3_bg.jpg) center
+    background: url(/images/product/axiom/landing/adaptive/axiom3_bg.webp) center
       center no-repeat;
   }
 }
@@ -18008,7 +18008,7 @@ section.block {
 .axiom4 {
   height: 683px;
   font-family: PTSans, sans-serif;
-  background: url(/images/landing/slider/slide_axiom_line.jpg) center center
+  background: url(/images/landing/slider/slide_axiom_line.webp) center center
     no-repeat;
 }
 .axiom4__y {
@@ -18279,7 +18279,7 @@ section.block {
   width: 19px;
   height: 36px;
   margin: 0 0 0 2px;
-  background: url(../images/landing/src/sign_usd.png) 0 0 no-repeat;
+  background: url(../images/landing/src/sign_usd.webp) 0 0 no-repeat;
 }
 .axiom10__text {
   position: absolute;
@@ -19153,7 +19153,7 @@ section.block {
 @media (max-width: 1200px) {
   .axiom-top {
     height: auto;
-    background: url(../images/landing/bg/axiom/axiom_01.jpg) top center
+    background: url(../images/landing/bg/axiom/axiom_01.webp) top center
       no-repeat;
     background-size: cover;
   }
@@ -20212,7 +20212,7 @@ section.block {
 @media all and (max-width: 1099px) {
   .axiom14 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom14_bg.jpg) top center
+    background: url(/images/axiom/landing/adaptive/axiom14_bg.webp) top center
       no-repeat !important;
     background-size: cover !important;
   }
@@ -20690,7 +20690,7 @@ section.block {
     width: 10px;
     height: 18px;
     margin: 0 0 0 2px;
-    background: url(../images/landing/src/sign_usd.png) 0 0 no-repeat;
+    background: url(../images/landing/src/sign_usd.webp) 0 0 no-repeat;
     background-size: cover;
   }
   .axiom10__text {
@@ -21002,7 +21002,7 @@ section.block {
     display: none;
   }
   .axiom11 .block__inner {
-    background: url(/images/axiom/landing/adaptive/axiom11_bg.jpg) 0 0 no-repeat;
+    background: url(/images/axiom/landing/adaptive/axiom11_bg.webp) 0 0 no-repeat;
     background-size: cover;
     float: left;
   }
@@ -21040,7 +21040,7 @@ section.block {
     width: 100%;
     padding: 40px 10px 10px;
     box-sizing: border-box;
-    background: url(/images/axiom/landing/adaptive/axiom11_text-background.png)
+    background: url(/images/axiom/landing/adaptive/axiom11_text-background.webp)
       50% 0 no-repeat;
     background-size: cover;
   }
@@ -21166,7 +21166,7 @@ section.block {
 }
 @media all and (max-width: 639px) {
   .axiom11 .block__inner {
-    background: url(/images/axiom/landing/adaptive/axiom11_bg-mc.jpg) 0 0
+    background: url(/images/axiom/landing/adaptive/axiom11_bg-mc.webp) 0 0
       no-repeat;
     background-size: contain;
   }
@@ -21217,7 +21217,7 @@ section.block {
     box-sizing: border-box;
     font-size: 12px;
     line-height: 12px;
-    background: url(/images/axiom/landing/adaptive/axiom11_text-background.png)
+    background: url(/images/axiom/landing/adaptive/axiom11_text-background.webp)
       50% 0 no-repeat;
     background-size: cover;
   }
@@ -21300,7 +21300,7 @@ section.block {
   .price-circle--red {
     width: 33%;
     height: auto;
-    background: url(../images/landing/src/price_sticker.png) 100% 50% no-repeat;
+    background: url(../images/landing/src/price_sticker.webp) 100% 50% no-repeat;
     background-size: contain;
     text-align: right;
   }
@@ -21466,7 +21466,7 @@ section.block {
 @media all and (max-width: 1100px) {
   .axiom15 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom15_bg.jpg) top center
+    background: url(/images/axiom/landing/adaptive/axiom15_bg.webp) top center
       no-repeat !important;
     background-size: cover !important;
   }
@@ -21657,7 +21657,7 @@ section.block {
 @media all and (max-width: 1099px) {
   .axiom16 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom16_bg.jpg) top center
+    background: url(/images/axiom/landing/adaptive/axiom16_bg.webp) top center
       no-repeat !important;
     background-size: cover !important;
   }
@@ -22373,7 +22373,7 @@ section.block {
 @media all and (max-width: 1099px) {
   .axiom20 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom20_bg.jpg) top center
+    background: url(/images/axiom/landing/adaptive/axiom20_bg.webp) top center
       no-repeat !important;
     background-size: contain;
   }
@@ -22490,7 +22490,7 @@ section.block {
   }
   .axiom20__desc {
     width: 100%;
-    background: #fff url(/images/axiom/landing/adaptive/axiom20_bg.jpg) 0 0
+    background: #fff url(/images/axiom/landing/adaptive/axiom20_bg.webp) 0 0
       no-repeat;
     background-size: cover;
     text-align: left;
@@ -22713,7 +22713,7 @@ section.block {
 @media all and (max-width: 1099px) {
   .axiom22 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom22_bg.jpg) top center
+    background: url(/images/axiom/landing/adaptive/axiom22_bg.webp) top center
       no-repeat !important;
     background-size: cover !important;
   }
@@ -23046,7 +23046,7 @@ section.block {
 @media all and (max-width: 1099px) {
   .axiom23 {
     height: auto;
-    background: #6c6b6c url(/images/axiom/landing/adaptive/axiom23_bg.jpg) top
+    background: #6c6b6c url(/images/axiom/landing/adaptive/axiom23_bg.webp) top
       center no-repeat !important;
     background-size: cover !important;
   }
@@ -23221,7 +23221,7 @@ section.block {
 }
 @media all and (max-width: 639px) {
   .axiom23 {
-    background: #6c6b6c url(/images/axiom/landing/adaptive/axiom23_bg.jpg) top
+    background: #6c6b6c url(/images/axiom/landing/adaptive/axiom23_bg.webp) top
       center no-repeat !important;
   }
   .axiom23 .block__inner {
@@ -23298,7 +23298,7 @@ section.block {
 @media all and (max-width: 1100px) {
   .axiom24 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom24_bg.jpg) top center
+    background: url(/images/axiom/landing/adaptive/axiom24_bg.webp) top center
       no-repeat !important;
     background-size: cover !important;
   }
@@ -23492,7 +23492,7 @@ section.block {
 @media all and (max-width: 1099px) {
   .axiom26 {
     height: auto;
-    background: #fff url(/images/axiom/landing/adaptive/axiom26_bg.jpg) top
+    background: #fff url(/images/axiom/landing/adaptive/axiom26_bg.webp) top
       center no-repeat !important;
     background-size: cover !important;
   }
@@ -24286,7 +24286,7 @@ section.block {
 }
 .gold-top {
   height: 1017px;
-  background: url(../images/product/axiom-gold/landing/screen1.jpg) top center
+  background: url(../images/product/axiom-gold/landing/screen1.webp) top center
     no-repeat;
   overflow: hidden;
 }
@@ -24301,13 +24301,13 @@ section.block {
   right: 0;
   width: 34px;
   height: 100%;
-  background: url(../images/landing/src/arrow_gold_right.png) no-repeat;
+  background: url(../images/landing/src/arrow_gold_right.webp) no-repeat;
 }
 .gold-top .slick-prev {
   left: 0;
   width: 53px;
   height: 100%;
-  background: url(../images/landing/src/arrow_gold_left.png) no-repeat;
+  background: url(../images/landing/src/arrow_gold_left.webp) no-repeat;
 }
 .gold-top .b-product__ontime-box {
   margin-left: 18px;
@@ -24424,7 +24424,7 @@ section.block {
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  background: url(../images/landing/health-tech/for-chair_bg.jpg) center
+  background: url(../images/landing/health-tech/for-chair_bg.webp) center
     center/cover no-repeat;
 }
 @media all and (max-width: 1023px) and (max-width: 767px) {
@@ -24607,7 +24607,7 @@ section.block {
   -webkit-tap-highlight-color: transparent;
 }
 .grabbing {
-  cursor: url(../images/owl_grabbing.png) 8 8, move;
+  cursor: url(../images/owl_grabbing.webp) 8 8, move;
 }
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {

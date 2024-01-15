@@ -4,6 +4,11 @@
  */
 
 
+/** OneOf type helpers */
+type Without<T, U> = { [P in Exclude<keyof T, keyof U>]?: never };
+type XOR<T, U> = (T | U) extends object ? (Without<T, U> & U) | (Without<U, T> & T) : T | U;
+type OneOf<T extends any[]> = T extends [infer Only] ? Only : T extends [infer A, infer B, ...infer Rest] ? OneOf<[XOR<A, B>, ...Rest]> : never;
+
 export interface paths {
   "/api/": {
   };
@@ -1146,7 +1151,7 @@ export interface components {
       /** @description property meta-тега */
       property: string | null;
     };
-    /** Seo страницы */
+    /** Seo страницы без мета-тегов */
     SeoSchema: {
       /**
        * @description Внутренний ID записи на сайте
@@ -1155,7 +1160,7 @@ export interface components {
       id: number;
       /**
        * @description URL страницы
-       * @example evolution.php
+       * @example aksessuari-i-gadjeti
        */
       url: string | null;
       /**
@@ -1174,25 +1179,55 @@ export interface components {
        */
       description: string | null;
       /**
-       * @description ID сущности, с которой связана запись
-       * @example 10
+       * @description Статус: опубликован - не опубликован
+       * @example 1
        */
-      seoble_id: number | null;
-      /**
-       * @description Тип сущности, с которой связана запись
-       * @example App\\Models\\Article
-       */
-      seoble_type: string | null;
-      /** @example article/site/view */
-      route: string | null;
-      /** @example 1 */
       status: number | null;
-      /** @example priceMin=25000&priceMax=1500000&attr%5B133%5D=133&filter=1 */
-      params_for_filter: string | null;
-      /** @example /aksessuari-i-gadjeti */
+      /**
+       * @description Canonical страницы
+       * @example /aksessuari-i-gadjeti
+       */
       canonical: string | null;
-      /** @example 1 */
-      no_index_search_results: number | null;
+    };
+    /** Seo страницы с мета-тегами */
+    SeoWithMetaSchema: {
+      /**
+       * @description Внутренний ID записи на сайте
+       * @example 189
+       */
+      id: number;
+      /**
+       * @description URL страницы
+       * @example aksessuari-i-gadjeti
+       */
+      url: string | null;
+      /**
+       * @description Заголовок страницы
+       * @example Массажные кресла - перспективы технологической эволюции
+       */
+      title: string | null;
+      /**
+       * @description Ключевые слова
+       * @example статья, массажные кресла, эволюция
+       */
+      keywords: string | null;
+      /**
+       * @description Description страницы
+       * @example на протяжении последний десятилетий массажные кресла стали эволюционным прорыров в области автоматизированных массажистов
+       */
+      description: string | null;
+      /**
+       * @description Статус: опубликован - не опубликован
+       * @example 1
+       */
+      status: number | null;
+      /**
+       * @description Canonical страницы
+       * @example /aksessuari-i-gadjeti
+       */
+      canonical: string | null;
+      /** @description Мета-теги */
+      meta: components["schemas"]["SeoMetaSchema"][] | null;
     };
   };
   responses: never;
@@ -2070,6 +2105,11 @@ export interface operations {
                  * @example Электрические массажеры
                  */
                 category: string | null;
+                /**
+                 * @description ID категории
+                 * @example 193
+                 */
+                category_id: number | null;
                 /** @description Количество (МСК) */
                 qnt: ({
                   /**
@@ -4005,11 +4045,32 @@ export interface operations {
                */
               page_type: "main" | "category" | "page" | "product" | "redirect" | null;
               /** @description Хлебные крошки */
-              breadcrumbs: unknown[][];
+              breadcrumbs: ({
+                  /**
+                   * @description Название
+                   * @example Главная
+                   */
+                  name: string;
+                  /**
+                   * @description Ссылка
+                   * @example https://www.yamaguchi.ru/
+                   */
+                  link: string | null;
+                })[];
               seo: {
                 title: string | null;
                 canonical: string | null;
-                meta?: unknown[][];
+                meta: OneOf<[{
+                    /** @example ya:type */
+                    property?: string;
+                    /** @example one_product */
+                    content?: string;
+                  }, {
+                    /** @example description */
+                    name?: string;
+                    /** @example Компактная беговая дорожка без поручней для дома Yamaguchi Runway-X купить в Москве */
+                    content?: string;
+                  }]>[];
               };
             };
           };

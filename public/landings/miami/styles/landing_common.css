@@ -2,104 +2,104 @@
 @font-face {
   font-family: PTSans;
   font-display: swap;
-  src: url(/fonts/PTSans.eot);
-  src: url(/fonts/PTSans.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/PTSans.woff2) format('woff2'),
-    url(/fonts/PTSans.woff) format('woff'),
-    url(/fonts/PTSans.ttf) format('truetype'),
-    url(/fonts/PTSans.svg#PTSans) format('svg');
+  src: url(/landings/miami/fonts/PTSans.eot);
+  src: url(/landings/miami/fonts/PTSans.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/PTSans.woff2) format('woff2'),
+    url(/landings/miami/fonts/PTSans.woff) format('woff'),
+    url(/landings/miami/fonts/PTSans.ttf) format('truetype'),
+    url(/landings/miami/fonts/PTSans.svg#PTSans) format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: PTSans;
   font-display: swap;
-  src: url(/fonts/PTSansBold.eot);
-  src: url(/fonts/PTSansBold.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/PTSansBold.woff2) format('woff2'),
-    url(/fonts/PTSansBold.woff) format('woff'),
-    url(/fonts/PTSansBold.ttf) format('truetype'),
-    url(/fonts/PTSansBold.svg#PTSans) format('svg');
+  src: url(/landings/miami/fonts/PTSansBold.eot);
+  src: url(/landings/miami/fonts/PTSansBold.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/PTSansBold.woff2) format('woff2'),
+    url(/landings/miami/fonts/PTSansBold.woff) format('woff'),
+    url(/landings/miami/fonts/PTSansBold.ttf) format('truetype'),
+    url(/landings/miami/fonts/PTSansBold.svg#PTSans) format('svg');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: PTSans;
   font-display: swap;
-  src: url(/fonts/PTSansItalic.ttf) format('truetype');
-  src: url(/fonts/PTSansItalic.woff2) format('woff2'),
-    url(/fonts/PTSansItalic.woff) format('woff');
+  src: url(/landings/miami/fonts/PTSansItalic.ttf) format('truetype');
+  src: url(/landings/miami/fonts/PTSansItalic.woff2) format('woff2'),
+    url(/landings/miami/fonts/PTSansItalic.woff) format('woff');
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: PTSansNarrow;
   font-display: swap;
-  src: url(/fonts/PTSansNarrow.eot);
-  src: url(/fonts/PTSansNarrow.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/PTSansNarrow.woff2) format('woff2'),
-    url(/fonts/PTSansNarrow.woff) format('woff'),
-    url(/fonts/PTSansNarrow.ttf) format('truetype'),
-    url(/fonts/PTSansNarrow.svg#PTSansNarrow) format('svg');
+  src: url(/landings/miami/fonts/PTSansNarrow.eot);
+  src: url(/landings/miami/fonts/PTSansNarrow.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/PTSansNarrow.woff2) format('woff2'),
+    url(/landings/miami/fonts/PTSansNarrow.woff) format('woff'),
+    url(/landings/miami/fonts/PTSansNarrow.ttf) format('truetype'),
+    url(/landings/miami/fonts/PTSansNarrow.svg#PTSansNarrow) format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: PTSansNarrow;
   font-display: swap;
-  src: url(/fonts/PTSansNarrowBold.eot);
-  src: url(/fonts/PTSansNarrowBold.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/PTSansNarrowBold.woff2) format('woff2'),
-    url(/fonts/PTSansNarrowBold.woff) format('woff'),
-    url(/fonts/PTSansNarrowBold.ttf) format('truetype'),
-    url(/fonts/PTSansNarrowBold.svg#PTSansNarrow) format('svg');
+  src: url(/landings/miami/fonts/PTSansNarrowBold.eot);
+  src: url(/landings/miami/fonts/PTSansNarrowBold.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/PTSansNarrowBold.woff2) format('woff2'),
+    url(/landings/miami/fonts/PTSansNarrowBold.woff) format('woff'),
+    url(/landings/miami/fonts/PTSansNarrowBold.ttf) format('truetype'),
+    url(/landings/miami/fonts/PTSansNarrowBold.svg#PTSansNarrow) format('svg');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: MyriadProLight;
-  src: url(/fonts/MyriadProLight.eot);
-  src: url(/fonts/MyriadProLight.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/MyriadProLight.woff) format('woff'),
-    url(/fonts/MyriadProLight.woff2) format('woff2'),
-    url(/fonts/MyriadProLight.ttf) format('truetype'),
-    url(/fonts/MyriadProLight.svg#MyriadProLight) format('svg');
+  src: url(/landings/miami/fonts/MyriadProLight.eot);
+  src: url(/landings/miami/fonts/MyriadProLight.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/MyriadProLight.woff) format('woff'),
+    url(/landings/miami/fonts/MyriadProLight.woff2) format('woff2'),
+    url(/landings/miami/fonts/MyriadProLight.ttf) format('truetype'),
+    url(/landings/miami/fonts/MyriadProLight.svg#MyriadProLight) format('svg');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Myriad Pro';
-  src: url(/fonts/MyriadPro.otf) format('opentype');
-  src: url(/fonts/MyriadPro.woff2) format('woff2'),
-    url(/fonts/MyriadPro.woff) format('woff');
+  src: url(/landings/miami/fonts/MyriadPro.otf) format('opentype');
+  src: url(/landings/miami/fonts/MyriadPro.woff2) format('woff2'),
+    url(/landings/miami/fonts/MyriadPro.woff) format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: MyriadProBold;
-  src: url(/fonts/MyriadProBold.otf) format('opentype');
-  src: url(/fonts/MyriadProBold.woff2) format('woff2'),
-    url(/fonts/MyriadProBold.woff) format('woff');
+  src: url(/landings/miami/fonts/MyriadProBold.otf) format('opentype');
+  src: url(/landings/miami/fonts/MyriadProBold.woff2) format('woff2'),
+    url(/landings/miami/fonts/MyriadProBold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: PragmaticaC;
-  src: url(/fonts/PTPragmaticaCyrillic.ttf) format('opentype');
-  src: url(/fonts/PTPragmaticaCyrillic.woff2) format('woff2'),
-    url(/fonts/PTPragmaticaCyrillic.woff) format('woff');
+  src: url(/landings/miami/fonts/PTPragmaticaCyrillic.ttf) format('opentype');
+  src: url(/landings/miami/fonts/PTPragmaticaCyrillic.woff2) format('woff2'),
+    url(/landings/miami/fonts/PTPragmaticaCyrillic.woff) format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: PragmaticaC;
-  src: url(/fonts/PTPragmaticaBoldCyrillic.ttf) format('opentype');
-  src: url(/fonts/PTPragmaticaBoldCyrillic.woff2) format('woff2'),
-    url(/fonts/PTPragmaticaBoldCyrillic.woff) format('woff');
+  src: url(/landings/miami/fonts/PTPragmaticaBoldCyrillic.ttf) format('opentype');
+  src: url(/landings/miami/fonts/PTPragmaticaBoldCyrillic.woff2) format('woff2'),
+    url(/landings/miami/fonts/PTPragmaticaBoldCyrillic.woff) format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -107,105 +107,105 @@
 @font-face {
   font-family: Circe;
   font-display: swap;
-  src: url(/fonts/Circe-Thin.eot);
-  src: url(/fonts/Circe-Thin.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/Circe-Thin.woff) format('woff'),
-    url(/fonts/Circe-Thin.woff2) format('woff2'),
-    url(/fonts/Circe-Thin.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Circe-Thin.eot);
+  src: url(/landings/miami/fonts/Circe-Thin.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/Circe-Thin.woff) format('woff'),
+    url(/landings/miami/fonts/Circe-Thin.woff2) format('woff2'),
+    url(/landings/miami/fonts/Circe-Thin.ttf) format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: Circe;
   font-display: swap;
-  src: url(/fonts/Circe-ExtraLight.eot);
-  src: url(/fonts/Circe-ExtraLight.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/Circe-ExtraLight.woff) format('woff'),
-    url(/fonts/Circe-ExtraLight.woff2) format('woff2'),
-    url(/fonts/Circe-ExtraLight.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Circe-ExtraLight.eot);
+  src: url(/landings/miami/fonts/Circe-ExtraLight.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/Circe-ExtraLight.woff) format('woff'),
+    url(/landings/miami/fonts/Circe-ExtraLight.woff2) format('woff2'),
+    url(/landings/miami/fonts/Circe-ExtraLight.ttf) format('truetype');
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: Circe;
   font-display: swap;
-  src: url(/fonts/Circe-Light.eot);
-  src: url(/fonts/Circe-Light.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/Circe-Light.woff) format('woff'),
-    url(/fonts/Circe-Light.woff2) format('woff2'),
-    url(/fonts/Circe-Light.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Circe-Light.eot);
+  src: url(/landings/miami/fonts/Circe-Light.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/Circe-Light.woff) format('woff'),
+    url(/landings/miami/fonts/Circe-Light.woff2) format('woff2'),
+    url(/landings/miami/fonts/Circe-Light.ttf) format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: Circe;
   font-display: swap;
-  src: url(/fonts/Circe-Regular.eot);
-  src: url(/fonts/Circe-Regular.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/Circe-Regular.woff) format('woff'),
-    url(/fonts/Circe-Regular.woff2) format('woff2'),
-    url(/fonts/Circe-Regular.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Circe-Regular.eot);
+  src: url(/landings/miami/fonts/Circe-Regular.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/Circe-Regular.woff) format('woff'),
+    url(/landings/miami/fonts/Circe-Regular.woff2) format('woff2'),
+    url(/landings/miami/fonts/Circe-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Circe;
   font-display: swap;
-  src: url(/fonts/Circe-Bold.eot);
-  src: url(/fonts/Circe-Bold.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/Circe-Bold.woff) format('woff'),
-    url(/fonts/Circe-Bold.woff2) format('woff2'),
-    url(/fonts/Circe-Bold.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Circe-Bold.eot);
+  src: url(/landings/miami/fonts/Circe-Bold.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/Circe-Bold.woff) format('woff'),
+    url(/landings/miami/fonts/Circe-Bold.woff2) format('woff2'),
+    url(/landings/miami/fonts/Circe-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Circe;
   font-display: swap;
-  src: url(/fonts/Circe-ExtraBold.eot);
-  src: url(/fonts/Circe-ExtraBold.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/Circe-ExtraBold.woff) format('woff'),
-    url(/fonts/Circe-ExtraBold.woff2) format('woff2'),
-    url(/fonts/Circe-ExtraBold.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Circe-ExtraBold.eot);
+  src: url(/landings/miami/fonts/Circe-ExtraBold.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/Circe-ExtraBold.woff) format('woff'),
+    url(/landings/miami/fonts/Circe-ExtraBold.woff2) format('woff2'),
+    url(/landings/miami/fonts/Circe-ExtraBold.ttf) format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: BebasNeue;
-  src: url(/fonts/bebasneuethin.woff2) format('woff2');
-  src: local('☺'), url(/fonts/bebasneuethin.woff) format('woff'),
-    url(/fonts/bebasneuethin.ttf) format('truetype');
+  src: url(/landings/miami/fonts/bebasneuethin.woff2) format('woff2');
+  src: local('☺'), url(/landings/miami/fonts/bebasneuethin.woff) format('woff'),
+    url(/landings/miami/fonts/bebasneuethin.ttf) format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: BebasNeue;
-  src: url(/fonts/bebasneuelight.woff2) format('woff2');
-  src: local('☺'), url(/fonts/bebasneuelight.ttf) format('truetype'),
-    url(/fonts/bebasneuelight.woff) format('woff');
+  src: url(/landings/miami/fonts/bebasneuelight.woff2) format('woff2');
+  src: local('☺'), url(/landings/miami/fonts/bebasneuelight.ttf) format('truetype'),
+    url(/landings/miami/fonts/bebasneuelight.woff) format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: BebasNeue;
-  src: url(/fonts/bebasneueregular.eot);
-  src: local('☺'), url(/fonts/bebasneueregular.woff2) format('woff2'),
-    url(/fonts/bebasneueregular.woff) format('woff'),
-    url(/fonts/bebasneueregular.ttf) format('truetype'),
-    url(/fonts/bebasneueregular.svg) format('svg');
+  src: url(/landings/miami/fonts/bebasneueregular.eot);
+  src: local('☺'), url(/landings/miami/fonts/bebasneueregular.woff2) format('woff2'),
+    url(/landings/miami/fonts/bebasneueregular.woff) format('woff'),
+    url(/landings/miami/fonts/bebasneueregular.ttf) format('truetype'),
+    url(/landings/miami/fonts/bebasneueregular.svg) format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: BebasNeue;
-  src: url(/fonts/bebasneuebold.eot);
-  src: local('☺'), url(/fonts/bebasneuebold.woff2) format('woff2'),
-    url(/fonts/bebasneuebold.woff) format('woff'),
-    url(/fonts/bebasneuebold.ttf) format('truetype'),
-    url(/fonts/bebasneuebold.svg) format('svg');
+  src: url(/landings/miami/fonts/bebasneuebold.eot);
+  src: local('☺'), url(/landings/miami/fonts/bebasneuebold.woff2) format('woff2'),
+    url(/landings/miami/fonts/bebasneuebold.woff) format('woff'),
+    url(/landings/miami/fonts/bebasneuebold.ttf) format('truetype'),
+    url(/landings/miami/fonts/bebasneuebold.svg) format('svg');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -214,8 +214,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat Light'), local('Montserrat-Light'),
-    url(/fonts/Montserrat-Light.woff2) format('woff2'),
-    url(/fonts/Montserrat-Light.woff) format('woff');
+    url(/landings/miami/fonts/Montserrat-Light.woff2) format('woff2'),
+    url(/landings/miami/fonts/Montserrat-Light.woff) format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -223,8 +223,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat'), local('Montserrat-Regular'),
-    url(/fonts/Montserrat-Regular.woff2) format('woff2'),
-    url(/fonts/Montserrat-Regular.woff) format('woff');
+    url(/landings/miami/fonts/Montserrat-Regular.woff2) format('woff2'),
+    url(/landings/miami/fonts/Montserrat-Regular.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -232,8 +232,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat'), local('Montserrat-Regular'),
-    url(/fonts/Montserrat-Medium.woff2) format('woff2'),
-    url(/fonts/Montserrat-Medium.woff) format('woff');
+    url(/landings/miami/fonts/Montserrat-Medium.woff2) format('woff2'),
+    url(/landings/miami/fonts/Montserrat-Medium.woff) format('woff');
   font-weight: 500;
   font-style: normal;
 }
@@ -241,8 +241,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat Bold'), local('Montserrat-Bold'),
-    url(/fonts/Montserrat-Bold.woff2) format('woff2'),
-    url(/fonts/Montserrat-Bold.woff) format('woff');
+    url(/landings/miami/fonts/Montserrat-Bold.woff2) format('woff2'),
+    url(/landings/miami/fonts/Montserrat-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
 }
@@ -250,17 +250,17 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat Black'), local('Montserrat-Black'),
-    url(/fonts/Montserrat-Black.woff2) format('woff2'),
-    url(/fonts/Montserrat-Black.woff) format('woff');
+    url(/landings/miami/fonts/Montserrat-Black.woff2) format('woff2'),
+    url(/landings/miami/fonts/Montserrat-Black.woff) format('woff');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: Morpha;
   font-display: swap;
-  src: url(/fonts/Morpha-Bold.woff2) format('woff2');
-  src: local('☺'), url(/fonts/Morpha-Bold.woff) format('woff'),
-    url(/fonts/Morpha-Bold.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Morpha-Bold.woff2) format('woff2');
+  src: local('☺'), url(/landings/miami/fonts/Morpha-Bold.woff) format('woff'),
+    url(/landings/miami/fonts/Morpha-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -268,8 +268,8 @@
   font-family: 'Neue Machina';
   font-display: swap;
   src: local('NeueMachina-Bold'), local('NeueMachina-Bold'),
-    url(/fonts/NeueMachina-Bold.woff2) format('woff2'),
-    url(/fonts/NeueMachina-Bold.woff) format('woff');
+    url(/landings/miami/fonts/NeueMachina-Bold.woff2) format('woff2'),
+    url(/landings/miami/fonts/NeueMachina-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
 }
@@ -277,22 +277,22 @@
   font-family: 'Neue Machina';
   font-display: swap;
   src: local('NeueMachina-Black'), local('NeueMachina-Black'),
-    url(/fonts/NeueMachina-Black.woff2) format('woff2'),
-    url(/fonts/NeueMachina-Bold.woff) format('woff');
+    url(/landings/miami/fonts/NeueMachina-Black.woff2) format('woff2'),
+    url(/landings/miami/fonts/NeueMachina-Bold.woff) format('woff');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: 'Cy Grotesk';
   font-display: swap;
-  src: url(/fonts/cy-grotesk-grand-dark.otf);
+  src: url(/landings/miami/fonts/cy-grotesk-grand-dark.otf);
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: RainerTestv04;
-  src: url(/fonts/RainerTestv04-Bold.woff2), url(/fonts/RainerTestv04-Bold.woff);
+  src: url(/landings/miami/fonts/RainerTestv04-Bold.woff2), url(/landings/miami/fonts/RainerTestv04-Bold.woff);
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -301,26 +301,26 @@
   font-family: Anticva;
   font-display: swap;
   src: local('Anticva'), local('Anticva'),
-    url(/fonts/Anticva-Regular.woff2) format('woff2'),
-    url(/fonts/Anticva-Regular.woff) format('woff'),
-    url(/fonts/Anticva-Regular.otf) format('truetype');
+    url(/landings/miami/fonts/Anticva-Regular.woff2) format('woff2'),
+    url(/landings/miami/fonts/Anticva-Regular.woff) format('woff'),
+    url(/landings/miami/fonts/Anticva-Regular.otf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Halvar Breitschrift';
   src: local('HalvarBreit-Blk'), local('HalvarBreit-Blk'),
-    url(/fonts/HalvarBreit-Blk.woff2) format('woff2'),
-    url(/fonts/HalvarBreit-Blk.woff) format('woff');
+    url(/landings/miami/fonts/HalvarBreit-Blk.woff2) format('woff2'),
+    url(/landings/miami/fonts/HalvarBreit-Blk.woff) format('woff');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: Damn;
   font-display: swap;
-  src: local('Damn'), local('Damn'), url(/fonts/Damn.woff2) format('woff2'),
-    url(/fonts/Damn.woff) format('woff'),
-    url(/fonts/Damn.ttf) format('truetype');
+  src: local('Damn'), local('Damn'), url(/landings/miami/fonts/Damn.woff2) format('woff2'),
+    url(/landings/miami/fonts/Damn.woff) format('woff'),
+    url(/landings/miami/fonts/Damn.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -328,8 +328,8 @@
   font-family: 'Monologue DEMO';
   font-display: swap;
   src: local('Monologue_DEMO'), local('Monologue_DEMO'),
-    url(/fonts/Monologue_DEMO.woff) format('woff'),
-    url(/fonts/Monologue_DEMO.ttf) format('opentype');
+    url(/landings/miami/fonts/Monologue_DEMO.woff) format('woff'),
+    url(/landings/miami/fonts/Monologue_DEMO.ttf) format('opentype');
   font-weight: 400;
   font-style: normal;
 }
@@ -337,8 +337,8 @@
   font-family: Nasalization;
   font-display: swap;
   src: local('Nasalization'), local('Nasalization'),
-    url(/fonts/Nasalization.woff) format('woff'),
-    url(/fonts/Nasalization.otf) format('opentype');
+    url(/landings/miami/fonts/Nasalization.woff) format('woff'),
+    url(/landings/miami/fonts/Nasalization.otf) format('opentype');
   font-weight: 400;
   font-style: normal;
 }
@@ -346,51 +346,51 @@
   font-family: PatsySans;
   font-display: swap;
   src: local('PatsySans'), local('PatsySans'),
-    url(/fonts/PatsySans.woff) format('woff'),
-    url(/fonts/PatsySans.otf) format('opentype');
+    url(/landings/miami/fonts/PatsySans.woff) format('woff'),
+    url(/landings/miami/fonts/PatsySans.otf) format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Lighthaus;
-  src: url(/fonts/Lighthaus.eot);
-  src: url(/fonts/Lighthaus.eot?#iefix) format('embedded-opentype'),
-    url(/fonts/Lighthaus.woff2) format('woff2'),
-    url(/fonts/Lighthaus.woff) format('woff'),
-    url(/fonts/Lighthaus.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Lighthaus.eot);
+  src: url(/landings/miami/fonts/Lighthaus.eot?#iefix) format('embedded-opentype'),
+    url(/landings/miami/fonts/Lighthaus.woff2) format('woff2'),
+    url(/landings/miami/fonts/Lighthaus.woff) format('woff'),
+    url(/landings/miami/fonts/Lighthaus.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: UltramonoWide-LightItalic;
-  src: url(/fonts/UltramonoWide-LightItalic.woff2) format('woff2'),
-    url(/fonts/UltramonoWide-LightItalic.woff) format('woff');
+  src: url(/landings/miami/fonts/UltramonoWide-LightItalic.woff2) format('woff2'),
+    url(/landings/miami/fonts/UltramonoWide-LightItalic.woff) format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: UltramonoWide-Light;
-  src: url(/fonts/UltramonoWide-Light.woff2) format('woff2'),
-    url(/fonts/UltramonoWide-Light.woff) format('woff');
+  src: url(/landings/miami/fonts/UltramonoWide-Light.woff2) format('woff2'),
+    url(/landings/miami/fonts/UltramonoWide-Light.woff) format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Nikkyou Sans';
-  src: url(/fonts/NikkyouSans.woff2) format('woff2'),
-    url(/fonts/NikkyouSans.woff) format('woff');
+  src: url(/landings/miami/fonts/NikkyouSans.woff2) format('woff2'),
+    url(/landings/miami/fonts/NikkyouSans.woff) format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Corvetta;
-  src: url(/fonts/Corvetta.woff2) format('woff2'),
-    url(/fonts/Corvetta.woff) format('woff'),
-    url(/fonts/Corvetta.ttf) format('truetype');
+  src: url(/landings/miami/fonts/Corvetta.woff2) format('woff2'),
+    url(/landings/miami/fonts/Corvetta.woff) format('woff'),
+    url(/landings/miami/fonts/Corvetta.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

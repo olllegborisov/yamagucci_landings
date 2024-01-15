@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "start:server": "pm2 start yarn --name 'my-next-app' -- start",
+    "start:server": "pm2 start yarn --name 'yamagucci' -- start",
     "---------": "",
     "eslint": "eslint .",
     "type-check": "tsc --pretty --skipLibCheck --noEmit",

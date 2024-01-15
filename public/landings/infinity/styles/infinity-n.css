@@ -695,13 +695,13 @@
 }
 .infinity-top {
   height: 990px;
-  background: url(/images/landing/bg/infinity/bg_infinity_top.jpg) top center
+  background: url(/images/landing/bg/infinity/bg_infinity_top.webp) top center
     no-repeat;
 }
 .infinity1 {
   height: 766px;
   font-family: PTSans, sans-serif;
-  background: url(/landings/infinity/images/product/landing/fst-bg.jpg) top center no-repeat;
+  background: url(/landings/infinity/images/product/landing/fst-bg.webp) top center no-repeat;
 }
 .infinity1__desc {
   padding-top: 50px;
@@ -772,7 +772,7 @@
   right: 0;
 }
 .infinity2 {
-  background-image: url(../images/bg/bg_infinity2.jpg);
+  background-image: url(../images/bg/bg_infinity2.webp);
   background-repeat: no-repeat;
   background-position: center;
   height: 765px;
@@ -853,7 +853,7 @@
   height: 689px;
   background-position: top center;
   background-repeat: no-repeat;
-  background-image: url(../images/bg/bg_infinity3.jpg);
+  background-image: url(../images/bg/bg_infinity3.webp);
 }
 .infinity3__desc {
   position: absolute;
@@ -901,7 +901,7 @@
 }
 .infinity5 {
   height: 689px;
-  background-image: url(../images/bg/bg_infinity5.jpg);
+  background-image: url(../images/bg/bg_infinity5.webp);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -949,7 +949,7 @@
   text-align: right;
 }
 .infinity7 {
-  background-image: url(../images/bg/bg_infinity7.jpg);
+  background-image: url(../images/bg/bg_infinity7.webp);
   background-position: top center;
   background-repeat: no-repeat;
   height: 725px;
@@ -990,7 +990,7 @@
   margin: 17px 0 0 31px;
 }
 .infinity8 {
-  background-image: url(../images/product/landing/screen3.jpg);
+  background-image: url(../images/product/landing/screen3.webp);
   background-repeat: no-repeat;
   background-position: top center;
   height: 807px;
@@ -1062,7 +1062,7 @@
 }
 .infinity9 {
   height: 677px;
-  background-image: url(../images/bg/bg_infinity9.jpg);
+  background-image: url(../images/bg/bg_infinity9.webp);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -1110,7 +1110,7 @@
   top: 516px;
 }
 .infinity10 {
-  background-image: url(../images/bg/bg_infinity10.jpg);
+  background-image: url(../images/bg/bg_infinity10.webp);
   background-position: top center;
   background-repeat: no-repeat;
   height: 757px;
@@ -1175,7 +1175,7 @@
   width: 300px;
 }
 .infinity11 {
-  background-image: url(../images/bg/bg_infinity11.jpg);
+  background-image: url(../images/bg/bg_infinity11.webp);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -1185,7 +1185,7 @@
   }
 }
 .infinity12 {
-  background-image: url(../images/bg/bg_infinity12.jpg);
+  background-image: url(../images/bg/bg_infinity12.webp);
   background-repeat: no-repeat;
   background-position: center;
   height: 619px;
@@ -1232,7 +1232,7 @@
 }
 .infinity14 {
   height: 757px;
-  background-image: url(../images/bg/bg_infinity14.jpg);
+  background-image: url(../images/bg/bg_infinity14.webp);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -1335,7 +1335,7 @@
 }
 .infinity16 {
   height: 624px;
-  background-image: url(../images/bg/bg_infinity16.jpg);
+  background-image: url(../images/bg/bg_infinity16.webp);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -1497,7 +1497,7 @@
   .infinity2 {
     height: 730px;
     counter-reset: step;
-    background-image: url(../images/bg/bg_infinity2-mob.jpg);
+    background-image: url(../images/bg/bg_infinity2-mob.webp);
   }
   .infinity2__img-mob {
     margin: 0 auto;
@@ -1668,7 +1668,7 @@
     text-align: center;
   }
   .infinity16 {
-    background-image: url(../images/bg/bg_infinity16-mob.jpg);
+    background-image: url(../images/bg/bg_infinity16-mob.webp);
     background-position: top center;
     background-repeat: no-repeat;
   }
@@ -1892,7 +1892,7 @@
     display: none;
   }
   .infinity9 {
-    background-image: url(../images/bg/bg_infinity9-mob.jpg);
+    background-image: url(../images/bg/bg_infinity9-mob.webp);
     background-size: cover;
     height: auto;
   }
@@ -2153,7 +2153,8 @@
 .cross-sale-block {
   position: relative;
   height: 900px;
-  background-image: url(../images/cross-sale-bloc-BACKGROUND-1.jpg);
+  background-image: url(../images/cross-sale-bloc-BACKGROUND-1.webp);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
