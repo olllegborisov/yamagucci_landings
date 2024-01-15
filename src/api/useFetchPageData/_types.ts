@@ -3,10 +3,10 @@ import { paths as schema } from '@/src/types/schema'
 import { QUERY_KEY_FETCH_PAGE_DATA } from './useFetchPageData'
 
 export type FetchPageDataParams = {
+  /** слаг страницы */
+  fullPathArray: string[] | string
   /** признак админской страницы */
   isAdminPage?: boolean
-  /** слаг страницы */
-  slug: string[] | string
 }
 
 export type FetchPageDataOriginalResult = schema['/api/shop/page_data']['post']['responses']['200']['content']['application/json']

@@ -9,23 +9,23 @@ import PublicProductPage from '@/src/components/pages/PublicProductPage/PublicPr
 import { WrapperTypes } from './_types'
 
 /** динамическая страница */
-const DynamicPage: FC<WrapperTypes> = ({ webApi }) => {
+const DynamicPage: FC<WrapperTypes> = ({ fullPathArray }) => {
   /** роутер */
   const { query: { slug } } = useRouter()
   /** проверка на админку */
   const isAdminPage = slug?.includes('admin')
 
   /** получение данных */
-  const { data, isLoading } = useFetchPageData({ isAdminPage, slug })
+  const { data, isLoading } = useFetchPageData({ fullPathArray, isAdminPage })
 
   if (isAdminPage) {
     if (slug?.includes('categories')) {
       return (
-        <AdminCategoryPage webApi={webApi} />
+        <AdminCategoryPage fullPathArray={fullPathArray} />
       )
     } else if (slug.includes('products')) {
       return (
-        <AdminProductPage webApi={webApi} />
+        <AdminProductPage fullPathArray={fullPathArray} />
       )
     } else {
       return 'AdminDefaultPage'

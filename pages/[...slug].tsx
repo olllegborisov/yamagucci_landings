@@ -14,19 +14,17 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   const queryClient = new QueryClient()
 
   /** слаг */
-  const slug = ctx?.params?.slug
-  console.log('slug from ...SLUG', slug)
+  const fullPathArray = ctx?.params?.slug
+  console.log('slug from ...SLUG', fullPathArray)
 
-  /** webApi */
-  const webApi = slug
   /** categoryId */
-  const categoryId = slug?.includes('categories') ? slug?.[3] : undefined
+  const categoryId = fullPathArray?.includes('categories') ? fullPathArray?.[3] : undefined
 
   try {
     await Promise.all([
       queryClient.prefetchQuery({
-        queryFn: () => getPageData({ slug }),
-        queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { slug }]
+        queryFn: () => getPageData({ fullPathArray }),
+        queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray }]
       }),
       queryClient.prefetchQuery({
         queryFn: () => getCategory({ categoryId, webApi: 'https://api.yamaguchi.ru/api' }),
@@ -37,7 +35,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     /** список продуктов */
     const page: FetchPageDataOriginalResult = queryClient.getQueryData([QUERY_KEY_FETCH_PAGE_DATA, { slug }])
 
-    if (!page?.data?.page_type && !slug.includes('admin')) {
+    if (!page?.data?.page_type && !fullPathArray.includes('admin')) {
       return {
         redirect: {
           destination: '/404',
@@ -49,7 +47,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     return {
       props: {
         dehydratedState: JSON.parse(JSON.stringify(dehydrate(queryClient))),
-        webApi
+        fullPathArray
       },
       revalidate: 1800
     }

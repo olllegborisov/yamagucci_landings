@@ -1,4 +1,4 @@
 export type WrapperTypes = {
   /** адрес сайта */
-  webApi: string[]
+  fullPathArray: string[]
 }

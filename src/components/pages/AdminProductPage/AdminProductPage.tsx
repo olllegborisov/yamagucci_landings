@@ -73,9 +73,9 @@ const AdminProductPage: FC<FetchProductOriginalResult> = ({ data }) => {
 }
 
 /** врапер для получения первоначальных данных хук-формы */
-const Wrapper: FC<WrapperTypes> = ({ webApi }) => {
+const Wrapper: FC<WrapperTypes> = ({ fullPathArray }) => {
   /** получение данных */
-  const { data } = useFetchProduct({ productId: webApi?.[3] })
+  const { data } = useFetchProduct({ productId: fullPathArray?.[3] })
 
   if (!data) return null
 
