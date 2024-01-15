@@ -24,7 +24,6 @@ const monserrat = Montserrat({
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   /** роутер */
   const { pathname, query: { slug } } = useRouter()
-
   /** queryClient */
   const [queryClient] = useState(
     () =>

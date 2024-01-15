@@ -8,6 +8,7 @@ const mainMiddleware = async (req: NextRequest): Promise<any> => {
   const AUTH_TOKEN = req.cookies.get(COOKIES.AUTH_TOKEN)?.value
   /** имя хоста */
   const host = req.nextUrl.hostname
+  // eslint-disable-next-line no-console
   console.log('host', host)
 
   /** абсолютная ссылка для редиректа */

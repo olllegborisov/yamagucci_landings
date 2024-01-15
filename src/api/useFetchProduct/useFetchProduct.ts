@@ -9,18 +9,18 @@ import { FetchProductOriginalResult, FetchProductParams, FetchProductQueryKeyTyp
 export const QUERY_KEY_FETCH_PRODUCT = 'product'
 
 /** функция запроса продуктов */
-export const getProduct = async ({ productId }: FetchProductParams): Promise<FetchProductOriginalResult> => {
+export const getProduct = async ({ productId, webApi }: FetchProductParams): Promise<FetchProductOriginalResult> => {
   /** дата продуктов */
-  const { data } = await axiosBearerGet.get<FetchProductOriginalResult>(`${PRODUCT_API}/${productId}`)
+  const { data } = await axiosBearerGet.get<FetchProductOriginalResult>(`${webApi}${PRODUCT_API}/${productId}`)
 
   return data
 }
 
 /** хук запроса списка продуктов */
-const useFetchProduct = ({ productId }: FetchProductParams): UseQueryResult<FetchProductOriginalResult, Error> => useQuery<FetchProductOriginalResult, Error, FetchProductOriginalResult, FetchProductQueryKeyType>({
+const useFetchProduct = ({ productId, webApi }: FetchProductParams): UseQueryResult<FetchProductOriginalResult, Error> => useQuery<FetchProductOriginalResult, Error, FetchProductOriginalResult, FetchProductQueryKeyType>({
   enabled: !!productId,
-  queryFn: () => getProduct({ productId }),
-  queryKey: [QUERY_KEY_FETCH_PRODUCT, { productId }]
+  queryFn: () => getProduct({ productId, webApi }),
+  queryKey: [QUERY_KEY_FETCH_PRODUCT, { productId, webApi }]
 })
 
 export default useFetchProduct

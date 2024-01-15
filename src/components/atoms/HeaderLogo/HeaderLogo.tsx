@@ -17,6 +17,7 @@ const HeaderLogo: FC<HeaderLogoTypes> = ({ srcImage, styleLogoImg }) => (
         alt='Yamaguchi logo'
         fill
         loading='eager'
+        priority
         src={srcImage}
       />
     </span>

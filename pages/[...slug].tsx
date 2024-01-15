@@ -15,6 +15,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
   /** слаг */
   const fullPathArray = ctx?.params?.slug
+  // eslint-disable-next-line no-console
   console.log('slug from ...SLUG', fullPathArray)
 
   /** categoryId */
@@ -33,7 +34,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     ])
 
     /** список продуктов */
-    const page: FetchPageDataOriginalResult = queryClient.getQueryData([QUERY_KEY_FETCH_PAGE_DATA, { slug }])
+    const page: FetchPageDataOriginalResult = queryClient.getQueryData([QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray }])
 
     if (!page?.data?.page_type && !fullPathArray.includes('admin')) {
       return {
