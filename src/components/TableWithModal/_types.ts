@@ -17,6 +17,8 @@ declare module '@tanstack/table-core' {
 }
 
 export type TableWithModalTypes = {
+  /** добавление новой строки */
+  addNewRow?: () => void
   /** строение таблицы по колонкам */
   columns: any[]
   /** массив элементов */

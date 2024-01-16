@@ -20,7 +20,7 @@ import TableMarkup from './TableMarkup/TableMarkup'
 import styles from './TableWithModal.module.scss'
 
 /** страница списка товаров */
-const Table: FC<TableWithModalTypes> = ({ columns: defaultColumns, data: defaultData, title, withCheckboxFilters, withSubcategoriesFilters }) => {
+const Table: FC<TableWithModalTypes> = ({ addNewRow, columns: defaultColumns, data: defaultData, title, withCheckboxFilters, withSubcategoriesFilters }) => {
   /** состояние модалки */
   const [isModalIsOpen, toggleModal] = useToggle(false)
   /** стейт таблицы */
@@ -156,6 +156,7 @@ const Table: FC<TableWithModalTypes> = ({ columns: defaultColumns, data: default
             colorVariant='transparentBlue'
             icon={IconPlus}
             label='добавить'
+            onClick={addNewRow}
             paddingVariant='slim'
             withIcon={true}
           />

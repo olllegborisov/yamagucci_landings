@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/named
 import { ColumnDef } from '@tanstack/react-table'
 import Link from 'next/link'
+import Router from 'next/router'
 import React from 'react'
 
 import useFetchCategories from '@/src/api/useFetchCategories/useFetchCategories'
@@ -18,6 +19,11 @@ import styles from './AdminCategoriesPage.module.scss'
 const AdminCategoriesPage = () => {
   /** получаем все продукты */
   const { data, isLoading } = useFetchCategories({ webApi: 'https://api.yamaguchi.ru/api' })
+
+  /** добавить новую категорию */
+  const handleClickAddNewCategory = () => {
+    Router.push(`${PAGE_CATEGORIES}/new`)
+  }
 
   /** колонки хэдера и футера */
   const columns = React.useMemo<ColumnDef<ColumnResultCategories, any>[]>(
@@ -119,6 +125,7 @@ const AdminCategoriesPage = () => {
         ))
         : (
           <TableWithModal
+            addNewRow={handleClickAddNewCategory}
             columns={columns}
             data={data}
             title='Категории'
