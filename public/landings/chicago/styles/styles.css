@@ -1,0 +1,1837 @@
+@charset "UTF-8";
+    @font-face {
+    font-family: Gothic;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/centurygothic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/PTSans.eot);
+    src: url(/landings/chicago/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/PTSans.woff2) format("woff2"), url(/landings/chicago/fonts/PTSans.woff) format("woff"), url(/landings/chicago/fonts/PTSans.ttf) format("truetype"), url(/landings/chicago/fonts/PTSans.svg#PTSans) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/PTSansBold.eot);
+    src: url(/landings/chicago/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/PTSansBold.woff2) format("woff2"), url(/landings/chicago/fonts/PTSansBold.woff) format("woff"), url(/landings/chicago/fonts/PTSansBold.ttf) format("truetype"), url(/landings/chicago/fonts/PTSansBold.svg#PTSans) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/PTSansItalic.ttf) format("truetype");
+    src: url(/landings/chicago/fonts/PTSansItalic.woff2) format("woff2"), url(/landings/chicago/fonts/PTSansItalic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/PTSansNarrow.eot);
+    src: url(/landings/chicago/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/PTSansNarrow.woff2) format("woff2"), url(/landings/chicago/fonts/PTSansNarrow.woff) format("woff"), url(/landings/chicago/fonts/PTSansNarrow.ttf) format("truetype"), url(/landings/chicago/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/PTSansNarrowBold.eot);
+    src: url(/landings/chicago/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/landings/chicago/fonts/PTSansNarrowBold.woff) format("woff"), url(/landings/chicago/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/landings/chicago/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: MyriadProLight;
+    src: url(/landings/chicago/fonts/MyriadProLight.eot);
+    src: url(/landings/chicago/fonts/MyriadProLight.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/MyriadProLight.woff) format("woff"), url(/landings/chicago/fonts/MyriadProLight.woff2) format("woff2"), url(/landings/chicago/fonts/MyriadProLight.ttf) format("truetype"), url(/landings/chicago/fonts/MyriadProLight.svg#MyriadProLight) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(/landings/chicago/fonts/MyriadPro.otf) format("opentype");
+    src: url(/landings/chicago/fonts/MyriadPro.woff2) format("woff2"), url(/landings/chicago/fonts/MyriadPro.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url(/landings/chicago/fonts/MyriadProBold.otf) format("opentype");
+    src: url(/landings/chicago/fonts/MyriadProBold.woff2) format("woff2"), url(/landings/chicago/fonts/MyriadProBold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/landings/chicago/fonts/PTPragmaticaCyrillic.ttf) format("opentype");
+    src: url(/landings/chicago/fonts/PTPragmaticaCyrillic.woff2) format("woff2"), url(/landings/chicago/fonts/PTPragmaticaCyrillic.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/landings/chicago/fonts/PTPragmaticaBoldCyrillic.ttf) format("opentype");
+    src: url(/landings/chicago/fonts/PTPragmaticaBoldCyrillic.woff2) format("woff2"), url(/landings/chicago/fonts/PTPragmaticaBoldCyrillic.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/Circe-Thin.eot);
+    src: url(/landings/chicago/fonts/Circe-Thin.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/Circe-Thin.woff) format("woff"), url(/landings/chicago/fonts/Circe-Thin.woff2) format("woff2"), url(/landings/chicago/fonts/Circe-Thin.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/Circe-ExtraLight.eot);
+    src: url(/landings/chicago/fonts/Circe-ExtraLight.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/Circe-ExtraLight.woff) format("woff"), url(/landings/chicago/fonts/Circe-ExtraLight.woff2) format("woff2"), url(/landings/chicago/fonts/Circe-ExtraLight.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/Circe-Light.eot);
+    src: url(/landings/chicago/fonts/Circe-Light.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/Circe-Light.woff) format("woff"), url(/landings/chicago/fonts/Circe-Light.woff2) format("woff2"), url(/landings/chicago/fonts/Circe-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/Circe-Regular.eot);
+    src: url(/landings/chicago/fonts/Circe-Regular.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/Circe-Regular.woff) format("woff"), url(/landings/chicago/fonts/Circe-Regular.woff2) format("woff2"), url(/landings/chicago/fonts/Circe-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/Circe-Bold.eot);
+    src: url(/landings/chicago/fonts/Circe-Bold.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/Circe-Bold.woff) format("woff"), url(/landings/chicago/fonts/Circe-Bold.woff2) format("woff2"), url(/landings/chicago/fonts/Circe-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/Circe-ExtraBold.eot);
+    src: url(/landings/chicago/fonts/Circe-ExtraBold.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/Circe-ExtraBold.woff) format("woff"), url(/landings/chicago/fonts/Circe-ExtraBold.woff2) format("woff2"), url(/landings/chicago/fonts/Circe-ExtraBold.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/chicago/fonts/bebasneuethin.woff2) format("woff2");
+    src: local("☺"), url(/landings/chicago/fonts/bebasneuethin.woff) format("woff"), url(/landings/chicago/fonts/bebasneuethin.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/chicago/fonts/bebasneuelight.woff2) format("woff2");
+    src: local("☺"), url(/landings/chicago/fonts/bebasneuelight.ttf) format("truetype"), url(/landings/chicago/fonts/bebasneuelight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/chicago/fonts/bebasneueregular.eot);
+    src: local("☺"), url(/landings/chicago/fonts/bebasneueregular.woff2) format("woff2"), url(/landings/chicago/fonts/bebasneueregular.woff) format("woff"), url(/landings/chicago/fonts/bebasneueregular.ttf) format("truetype"), url(/landings/chicago/fonts/bebasneueregular.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/chicago/fonts/bebasneuebold.eot);
+    src: local("☺"), url(/landings/chicago/fonts/bebasneuebold.woff2) format("woff2"), url(/landings/chicago/fonts/bebasneuebold.woff) format("woff"), url(/landings/chicago/fonts/bebasneuebold.ttf) format("truetype"), url(/landings/chicago/fonts/bebasneuebold.svg) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Light"), local("Montserrat-Light"), url(/landings/chicago/fonts/Montserrat-Light.woff2) format("woff2"), url(/landings/chicago/fonts/Montserrat-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/chicago/fonts/Montserrat-Regular.woff2) format("woff2"), url(/landings/chicago/fonts/Montserrat-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/chicago/fonts/Montserrat-Medium.woff2) format("woff2"), url(/landings/chicago/fonts/Montserrat-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Bold"), local("Montserrat-Bold"), url(/landings/chicago/fonts/Montserrat-Bold.woff2) format("woff2"), url(/landings/chicago/fonts/Montserrat-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Black"), local("Montserrat-Black"), url(/landings/chicago/fonts/Montserrat-Black.woff2) format("woff2"), url(/landings/chicago/fonts/Montserrat-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Morpha;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/Morpha-Bold.woff2) format("woff2");
+    src: local("☺"), url(/landings/chicago/fonts/Morpha-Bold.woff) format("woff"), url(/landings/chicago/fonts/Morpha-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Bold"), local("NeueMachina-Bold"), url(/landings/chicago/fonts/NeueMachina-Bold.woff2) format("woff2"), url(/landings/chicago/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Black"), local("NeueMachina-Black"), url(/landings/chicago/fonts/NeueMachina-Black.woff2) format("woff2"), url(/landings/chicago/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Norican;
+    font-display: swap;
+    src: url(/landings/chicago/fonts/norican-regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cy Grotesk";
+    font-display: swap;
+    src: url(/landings/chicago/fonts/cy-grotesk-grand-dark.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: RainerTestv04;
+    src: url(/landings/chicago/fonts/RainerTestv04-Bold.woff2), url(/landings/chicago/fonts/RainerTestv04-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Anticva;
+    font-display: swap;
+    src: local("Anticva"), local("Anticva"), url(/landings/chicago/fonts/Anticva-Regular.woff2) format("woff2"), url(/landings/chicago/fonts/Anticva-Regular.woff) format("woff"), url(/landings/chicago/fonts/Anticva-Regular.otf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Halvar Breitschrift";
+    src: local("HalvarBreit-Blk"), local("HalvarBreit-Blk"), url(/landings/chicago/fonts/HalvarBreit-Blk.woff2) format("woff2"), url(/landings/chicago/fonts/HalvarBreit-Blk.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Damn;
+    font-display: swap;
+    src: local("Damn"), local("Damn"), url(/landings/chicago/fonts/Damn.woff2) format("woff2"), url(/landings/chicago/fonts/Damn.woff) format("woff"), url(/landings/chicago/fonts/Damn.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Monologue DEMO";
+    font-display: swap;
+    src: local("Monologue_DEMO"), local("Monologue_DEMO"), url(/landings/chicago/fonts/Monologue_DEMO.woff) format("woff"), url(/landings/chicago/fonts/Monologue_DEMO.ttf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Nasalization;
+    font-display: swap;
+    src: local("Nasalization"), local("Nasalization"), url(/landings/chicago/fonts/Nasalization.woff) format("woff"), url(/landings/chicago/fonts/Nasalization.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PatsySans;
+    font-display: swap;
+    src: local("PatsySans"), local("PatsySans"), url(/landings/chicago/fonts/PatsySans.woff) format("woff"), url(/landings/chicago/fonts/PatsySans.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lighthaus;
+    src: url(/landings/chicago/fonts/Lighthaus.eot);
+    src: url(/landings/chicago/fonts/Lighthaus.eot?#iefix) format("embedded-opentype"), url(/landings/chicago/fonts/Lighthaus.woff2) format("woff2"), url(/landings/chicago/fonts/Lighthaus.woff) format("woff"), url(/landings/chicago/fonts/Lighthaus.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: UltramonoWide-LightItalic;
+    src: url(/landings/chicago/fonts/UltramonoWide-LightItalic.woff2) format("woff2"), url(/landings/chicago/fonts/UltramonoWide-LightItalic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: UltramonoWide-Light;
+    src: url(/landings/chicago/fonts/UltramonoWide-Light.woff2) format("woff2"), url(/landings/chicago/fonts/UltramonoWide-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Nikkyou Sans";
+    src: url(/landings/chicago/fonts/NikkyouSans.woff2) format("woff2"), url(/landings/chicago/fonts/NikkyouSans.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Corvetta;
+    src: url(/landings/chicago/fonts/Corvetta.woff2) format("woff2"), url(/landings/chicago/fonts/Corvetta.woff) format("woff"), url(/landings/chicago/fonts/Corvetta.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: a_LCDNovaObl;
+    src: url(/landings/chicago/fonts/a_lcdnovaobl.woff) format("woff"), url(/landings/chicago/fonts/a_lcdnovaobl.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Felidae;
+    src: url(/landings/chicago/fonts/Felidae.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/chicago/fonts/MullerNextExtraCondTrial-Thin.otf);
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/chicago/fonts/MullerNextExpandedTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/chicago/fonts/MullerNextExpandedTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/chicago/fonts/MullerNextExpandedTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/chicago/fonts/MullerNextExpandedTrial-ExtraBoldItalic.otf);
+    font-weight: 750;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/chicago/fonts/MullerNextExpandedTrial-Heavy.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/chicago/fonts/MullerNextExpandedTrialThinItalic.otf);
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/chicago/fonts/MullerNextExtraCondTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial Heavy";
+    src: url(/landings/chicago/fonts/MullerNextExtraCondTrial-HeavyItalic.otf) format("opentype"), url(/landings/chicago/fonts/MullerNextExtraCondTrial-HeavyItalic.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/chicago/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf) format("truetype"), url(/landings/chicago/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2) format("woff2");
+    font-weight: 750;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/chicago/fonts/MullerNextExtraCondTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/chicago/fonts/MullerNextExtraCondTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/chicago/fonts/MullerNextExtraCondTrialThin.otf);
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Trial";
+    src: url(/landings/chicago/fonts/MullerNextTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Trial";
+    src: url(/landings/chicago/fonts/MullerNextTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Wide Trial";
+    src: url(/landings/chicago/fonts/MullerNextTrial-ThinItalic.woff2);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: Cakra;
+    src: url(/landings/chicago/fonts/Cakra-Normal.otf) format("opentype");
+    src: url(/landings/chicago/fonts/Cakra-Normal.woff2) format("woff2"), url(/landings/chicago/fonts/Cakra-Normal.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Noteworthy;
+    src: url(/landings/chicago/fonts/NoteworthyLight.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Technology;
+    src: url(/landings/chicago/fonts/Technology.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Technology;
+    src: url(/landings/chicago/fonts/Technology-Bold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Unbounded;
+    src: url(/landings/chicago/fonts/Unbounded-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Unbounded;
+    src: url(/landings/chicago/fonts/Unbounded-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Inter;
+    src: url(/landings/chicago/fonts/Inter-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Inter;
+    src: url(/landings/chicago/fonts/Inter-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url(/landings/chicago/fonts/MontserratAlternates-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Snell Roundhand";
+    src: url(/landings/chicago/fonts/snell-roundhand-900.otf) format("opentype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Snell Roundhand";
+    src: url(/landings/chicago/fonts/snell-roundhand-700.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Lighthaus;
+    src: url(/landings/chicago/fonts/Lighthaus-400.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Code pro black";
+    src: url(/landings/chicago/fonts/code_pro_black.otf) format("opentype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Boldstrom;
+    src: url(/landings/chicago/fonts/Boldstrom-b.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext regular";
+    src: url(/landings/chicago/fonts/europeext.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext bold";
+    src: url(/landings/chicago/fonts/europeext_bold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext bold italic";
+    src: url(/landings/chicago/fonts/europeext_bold_italic.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "TT Smalls Trial";
+    src: url(/landings/chicago/fonts/TT-Smalls-Trial-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Mak;
+    src: url(/landings/chicago/fonts/MAK.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: GTEestiProDisplay;
+    src: url(/landings/chicago/fonts/GTEestiProDisplay-Bold.woff2) format("woff2");
+    src: url(/landings/chicago/fonts/GTEestiProDisplay-Bold.woff) format("woff");
+    src: url(/landings/chicago/fonts/GTEestiProDisplay-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: EuropeExt;
+    src: url(/landings/chicago/fonts/europeextnormal.woff2) format("woff2");
+    src: url(/landings/chicago/fonts/europeextnormal.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.landing__page {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    background: #181818;
+}
+.landing-card {
+    font-family: PTSans, sans-serif!important;
+}
+@media all and (max-width:1023px) {
+    .landing-card {
+    padding-bottom: 60px;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card {
+    padding-bottom: 40px;
+}
+}.landing-card__cap-block {
+    position: relative;
+    padding: 70px 0 50px 0;
+    color: #3c2415;
+    text-align: center;
+}
+@media all and (max-width:1023px) {
+    .landing-card__cap-block {
+    padding: 50px 0 20px 0;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card__cap-block {
+    padding: 30px 0 30px 0;
+}
+}.landing-card__cap-block .prod-name {
+    font-size: 60px;
+    font-weight: 700;
+}
+@media all and (max-width:1023px) {
+    .landing-card__cap-block .prod-name {
+    font-size: 40px;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card__cap-block .prod-name {
+    font-size: 30px;
+}
+}.landing-card__caption {
+    font-family: PTSans, sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media all and (max-width:1023px) {
+    .landing-card__caption {
+    max-width: 530px;
+    margin: 0 auto;
+    line-height: 1.2;
+    font-size: 36px;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card__caption {
+    font-size: 26px;
+}
+}@media all and (max-width:1023px) {
+    .landing-card__left {
+    margin-top: 50px;
+}
+}@media all and (max-width:767px) {
+    .landing-card__left {
+    margin-top: -20px;
+}
+}@media all and (max-width:1239px) {
+    .landing-card__right {
+    padding-top: 58px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .landing-card__right {
+    padding-top: 10px;
+}
+}.landing-card__price-left .ruble-icon {
+    fill: #000;
+}
+.landing-card__price-right .ruble-icon {
+    fill: #000;
+}
+.landing-card__price-action {
+    color: #e03638;
+}
+.landing-card__old-price-text {
+    color: #e03638;
+}
+.landing-card__old-price {
+    color: #000;
+}
+.landing-card__old-price .ruble-icon {
+    fill: #000;
+}
+.landing-card__bonus-value {
+    color: #62b14e;
+}
+.landing-card__bonus-points {
+    color: #62b14e;
+}
+.landing-card__compare-btn {
+    border: 1px solid #95959e;
+}
+.landing-card .credit-btn {
+    border: 1px solid #95959e;
+}
+.landing-card .credit-btn .percent {
+    color: #e95c20;
+}
+.landing-card .credit-btn .credit-text {
+    color: #000;
+}
+.landing-card .credit-btn .red-price {
+    color: #e95c20;
+}
+.landing-card__warranty {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+@media all and (max-width:1239px) {
+    .landing-card__warranty {
+    right: 16px;
+    top: 134px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .landing-card__warranty {
+    top: 270px;
+    z-index: 1;
+    right: 0;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .landing-card__warranty {
+    right: 16px;
+    top: 168px;
+}
+}.prod-img-wrapper {
+    text-align: center;
+}
+@media all and (max-width:1239px) {
+    .prod-img {
+    width: 80%}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .prod-img {
+    width: 60%}
+}.landing-slider {
+    margin-top: 50px;
+    padding: 0 38px 0 56px;
+}
+@media all and (max-width:1239px) {
+    .landing-slider {
+    padding: 0 30px 0 37px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .landing-slider {
+    padding: 0 30px 0 62px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .landing-slider {
+    padding: 0 24px 0 6%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) {
+    .landing-slider {
+    padding: 0 24px 0 10%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) and (max-width:400px) {
+    .landing-slider {
+    padding: 0 30px 0 10%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) and (max-width:400px) and (max-width:370px) {
+    .landing-slider {
+    padding: 0 32px 0 17%}
+}.landing-slider .slick-arrow {
+    width: 30px;
+}
+.landing-slider .slick-prev {
+    height: 100%;
+    left: 0;
+    background: url(../images/svg/l-slick-prev.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-prev:hover {
+    background: url(../images/svg/l-slick-prev-hov-st.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-next {
+    height: 100%;
+    right: 0;
+    background: url(../images/svg/l-slick-next.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-next:hover {
+    background: url(../images/svg/l-slick-next-hov-st.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-slide img {
+    border-radius: 10px;
+    border: none;
+}
+@media all and (max-width:1239px) {
+    .landing-slider .slick-slide img {
+    width: 88px;
+}
+}.l-video-link {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 184px;
+    width: 149px;
+    height: 35px;
+    background: url(../images/svg/landing-video.svg) no-repeat;
+}
+@media all and (max-width:1239px) {
+    .l-video-link {
+    bottom: 176px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .l-video-link {
+    bottom: 184px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .l-video-link {
+    display: none;
+}
+}.social-block {
+    margin-top: 30px;
+}
+.chicago {
+    color: #000;
+    height: 1020px;
+    background: url(../images/landing/bg/chicago/chicago_01.webp) top center no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:1239px) {
+    .chicago {
+    height: 1060px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .chicago {
+    height: auto;
+    padding-bottom: 66px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .chicago {
+    padding-bottom: 40px;
+}
+}.chicago1 {
+    height: 990px;
+    background: url(../images/landing/bg/chicago/chicago_01.webp) top center no-repeat;
+}
+.chicago1 .b-product__ontime-box {
+    margin-left: 30px;
+}
+.chicago1 .p-head__title {
+    width: 510px;
+    margin: 0 auto;
+}
+.chicago2 {
+    font-family: PTSans, sans-serif;
+    background-size: cover!important;
+}
+.chicago2 .chicago2_title-bg {
+    border-top: 286px solid rgba(166, 166, 167, .7);
+    border-left: 0 solid transparent;
+    border-right: 171px solid transparent;
+    height: 0;
+    width: 55%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chicago2__desc {
+    padding-top: 30px;
+    width: 45%;
+    letter-spacing: .6px;
+}
+.chicago2__title {
+    font-size: 42px;
+    line-height: 47px;
+    color: #000;
+}
+.chicago2__title .t-bold {
+    color: #ffbf3f;
+}
+.chicago2__text {
+    margin: 18px 0 0 0;
+    font-size: 25px;
+    line-height: 28px;
+    color: #000;
+}
+.features-wrapper {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.features-wrapper .chicago2__block {
+    width: 255px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.features-wrapper .chicago2__block img {
+    width: 100%}
+.features-wrapper .chicago2__block .chicago2__head {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffbf3f;
+    margin-top: 10px;
+}
+.features-wrapper .chicago2__block .chicago2__txt {
+    margin: 9px 0 0 0;
+    font-size: 17px;
+    line-height: 20px;
+}
+.chicago3 {
+    height: 645px;
+    font-family: PTSans, sans-serif;
+}
+.chicago3 .chicago3_title-bg {
+    border-top: 244px solid rgba(0, 0, 0, .7);
+    border-left: 0 solid transparent;
+    border-left: 171px solid transparent;
+    height: 0;
+    width: 53%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.chicago3 .chicago-3-sm {
+    display: none;
+    width: 277%;
+    margin-left: -66%}
+.chicago3__desc {
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: 470px;
+    text-align: right;
+    letter-spacing: .6px;
+}
+.chicago3__title {
+    font-size: 42px;
+    line-height: 47px;
+}
+.chicago3__text {
+    margin: 21px 0 0 0;
+    font-size: 25px;
+    line-height: 28px;
+}
+.chicago4 {
+    height: 1035px;
+    font-family: PTSans, sans-serif;
+    letter-spacing: .6px;
+}
+.chicago4 .chicago4_title-bg {
+    border-top: 356px solid rgba(0, 0, 0, .7);
+    border-left: 0 solid transparent;
+    border-left: 171px solid transparent;
+    height: 0;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.chicago4 img {
+    display: none;
+}
+.chicago4__desc {
+    position: absolute;
+    top: 33px;
+    right: -10px;
+    width: 600px;
+    text-align: right;
+}
+.chicago4__title {
+    font-size: 42px;
+    line-height: 52px;
+}
+.chicago4__title .t-bold {
+    color: #ffbf3f;
+}
+.chicago4__text {
+    margin: 13px 0 0 0;
+    font-size: 24px;
+    line-height: 30px;
+}
+.chicago4__block {
+    position: absolute;
+    left: -7px;
+    width: 340px;
+    text-align: right;
+}
+.chicago4__head {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffbf3f;
+}
+.chicago4__txt {
+    margin: 6px 0 0 0;
+    font-size: 17px;
+    line-height: 22px;
+}
+.chicago4__block--1 {
+    top: 360px;
+}
+.chicago4__block--2 {
+    top: 482px;
+}
+.chicago4__block--3 {
+    top: 732px;
+}
+.chicago5 {
+    height: 774px;
+    font-family: PTSans, sans-serif;
+    letter-spacing: .6px;
+}
+.chicago5 .slide-5-sm {
+    width: 231%;
+    margin-top: 30px;
+    margin-left: -73%}
+.chicago5 .chicago5_title-bg {
+    border-top: 384px solid rgba(166, 166, 167, .7);
+    border-left: 0 solid transparent;
+    border-right: 171px solid transparent;
+    height: 0;
+    width: 53%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chicago5__desc {
+    position: absolute;
+    top: 23px;
+    left: 9px;
+    width: 490px;
+}
+.chicago5__title {
+    font-size: 50px;
+    line-height: 53px;
+}
+.chicago5__title .t-bold {
+    color: #ffbf3f;
+}
+.chicago5__text {
+    margin: 12px 0 0 0;
+    font-size: 24px;
+    line-height: 30px;
+}
+.chicago6 {
+    height: 656px;
+    font-family: PTSans, sans-serif;
+    letter-spacing: .6px;
+}
+.slide-6-sm {
+    display: none;
+    width: 154%;
+    margin-left: -53%;
+    margin-top: 30px;
+}
+.chicago6__desc {
+    position: absolute;
+    top: 52px;
+    left: 9px;
+    width: 470px;
+}
+.chicago6__title {
+    font-size: 61px;
+    line-height: 62px;
+}
+.chicago6__title .t-bold {
+    color: #ffbf3f;
+}
+.chicago6__text {
+    margin: 10px 0 0 0;
+    font-size: 28px;
+    line-height: 34px;
+}
+.chicago7 {
+    height: 610px;
+    font-family: PTSans, sans-serif;
+    letter-spacing: .6px;
+    margin-top: -1px;
+}
+.chicago7__title {
+    padding: 20px 0 0 62px;
+    font-size: 37px;
+    line-height: 40px;
+    text-align: center;
+    color: #58595b;
+    font-weight: 700;
+}
+.chicago7__text {
+    position: absolute;
+    top: 502px;
+    width: 265px;
+    font-size: 26px;
+    line-height: 33px;
+    color: #231f20;
+}
+.chicago7__text--1 {
+    left: 127px;
+    text-align: right;
+}
+.chicago7__text--2 {
+    left: 757px;
+    text-align: left;
+}
+.chicago8 {
+    height: 623px;
+    font-family: PTSans, sans-serif;
+    letter-spacing: .6px;
+    margin-top: -1px;
+}
+.chicago8 .chicago8_title-bg {
+    border-top: 356px solid rgba(0, 0, 0, .4);
+    border-left: 0 solid transparent;
+    border-left: 171px solid transparent;
+    height: 0;
+    width: 57%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.chicago8 .slide-8-sm {
+    display: none;
+    width: 226%;
+    margin-left: -45%;
+    margin-top: 30px;
+}
+.chicago8__desc {
+    position: absolute;
+    top: 27px;
+    right: -11px;
+    width: 525px;
+    text-align: right;
+}
+.chicago8__title {
+    font-size: 50px;
+    line-height: 52px;
+}
+.chicago8__title .t-bold {
+    color: #ffbf3f;
+}
+.chicago8__text {
+    margin: 18px 0 0 0;
+    font-size: 24px;
+    line-height: 30px;
+}
+.chicago9 {
+    height: 845px;
+    font-family: PTSans, sans-serif;
+    letter-spacing: .6px;
+}
+.chicago9 .slide-9-sm {
+    display: none;
+    width: 315%;
+    margin-left: -114%;
+    margin-top: 30px;
+}
+.chicago9 .chicago9_title-bg {
+    border-top: 286px solid rgba(166, 166, 167, .7);
+    border-left: 0 solid transparent;
+    border-right: 171px solid transparent;
+    height: 0;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chicago9__desc {
+    position: absolute;
+    top: 36px;
+    left: 15px;
+    width: 440px;
+}
+.chicago9__title {
+    font-size: 41px;
+    line-height: 44px;
+}
+.chicago9__title .t-bold {
+    color: #ff8300;
+}
+.chicago9__text {
+    margin: 14px 0 0 0;
+    font-size: 25px;
+    line-height: 30px;
+}
+.chicago10 {
+    height: 1056px;
+    font-family: PTSans, sans-serif;
+}
+.chicago10 .slide-10-sm {
+    display: none;
+    margin-top: 30px;
+}
+.chicago10__title {
+    padding: 54px 0 0 25px;
+    font-size: 51px;
+    line-height: 57px;
+    letter-spacing: .7px;
+    text-align: center;
+}
+.chicago10__title .t-bold {
+    color: #00a1ff;
+}
+.chicago10__block {
+    position: absolute;
+    padding: 8px 11px 5px 11px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .35);
+}
+.chicago10__head {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #00a1ff;
+}
+.chicago10__txt {
+    margin: 2px 0 0 0;
+    font-size: 16px;
+    line-height: 18px;
+}
+.chicago10__block--1 {
+    top: 392px;
+    left: 161px;
+    width: 175px;
+    height: 131px;
+    text-align: right;
+}
+.chicago10__block--2 {
+    top: 621px;
+    left: 141px;
+    width: 165px;
+    height: 110px;
+    text-align: right;
+}
+.chicago10__block--3 {
+    top: 774px;
+    left: 130px;
+    width: 198px;
+    height: 90px;
+    text-align: right;
+}
+.chicago10__block--4 {
+    top: 214px;
+    left: 780px;
+    width: 197px;
+    height: 93px;
+}
+.chicago10__block--5 {
+    top: 356px;
+    left: 831px;
+    width: 182px;
+    height: 108px;
+}
+.chicago10__block--6 {
+    top: 531px;
+    left: 868px;
+    width: 163px;
+    height: 112px;
+}
+.chicago10__block--7 {
+    top: 717px;
+    left: 826px;
+    width: 180px;
+    height: 126px;
+}
+.chicago11 {
+    height: 526px;
+    font-family: PTSans, sans-serif;
+    letter-spacing: -.4px;
+}
+table {
+    border-collapse: collapse;
+}
+.chicago11 .l-table__table {
+    line-height: 1;
+}
+.chicago11__title {
+    padding: 33px 0 0 53px;
+    font-size: 29px;
+    line-height: 32px;
+    letter-spacing: -.4px;
+    text-align: center;
+    color: #000;
+}
+.chicago11__table {
+    position: absolute;
+    top: 144px;
+    width: 285px;
+    height: 295px;
+    font-size: 13px;
+    line-height: 14px;
+    border-radius: 20px;
+    color: #000;
+}
+.chicago11__table.l-table {
+    padding: 17px 17px 17px 24px;
+}
+.chicago11__table--1 {
+    left: 257px;
+}
+.chicago11__table--1 .l-table__th {
+    width: 153px;
+    padding: 5px 0 8px 0;
+}
+.chicago11__table--1 .l-table__td {
+    padding: 5px 0 8px 10px;
+}
+.chicago11__table--2 {
+    left: 564px;
+}
+.chicago11__table--2 .l-table__th {
+    width: 135px;
+    padding: 5px 0 10px 0;
+}
+.chicago11__table--2 .l-table__td {
+    padding: 5px 0 10px 10px;
+}
+.chicago12 {
+    height: 686px;
+    font-family: PTSans, sans-serif;
+}
+.chicago12 .form--landing {
+    top: 162px;
+    right: 170px;
+}
+.chicago12__title {
+    padding: 36px 0 0 32px;
+    font-size: 24px;
+    line-height: 41px;
+    letter-spacing: 0;
+    text-align: center;
+}
+.chicago12__title .t-bold {
+    font-size: 40px;
+    color: #bb2424;
+}
+@media (max-width:1200px) {
+    .b-product--chicago .block__inner .b-product__left {
+    width: 460px;
+}
+.b-product--chicago .block__inner .b-product__left .b-product__img-wrap {
+    width: auto;
+}
+.b-product--chicago .block__inner .b-product__left .b-product__img-wrap .b-product__img {
+    display: block;
+    margin: 0 auto;
+}
+.b-product--chicago .block__inner .b-product__left .b-product__images {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    width: 100%}
+.b-product--chicago .block__inner .b-product__left .b-product__images .owl-carousel {
+    width: 72%}
+.b-product--chicago .block__inner .b-product__right {
+    float: right;
+    clear: none;
+    padding: 0 4px;
+}
+.chicago2 .block__inner .chicago2__desc {
+    margin-left: 25px;
+}
+.chicago2 .block__inner .features-wrapper {
+    justify-content: center;
+}
+.chicago2 .block__inner .features-wrapper .chicago2__block {
+    width: 230px;
+}
+.chicago3 .block__inner .chicago3__desc {
+    right: 30px;
+}
+.chicago4 {
+    background-position: 46%!important;
+}
+.chicago4 .block__inner .chicago4__desc {
+    right: 30px;
+}
+.chicago5 .block__inner .chicago5__desc {
+    left: 30px;
+}
+.chicago6 .block__inner .chicago6__desc {
+    left: 30px;
+}
+.chicago7 .block__inner .chicago7__text--2 {
+    left: 664px;
+}
+.chicago8 .chicago8_title-bg {
+    width: 51%}
+.chicago8 .block__inner .chicago8__desc {
+    width: 54%;
+    right: 30px;
+}
+.chicago9 .block__inner .chicago9__desc {
+    left: 30px;
+}
+.chicago11 {
+    height: auto;
+    background-size: cover!important;
+}
+.chicago11 .block__inner .chicago11__desc .chicago11__title {
+    padding-left: 0;
+}
+.chicago11 .block__inner .chicago11__desc .chicago11_table-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.chicago11 .block__inner .chicago11__desc .chicago11_table-wrapper .chicago11__table {
+    position: static;
+}
+}@media (max-width:1024px) {
+    .b-product--chicago .block__inner .b-product__left .b-product__img-wrap .b-product__img {
+    width: auto!important;
+}
+.chicago10 .block__inner .chicago10__block--1 {
+    left: 124px;
+}
+.chicago10 .block__inner .chicago10__block--2 {
+    left: 106px;
+}
+.chicago10 .block__inner .chicago10__block--3 {
+    left: 94px;
+}
+.chicago10 .block__inner .chicago10__block--4 {
+    left: 740px;
+}
+.chicago10 .block__inner .chicago10__block--5 {
+    left: 794px;
+}
+.chicago10 .block__inner .chicago10__block--6 {
+    left: 830px;
+}
+.chicago10 .block__inner .chicago10__block--7 {
+    left: 790px;
+}
+}@media (max-width:1023px) {
+    .chicago3 .chicago3_title-bg {
+    width: 56%}
+.chicago4 {
+    background: url(/landings/chicago/images/chicago/chicago_04-sm.webp) no-repeat!important;
+    background-size: cover!important;
+    height: auto;
+}
+.chicago4 .chicago4_title-bg {
+    display: none;
+}
+.chicago4 .block__inner .chicago4__desc {
+    position: static;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    width: auto;
+}
+.chicago4 .block__inner .chicago4__block {
+    position: static;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    width: auto;
+}
+.chicago4 .block__inner img {
+    display: block;
+    width: 100%}
+.chicago5 .chicago5_title-bg {
+    width: 60%}
+.chicago7 {
+    display: none;
+}
+.chicago8 {
+    height: auto;
+    background: #dbd7d6!important;
+}
+.chicago8 .slide-6-sm {
+    display: block;
+}
+.chicago8 .chicago8_title-bg {
+    display: none;
+}
+.chicago8 .slide-8-sm {
+    display: block;
+}
+.chicago8 .block__inner .chicago8__desc {
+    position: static;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    width: auto;
+    color: #000;
+}
+.chicago9 .chicago9_title-bg {
+    width: 50%}
+.chicago10 {
+    height: auto;
+    background: #353334!important;
+}
+.chicago10 .slide-10-sm {
+    display: block;
+    width: 176%;
+    margin-left: -40%}
+.chicago10 .block__inner .chicago10__desc .chicago10__title {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 0;
+}
+.chicago10 .block__inner .chicago10__block {
+    position: static;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    background: 0 0;
+}
+}@media (max-width:960px) {
+    .b-product--chicago {
+    height: auto;
+    background-size: cover!important;
+}
+.b-product--chicago .block__inner .b-product__left {
+    float: none;
+    width: 100%}
+.b-product--chicago .block__inner .b-product__left .b-product__img-wrap .b-product__img {
+    width: auto!important;
+}
+.b-product--chicago .block__inner .b-product__left .b-product__images .owl-carousel {
+    width: 74%}
+.b-product--chicago .block__inner .b-product__right {
+    float: none;
+    clear: both;
+    width: 80%}
+.b-product--chicago .block__inner .b-product__right .b-product__prices {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+}@media (max-width:768px) {
+    .chicago2 .chicago2_title-bg {
+    display: none;
+}
+.chicago2 .block__inner .chicago2__desc {
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+.chicago2 .block__inner .chicago2__desc .chicago2__title {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+}
+.chicago2 .block__inner .chicago2__desc .chicago2__text {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0;
+}
+.chicago2 .block__inner .features-wrapper {
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.chicago2 .block__inner .features-wrapper .chicago2__block {
+    width: 250px;
+}
+.chicago3 {
+    height: auto;
+    background: #c5b3a5!important;
+    padding-top: 50px;
+}
+.chicago3 .chicago3_title-bg {
+    display: none;
+}
+.chicago3 .chicago-3-sm {
+    display: block;
+    margin-top: 30px;
+    max-width: none;
+}
+.chicago3 .block__inner .chicago3__desc {
+    position: static;
+    width: 100%;
+    text-align: center;
+}
+.chicago3 .block__inner .chicago3__desc .chicago3__title {
+    color: #000;
+    font-size: 30px;
+    line-height: 1;
+}
+.chicago3 .block__inner .chicago3__desc .chicago3__text {
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 1.3;
+}
+.chicago4 .block__inner .chicago4__desc .chicago4__title {
+    font-size: 30px;
+    line-height: 34px;
+}
+.chicago4 .block__inner .chicago4__desc .chicago4__text {
+    font-size: 22px;
+}
+.chicago5 {
+    height: auto;
+    background: #9a8779!important;
+}
+.chicago5 .chicago5_title-bg {
+    display: none;
+}
+.chicago5 .block__inner .chicago5__desc {
+    position: static;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    width: auto;
+}
+.chicago5 .block__inner .chicago5__desc .chicago5__title {
+    font-size: 30px;
+    line-height: 34px;
+}
+.chicago5 .block__inner .chicago5__desc .chicago5__text {
+    font-size: 20px;
+    line-height: 22px;
+}
+.chicago6 {
+    height: auto;
+    background: #8d8b8a!important;
+}
+.chicago6 .slide-6-sm {
+    display: block;
+}
+.chicago6 .chicago5_title-bg {
+    display: none;
+}
+.chicago6 .block__inner .chicago6__desc {
+    position: static;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    width: auto;
+}
+.chicago6 .block__inner .chicago6__desc .chicago6__title {
+    font-size: 30px;
+    line-height: 34px;
+}
+.chicago6 .block__inner .chicago6__desc .chicago6__text {
+    font-size: 20px;
+    line-height: 22px;
+}
+.chicago8 .block__inner .chicago8__desc .chicago8__title {
+    font-size: 30px;
+    line-height: 34px;
+}
+.chicago8 .block__inner .chicago8__desc .chicago8__text {
+    font-size: 20px;
+    line-height: 22px;
+}
+.chicago9 {
+    height: auto;
+    background: #3e4045!important;
+}
+.chicago9 .slide-9-sm {
+    display: block;
+}
+.chicago9 .chicago9_title-bg {
+    display: none;
+}
+.chicago9 .block__inner .chicago9__desc {
+    text-align: center;
+    width: auto;
+    position: static;
+    margin: 30px auto 0 auto;
+}
+.chicago9 .block__inner .chicago9__desc .chicago9__title {
+    font-size: 30px;
+    line-height: 34px;
+}
+.chicago9 .block__inner .chicago9__desc .chicago9__text {
+    font-size: 20px;
+    line-height: 22px;
+}
+.chicago10 .block__inner .chicago10__title {
+    font-size: 30px;
+    line-height: 34px;
+}
+.chicago12 {
+    background-position: 60%!important;
+}
+.chicago12 .block__inner .chicago12__title {
+    padding-left: 0;
+}
+.chicago12 .block__inner .form--landing {
+    right: 120px;
+}
+}@media (max-width:600px) {
+    .chicago1 .p-head__title {
+    width: 100%}
+.chicago11 .block__inner .chicago11__desc .chicago11_table-wrapper {
+    margin-bottom: 50px;
+}
+.chicago11 .block__inner .chicago11__desc .chicago11_table-wrapper .chicago11__table {
+    height: auto;
+    margin-bottom: 20px;
+}
+.chicago11 .block__inner .chicago11__desc .chicago11_table-wrapper .chicago11__table .l-table__th {
+    width: 155px;
+}
+.chicago12 {
+    background-position: 84%!important;
+    background-size: cover!important;
+    height: auto;
+}
+.chicago12 .block__inner .chicago12__title {
+    padding-left: 0;
+}
+.chicago12 .block__inner .chicago12__title .t-bold {
+    font-size: 30px;
+}
+.chicago12 .block__inner .form--landing {
+    position: static;
+    margin: 30px auto 50px auto;
+    width: 250px;
+}
+}@media (max-width:450px) {
+    .b-product--chicago {
+    height: auto;
+}
+.b-product--chicago .block__inner .p-head__title {
+    font-size: 24px;
+    line-height: 40px;
+}
+.b-product--chicago .block__inner .p-head__title .t-bold {
+    font-size: 40px;
+}
+.b-product--chicago .block__inner .b-product__left .b-product__img-wrap .b-product__img {
+    width: 100%!important;
+}
+.b-product--chicago .block__inner .b-product__left .b-product__images .owl-carousel {
+    width: 320px;
+}
+.b-product--chicago .block__inner .b-product__right .b-product__prices {
+    display: block;
+}
+.b-product--chicago .block__inner .b-product__right .b-product__order-quick {
+    margin-left: 0;
+}
+.b-product--chicago .block__inner .b-product__right .delivery__row {
+    margin: 14px 10px;
+}
+.b-product--chicago .block__inner .b-product__right .delivery__triangle {
+    display: none;
+}
+}@media (max-width:320px) {
+    .b-product--chicago {
+    height: auto;
+}
+.b-product--chicago .block__inner .b-product__left .b-product__images .owl-carousel {
+    width: 210px;
+}
+}
+
+
+/* landing.css  */
+
+.block {
+    position: relative;
+}
+.t-bold {
+    font-weight: 700;
+}
+.landing__wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.landing__page {
+    color: #fff;
+}
+.block__inner {
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+.l-table--beige-trans {
+    background: rgba(255, 190, 63, .5);
+}
+.l-table {
+    padding: 17px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.l-table--beige-trans .l-table__th {
+    border-right: 1px solid #ae9166;
+}
+.chicago11 .l-table__table {
+    line-height: 1;
+}
+.l-table--white-50-trans .l-table__tr {
+    border-top: 1px solid #b3b0ae;
+}
+.l-table--white-50-trans .l-table__th {
+    border-right: 1px solid #b3b0ae;
+}
+.l-table--white-50-trans {
+    background: rgba(255, 255, 255, .5);
+}
+.l-table--beige-trans .l-table__tr {
+    border-top: 1px solid #ae9166;
+}
+.l-table__tr:first-child {
+    border: 0!important;
+}
+.l-table__table {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 15px;
+}
+/* landing.css адаптив */
+@media (max-width: 1200px) {
+.block__inner {
+    width: 100%;
+    overflow: hidden;
+}
+}
+@media (max-width: 1239px) {
+.block__inner {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+}
+@media (max-width: 1024px) {
+.landing__page .block {
+    width: 100%;
+}
+}
+@media (max-width: 767px) {
+    .slides {
+        max-width: none;
+    }
+}
