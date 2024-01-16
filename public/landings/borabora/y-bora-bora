@@ -1,0 +1,22 @@
+<?php
+/* @var $this \yii\base\View */
+
+use app\modules\site\assets\LandingAsset;
+
+$this->registerCssFile('css/landing_common.css?1', ['depends' => LandingAsset::className()]);
+$this->registerCssFile('css/landing-card.css', ['depends' => LandingAsset::className()]);
+// $this->registerCssFile('css/GetGoodOffer_21.css', ['depends' => LandingAsset::className()]);
+$this->registerCssFile('css/landing-mobile.css', ['depends' => LandingAsset::className()]);
+$this->registerCssFile('css/y-bora-bora.css', ['depends' => LandingAsset::className()]);
+
+$this->registerJsFile('js/site/landing-scripts/history-slider.js', ['depends' => LandingAsset::className()]);
+$this->registerJsFile('js/site/landing-scripts/related-slider.js', ['depends' => LandingAsset::className()]);
+$this->registerJsFile('js/site/lib/bodyScrollLock.js', ['depends' => LandingAsset::className()]);
+$this->registerJsFile('js/site/lib/TweenMax.min.js', ['depends' => LandingAsset::className()]);
+$this->registerJsFile('js/site/lib/ScrollMagic.min.js', ['depends' => LandingAsset::className()]);
+$this->registerJsFile('js/site/lib/animation.gsap.min.js', ['depends' => LandingAsset::className()]);
+$this->registerJsFile('js/site/landing-scripts/landings.js?2', ['depends' => LandingAsset::className()]);
+$this->registerJsFile('js/site/landing-scripts/y-bora-bora.js', ['depends' => LandingAsset::className()]);
+
+$this->params['bread'][] = ['label' => 'Каталог', 'url' => 'catalog', 'product' => $product];
+?>
