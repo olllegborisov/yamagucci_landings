@@ -1645,6 +1645,15 @@
     font-size: 14px;
     line-height: 15px;
 }
+.l-table--yellow {
+    background: #fce1ba;
+}
+table {
+    border-collapse: collapse;
+}
+.l-table--yellow .l-table__th {
+    border-right: 1px solid #bda98b;
+}
 /* landing.css адаптив */
 @media (max-width: 1200px) {
 .block__inner {
