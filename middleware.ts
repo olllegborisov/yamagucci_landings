@@ -6,6 +6,10 @@ import { ADMIN_ROLE, COOKIES, PAGE_HOME, PAGE_LOGIN, PAGE_NOT_FOUND } from './sr
 const mainMiddleware = async (req: NextRequest): Promise<any> => {
   /** кука токена */
   const AUTH_TOKEN = req.cookies.get(COOKIES.AUTH_TOKEN)?.value
+  /** имя хоста */
+  const host = req.nextUrl.hostname
+  // eslint-disable-next-line no-console
+  console.log('host', host)
 
   /** абсолютная ссылка для редиректа */
   const url = req.nextUrl.clone()
@@ -62,6 +66,7 @@ const mainMiddleware = async (req: NextRequest): Promise<any> => {
   /** если все ок и никакие редиректы не нужны, то просто показываем нужную страницу */
   url.pathname = pathname
   response = NextResponse.rewrite(url)
+  response.cookies.set(COOKIES.HOST, host)
 
   return response
 }

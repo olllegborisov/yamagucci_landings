@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/named
 import { ColumnDef } from '@tanstack/react-table'
 import Link from 'next/link'
+import Router from 'next/router'
 import React from 'react'
 
 import useFetchCategories from '@/src/api/useFetchCategories/useFetchCategories'
@@ -12,12 +13,17 @@ import { PAGE_CATEGORIES } from '@/src/constants/constants'
 import { IconMinusInSquare, IconPlusInSquare } from '@/src/constants/icons'
 import times from '@/src/lib/times'
 
-import styles from './CategoriesPage.module.scss'
+import styles from './AdminCategoriesPage.module.scss'
 
 /** страница тестовая */
-const CategoriesPage = () => {
+const AdminCategoriesPage = () => {
   /** получаем все продукты */
-  const { data, isLoading } = useFetchCategories()
+  const { data, isLoading } = useFetchCategories({ webApi: 'https://api.yamaguchi.ru/api' })
+
+  /** добавить новую категорию */
+  const handleClickAddNewCategory = () => {
+    Router.push(`${PAGE_CATEGORIES}/new`)
+  }
 
   /** колонки хэдера и футера */
   const columns = React.useMemo<ColumnDef<ColumnResultCategories, any>[]>(
@@ -119,6 +125,7 @@ const CategoriesPage = () => {
         ))
         : (
           <TableWithModal
+            addNewRow={handleClickAddNewCategory}
             columns={columns}
             data={data}
             title='Категории'
@@ -129,4 +136,4 @@ const CategoriesPage = () => {
   )
 }
 
-export default React.memo(CategoriesPage)
+export default React.memo(AdminCategoriesPage)

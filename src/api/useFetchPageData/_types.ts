@@ -4,7 +4,9 @@ import { QUERY_KEY_FETCH_PAGE_DATA } from './useFetchPageData'
 
 export type FetchPageDataParams = {
   /** слаг страницы */
-  slug: string[] | string
+  fullPathArray: string[] | string
+  /** признак админской страницы */
+  isAdminPage?: boolean
 }
 
 export type FetchPageDataOriginalResult = schema['/api/shop/page_data']['post']['responses']['200']['content']['application/json']

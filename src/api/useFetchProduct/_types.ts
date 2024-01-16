@@ -5,6 +5,8 @@ import { QUERY_KEY_FETCH_PRODUCT } from './useFetchProduct'
 export type FetchProductParams = {
   /** id продукта */
   productId: string
+  /** webApi */
+  webApi?: string
 }
 
 export type FetchProductOriginalResult = schema['/api/admin/products/{product}']['get']['responses']['200']['content']['application/json']

@@ -1,15 +1,20 @@
 import { useQueryClient } from '@tanstack/react-query'
 import Cookies from 'js-cookie'
+import dynamic from 'next/dynamic'
 import Router from 'next/router'
 import { type FC, HTMLAttributes, PropsWithChildren, useCallback } from 'react'
 
-import PublicHeader from '@/src/components/DynamicLayout/PublicHeader/PublicHeader'
 import { COOKIES } from '@/src/constants/constants'
 
 import { DynamicLayoutTypes } from './_types'
-import AdminHeader from './AdminHeader/AdminHeader'
-import AdminNavigation from './AdminNavigation/AdminNavigation'
 import styles from './DynamicLayout.module.scss'
+
+/** динамический компонент хэдера */
+const AdminHeader = dynamic(() => import('./AdminHeader/AdminHeader'), { ssr: true })
+/** динамический компонент хэдера */
+const PublicHeader = dynamic(() => import('@/src/components/DynamicLayout/PublicHeader/PublicHeader'), { ssr: true })
+/** динамический компонент навигации */
+const AdminNavigation = dynamic(() => import('./AdminNavigation/AdminNavigation'), { ssr: false })
 
 /** компонент динамического лейаута */
 const DynamicLayout: FC<PropsWithChildren<HTMLAttributes<HTMLDivElement>> & DynamicLayoutTypes> = ({ children, isAdminRoute }) => {

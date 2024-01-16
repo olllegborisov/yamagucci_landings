@@ -21,7 +21,7 @@ const CategoriesModal: FC<CategoriesModalTypes> = ({
   widthNumber
 }) => {
   /** все категории */
-  const { data: categories, isLoading } = useFetchCategories()
+  const { data: categories, isLoading } = useFetchCategories({ webApi: 'https://api.yamaguchi.ru/api' })
 
   /** контекст формы */
   const {

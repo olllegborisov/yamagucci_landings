@@ -28,7 +28,8 @@ export const PAGE_CATEGORIES = '/admin/categories'
 // cookies
 export const COOKIES = {
   AUTH_TOKEN: 'AUTH_TOKEN',
-  AUTH_TOKEN_OLD: 'AUTH_TOKEN_OLD'
+  AUTH_TOKEN_OLD: 'AUTH_TOKEN_OLD',
+  HOST: 'HOST'
 }
 
 export const ADMIN_ROLE = 'admin'

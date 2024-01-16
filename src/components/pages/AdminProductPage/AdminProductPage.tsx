@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router'
 import { FC, memo } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 
@@ -7,6 +6,7 @@ import useFetchProduct from '@/src/api/useFetchProduct/useFetchProduct'
 import ButtonIcon from '@/src/components/atoms/ButtonIcon/ButtonIcon'
 import TabsUnderline from '@/src/components/atoms/TabsUnderline/TabsUnderline'
 import Form from '@/src/components/Form/Form'
+import { WrapperTypes } from '@/src/components/pages/DynamicPage/_types'
 import { productFormCfg } from '@/src/constants/AdminFormConfigurations/productFormCfg'
 import { IconSave, IconTrash } from '@/src/constants/icons'
 
@@ -73,11 +73,9 @@ const AdminProductPage: FC<FetchProductOriginalResult> = ({ data }) => {
 }
 
 /** врапер для получения первоначальных данных хук-формы */
-const Wrapper: FC = () => {
-  /** айди продукта из урла */
-  const { query: { productId } } = useRouter()
+const Wrapper: FC<WrapperTypes> = ({ fullPathArray }) => {
   /** получение данных */
-  const { data } = useFetchProduct({ productId: productId?.toString() })
+  const { data } = useFetchProduct({ productId: fullPathArray?.[3], webApi: 'https://api.yamaguchi.ru/api' })
 
   if (!data) return null
 

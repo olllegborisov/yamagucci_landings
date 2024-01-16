@@ -2,8 +2,10 @@ import { dehydrate, QueryClient } from '@tanstack/react-query'
 import { GetStaticProps } from 'next'
 import { memo } from 'react'
 
+import { getCategory, QUERY_KEY_FETCH_CATEGORY } from '@/src/api/useFetchCategory/useFetchCategory'
 import { FetchPageDataOriginalResult } from '@/src/api/useFetchPageData/_types'
 import { getPageData, QUERY_KEY_FETCH_PAGE_DATA } from '@/src/api/useFetchPageData/useFetchPageData'
+import { getProduct, QUERY_KEY_FETCH_PRODUCT } from '@/src/api/useFetchProduct/useFetchProduct'
 import DynamicPage from '@/src/components/pages/DynamicPage/DynamicPage'
 
 /** загрузка данных. */
@@ -13,20 +15,35 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   const queryClient = new QueryClient()
 
   /** слаг */
-  const slug = ctx?.params?.slug
+  const fullPathArray = ctx?.params?.slug
+  // eslint-disable-next-line no-console
+  console.log('slug from ...SLUG', fullPathArray)
+
+  /** categoryId */
+  const categoryId = fullPathArray?.includes('categories') ? fullPathArray?.[3] : undefined
+  /** categoryId */
+  const productId = fullPathArray?.includes('products') ? fullPathArray?.[3] : undefined
 
   try {
     await Promise.all([
       queryClient.prefetchQuery({
-        queryFn: () => getPageData({ slug }),
-        queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { slug }]
+        queryFn: () => getPageData({ fullPathArray }),
+        queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray }]
+      }),
+      queryClient.prefetchQuery({
+        queryFn: () => getCategory({ categoryId, webApi: 'https://api.yamaguchi.ru/api' }),
+        queryKey: [QUERY_KEY_FETCH_CATEGORY, { categoryId, webApi: 'https://api.yamaguchi.ru/api' }]
+      }),
+      queryClient.prefetchQuery({
+        queryFn: () => getProduct({ productId, webApi: 'https://api.yamaguchi.ru/api' }),
+        queryKey: [QUERY_KEY_FETCH_PRODUCT, { productId, webApi: 'https://api.yamaguchi.ru/api' }]
       })
     ])
 
     /** список продуктов */
-    const page: FetchPageDataOriginalResult = queryClient.getQueryData([QUERY_KEY_FETCH_PAGE_DATA, { slug }])
+    const page: FetchPageDataOriginalResult = queryClient.getQueryData([QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray }])
 
-    if (!page?.data?.page_type) {
+    if (!page?.data?.page_type && !fullPathArray.includes('admin')) {
       return {
         redirect: {
           destination: '/404',
@@ -37,7 +54,8 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
     return {
       props: {
-        dehydratedState: JSON.parse(JSON.stringify(dehydrate(queryClient)))
+        dehydratedState: JSON.parse(JSON.stringify(dehydrate(queryClient))),
+        fullPathArray
       },
       revalidate: 1800
     }

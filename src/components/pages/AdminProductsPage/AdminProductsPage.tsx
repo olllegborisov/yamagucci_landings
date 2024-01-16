@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/named
 import { ColumnDef } from '@tanstack/react-table'
 import Link from 'next/link'
+import Router from 'next/router'
 import React from 'react'
 
 import useFetchProducts from '@/src/api/useFetchProducts/useFetchProducts'
@@ -18,7 +19,12 @@ import styles from './AdminProductsPage.module.scss'
 /** страница тестовая */
 const AdminProductPage = () => {
   /** получаем все продукты */
-  const { data, isLoading } = useFetchProducts()
+  const { data, isLoading } = useFetchProducts({ webApi: 'https://api.yamaguchi.ru/api' })
+
+  /** добавить новую категорию */
+  const handleClickAddNewProduct = () => {
+    Router.push(`${PAGE_PRODUCTS}/new`)
+  }
 
   /** колонки хэдера и футера */
   const columns = React.useMemo<ColumnDef<ColumnResultProducts, any>[]>(
@@ -135,6 +141,7 @@ const AdminProductPage = () => {
         ))
         : (
           <TableWithModal
+            addNewRow={handleClickAddNewProduct}
             columns={columns}
             data={data}
             title='Товары'

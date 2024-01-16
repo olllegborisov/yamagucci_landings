@@ -40,7 +40,7 @@ const TabsUnderline: FC<TabsUnderlineTypes> = ({
   /** обработчик переключения таба */
   const handleTabSelect = (index) => {
     setSelectedIndex(index)
-    replace({ query: { ...query, activeTab: tabTitles[index] } }, undefined, { shallow: true })
+    replace({ query: { activeTab: tabTitles[index], slug: query?.slug?.length > 3 ? query?.slug?.slice(1) : query?.slug } }, undefined, { shallow: true })
   }
 
   if (tabTitles || isLoading) {

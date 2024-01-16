@@ -29,7 +29,7 @@ const SearchAdditionalProduct:FC<InputTypes> = ({
   /** текущие опции */
   const currentAdditionalProducts = getValues(name)
   /** достаем опшны */
-  const { data: products, isLoading } = useFetchProducts()
+  const { data: products, isLoading } = useFetchProducts({ webApi: 'https://api.yamaguchi.ru/api' })
 
   /** стейт дополнительных продуктов лендинга */
   const [selectedProducts, setSelectedProducts] = useState(currentAdditionalProducts)

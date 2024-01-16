@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router'
 import { FC, memo } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 
@@ -7,13 +6,14 @@ import useFetchCategory from '@/src/api/useFetchCategory/useFetchCategory'
 import ButtonIcon from '@/src/components/atoms/ButtonIcon/ButtonIcon'
 import TabsUnderline from '@/src/components/atoms/TabsUnderline/TabsUnderline'
 import Form from '@/src/components/Form/Form'
+import { WrapperTypes } from '@/src/components/pages/DynamicPage/_types'
 import { categoryFormCfg } from '@/src/constants/AdminFormConfigurations/categoryFormCfg'
 import { IconSave, IconTrash } from '@/src/constants/icons'
 
-import styles from './CategoryPage.module.scss'
+import styles from './AdminCategoryPage.module.scss'
 
 /** страница тестовая */
-const CategoryPage: FC<FetchCategoryOriginalResult> = ({ data }) => {
+const AdminCategoryPage: FC<FetchCategoryOriginalResult> = ({ data }) => {
   /** методы из формы */
   const formMethods = useForm({
     defaultValues: { ...data },
@@ -21,7 +21,7 @@ const CategoryPage: FC<FetchCategoryOriginalResult> = ({ data }) => {
   })
 
   // eslint-disable-next-line no-console
-  console.log('initialValues', data)
+  // console.log('initialValues', data)
 
   /** обработчик сабмита */
   const onSubmit = (data) => {
@@ -73,16 +73,14 @@ const CategoryPage: FC<FetchCategoryOriginalResult> = ({ data }) => {
 }
 
 /** врапер для получения первоначальных данных хук-формы */
-const Wrapper: FC = () => {
-  /** айди продукта из урла */
-  const { query: { categoryId } } = useRouter()
+const Wrapper: FC<WrapperTypes> = ({ fullPathArray }) => {
   /** получение данных */
-  const { data } = useFetchCategory({ categoryId: categoryId?.toString() })
+  const { data } = useFetchCategory({ categoryId: fullPathArray?.[3], webApi: 'https://api.yamaguchi.ru/api' })
 
   if (!data) return null
 
   return (
-    <CategoryPage data={data?.data} />
+    <AdminCategoryPage data={data?.data} />
   )
 }
 
