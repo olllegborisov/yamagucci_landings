@@ -820,7 +820,7 @@ body {
 }
 .cardio {
     height: 990px;
-    background: url(../images/landing/bg/cardio/cardio_01.jpg) top center no-repeat;
+    background: url(../images/landing/bg/cardio/cardio_01.webp) top center no-repeat;
     background-size: cover;
     color: #000;
 }
@@ -848,7 +848,7 @@ body {
 }
 .cardio1 {
     height: 980px;
-    background: url(../images/landing/bg/cardio/cardio_01.jpg) top center no-repeat;
+    background: url(../images/landing/bg/cardio/cardio_01.webp) top center no-repeat;
 }
 .cardio1 .b-product__ontime-box {
     margin-left: 21px;
