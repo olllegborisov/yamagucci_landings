@@ -77,9 +77,12 @@ const CategoriesPage = () => {
               href={`${PAGE_CATEGORIES}/${info?.row?.original?.id}`}
               title='Редактировать'
             >
-              {!info?.row.original?.parent_id
-                ? info?.row?.original?.name
-                : `---${info?.row?.original?.name}`}
+              <p dangerouslySetInnerHTML={ {
+                __html: !info?.row.original?.parent_id
+                  ? info?.row?.original?.name
+                  : `---${info?.row?.original?.name}`
+              }}
+              />
             </Link>
           </div>
         ),

@@ -85,7 +85,6 @@ const Table: FC<TableWithModalTypes> = ({ columns: defaultColumns, data: default
 
   /** обработчик сброса фильтров и поиска */
   const handleOnResetButton = () => {
-    setColumnVisibility({})
     setColumnFilters([])
     setGlobalFilter('')
     setExpanded({})
