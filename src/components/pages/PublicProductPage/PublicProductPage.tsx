@@ -14,7 +14,6 @@ const PublicProductPage: FC<PublicProductPageTypes> = ({ data, isLoading }) => (
     />
     <Landing landingName='marco' />
   </>
-
 )
 
 export default PublicProductPage
