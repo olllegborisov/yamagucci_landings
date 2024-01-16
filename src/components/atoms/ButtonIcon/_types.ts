@@ -1,7 +1,7 @@
 export type ButtonIconTypes = {
   /** элемент обертки */
   as?: string | React.JSXElementConstructor<any>
-  /** доп. класс на кнопку */
+  /** доп. класс на главный враппер кнопки */
   className?: string
   /** цвета кнопки */
   colorVariant: 'grayDark' | 'gray' | 'blue' | 'red' | 'black' | 'transparentBlue' | 'transparentRed' | 'transparent' | 'transparentGray' | 'grayMattBlack' | 'blackWhite'
@@ -17,6 +17,8 @@ export type ButtonIconTypes = {
   }
   /** класс для обертки иконки */
   iconWrapperClassName?: string
+  /** флаг загрузки */
+  isLoadingAfterClick?: boolean
   /** лейбл */
   label?: string
   /** доп. класс лейбла */

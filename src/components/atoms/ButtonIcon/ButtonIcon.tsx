@@ -1,6 +1,7 @@
 import cn from 'classnames'
 
 import IconWrapper from '@/src/components/atoms/IconWrapper/IconWrapper'
+import LoaderQuery from '@/src/components/atoms/LoaderQuery/LoaderQuery'
 
 import { ButtonIconTypes } from './_types'
 import styles from './ButtonIcon.module.scss'
@@ -13,6 +14,7 @@ const ButtonIcon: React.FC<ButtonIconTypes> = ({
   disabled,
   icon: Icon,
   iconWrapperClassName,
+  isLoadingAfterClick,
   label,
   labelClassName,
   onClick,
@@ -35,9 +37,14 @@ const ButtonIcon: React.FC<ButtonIconTypes> = ({
         wrapperClassname={cn(styles.iconWrapper, iconWrapperClassName)}
       />
     )}
-    <span className={cn(styles.labelClassName, labelClassName)}>
-      {label}
-    </span>
+    <LoaderQuery
+      className={styles.loader}
+      isLoading={isLoadingAfterClick}
+    >
+      <span className={cn(styles.labelClassName, labelClassName)}>
+        {label}
+      </span>
+    </LoaderQuery>
   </Tag>
 )
 

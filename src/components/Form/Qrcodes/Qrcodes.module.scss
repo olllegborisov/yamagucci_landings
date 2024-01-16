@@ -1,4 +1,9 @@
 @import 'styles/variables';
+
+.form {
+  padding: 30px 25px;
+  border-bottom: 1px solid $bad-white;
+}
 .card {
   padding: 30px 25px;
   border-bottom: 1px solid $bad-white;
@@ -58,4 +63,20 @@
 
 .grayBg {
   background-color: $bad-white;
+}
+
+.linkAndButton {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.link {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button {
+  min-width: 150px;
 }

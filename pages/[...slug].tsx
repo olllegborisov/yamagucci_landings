@@ -5,6 +5,7 @@ import { memo } from 'react'
 import { getCategory, QUERY_KEY_FETCH_CATEGORY } from '@/src/api/useFetchCategory/useFetchCategory'
 import { FetchPageDataOriginalResult } from '@/src/api/useFetchPageData/_types'
 import { getPageData, QUERY_KEY_FETCH_PAGE_DATA } from '@/src/api/useFetchPageData/useFetchPageData'
+import { getProduct, QUERY_KEY_FETCH_PRODUCT } from '@/src/api/useFetchProduct/useFetchProduct'
 import DynamicPage from '@/src/components/pages/DynamicPage/DynamicPage'
 
 /** загрузка данных. */
@@ -20,6 +21,8 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
   /** categoryId */
   const categoryId = fullPathArray?.includes('categories') ? fullPathArray?.[3] : undefined
+  /** categoryId */
+  const productId = fullPathArray?.includes('products') ? fullPathArray?.[3] : undefined
 
   try {
     await Promise.all([
@@ -30,6 +33,10 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
       queryClient.prefetchQuery({
         queryFn: () => getCategory({ categoryId, webApi: 'https://api.yamaguchi.ru/api' }),
         queryKey: [QUERY_KEY_FETCH_CATEGORY, { categoryId, webApi: 'https://api.yamaguchi.ru/api' }]
+      }),
+      queryClient.prefetchQuery({
+        queryFn: () => getProduct({ productId, webApi: 'https://api.yamaguchi.ru/api' }),
+        queryKey: [QUERY_KEY_FETCH_PRODUCT, { productId, webApi: 'https://api.yamaguchi.ru/api' }]
       })
     ])
 
