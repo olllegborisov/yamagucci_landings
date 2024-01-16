@@ -1,0 +1,2228 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Gothic;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/centurygothic.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PTSans;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/PTSans.eot);
+  src: url(/landings/infinity/fonts/PTSans.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/PTSans.woff2) format('woff2'),
+    url(/landings/infinity/fonts/PTSans.woff) format('woff'),
+    url(/landings/infinity/fonts/PTSans.ttf) format('truetype'),
+    url(/landings/infinity/fonts/PTSans.svg#PTSans) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PTSans;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/PTSansBold.eot);
+  src: url(/landings/infinity/fonts/PTSansBold.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/PTSansBold.woff2) format('woff2'),
+    url(/landings/infinity/fonts/PTSansBold.woff) format('woff'),
+    url(/landings/infinity/fonts/PTSansBold.ttf) format('truetype'),
+    url(/landings/infinity/fonts/PTSansBold.svg#PTSans) format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: PTSans;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/PTSansItalic.ttf) format('truetype');
+  src: url(/landings/infinity/fonts/PTSansItalic.woff2) format('woff2'),
+    url(/landings/infinity/fonts/PTSansItalic.woff) format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: PTSansNarrow;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/PTSansNarrow.eot);
+  src: url(/landings/infinity/fonts/PTSansNarrow.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/PTSansNarrow.woff2) format('woff2'),
+    url(/landings/infinity/fonts/PTSansNarrow.woff) format('woff'),
+    url(/landings/infinity/fonts/PTSansNarrow.ttf) format('truetype'),
+    url(/landings/infinity/fonts/PTSansNarrow.svg#PTSansNarrow) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PTSansNarrow;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/PTSansNarrowBold.eot);
+  src: url(/landings/infinity/fonts/PTSansNarrowBold.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/PTSansNarrowBold.woff2) format('woff2'),
+    url(/landings/infinity/fonts/PTSansNarrowBold.woff) format('woff'),
+    url(/landings/infinity/fonts/PTSansNarrowBold.ttf) format('truetype'),
+    url(/landings/infinity/fonts/PTSansNarrowBold.svg#PTSansNarrow) format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: MyriadProLight;
+  src: url(/landings/infinity/fonts/MyriadProLight.eot);
+  src: url(/landings/infinity/fonts/MyriadProLight.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/MyriadProLight.woff) format('woff'),
+    url(/landings/infinity/fonts/MyriadProLight.woff2) format('woff2'),
+    url(/landings/infinity/fonts/MyriadProLight.ttf) format('truetype'),
+    url(/landings/infinity/fonts/MyriadProLight.svg#MyriadProLight) format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url(/landings/infinity/fonts/MyriadPro.otf) format('opentype');
+  src: url(/landings/infinity/fonts/MyriadPro.woff2) format('woff2'),
+    url(/landings/infinity/fonts/MyriadPro.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: MyriadProBold;
+  src: url(/landings/infinity/fonts/MyriadProBold.otf) format('opentype');
+  src: url(/landings/infinity/fonts/MyriadProBold.woff2) format('woff2'),
+    url(/landings/infinity/fonts/MyriadProBold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: PragmaticaC;
+  src: url(/landings/infinity/fonts/PTPragmaticaCyrillic.ttf) format('opentype');
+  src: url(/landings/infinity/fonts/PTPragmaticaCyrillic.woff2) format('woff2'),
+    url(/landings/infinity/fonts/PTPragmaticaCyrillic.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: PragmaticaC;
+  src: url(/landings/infinity/fonts/PTPragmaticaBoldCyrillic.ttf) format('opentype');
+  src: url(/landings/infinity/fonts/PTPragmaticaBoldCyrillic.woff2) format('woff2'),
+    url(/landings/infinity/fonts/PTPragmaticaBoldCyrillic.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Circe;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/Circe-Thin.eot);
+  src: url(/landings/infinity/fonts/Circe-Thin.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/Circe-Thin.woff) format('woff'),
+    url(/landings/infinity/fonts/Circe-Thin.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Circe-Thin.ttf) format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circe;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/Circe-ExtraLight.eot);
+  src: url(/landings/infinity/fonts/Circe-ExtraLight.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/Circe-ExtraLight.woff) format('woff'),
+    url(/landings/infinity/fonts/Circe-ExtraLight.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Circe-ExtraLight.ttf) format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circe;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/Circe-Light.eot);
+  src: url(/landings/infinity/fonts/Circe-Light.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/Circe-Light.woff) format('woff'),
+    url(/landings/infinity/fonts/Circe-Light.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Circe-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circe;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/Circe-Regular.eot);
+  src: url(/landings/infinity/fonts/Circe-Regular.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/Circe-Regular.woff) format('woff'),
+    url(/landings/infinity/fonts/Circe-Regular.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Circe-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circe;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/Circe-Bold.eot);
+  src: url(/landings/infinity/fonts/Circe-Bold.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/Circe-Bold.woff) format('woff'),
+    url(/landings/infinity/fonts/Circe-Bold.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Circe-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circe;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/Circe-ExtraBold.eot);
+  src: url(/landings/infinity/fonts/Circe-ExtraBold.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/Circe-ExtraBold.woff) format('woff'),
+    url(/landings/infinity/fonts/Circe-ExtraBold.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Circe-ExtraBold.ttf) format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: BebasNeue;
+  src: url(/landings/infinity/fonts/bebasneuethin.woff2) format('woff2');
+  src: local('☺'), url(/landings/infinity/fonts/bebasneuethin.woff) format('woff'),
+    url(/landings/infinity/fonts/bebasneuethin.ttf) format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: BebasNeue;
+  src: url(/landings/infinity/fonts/bebasneuelight.woff2) format('woff2');
+  src: local('☺'), url(/landings/infinity/fonts/bebasneuelight.ttf) format('truetype'),
+    url(/landings/infinity/fonts/bebasneuelight.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: BebasNeue;
+  src: url(/landings/infinity/fonts/bebasneueregular.eot);
+  src: local('☺'), url(/landings/infinity/fonts/bebasneueregular.woff2) format('woff2'),
+    url(/landings/infinity/fonts/bebasneueregular.woff) format('woff'),
+    url(/landings/infinity/fonts/bebasneueregular.ttf) format('truetype'),
+    url(/landings/infinity/fonts/bebasneueregular.svg) format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: BebasNeue;
+  src: url(/landings/infinity/fonts/bebasneuebold.eot);
+  src: local('☺'), url(/landings/infinity/fonts/bebasneuebold.woff2) format('woff2'),
+    url(/landings/infinity/fonts/bebasneuebold.woff) format('woff'),
+    url(/landings/infinity/fonts/bebasneuebold.ttf) format('truetype'),
+    url(/landings/infinity/fonts/bebasneuebold.svg) format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+    url(/landings/infinity/fonts/Montserrat-Light.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Montserrat-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local('Montserrat'), local('Montserrat-Regular'),
+    url(/landings/infinity/fonts/Montserrat-Regular.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Montserrat-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local('Montserrat'), local('Montserrat-Regular'),
+    url(/landings/infinity/fonts/Montserrat-Medium.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Montserrat-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url(/landings/infinity/fonts/Montserrat-Bold.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Montserrat-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local('Montserrat Black'), local('Montserrat-Black'),
+    url(/landings/infinity/fonts/Montserrat-Black.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Montserrat-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Morpha;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/Morpha-Bold.woff2) format('woff2');
+  src: local('☺'), url(/landings/infinity/fonts/Morpha-Bold.woff) format('woff'),
+    url(/landings/infinity/fonts/Morpha-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Machina';
+  font-display: swap;
+  src: local('NeueMachina-Bold'), local('NeueMachina-Bold'),
+    url(/landings/infinity/fonts/NeueMachina-Bold.woff2) format('woff2'),
+    url(/landings/infinity/fonts/NeueMachina-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Machina';
+  font-display: swap;
+  src: local('NeueMachina-Black'), local('NeueMachina-Black'),
+    url(/landings/infinity/fonts/NeueMachina-Black.woff2) format('woff2'),
+    url(/landings/infinity/fonts/NeueMachina-Bold.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Norican;
+  font-display: swap;
+  src: url(/landings/infinity/fonts/norican-regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cy Grotesk';
+  font-display: swap;
+  src: url(/landings/infinity/fonts/cy-grotesk-grand-dark.otf);
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: RainerTestv04;
+  src: url(/landings/infinity/fonts/RainerTestv04-Bold.woff2), url(/landings/infinity/fonts/RainerTestv04-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Anticva;
+  font-display: swap;
+  src: local('Anticva'), local('Anticva'),
+    url(/landings/infinity/fonts/Anticva-Regular.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Anticva-Regular.woff) format('woff'),
+    url(/landings/infinity/fonts/Anticva-Regular.otf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Halvar Breitschrift';
+  src: local('HalvarBreit-Blk'), local('HalvarBreit-Blk'),
+    url(/landings/infinity/fonts/HalvarBreit-Blk.woff2) format('woff2'),
+    url(/landings/infinity/fonts/HalvarBreit-Blk.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Damn;
+  font-display: swap;
+  src: local('Damn'), local('Damn'), url(/landings/infinity/fonts/Damn.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Damn.woff) format('woff'),
+    url(/landings/infinity/fonts/Damn.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Monologue DEMO';
+  font-display: swap;
+  src: local('Monologue_DEMO'), local('Monologue_DEMO'),
+    url(/landings/infinity/fonts/Monologue_DEMO.woff) format('woff'),
+    url(/landings/infinity/fonts/Monologue_DEMO.ttf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Nasalization;
+  font-display: swap;
+  src: local('Nasalization'), local('Nasalization'),
+    url(/landings/infinity/fonts/Nasalization.woff) format('woff'),
+    url(/landings/infinity/fonts/Nasalization.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PatsySans;
+  font-display: swap;
+  src: local('PatsySans'), local('PatsySans'),
+    url(/landings/infinity/fonts/PatsySans.woff) format('woff'),
+    url(/landings/infinity/fonts/PatsySans.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Lighthaus;
+  src: url(/landings/infinity/fonts/Lighthaus.eot);
+  src: url(/landings/infinity/fonts/Lighthaus.eot?#iefix) format('embedded-opentype'),
+    url(/landings/infinity/fonts/Lighthaus.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Lighthaus.woff) format('woff'),
+    url(/landings/infinity/fonts/Lighthaus.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: UltramonoWide-LightItalic;
+  src: url(/landings/infinity/fonts/UltramonoWide-LightItalic.woff2) format('woff2'),
+    url(/landings/infinity/fonts/UltramonoWide-LightItalic.woff) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: UltramonoWide-Light;
+  src: url(/landings/infinity/fonts/UltramonoWide-Light.woff2) format('woff2'),
+    url(/landings/infinity/fonts/UltramonoWide-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nikkyou Sans';
+  src: url(/landings/infinity/fonts/NikkyouSans.woff2) format('woff2'),
+    url(/landings/infinity/fonts/NikkyouSans.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Corvetta;
+  src: url(/landings/infinity/fonts/Corvetta.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Corvetta.woff) format('woff'),
+    url(/landings/infinity/fonts/Corvetta.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: a_LCDNovaObl;
+  src: url(/landings/infinity/fonts/a_lcdnovaobl.woff) format('woff'),
+    url(/landings/infinity/fonts/a_lcdnovaobl.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Felidae;
+  src: url(/landings/infinity/fonts/Felidae.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Expanded Trial';
+  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-Thin.otf);
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Expanded Trial';
+  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-Regular.otf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Expanded Trial';
+  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-RegularItalic.otf);
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Expanded Trial';
+  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-ExtraBold.otf);
+  font-weight: 750;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Expanded Trial';
+  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-ExtraBoldItalic.otf);
+  font-weight: 750;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Expanded Trial';
+  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-Heavy.otf);
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Expanded Trial';
+  src: url(/landings/infinity/fonts/MullerNextExpandedTrialThinItalic.otf);
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next ExtraCond Trial';
+  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-ExtraBold.otf);
+  font-weight: 750;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next ExtraCond Trial Heavy';
+  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-HeavyItalic.otf) format('opentype'),
+    url(/landings/infinity/fonts/MullerNextExtraCondTrial-HeavyItalic.ttf) format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next ExtraCond Trial';
+  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf)
+      format('truetype'),
+    url(/landings/infinity/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2) format('woff2');
+  font-weight: 750;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Muller Next ExtraCond Trial';
+  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-Regular.otf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next ExtraCond Trial';
+  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-RegularItalic.otf);
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next ExtraCond Trial';
+  src: url(/landings/infinity/fonts/MullerNextExtraCondTrialThin.otf);
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Trial';
+  src: url(/landings/infinity/fonts/MullerNextTrial-Regular.otf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Trial';
+  src: url(/landings/infinity/fonts/MullerNextTrial-ExtraBold.otf);
+  font-weight: 750;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller Next Wide Trial';
+  src: url(/landings/infinity/fonts/MullerNextTrial-ThinItalic.woff2);
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: Cakra;
+  src: url(/landings/infinity/fonts/Cakra-Normal.otf) format('opentype');
+  src: url(/landings/infinity/fonts/Cakra-Normal.woff2) format('woff2'),
+    url(/landings/infinity/fonts/Cakra-Normal.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Noteworthy;
+  src: url(/landings/infinity/fonts/NoteworthyLight.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Technology;
+  src: url(/landings/infinity/fonts/Technology.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Technology;
+  src: url(/landings/infinity/fonts/Technology-Bold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Unbounded;
+  src: url(/landings/infinity/fonts/Unbounded-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Unbounded;
+  src: url(/landings/infinity/fonts/Unbounded-Black.ttf) format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url(/landings/infinity/fonts/Inter-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url(/landings/infinity/fonts/Inter-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url(/landings/infinity/fonts/MontserratAlternates-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url(/landings/infinity/fonts/snell-roundhand-900.otf) format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url(/landings/infinity/fonts/snell-roundhand-700.otf) format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Lighthaus;
+  src: url(/landings/infinity/fonts/Lighthaus-400.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Code pro black';
+  src: url(/landings/infinity/fonts/code_pro_black.otf) format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Boldstrom;
+  src: url(/landings/infinity/fonts/Boldstrom-b.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Europe ext regular';
+  src: url(/landings/infinity/fonts/europeext.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Europe ext bold';
+  src: url(/landings/infinity/fonts/europeext_bold.otf) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Europe ext bold italic';
+  src: url(/landings/infinity/fonts/europeext_bold_italic.otf) format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TT Smalls Trial';
+  src: url(/landings/infinity/fonts/TT-Smalls-Trial-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Mak;
+  src: url(/landings/infinity/fonts/MAK.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: GTEestiProDisplay;
+  src: url(/landings/infinity/fonts/GTEestiProDisplay-Bold.woff2) format('woff2');
+  src: url(/landings/infinity/fonts/GTEestiProDisplay-Bold.woff) format('woff');
+  src: url(/landings/infinity/fonts/GTEestiProDisplay-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: EuropeExt;
+  src: url(/landings/infinity/fonts/europeextnormal.woff2) format('woff2');
+  src: url(/landings/infinity/fonts/europeextnormal.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.infinity__text {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+.infinity-top {
+  height: 990px;
+  background: url(/images/landing/bg/infinity/bg_infinity_top.webp) top center
+    no-repeat;
+}
+.infinity1 {
+  height: 766px;
+  font-family: PTSans, sans-serif;
+  background: url(/landings/infinity/images/product/landing/fst-bg.webp) top center no-repeat;
+}
+.infinity1__desc {
+  padding-top: 50px;
+  width: 580px;
+  float: right;
+}
+.infinity1__row {
+  width: 100%;
+  padding: 110px 0 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+.infinity1__title {
+  font-size: 51px;
+  line-height: 55px;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #fff;
+}
+.infinity1__title .t-bold {
+  color: #9c8d82;
+}
+.infinity1__text {
+  margin: 13px 0 0 0;
+  text-align: right;
+  color: #fff;
+}
+.infinity1__block {
+  margin: 0 0 0 45px;
+  width: 150px;
+  text-align: center;
+}
+.infinity1__img {
+  margin: 0 0 35px;
+}
+.infinity1__head {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.infinity1__head--center {
+  margin: 0 0 5px 0;
+}
+.infinity1__btext {
+  font-size: 16px;
+  line-height: 20px;
+}
+.infinity1__block--1 {
+  bottom: 115px;
+  left: 337px;
+}
+.infinity1__block--2 {
+  bottom: 115px;
+  left: 550px;
+}
+.infinity1__block--3 {
+  bottom: 135px;
+  left: 756px;
+}
+.infinity1__block--4 {
+  bottom: 135px;
+  right: 0;
+}
+.infinity2 {
+  background-image: url(../images/bg/bg_infinity2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 765px;
+}
+.infinity2__img-mob {
+  display: none;
+}
+.infinity2__title {
+  padding: 28px 0 0 0;
+  font-family: PTSans, sans-serif;
+  font-size: 42.5px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.infinity2__title .t-bold {
+  font-size: 43px;
+  color: #00b9ff;
+}
+.infinity2__block {
+  position: absolute;
+  padding: 10px 8px;
+  font-family: PTSansNarrow, sans-serif;
+  width: 162px;
+}
+.infinity2__head {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  line-height: 13px;
+  font-weight: 700;
+  color: #00b9ff;
+}
+.infinity2__text {
+  font-size: 14px;
+  line-height: 15px;
+}
+.infinity2__block--1 {
+  top: 133px;
+  left: 242px;
+}
+.infinity2__block--2 {
+  top: 207px;
+  left: 64px;
+}
+.infinity2__block--3 {
+  top: 351px;
+  left: 147px;
+}
+.infinity2__block--4 {
+  top: 473px;
+  left: 99px;
+}
+.infinity2__block--5 {
+  top: 603px;
+  left: 216px;
+}
+.infinity2__block--6 {
+  top: 616px;
+  left: 796px;
+}
+.infinity2__block--7 {
+  top: 492px;
+  left: 841px;
+}
+.infinity2__block--8 {
+  top: 344px;
+  left: 809px;
+}
+.infinity2__block--9 {
+  top: 225px;
+  left: 862px;
+}
+.infinity2__block--10 {
+  top: 85px;
+  left: 746px;
+}
+.infinity3 {
+  height: 689px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url(../images/bg/bg_infinity3.webp);
+}
+.infinity3__desc {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  width: 500px;
+}
+.infinity3__title {
+  font-family: PTSans, sans-serif;
+  font-size: 41.5px;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #000;
+}
+.infinity3__title .t-bold {
+  color: #d37200;
+}
+.infinity3__text {
+  margin: 22px 0 0 0;
+  color: #000;
+}
+.infinity4 {
+  height: 689px;
+}
+.infinity4__title {
+  position: absolute;
+  top: 61px;
+  right: 0;
+  font-family: PTSans, sans-serif;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: right;
+}
+.infinity4__video {
+  position: absolute;
+  top: 224px;
+  right: 1px;
+  width: 594px;
+  height: 351px;
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+}
+.infinity5 {
+  height: 689px;
+  background-image: url(../images/bg/bg_infinity5.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.infinity5__desc {
+  position: absolute;
+  top: 267px;
+  right: 0;
+  width: 405px;
+  text-align: right;
+}
+.infinity5__title {
+  margin: 0 0 6px 0;
+  font-family: PTSans, sans-serif;
+  font-size: 41px;
+  line-height: 45px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.infinity5__title .t-bold {
+  color: #cc393b;
+}
+.infinity6 {
+  height: 849px;
+}
+.infinity6__title {
+  position: absolute;
+  top: 55px;
+  left: 71px;
+  font-family: PTSans, sans-serif;
+  font-size: 55px;
+  line-height: 86px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.infinity6__title .t-bold {
+  font-size: 90px;
+  line-height: 62px;
+  color: #77329a;
+}
+.infinity6__text {
+  position: absolute;
+  top: 138px;
+  right: 88px;
+  width: 600px;
+  text-align: right;
+}
+.infinity7 {
+  background-image: url(../images/bg/bg_infinity7.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 725px;
+}
+.infinity7__img-mob {
+  display: none;
+}
+.infinity7__desc {
+  position: absolute;
+  top: 88px;
+  left: 644px;
+}
+.infinity7__block {
+  padding: 20px 20px 24px 27px;
+  box-sizing: border-box;
+  width: 434px;
+  border-radius: 10px;
+  background: rgba(35, 31, 32, 0.5);
+}
+.infinity7__name {
+  font-family: PTSans, sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.infinity7__name .t-bold {
+  color: #61bbdc;
+}
+.infinity7__char {
+  margin: 8px 0 0 0;
+  font-family: PTSans, sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.8px;
+}
+.infinity7__text {
+  margin: 17px 0 0 31px;
+}
+.infinity8 {
+  background-image: url(../images/product/landing/screen3.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 807px;
+  overflow: hidden;
+}
+.infinity8__title {
+  padding: 10px 0 0 0;
+  margin-bottom: 10px;
+  font-family: PTSans, sans-serif;
+  font-size: 38px;
+  line-height: 41px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+.infinity8__title .t-bold {
+  color: #44372f;
+  display: block;
+}
+.infinity8__block-text {
+  line-height: 1;
+  color: #000;
+}
+.infinity8__block-slogan {
+  font-size: 23px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.infinity8__block-img {
+  position: relative;
+}
+.infinity8__block-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #9b8b81;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  margin: auto;
+}
+.infinity8__block {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 3%;
+}
+.infinity8__block:nth-child(3n) {
+  margin-right: 0;
+}
+.infinity8__head {
+  font-size: 23px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.infinity8__desc {
+  margin: 5px 0 0 0;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+}
+.infinity9 {
+  height: 677px;
+  background-image: url(../images/bg/bg_infinity9.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.infinity9__img-mob {
+  display: none;
+}
+.infinity9__title {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  font-family: PTSans, sans-serif;
+  font-size: 38px;
+  line-height: 41px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: right;
+}
+.infinity9__block {
+  position: absolute;
+}
+.infinity9__head {
+  font-family: PTSans, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: underline;
+}
+.infinity9__text {
+  margin: 6px 0 0 0;
+  font-size: 16px;
+  line-height: 19px;
+}
+.infinity9__block--1 {
+  width: 330px;
+  left: 410px;
+  top: 163px;
+}
+.infinity9__block--2 {
+  width: 310px;
+  left: 302px;
+  top: 344px;
+}
+.infinity9__block--3 {
+  width: 270px;
+  left: 410px;
+  top: 516px;
+}
+.infinity10 {
+  background-image: url(../images/bg/bg_infinity10.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 757px;
+}
+.infinity10__img-mob {
+  display: none;
+}
+.infinity10__title {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  font-family: PTSans, sans-serif;
+  font-size: 56px;
+  line-height: 57px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #000;
+}
+.infinity10__title .t-bold {
+  color: #fff;
+}
+.infinity10__text {
+  position: absolute;
+  top: 354px;
+  right: -12px;
+  width: 450px;
+  font-size: 25px;
+  line-height: 33px;
+}
+.infinity11 {
+  height: 781px;
+}
+.infinity11__title {
+  margin: 0 0 0 40px;
+  padding: 45px 0 0 0;
+  font-family: PTSans, sans-serif;
+  font-size: 28px;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.infinity11__title .t-bold {
+  font-size: 38px;
+  line-height: 41px;
+}
+.infinity11__table--1 {
+  position: absolute;
+  top: 199px;
+  left: 149px;
+  width: 522px;
+}
+.infinity11__table--2 {
+  position: absolute;
+  top: 199px;
+  right: 119px;
+  width: 300px;
+}
+.infinity11__table--3 {
+  position: absolute;
+  top: 405px;
+  right: 119px;
+  width: 300px;
+}
+.infinity11 {
+  background-image: url(../images/bg/bg_infinity11.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1240px) {
+  .infinity11 {
+    background-size: cover;
+  }
+}
+.infinity12 {
+  background-image: url(../images/bg/bg_infinity12.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 619px;
+}
+.infinity12__mob {
+  display: none;
+}
+.infinity12__title {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-family: PTSans, sans-serif;
+  font-size: 56px;
+  line-height: 58px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.infinity12__title .t-bold {
+  color: #e4c808;
+}
+.infinity13 {
+  height: 714px;
+}
+.infinity13__desc {
+  position: absolute;
+  top: 40px;
+  left: 2px;
+  width: 530px;
+}
+.infinity13__title {
+  font-family: PTSans, sans-serif;
+  font-size: 51px;
+  line-height: 53px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.infinity13__title .t-bold {
+  color: #dd7026;
+}
+.infinity13__text {
+  margin: 81px 0 0 0;
+  font-size: 22px;
+  line-height: 27px;
+}
+.infinity14 {
+  height: 757px;
+  background-image: url(../images/bg/bg_infinity14.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.infinity14__img-mob {
+  display: none;
+}
+.infinity14__desc {
+  position: absolute;
+  top: 43px;
+  left: 58px;
+  width: 360px;
+  color: #282828;
+}
+.infinity14__title {
+  font-family: PTSans, sans-serif;
+  font-size: 46px;
+  line-height: 49px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+.infinity14__title .t-bold {
+  font-size: 51px;
+  letter-spacing: -0.2px;
+  color: #ac8032;
+}
+.infinity14__text {
+  margin: 16px 0 0 0;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+.infinity14__block {
+  position: absolute;
+  width: 190px;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #282828;
+}
+.infinity14__block--1 {
+  top: 494px;
+  left: 38px;
+}
+.infinity14__block--2 {
+  top: 495px;
+  left: 255px;
+}
+.infinity14__block--3 {
+  top: 688px;
+  left: 144px;
+}
+.infinity15 {
+  height: 709px;
+}
+.infinity15__title {
+  position: absolute;
+  top: 37px;
+  left: -11px;
+  font-family: PTSans, sans-serif;
+  font-size: 44px;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.infinity15__title .t-bold {
+  font-size: 45px;
+}
+.infinity15__text {
+  position: absolute;
+  top: 85px;
+  right: 11px;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: right;
+}
+.infinity15 {
+  height: 709px;
+}
+.infinity15__title {
+  position: absolute;
+  top: 37px;
+  left: -11px;
+  font-family: PTSans, sans-serif;
+  font-size: 44px;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.infinity15__title .t-bold {
+  font-size: 45px;
+}
+.infinity15__text {
+  position: absolute;
+  top: 85px;
+  right: 11px;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: right;
+}
+.infinity16 {
+  height: 624px;
+  background-image: url(../images/bg/bg_infinity16.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.infinity16__img-xs {
+  display: none;
+}
+.infinity16__desc {
+  position: absolute;
+  top: 36px;
+  left: 0;
+}
+.infinity16__title {
+  font-family: PTSans, sans-serif;
+  font-size: 45px;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #202020;
+}
+.infinity16__title .t-bold {
+  font-size: 48px;
+  color: #ac8032;
+}
+.infinity16__text {
+  margin: 13px 0 0 0;
+  font-size: 23px;
+  line-height: 28px;
+  color: #171717;
+}
+.infinity17 {
+  height: 751px;
+}
+.infinity17__desc {
+  position: absolute;
+  top: 36px;
+  left: 11px;
+}
+.infinity17__title {
+  font-family: PTSans, sans-serif;
+  font-size: 43px;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.infinity17__title .t-bold {
+  color: #ac8032;
+}
+.infinity17__text {
+  margin: 13px 0 0 0;
+  font-size: 23px;
+  line-height: 27px;
+  color: #efefef;
+}
+.infinity-bottom {
+  height: 686px;
+}
+.infinity-bottom .form--landing {
+  top: 160px;
+  right: 177px;
+}
+.infinity-bottom__title {
+  margin: 0 0 0 -57px;
+  padding: 32px 0 0 0;
+  font-family: PTSans, sans-serif;
+  font-size: 24px;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.infinity-bottom__title .t-bold {
+  font-size: 40px;
+  line-height: 38px;
+  color: #e3dac6;
+}
+@media (max-width: 1200px) {
+  .infinity-top {
+    background: #fff;
+  }
+  .infinity3__desc {
+    left: 25px;
+  }
+  .infinity4__title {
+    right: 25px;
+  }
+  .infinity4__video {
+    right: 25px;
+  }
+  .infinity13__desc {
+    left: 25px;
+  }
+  .infinity6__text {
+    top: 100px;
+    right: 45px;
+    width: 500px;
+  }
+  .infinity6__text br {
+    display: none;
+  }
+  .infinity15__title {
+    top: 20px;
+    left: 15px;
+  }
+  .infinity15__text {
+    top: 60px;
+    right: 20px;
+  }
+  .infinity16__title {
+    line-height: 1.2;
+    font-size: 32px;
+  }
+  .infinity16__title .t-bold {
+    font-size: 36px;
+  }
+  .infinity16__desc {
+    top: 25px;
+    left: 30px;
+  }
+  .infinity16__text {
+    line-height: 1.3;
+    font-size: 20px;
+  }
+  .infinity7__desc {
+    left: auto;
+    right: 25px;
+  }
+  .infinity10__text {
+    top: 35px;
+    right: 25px;
+  }
+  .infinity10__title {
+    top: 15px;
+    left: 15px;
+  }
+  .infinity9__title {
+    right: 10px;
+  }
+  .infinity5__desc {
+    top: 270px;
+    right: 25px;
+    width: 320px;
+  }
+  .infinity5__desc br {
+    display: none;
+  }
+  .infinity12__title {
+    left: 25px;
+  }
+  .infinity11__table--1 {
+    left: 25px;
+  }
+  .infinity11__table--2,
+  .infinity11__table--3 {
+    right: 25px;
+  }
+  .infinity8 {
+    height: 870px;
+    background-size: cover;
+  }
+  .infinity2 {
+    height: 730px;
+    counter-reset: step;
+    background-image: url(../images/bg/bg_infinity2-mob.webp);
+  }
+  .infinity2__img-mob {
+    margin: 0 auto;
+    display: block;
+  }
+  .infinity2__col-left {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+  }
+  .infinity2__col-right {
+    position: absolute;
+    right: 0;
+    top: 100px;
+  }
+  .infinity2__block {
+    position: static;
+  }
+  .infinity2__block:before {
+    counter-increment: step;
+    content: counter(step);
+    position: absolute;
+    font-size: 20px;
+    left: -15px;
+  }
+  .infinity2__block--1,
+  .infinity2__block--2,
+  .infinity2__block--3,
+  .infinity2__block--4,
+  .infinity2__block--5 {
+    left: 10px;
+    right: auto;
+  }
+  .infinity2__block--10,
+  .infinity2__block--6,
+  .infinity2__block--7,
+  .infinity2__block--8,
+  .infinity2__block--9 {
+    right: 10px;
+    left: auto;
+  }
+  .infinity9__block--1 {
+    left: 37%;
+  }
+  .infinity9__block--2 {
+    left: 28%;
+  }
+  .infinity9__block--3 {
+    left: 40%;
+  }
+}
+@media (max-width: 992px) {
+  .infinity3__desc {
+    left: 15px;
+    top: 15px;
+  }
+  .infinity5 {
+    background-position: 57% 0 !important;
+  }
+  .infinity13 {
+    background-position: 38% 0 !important;
+  }
+  .infinity13__desc {
+    width: 450px;
+  }
+  .infinity13__desc br {
+    display: none;
+  }
+  .infinity14__desc {
+    top: 20px;
+    left: 30px;
+  }
+  .infinity14 {
+    background-position: 35% 0 !important;
+  }
+  .infinity14__block--1 {
+    left: 6%;
+  }
+  .infinity14__block--2 {
+    left: 33%;
+  }
+  .infinity14__block--3 {
+    left: 19%;
+  }
+  .infinity6 {
+    height: 630px;
+    background-size: cover !important;
+  }
+  .infinity6__title {
+    top: 10px;
+    left: 20px;
+  }
+  .infinity6__text {
+    top: 30px;
+    right: 45px;
+    width: 385px;
+  }
+  .infinity17__desc {
+    top: 15px;
+    left: 10px;
+  }
+  .infinity17__title {
+    font-size: 38px;
+  }
+  .infinity17__text {
+    font-size: 20px;
+  }
+  .infinity15 {
+    background-position: 40% 0 !important;
+  }
+  .infinity15__title {
+    top: 20px;
+    left: 15px;
+  }
+  .infinity15__text {
+    font-size: 20px;
+  }
+  .infinity7__desc {
+    right: 10px;
+  }
+  .infinity10__text {
+    top: 15px;
+    right: 0;
+  }
+  .infinity9__block--1 {
+    left: 34%;
+  }
+  .infinity9__block--2 {
+    left: 23%;
+  }
+  .infinity9__block--3 {
+    left: 34%;
+  }
+  .infinity8 {
+    height: auto;
+  }
+  .infinity11 {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .infinity11__flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .infinity11__table--1,
+  .infinity11__table--2,
+  .infinity11__table--3 {
+    position: static;
+  }
+  .infinity11__table--1 {
+    margin: 0 auto 30px;
+  }
+  .infinity12 {
+    height: auto;
+    background: 0 0;
+  }
+  .infinity12__mob {
+    display: block;
+    width: 100%;
+  }
+  .infinity12__title {
+    position: static;
+    text-align: center;
+  }
+  .infinity16 {
+    background-image: url(../images/bg/bg_infinity16-mob.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  .infinity16__desc {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .infinity16__text {
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  .p-head--infinity .p-head__title {
+    margin: 0 auto;
+    line-height: 1.2;
+  }
+  .p-head--infinity .p-head__br {
+    width: 100%;
+  }
+  .infinity1 {
+    height: auto;
+  }
+  .infinity1__desc {
+    width: 100%;
+  }
+  .infinity1__title {
+    font-size: 42px;
+  }
+  .infinity1__row {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .infinity1__block {
+    width: 50%;
+    margin: 0 auto 30px;
+  }
+  .infinity3 {
+    background-position: 72% 0;
+  }
+  .infinity3__desc {
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .infinity3__text {
+    text-shadow: 2px 2px 2px #fff;
+  }
+  .infinity3__text br {
+    display: none;
+  }
+  .infinity4 {
+    height: auto;
+    padding: 30px 0;
+  }
+  .infinity4__title {
+    position: static;
+    margin: 0 0 20px;
+  }
+  .infinity4__video {
+    box-sizing: border-box;
+    position: static;
+    height: 264px;
+    width: 100%;
+  }
+  .infinity5 {
+    background-position: 34% 0 !important;
+  }
+  .infinity5__desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    padding: 20px 10px;
+    top: 20px;
+    width: 100%;
+    right: 0;
+  }
+  .infinity11__table--2 {
+    margin: 0 auto 30px;
+  }
+  .infinity13__title .t-bold {
+    display: block;
+  }
+  .infinity13__text {
+    margin: 50px 0 0 0;
+  }
+  .infinity14 {
+    height: auto;
+    padding: 30px 0;
+    background-image: none;
+    background-color: #fff;
+  }
+  .infinity14__desc {
+    width: 100%;
+    position: static;
+    margin: 0 auto 20px;
+  }
+  .infinity14__img-mob {
+    display: block;
+    margin: 0 auto;
+  }
+  .infinity14__block {
+    margin: 0 auto 20px;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+  .infinity6__title {
+    position: static;
+    text-align: center;
+  }
+  .infinity6__text {
+    text-shadow: 1px 1px 1px #000;
+    position: static;
+    width: 100%;
+  }
+  .infinity17__text br {
+    display: none;
+  }
+  .infinity16__desc {
+    margin: 20px auto 0;
+    width: 95%;
+    position: static;
+  }
+  .infinity17__desc {
+    width: 100%;
+    position: static;
+    box-sizing: border-box;
+  }
+  .infinity15__text,
+  .infinity15__title {
+    box-sizing: border-box;
+    margin: 0 auto 10px;
+    position: static;
+    width: 100%;
+  }
+  .infinity16 {
+    background-position: 58% 0;
+  }
+  .infinity7 {
+    background-position: 35% 0;
+  }
+  .infinity7__desc {
+    top: 370px;
+    left: 10px;
+    right: auto;
+  }
+  .infinity7__text {
+    text-shadow: 1px 1px 1px #000;
+  }
+  .infinity2 {
+    height: auto;
+    background-size: cover;
+  }
+  .infinity2__flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 0 0 30px;
+    justify-content: space-between;
+  }
+  .infinity2__col-left {
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 50%;
+    position: relative;
+  }
+  .infinity2__col-right {
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    width: 50%;
+    position: relative;
+  }
+  .infinity2__col-right .infinity2__block:last-child:before {
+    left: -15px;
+  }
+  .infinity2__block {
+    box-sizing: border-box;
+    width: 100% !important;
+  }
+  .infinity2__block br {
+    display: none;
+  }
+  .infinity2__block:before {
+    left: -5px;
+  }
+  .infinity8__blocks {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .infinity8__block {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .infinity11__title {
+    margin: 0 auto;
+  }
+  .infinity-bottom__title {
+    margin: 0 auto;
+  }
+  .infinity10__title {
+    position: static;
+    font-size: 38px;
+    line-height: 1.2;
+  }
+  .infinity10__title br {
+    display: none;
+  }
+  .infinity14__text br {
+    display: none;
+  }
+  .infinity9 {
+    background-image: url(../images/bg/bg_infinity9-mob.webp);
+    background-size: cover;
+    height: auto;
+  }
+  .infinity9__title {
+    padding-top: 20px;
+    margin: 0 auto 30px;
+    text-align: center;
+    position: static;
+  }
+  .infinity9__block {
+    text-align: center;
+    position: static;
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+  .infinity9__img-mob {
+    margin: 0 auto 10px;
+    display: block;
+  }
+  .infinity10__text {
+    width: 100%;
+    position: static;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  .infinity10__text br {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .p-head--infinity .p-head__title {
+    font-size: 36px;
+  }
+  .infinity1 {
+    background-size: cover;
+  }
+  .infinity1__title {
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0;
+  }
+  .infinity1__text {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .infinity1__text br {
+    display: none;
+  }
+  .infinity1__row {
+    padding: 30px 0 0;
+  }
+  .infinity1__block {
+    width: 50%;
+    margin: 0 auto 40px;
+  }
+  .infinity1__img {
+    width: 90%;
+    margin: 0 0 15px;
+  }
+  .infinity3 {
+    height: 430px;
+    background-size: cover;
+  }
+  .infinity3__desc {
+    top: 0;
+  }
+  .infinity3__title {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  .infinity3__text {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .infinity4__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .infinity4__video {
+    height: 250px;
+  }
+  .infinity5__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .infinity5__text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .infinity13 {
+    height: 475px;
+    background-size: cover !important;
+    background-position: 30% 0 !important;
+  }
+  .infinity13__desc {
+    box-sizing: border-box;
+    padding: 20px 10px;
+    position: static;
+    width: 100%;
+  }
+  .infinity13__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .infinity13__text {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 20px 0 0;
+  }
+  .infinity14__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .infinity14__title .t-bold {
+    font-size: 28px;
+  }
+  .infinity14__text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .infinity6__text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .infinity17__desc {
+    padding: 20px 0;
+  }
+  .infinity17__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .infinity17__text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .infinity15__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .infinity15__title .t-bold {
+    font-size: 28px;
+  }
+  .infinity15__text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .infinity15__text br {
+    display: none;
+  }
+  .infinity16 {
+    height: auto;
+    background: 0 0;
+    background-color: #fff;
+  }
+  .infinity16__desc {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .infinity16__desc br {
+    display: none;
+  }
+  .infinity16__text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .infinity16__img-xs {
+    display: block;
+    width: 100%;
+  }
+  .infinity7 {
+    height: auto;
+    background: 0 0;
+  }
+  .infinity7__desc {
+    position: static;
+  }
+  .infinity7__img-mob {
+    display: block;
+    width: 100%;
+  }
+  .infinity7__block {
+    background: 0 0;
+    padding: 20px 0;
+    width: 100%;
+  }
+  .infinity7__name {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .infinity7__char {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .infinity7__text {
+    margin: 0 auto 20px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .infinity7__text br {
+    display: none;
+  }
+  .infinity10 {
+    background: 0 0;
+    height: auto;
+  }
+  .infinity10__title {
+    color: #fff;
+    font-size: 28px;
+    padding: 20px 0 10px;
+  }
+  .infinity10__text {
+    font-size: 18px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+  }
+  .infinity10__img-mob {
+    display: block;
+    width: 100%;
+  }
+  .infinity9__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .infinity9__text br {
+    display: none;
+  }
+  .infinity2__img-mob {
+    width: 100%;
+  }
+  .infinity2__col-left,
+  .infinity2__col-right {
+    width: 48%;
+  }
+  .infinity8__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .infinity8__block {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .infinity-bottom__title {
+    line-height: 1.3;
+    margin: 0 auto 30px;
+  }
+  .form--landing {
+    box-sizing: border-box;
+  }
+}
+.landing-form-21__img {
+  background-color: #f1f1f1;
+}
+.landing-form-21__img img {
+  object-fit: contain;
+  width: 100%;
+}
+.cross-sale-block {
+  position: relative;
+  height: 900px;
+  background-image: url(../images/cross-sale-bloc-BACKGROUND-1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cross-sale-block .cross-sale-block__link-youtube {
+  height: 170px;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+@media all and (max-width: 767px) {
+  .cross-sale-block .cross-sale-block__link-youtube {
+    height: 45px;
+  }
+}
+.cross-sale-block .cross-sale-block__link:hover {
+  background-color: #e03638;
+  transition: background-color 0.8s ease 0s;
+}
+@media all and (max-width: 767px) {
+  .cross-sale-block .cross-sale-block__link-div {
+    top: 34px;
+    left: 277px;
+    width: 0.85px;
+    height: 0.75px;
+  }
+}
+.cross-sale-block .cross-sale-block__link:hover .cross-sale-block__link-div {
+  border-top: 20px solid #e03638;
+  transition: border-top 0.8s ease 0s;
+}
+.cross-sale-block ._active {
+  opacity: 1;
+}
+@media all and (max-width: 1239px) {
+  .cross-sale-block {
+    height: 600px;
+  }
+  .cross-sale-block .cross-sale-block__link {
+    opacity: 1;
+    transform: translateX(32vw) translateY(458px);
+  }
+}
+@media all and (max-width: 1023px) {
+  .cross-sale-block .cross-sale-block__link {
+    transform: translateX(21vw) translateY(458px);
+  }
+}
+@media all and (max-width: 767px) {
+  .cross-sale-block .cross-sale-block__link {
+    transform: translateX(19vw) translateY(458px);
+  }
+}
+@media (max-width: 500px) {
+  .cross-sale-block {
+    height: 200px;
+  }
+  .cross-sale-block .cross-sale-block__link {
+    transform: translateX(20vw) translateY(138px);
+    width: 160px;
+    height: 30px;
+    font-size: 8px;
+    line-height: 6px;
+  }
+  .cross-sale-block .cross-sale-block__link-div {
+    top: 8px;
+    left: 120px;
+    width: 0.85px;
+    height: 0.75px;
+  }
+}
