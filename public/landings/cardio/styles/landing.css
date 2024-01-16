@@ -3650,7 +3650,7 @@ section.block {
     background: url(../images/landing/src/color_white_beige.png) 0 0 no-repeat;
 }
 .colors__item--orange {
-    background: url(../images/landing/src/color_orange.jpg) 0 0 no-repeat;
+    background: url(../images/landing/src/color_orange.webp) 0 0 no-repeat;
 }
 .b-product {
     font-family: PTSansNarrow, sans-serif;
@@ -5825,7 +5825,7 @@ section.block {
     padding: 7px 0 7px 20px;
 }
 .l-table--green-bg {
-    background: #5d902a url(../images/landing/table_massage_bg.jpg) bottom right no-repeat;
+    background: #5d902a url(../images/landing/table_massage_bg.webp) bottom right no-repeat;
 }
 .l-table--green-bg .l-table__tr {
     border-top: 1px solid #8eb26a;
@@ -5834,7 +5834,7 @@ section.block {
     border-right: 1px solid #8eb26a;
 }
 .l-table--blue-bg {
-    background: #3c5480 url(../images/landing/table_star_bg.jpg) bottom right no-repeat;
+    background: #3c5480 url(../images/landing/table_star_bg.webp) bottom right no-repeat;
 }
 .l-table--blue-bg .l-table__tr {
     border-top: 1px solid #596d93;
@@ -5843,7 +5843,7 @@ section.block {
     border-right: 1px solid #596d93;
 }
 .l-table--brown-bg {
-    background: #522c0e url(../images/landing/table_gear_bg.jpg) bottom left no-repeat;
+    background: #522c0e url(../images/landing/table_gear_bg.webp) bottom left no-repeat;
 }
 .l-table--brown-bg .l-table__tr {
     border-top: 1px solid #6c4b32;
@@ -6516,7 +6516,7 @@ section.block {
 }
 .axiom-top {
     height: 1040px;
-    background: url(../images/landing/bg/axiom/axiom_01.jpg) top center no-repeat;
+    background: url(../images/landing/bg/axiom/axiom_01.webp) top center no-repeat;
 }
 .axiom-top .b-product__ontime {
     color: #000;
@@ -6725,11 +6725,11 @@ section.block {
 }
 .axiom2 {
     height: 681px;
-    background: url(/images/landing/bg/axiom/bg_page1_02.jpg) center center no-repeat;
+    background: url(/images/landing/bg/axiom/bg_page1_02.webp) center center no-repeat;
 }
 @media (max-width:1200px) {
     .axiom2 {
-    background: url(/images/product/axiom/landing/adaptive/axiom2_bg.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/axiom2_bg.webp) center center no-repeat;
 }
 }@media (max-width:450px) {
     .axiom2 {
@@ -6802,12 +6802,12 @@ section.block {
 }
 }.axiom3 {
     height: 684px;
-    background: url(/images/product/axiom/landing/adaptive/slide_axiom_krukov.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/slide_axiom_krukov.webp) center center no-repeat;
     overflow: hidden;
 }
 @media (max-width:1024px) {
     .axiom3 {
-    background: url(/images/product/axiom/landing/adaptive/axiom3_bg.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/axiom3_bg.webp) center center no-repeat;
 }
 }@media (max-width:780px) {
     .axiom3 {
@@ -6899,11 +6899,11 @@ section.block {
     height: 679px;
     font-family: PTSans, sans-serif;
     overflow: hidden;
-    background: url(/images/landing/slider/slide_axiom_line.jpg) center center no-repeat;
+    background: url(/images/landing/slider/slide_axiom_line.webp) center center no-repeat;
 }
 @media (max-width:1200px) {
     .axiom4 {
-    background: url(/images/product/axiom/landing/adaptive/axiom4_bg.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/axiom4_bg.webp) center center no-repeat;
 }
 }.axiom4__title-group {
     overflow: hidden;
@@ -7983,7 +7983,7 @@ section.block {
     height: 683px;
     font-family: PTSans, sans-serif;
     overflow: hidden;
-    background: url(/images/product/axiom/landing/adaptive/axiom13_bg.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/axiom13_bg.webp) center center no-repeat;
 }
 @media (max-width:450px) {
     .axiom13 {
@@ -8663,7 +8663,7 @@ section.block {
 }.axiom_touch {
     font: 20px/1.2 PTSans, sans-serif;
     color: #fff;
-    background: url(/images/product/axiom/landing/screen_touch.jpg) center top;
+    background: url(/images/product/axiom/landing/screen_touch.webp) center top;
     background-size: cover;
     max-width: 1920px;
     margin: auto;
@@ -9827,13 +9827,13 @@ section.block {
     float: none;
 }
 }.axiom26 {
-    background: url(/images/landing/bg/axiom/bg_page3_02.jpg) center center no-repeat;
+    background: url(/images/landing/bg/axiom/bg_page3_02.webp) center center no-repeat;
     height: 1632px;
     overflow: hidden;
 }
 @media (max-width:960px) {
     .axiom26 {
-    background: url(/images/product/axiom/landing/adaptive/screen1.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/screen1.webp) center center no-repeat;
     background-size: cover!important;
     height: auto;
     padding-bottom: 30px;
@@ -10067,7 +10067,7 @@ section.block {
 }.axiom27 {
     overflow: hidden;
     padding-bottom: 60px;
-    background: url(/images/product/axiom/landing/adaptive/axiom27_bg.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/axiom27_bg.webp) center center no-repeat;
     background-size: cover!important;
 }
 @media (max-width:540px) {
@@ -10195,11 +10195,11 @@ section.block {
 }
 .axiom28 {
     height: 842px;
-    background: url(/images/landing/bg/axiom/axiom28.jpg) center center no-repeat;
+    background: url(/images/landing/bg/axiom/axiom28.webp) center center no-repeat;
 }
 @media (max-width:1200px) {
     .axiom28 {
-    background: url(/images/product/axiom/landing/adaptive/axiom28_bg.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/axiom28_bg.webp) center center no-repeat;
 }
 }@media (max-width:780px) {
     .axiom28 {
@@ -10490,7 +10490,7 @@ section.block {
 }@media (max-width:1200px) {
     .axiom-top {
     height: auto;
-    background: url(../images/landing/bg/axiom/axiom_01.jpg) top center no-repeat;
+    background: url(../images/landing/bg/axiom/axiom_01.webp) top center no-repeat;
     background-size: cover;
 }
 }@media (max-width:1200px) {
@@ -10816,7 +10816,7 @@ section.block {
 .ax-review {
     font-family: PTSans, sans-serif;
     height: 685px;
-    background-image: url(/images/product/axiom/landing/ax-review.jpg);
+    background-image: url(/images/product/axiom/landing/ax-review.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10939,7 +10939,7 @@ section.block {
     max-width: 1920px;
     margin-top: -1px;
     overflow: hidden;
-    background: url(../images/product/axiom/landing/axiom-app-bg.jpg) no-repeat;
+    background: url(../images/product/axiom/landing/axiom-app-bg.webp) no-repeat;
     height: 714px;
 }
 .axiom-ya-6000-app__block-inner {
@@ -11218,19 +11218,19 @@ section.block {
     z-index: 1;
 }
 .star_reviews6 {
-    background: url(../images/landing/star_reviews/volosojar.jpg) no-repeat center bottom;
+    background: url(../images/landing/star_reviews/volosojar.webp) no-repeat center bottom;
 }
 .star_reviews11 {
-    background: url(../images/landing/star_reviews/krukov.jpg) no-repeat center bottom;
+    background: url(../images/landing/star_reviews/krukov.webp) no-repeat center bottom;
 }
 .star_reviews9 {
-    background: url(../images/landing/star_reviews/tokarev.jpg) no-repeat center bottom;
+    background: url(../images/landing/star_reviews/tokarev.webp) no-repeat center bottom;
 }
 .star_reviews8 {
-    background: url(../images/landing/star_reviews/sadalskiy.jpg) no-repeat center bottom;
+    background: url(../images/landing/star_reviews/sadalskiy.webp) no-repeat center bottom;
 }
 .star_reviews10 {
-    background: url(../images/landing/star_reviews/semenovich.jpg) no-repeat center bottom;
+    background: url(../images/landing/star_reviews/semenovich.webp) no-repeat center bottom;
 }
 @media (max-width:1700px) {
     .semenovich-slide .title_bg {
@@ -11284,7 +11284,7 @@ section.block {
     display: none;
 }
 .whiteblock {
-    background: url(../images/landing/star_reviews/s-r_bg.jpg);
+    background: url(../images/landing/star_reviews/s-r_bg.webp);
     background-size: cover;
     height: 580px;
 }
@@ -11854,7 +11854,7 @@ section.block {
 }
 }.axiom-b8 {
     height: 657px;
-    background: url(../images/landing/bg/axiom-black/axiom-b_08.jpg) no-repeat center;
+    background: url(../images/landing/bg/axiom-black/axiom-b_08.webp) no-repeat center;
     background-size: auto, cover;
     font-family: PTSans, sans-serif;
 }
@@ -12449,7 +12449,7 @@ section.block {
     max-width: 1920px;
     margin-top: -1px;
     overflow: hidden;
-    background: url(../images/product/axiom-black/landing/axiom-black-app.jpg) no-repeat;
+    background: url(../images/product/axiom-black/landing/axiom-black-app.webp) no-repeat;
     height: 658px;
 }
 .axiom-black-app__block-inner {
@@ -12937,7 +12937,7 @@ section.block {
     width: 100%}
 }@media (max-width:1024px) {
     .axiom-c6 {
-    background-image: url(../../images/landing/bg/axiom-chrome/axiom-c_06-2.jpg)!important;
+    background-image: url(../../images/landing/bg/axiom-chrome/axiom-c_06-2.webp)!important;
     background-size: cover;
     height: auto;
 }
@@ -13124,7 +13124,7 @@ section.block {
 }
 }.axiom-c11 {
     height: 657px;
-    background: url(../images/landing/bg/axiom-chrome/axiom-c_11.jpg) no-repeat center;
+    background: url(../images/landing/bg/axiom-chrome/axiom-c_11.webp) no-repeat center;
     background-size: auto, cover;
     font-family: PTSans, sans-serif;
 }
@@ -13544,7 +13544,7 @@ section.block {
 }.axiom-chr-app {
     max-width: 1920px;
     overflow: hidden;
-    background: url(../images/product/axiom-chrome/landing/chrome-app-bg.jpg) no-repeat;
+    background: url(../images/product/axiom-chrome/landing/chrome-app-bg.webp) no-repeat;
     height: 712px;
 }
 .axiom-chr-app__block-inner {
@@ -13709,7 +13709,7 @@ section.block {
 .axiom-champ1 {
     height: 416px;
     overflow: hidden;
-    background: url(/images/product/axiom-champagne/landing/screen_champ1.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champ1.webp) center center no-repeat;
     font-family: PTSans, sans-serif;
     color: #684826;
 }
@@ -13825,7 +13825,7 @@ section.block {
 }
 }.champ-top {
     height: 852px;
-    background: url(../images/product/axiom-champagne/landing/screen1.jpg) top center no-repeat;
+    background: url(../images/product/axiom-champagne/landing/screen1.webp) top center no-repeat;
     overflow: hidden;
 }
 @media (max-width:1200px) {
@@ -14214,7 +14214,7 @@ section.block {
     line-height: 1;
 }
 .axiom-champ13 {
-    background: url(/images/product/axiom-champagne/landing/axiom_13.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/axiom_13.webp) center center no-repeat;
     background-size: cover!important;
     overflow: hidden;
 }
@@ -14253,7 +14253,7 @@ section.block {
 }
 .axiom-champ4 {
     height: 871px;
-    background: url(/images/product/axiom-champagne/landing/axiom_13.jpg) center bottom no-repeat;
+    background: url(/images/product/axiom-champagne/landing/axiom_13.webp) center bottom no-repeat;
     overflow: hidden;
 }
 @media (max-width:1024px) {
@@ -14322,7 +14322,7 @@ section.block {
     width: 100%}
 }.axiom-champ5 {
     height: 534px;
-    background: url(/images/product/axiom-champagne/landing/screen_champ5.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champ5.webp) center center no-repeat;
     font-family: PTSans, sans-serif;
 }
 @media (max-width:540px) {
@@ -14383,7 +14383,7 @@ section.block {
 }
 }.axiom-champ6 {
     height: 833px;
-    background: url(/images/product/axiom-champagne/landing/screen_champ6.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champ6.webp) center center no-repeat;
     font-family: PTSans, sans-serif;
 }
 @media (max-width:960px) {
@@ -14465,7 +14465,7 @@ section.block {
 }
 .axiom-champ7 {
     height: 731px;
-    background: url(/images/product/axiom-champagne/landing/screen_champ7.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champ7.webp) center center no-repeat;
     font-family: PTSans, sans-serif;
 }
 @media (max-width:1024px) {
@@ -14601,7 +14601,7 @@ section.block {
 .axiom-champ8 {
     height: 868px;
     font-family: PTSans, sans-serif;
-    background: #070708 url(/images/product/axiom-champagne/landing/screen_champ8.jpg) center top no-repeat;
+    background: #070708 url(/images/product/axiom-champagne/landing/screen_champ8.webp) center top no-repeat;
 }
 @media (max-width:1024px) {
     .axiom-champ8 {
@@ -14677,7 +14677,7 @@ section.block {
     display: block;
 }
 .axiom2--champ {
-    background: #080808 url(/images/product/axiom-champagne/landing/screen8.jpg) top center no-repeat;
+    background: #080808 url(/images/product/axiom-champagne/landing/screen8.webp) top center no-repeat;
 }
 @media (max-width:780px) {
     .axiom2--champ {
@@ -14756,7 +14756,7 @@ section.block {
     height: 772px;
     overflow: hidden;
     font-family: PTSans, sans-serif;
-    background: url(/images/product/axiom-champagne/landing/axiom_7.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/axiom_7.webp) center center no-repeat;
 }
 @media (min-width:2100px) {
     .axiom-champ3 {
@@ -14770,7 +14770,7 @@ section.block {
 }
 }@media (max-width:1024px) {
     .axiom-champ3 {
-    background: url(/images/product/axiom-champagne/landing/axiom_7-2.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/axiom_7-2.webp) center center no-repeat;
 }
 }.axiom-champ3__chair {
     position: absolute;
@@ -14912,7 +14912,7 @@ section.block {
 }
 .axiom-champ3_1 {
     height: 356px;
-    background: url(/images/product/axiom-champagne/landing/screen_champ3_1.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champ3_1.webp) center center no-repeat;
     font-family: PTSans, sans-serif;
 }
 @media (max-width:780px) {
@@ -15132,7 +15132,7 @@ section.block {
 }
 .axiom-champ26 {
     height: 782px;
-    background: url(/images/product/axiom-champagne/landing/screen_champ26.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champ26.webp) center center no-repeat;
     overflow: hidden;
 }
 @media (max-width:450px) {
@@ -15335,7 +15335,7 @@ section.block {
     font-family: PTSans, sans-serif;
 }
 .axiom-champ13 {
-    background: url(/images/product/axiom-champagne/landing/screen_champ13.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champ13.webp) center center no-repeat;
     font-family: PTSans, sans-serif;
 }
 @media (max-width:960px) {
@@ -15523,7 +15523,7 @@ section.block {
     .axiom-champ13__block-slogan {
     width: 100%}
 }.axiom-champ14 {
-    background: url(/images/product/axiom-champagne/landing/screen_champ14.jpg) top center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champ14.webp) top center no-repeat;
     padding-bottom: 40px;
     height: 615px;
     font-family: PTSans, sans-serif;
@@ -15615,7 +15615,7 @@ section.block {
     .axiom-champ14 .axiom25__wrapper--3 {
     width: 100%}
 }.axiom-champ_gabarit {
-    background: url(/images/product/axiom-champagne/landing/screen_champ15.jpg);
+    background: url(/images/product/axiom-champagne/landing/screen_champ15.webp);
     height: 693px;
     background-size: cover;
     color: #000;
@@ -15640,7 +15640,7 @@ section.block {
 }
 .axiom-champ__bottom {
     height: 525px;
-    background: url(/images/product/axiom-champagne/landing/screen_champBottom.jpg) center center no-repeat;
+    background: url(/images/product/axiom-champagne/landing/screen_champBottom.webp) center center no-repeat;
     font-family: PTSans, sans-serif;
 }
 @media (max-width:960px) {
@@ -15723,7 +15723,7 @@ section.block {
 .axiom-chp-app {
     max-width: 1920px;
     overflow: hidden;
-    background: url(../images/product/axiom-champagne/landing/chamgagne-app-bg.jpg) no-repeat;
+    background: url(../images/product/axiom-champagne/landing/chamgagne-app-bg.webp) no-repeat;
     height: 714px;
 }
 .axiom-chp-app__block-inner {
@@ -15855,16 +15855,16 @@ section.block {
 }
 }.axiom-top {
     height: 1040px;
-    background: url(../images/landing/bg/axiom/axiom_01.jpg) top center no-repeat;
+    background: url(../images/landing/bg/axiom/axiom_01.webp) top center no-repeat;
 }
 .champ-top {
     height: 1015px;
-    background: url(../images/landing/bg/champ/champ_01.jpg) top center no-repeat;
+    background: url(../images/landing/bg/champ/champ_01.webp) top center no-repeat;
     overflow: hidden;
 }
 .gold-top {
     height: 1017px;
-    background: url(../images/landing/bg/gold/gold_01.jpg) top center no-repeat;
+    background: url(../images/landing/bg/gold/gold_01.webp) top center no-repeat;
     overflow: hidden;
 }
 .axiom1 {
@@ -16063,12 +16063,12 @@ section.block {
 }
 .axiom3 {
     height: 684px;
-    background: url(/images/product/axiom/landing/adaptive/slide_axiom_krukov.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/slide_axiom_krukov.webp) center center no-repeat;
     overflow: hidden;
 }
 @media (max-width:1024px) {
     .axiom3 {
-    background: url(/images/product/axiom/landing/adaptive/axiom3_bg.jpg) center center no-repeat;
+    background: url(/images/product/axiom/landing/adaptive/axiom3_bg.webp) center center no-repeat;
 }
 }@media (max-width:780px) {
     .axiom3 {
@@ -16157,7 +16157,7 @@ section.block {
 .axiom4 {
     height: 683px;
     font-family: PTSans, sans-serif;
-    background: url(/images/landing/slider/slide_axiom_line.jpg) center center no-repeat;
+    background: url(/images/landing/slider/slide_axiom_line.webp) center center no-repeat;
 }
 .axiom4__y {
     position: absolute;
@@ -17297,7 +17297,7 @@ section.block {
 }@media (max-width:1200px) {
     .axiom-top {
     height: auto;
-    background: url(../images/landing/bg/axiom/axiom_01.jpg) top center no-repeat;
+    background: url(../images/landing/bg/axiom/axiom_01.webp) top center no-repeat;
     background-size: cover;
 }
 }@media (max-width:1200px) {
@@ -18275,7 +18275,7 @@ section.block {
 @media all and (max-width:1099px) {
     .axiom14 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom14_bg.jpg) top center no-repeat!important;
+    background: url(/images/axiom/landing/adaptive/axiom14_bg.webp) top center no-repeat!important;
     background-size: cover!important;
 }
 .axiom14__title {
@@ -19016,7 +19016,7 @@ section.block {
     display: none;
 }
 .axiom11 .block__inner {
-    background: url(/images/axiom/landing/adaptive/axiom11_bg.jpg) 0 0 no-repeat;
+    background: url(/images/axiom/landing/adaptive/axiom11_bg.webp) 0 0 no-repeat;
     background-size: cover;
     float: left;
 }
@@ -19174,7 +19174,7 @@ section.block {
 }
 }@media all and (max-width:639px) {
     .axiom11 .block__inner {
-    background: url(/images/axiom/landing/adaptive/axiom11_bg-mc.jpg) 0 0 no-repeat;
+    background: url(/images/axiom/landing/adaptive/axiom11_bg-mc.webp) 0 0 no-repeat;
     background-size: contain;
 }
 .axiom11__bg-img {
@@ -19453,7 +19453,7 @@ section.block {
 @media all and (max-width:1100px) {
     .axiom15 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom15_bg.jpg) top center no-repeat!important;
+    background: url(/images/axiom/landing/adaptive/axiom15_bg.webp) top center no-repeat!important;
     background-size: cover!important;
 }
 .axiom15__bg-img {
@@ -19630,7 +19630,7 @@ section.block {
 @media all and (max-width:1099px) {
     .axiom16 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom16_bg.jpg) top center no-repeat!important;
+    background: url(/images/axiom/landing/adaptive/axiom16_bg.webp) top center no-repeat!important;
     background-size: cover!important;
 }
 }@media all and (min-width:640px) and (max-width:1099px) {
@@ -20288,7 +20288,7 @@ section.block {
 @media all and (max-width:1099px) {
     .axiom20 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom20_bg.jpg) top center no-repeat!important;
+    background: url(/images/axiom/landing/adaptive/axiom20_bg.webp) top center no-repeat!important;
     background-size: contain;
 }
 .axiom20__bg-img {
@@ -20389,7 +20389,7 @@ section.block {
 }
 .axiom20__desc {
     width: 100%;
-    background: #fff url(/images/axiom/landing/adaptive/axiom20_bg.jpg) 0 0 no-repeat;
+    background: #fff url(/images/axiom/landing/adaptive/axiom20_bg.webp) 0 0 no-repeat;
     background-size: cover;
     text-align: left;
     position: static;
@@ -20592,7 +20592,7 @@ section.block {
 @media all and (max-width:1099px) {
     .axiom22 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom22_bg.jpg) top center no-repeat!important;
+    background: url(/images/axiom/landing/adaptive/axiom22_bg.webp) top center no-repeat!important;
     background-size: cover!important;
 }
 .axiom22__bg-img {
@@ -20909,7 +20909,7 @@ section.block {
 @media all and (max-width:1099px) {
     .axiom23 {
     height: auto;
-    background: #6c6b6c url(/images/axiom/landing/adaptive/axiom23_bg.jpg) top center no-repeat!important;
+    background: #6c6b6c url(/images/axiom/landing/adaptive/axiom23_bg.webp) top center no-repeat!important;
     background-size: cover!important;
 }
 }.axiom23__resp-fix {
@@ -21073,7 +21073,7 @@ section.block {
 }
 }@media all and (max-width:639px) {
     .axiom23 {
-    background: #6c6b6c url(/images/axiom/landing/adaptive/axiom23_bg.jpg) top center no-repeat!important;
+    background: #6c6b6c url(/images/axiom/landing/adaptive/axiom23_bg.webp) top center no-repeat!important;
 }
 .axiom23 .block__inner {
     text-align: center;
@@ -21147,7 +21147,7 @@ section.block {
 @media all and (max-width:1100px) {
     .axiom24 {
     height: auto;
-    background: url(/images/axiom/landing/adaptive/axiom24_bg.jpg) top center no-repeat!important;
+    background: url(/images/axiom/landing/adaptive/axiom24_bg.webp) top center no-repeat!important;
     background-size: cover!important;
 }
 .axiom24__bg-img {
@@ -21323,7 +21323,7 @@ section.block {
 @media all and (max-width:1099px) {
     .axiom26 {
     height: auto;
-    background: #fff url(/images/axiom/landing/adaptive/axiom26_bg.jpg) top center no-repeat!important;
+    background: #fff url(/images/axiom/landing/adaptive/axiom26_bg.webp) top center no-repeat!important;
     background-size: cover!important;
 }
 .axiom26 .block__inner {
@@ -22070,7 +22070,7 @@ section.block {
 }
 }.gold-top {
     height: 1017px;
-    background: url(../images/product/axiom-gold/landing/screen1.jpg) top center no-repeat;
+    background: url(../images/product/axiom-gold/landing/screen1.webp) top center no-repeat;
     overflow: hidden;
 }
 @media (max-width:1024px) {
@@ -22193,7 +22193,7 @@ section.block {
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    background: url(../images/landing/health-tech/for-chair_bg.jpg) center center/cover no-repeat;
+    background: url(../images/landing/health-tech/for-chair_bg.webp) center center/cover no-repeat;
 }
 @media all and (max-width:1023px) and (max-width:767px) {
     .health-tech {
