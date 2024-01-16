@@ -1,7 +1,4 @@
 @charset "UTF-8";
-* {
-  box-sizing: inherit;
-}
 body {
   margin: 0;
 }
@@ -441,6 +438,7 @@ body {
   font-weight: 700;
   color: #fff;
   white-space: nowrap;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami__nozzles_title {
@@ -495,6 +493,7 @@ body {
   float: left;
   padding: 225px 0 0 260px;
   width: 470px;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami3__block {
@@ -595,6 +594,7 @@ body {
   float: left;
   padding: 70px 0 0 318px;
   width: 560px;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami4__block {
@@ -678,6 +678,7 @@ body {
   float: left;
   padding: 135px 0 0 246px;
   max-width: 510px;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami5__block {
@@ -749,6 +750,7 @@ body {
   float: left;
   padding: 21px 0 0 220px;
   width: 475px;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami6__block {
@@ -839,6 +841,7 @@ body {
   float: left;
   padding: 65px 0 0 270px;
   width: 460px;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami7__block {
@@ -922,11 +925,12 @@ body {
   border-radius: 10px;
   font-size: 25px;
   line-height: 1;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami8 .miami8__body {
     top: 420px;
-    left: 100px;
+    left: 30px;
   }
 }
 @media (max-width: 450px) {
@@ -981,6 +985,7 @@ body {
   font-size: 58px;
   font-weight: 700;
   color: #fff;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami8__title {
@@ -1041,6 +1046,7 @@ body {
   width: 633px;
   font-size: 20px;
   text-align: left;
+  box-sizing: initial;
 }
 @media (max-width: 960px) {
   .miami9 .miami9__body {
@@ -1097,6 +1103,7 @@ body {
   font-weight: 700;
   color: #fff;
   white-space: nowrap;
+  box-sizing: initial;
 }
 @media (max-width: 1200px) {
   .miami9__title {
