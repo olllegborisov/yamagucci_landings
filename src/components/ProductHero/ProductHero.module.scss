@@ -6,11 +6,17 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+  @include nsm {
+    gap: 0;
+  }
 }
 
 .mainImg {
   height: 630px;
   aspect-ratio: 1/1;
+  @include nsm {
+    display: none;
+  }
 }
 
 .meta {
