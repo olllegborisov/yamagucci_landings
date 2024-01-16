@@ -356,6 +356,9 @@
 
     &_whatsapp {
       background-color: $green-light;
+      @include nsm {
+        display: none;
+      }
 
       svg {
         width: 35px;
