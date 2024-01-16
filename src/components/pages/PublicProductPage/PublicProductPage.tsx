@@ -12,9 +12,8 @@ const PublicProductPage: FC<PublicProductPageTypes> = ({ data, isLoading }) => (
       isLoading={isLoading}
       {...data?.product}
     />
-    <Landing landingName='galaxy-touch-pro' />
+    <Landing landingName='marco' />
   </>
-
 )
 
 export default PublicProductPage

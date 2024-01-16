@@ -1,0 +1,1670 @@
+@charset "UTF-8";
+    @font-face {
+    font-family: Gothic;
+    font-display: swap;
+    src: url(/landings/marco/fonts/centurygothic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/marco/fonts/PTSans.eot);
+    src: url(/landings/marco/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/PTSans.woff2) format("woff2"), url(/landings/marco/fonts/PTSans.woff) format("woff"), url(/landings/marco/fonts/PTSans.ttf) format("truetype"), url(/landings/marco/fonts/PTSans.svg#PTSans) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/marco/fonts/PTSansBold.eot);
+    src: url(/landings/marco/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/PTSansBold.woff2) format("woff2"), url(/landings/marco/fonts/PTSansBold.woff) format("woff"), url(/landings/marco/fonts/PTSansBold.ttf) format("truetype"), url(/landings/marco/fonts/PTSansBold.svg#PTSans) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/marco/fonts/PTSansItalic.ttf) format("truetype");
+    src: url(/landings/marco/fonts/PTSansItalic.woff2) format("woff2"), url(/landings/marco/fonts/PTSansItalic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/marco/fonts/PTSansNarrow.eot);
+    src: url(/landings/marco/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/PTSansNarrow.woff2) format("woff2"), url(/landings/marco/fonts/PTSansNarrow.woff) format("woff"), url(/landings/marco/fonts/PTSansNarrow.ttf) format("truetype"), url(/landings/marco/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/marco/fonts/PTSansNarrowBold.eot);
+    src: url(/landings/marco/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/landings/marco/fonts/PTSansNarrowBold.woff) format("woff"), url(/landings/marco/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/landings/marco/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: MyriadProLight;
+    src: url(/landings/marco/fonts/MyriadProLight.eot);
+    src: url(/landings/marco/fonts/MyriadProLight.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/MyriadProLight.woff) format("woff"), url(/landings/marco/fonts/MyriadProLight.woff2) format("woff2"), url(/landings/marco/fonts/MyriadProLight.ttf) format("truetype"), url(/landings/marco/fonts/MyriadProLight.svg#MyriadProLight) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(/landings/marco/fonts/MyriadPro.otf) format("opentype");
+    src: url(/landings/marco/fonts/MyriadPro.woff2) format("woff2"), url(/landings/marco/fonts/MyriadPro.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url(/landings/marco/fonts/MyriadProBold.otf) format("opentype");
+    src: url(/landings/marco/fonts/MyriadProBold.woff2) format("woff2"), url(/landings/marco/fonts/MyriadProBold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/landings/marco/fonts/PTPragmaticaCyrillic.ttf) format("opentype");
+    src: url(/landings/marco/fonts/PTPragmaticaCyrillic.woff2) format("woff2"), url(/landings/marco/fonts/PTPragmaticaCyrillic.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/landings/marco/fonts/PTPragmaticaBoldCyrillic.ttf) format("opentype");
+    src: url(/landings/marco/fonts/PTPragmaticaBoldCyrillic.woff2) format("woff2"), url(/landings/marco/fonts/PTPragmaticaBoldCyrillic.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/marco/fonts/Circe-Thin.eot);
+    src: url(/landings/marco/fonts/Circe-Thin.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-Thin.woff) format("woff"), url(/landings/marco/fonts/Circe-Thin.woff2) format("woff2"), url(/landings/marco/fonts/Circe-Thin.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/marco/fonts/Circe-ExtraLight.eot);
+    src: url(/landings/marco/fonts/Circe-ExtraLight.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-ExtraLight.woff) format("woff"), url(/landings/marco/fonts/Circe-ExtraLight.woff2) format("woff2"), url(/landings/marco/fonts/Circe-ExtraLight.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/marco/fonts/Circe-Light.eot);
+    src: url(/landings/marco/fonts/Circe-Light.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-Light.woff) format("woff"), url(/landings/marco/fonts/Circe-Light.woff2) format("woff2"), url(/landings/marco/fonts/Circe-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/marco/fonts/Circe-Regular.eot);
+    src: url(/landings/marco/fonts/Circe-Regular.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-Regular.woff) format("woff"), url(/landings/marco/fonts/Circe-Regular.woff2) format("woff2"), url(/landings/marco/fonts/Circe-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/marco/fonts/Circe-Bold.eot);
+    src: url(/landings/marco/fonts/Circe-Bold.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-Bold.woff) format("woff"), url(/landings/marco/fonts/Circe-Bold.woff2) format("woff2"), url(/landings/marco/fonts/Circe-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/marco/fonts/Circe-ExtraBold.eot);
+    src: url(/landings/marco/fonts/Circe-ExtraBold.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-ExtraBold.woff) format("woff"), url(/landings/marco/fonts/Circe-ExtraBold.woff2) format("woff2"), url(/landings/marco/fonts/Circe-ExtraBold.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/marco/fonts/bebasneuethin.woff2) format("woff2");
+    src: local("☺"), url(/landings/marco/fonts/bebasneuethin.woff) format("woff"), url(/landings/marco/fonts/bebasneuethin.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/marco/fonts/bebasneuelight.woff2) format("woff2");
+    src: local("☺"), url(/landings/marco/fonts/bebasneuelight.ttf) format("truetype"), url(/landings/marco/fonts/bebasneuelight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/marco/fonts/bebasneueregular.eot);
+    src: local("☺"), url(/landings/marco/fonts/bebasneueregular.woff2) format("woff2"), url(/landings/marco/fonts/bebasneueregular.woff) format("woff"), url(/landings/marco/fonts/bebasneueregular.ttf) format("truetype"), url(/landings/marco/fonts/bebasneueregular.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/marco/fonts/bebasneuebold.eot);
+    src: local("☺"), url(/landings/marco/fonts/bebasneuebold.woff2) format("woff2"), url(/landings/marco/fonts/bebasneuebold.woff) format("woff"), url(/landings/marco/fonts/bebasneuebold.ttf) format("truetype"), url(/landings/marco/fonts/bebasneuebold.svg) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Light"), local("Montserrat-Light"), url(/landings/marco/fonts/Montserrat-Light.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/marco/fonts/Montserrat-Regular.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/marco/fonts/Montserrat-Medium.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Bold"), local("Montserrat-Bold"), url(/landings/marco/fonts/Montserrat-Bold.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Black"), local("Montserrat-Black"), url(/landings/marco/fonts/Montserrat-Black.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Morpha;
+    font-display: swap;
+    src: url(/landings/marco/fonts/Morpha-Bold.woff2) format("woff2");
+    src: local("☺"), url(/landings/marco/fonts/Morpha-Bold.woff) format("woff"), url(/landings/marco/fonts/Morpha-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Bold"), local("NeueMachina-Bold"), url(/landings/marco/fonts/NeueMachina-Bold.woff2) format("woff2"), url(/landings/marco/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Black"), local("NeueMachina-Black"), url(/landings/marco/fonts/NeueMachina-Black.woff2) format("woff2"), url(/landings/marco/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Norican;
+    font-display: swap;
+    src: url(/landings/marco/fonts/norican-regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cy Grotesk";
+    font-display: swap;
+    src: url(/landings/marco/fonts/cy-grotesk-grand-dark.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: RainerTestv04;
+    src: url(/landings/marco/fonts/RainerTestv04-Bold.woff2), url(/landings/marco/fonts/RainerTestv04-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Anticva;
+    font-display: swap;
+    src: local("Anticva"), local("Anticva"), url(/landings/marco/fonts/Anticva-Regular.woff2) format("woff2"), url(/landings/marco/fonts/Anticva-Regular.woff) format("woff"), url(/landings/marco/fonts/Anticva-Regular.otf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Halvar Breitschrift";
+    src: local("HalvarBreit-Blk"), local("HalvarBreit-Blk"), url(/landings/marco/fonts/HalvarBreit-Blk.woff2) format("woff2"), url(/landings/marco/fonts/HalvarBreit-Blk.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Damn;
+    font-display: swap;
+    src: local("Damn"), local("Damn"), url(/landings/marco/fonts/Damn.woff2) format("woff2"), url(/landings/marco/fonts/Damn.woff) format("woff"), url(/landings/marco/fonts/Damn.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Monologue DEMO";
+    font-display: swap;
+    src: local("Monologue_DEMO"), local("Monologue_DEMO"), url(/landings/marco/fonts/Monologue_DEMO.woff) format("woff"), url(/landings/marco/fonts/Monologue_DEMO.ttf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Nasalization;
+    font-display: swap;
+    src: local("Nasalization"), local("Nasalization"), url(/landings/marco/fonts/Nasalization.woff) format("woff"), url(/landings/marco/fonts/Nasalization.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PatsySans;
+    font-display: swap;
+    src: local("PatsySans"), local("PatsySans"), url(/landings/marco/fonts/PatsySans.woff) format("woff"), url(/landings/marco/fonts/PatsySans.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lighthaus;
+    src: url(/landings/marco/fonts/Lighthaus.eot);
+    src: url(/landings/marco/fonts/Lighthaus.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Lighthaus.woff2) format("woff2"), url(/landings/marco/fonts/Lighthaus.woff) format("woff"), url(/landings/marco/fonts/Lighthaus.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: UltramonoWide-LightItalic;
+    src: url(/landings/marco/fonts/UltramonoWide-LightItalic.woff2) format("woff2"), url(/landings/marco/fonts/UltramonoWide-LightItalic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: UltramonoWide-Light;
+    src: url(/landings/marco/fonts/UltramonoWide-Light.woff2) format("woff2"), url(/landings/marco/fonts/UltramonoWide-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Nikkyou Sans";
+    src: url(/landings/marco/fonts/NikkyouSans.woff2) format("woff2"), url(/landings/marco/fonts/NikkyouSans.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Corvetta;
+    src: url(/landings/marco/fonts/Corvetta.woff2) format("woff2"), url(/landings/marco/fonts/Corvetta.woff) format("woff"), url(/landings/marco/fonts/Corvetta.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: a_LCDNovaObl;
+    src: url(/landings/marco/fonts/a_lcdnovaobl.woff) format("woff"), url(/landings/marco/fonts/a_lcdnovaobl.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Felidae;
+    src: url(/landings/marco/fonts/Felidae.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-Thin.otf);
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/marco/fonts/MullerNextExpandedTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/marco/fonts/MullerNextExpandedTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/marco/fonts/MullerNextExpandedTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/marco/fonts/MullerNextExpandedTrial-ExtraBoldItalic.otf);
+    font-weight: 750;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/marco/fonts/MullerNextExpandedTrial-Heavy.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/marco/fonts/MullerNextExpandedTrialThinItalic.otf);
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial Heavy";
+    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-HeavyItalic.otf) format("opentype"), url(/landings/marco/fonts/MullerNextExtraCondTrial-HeavyItalic.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf) format("truetype"), url(/landings/marco/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2) format("woff2");
+    font-weight: 750;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/marco/fonts/MullerNextExtraCondTrialThin.otf);
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Trial";
+    src: url(/landings/marco/fonts/MullerNextTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Trial";
+    src: url(/landings/marco/fonts/MullerNextTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Wide Trial";
+    src: url(/landings/marco/fonts/MullerNextTrial-ThinItalic.woff2);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: Cakra;
+    src: url(/landings/marco/fonts/Cakra-Normal.otf) format("opentype");
+    src: url(/landings/marco/fonts/Cakra-Normal.woff2) format("woff2"), url(/landings/marco/fonts/Cakra-Normal.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Noteworthy;
+    src: url(/landings/marco/fonts/NoteworthyLight.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Technology;
+    src: url(/landings/marco/fonts/Technology.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Technology;
+    src: url(/landings/marco/fonts/Technology-Bold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Unbounded;
+    src: url(/landings/marco/fonts/Unbounded-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Unbounded;
+    src: url(/landings/marco/fonts/Unbounded-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Inter;
+    src: url(/landings/marco/fonts/Inter-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Inter;
+    src: url(/landings/marco/fonts/Inter-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url(/landings/marco/fonts/MontserratAlternates-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Snell Roundhand";
+    src: url(/landings/marco/fonts/snell-roundhand-900.otf) format("opentype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Snell Roundhand";
+    src: url(/landings/marco/fonts/snell-roundhand-700.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Lighthaus;
+    src: url(/landings/marco/fonts/Lighthaus-400.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Code pro black";
+    src: url(/landings/marco/fonts/code_pro_black.otf) format("opentype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Boldstrom;
+    src: url(/landings/marco/fonts/Boldstrom-b.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext regular";
+    src: url(/landings/marco/fonts/europeext.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext bold";
+    src: url(/landings/marco/fonts/europeext_bold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext bold italic";
+    src: url(/landings/marco/fonts/europeext_bold_italic.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "TT Smalls Trial";
+    src: url(/landings/marco/fonts/TT-Smalls-Trial-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Mak;
+    src: url(/landings/marco/fonts/MAK.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: GTEestiProDisplay;
+    src: url(/landings/marco/fonts/GTEestiProDisplay-Bold.woff2) format("woff2");
+    src: url(/landings/marco/fonts/GTEestiProDisplay-Bold.woff) format("woff");
+    src: url(/landings/marco/fonts/GTEestiProDisplay-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: EuropeExt;
+    src: url(/landings/marco/fonts/europeextnormal.woff2) format("woff2");
+    src: url(/landings/marco/fonts/europeextnormal.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.landing-card {
+    font-family: PTSans, sans-serif!important;
+}
+@media all and (max-width:1023px) {
+    .landing-card {
+    padding-bottom: 60px;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card {
+    padding-bottom: 40px;
+}
+}.landing-card__cap-block {
+    padding: 40px 0 54px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media all and (max-width:1023px) {
+    .landing-card__cap-block {
+    padding: 50px 0 20px 0;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card__cap-block {
+    padding: 30px 0 30px 0;
+}
+}.landing-card__caption {
+    font-family: PTSans, sans-serif;
+    font-size: 48px;
+    color: #49344b;
+    line-height: 1;
+    text-align: center;
+    font-weight: 400;
+}
+@media all and (max-width:1023px) {
+    .landing-card__caption {
+    font-size: 40px;
+}
+}@media all and (max-width:1023px) and (max-width:767px) {
+    .landing-card__caption {
+    font-size: 24px;
+}
+}.landing-card__caption .per-cat {
+    font-size: 30px;
+}
+.landing-card__caption .per-dark {
+    color: #4f4f4f;
+    font-weight: 700;
+}
+.landing-card__caption .per-orange {
+    color: #f49c1b;
+    font-weight: 700;
+}
+.landing-card__cap-dark {
+    color: #523734;
+    font-weight: 700;
+}
+.landing-card__left {
+    position: relative;
+}
+.landing-card__right {
+    margin-top: -12px;
+}
+@media all and (max-width:1023px) {
+    .landing-card__right {
+    margin-top: auto;
+}
+}.landing-card__price-left .ruble-icon {
+    fill: #000;
+}
+.landing-card__price-right .ruble-icon {
+    fill: #000;
+}
+.landing-card__price-action {
+    color: #e03638;
+}
+.landing-card__old-price-text {
+    color: #e03638;
+}
+.landing-card__old-price .ruble-icon {
+    fill: #000;
+}
+.landing-card__bonus-value {
+    color: #62b14e;
+}
+.landing-card__bonus-points {
+    color: #62b14e;
+}
+.landing-card__compare-btn {
+    border: 1px solid #b9b9d2;
+}
+.landing-card .credit-btn {
+    border: 1px solid #b9b9d2;
+}
+.landing-card .credit-btn .percent {
+    color: #e95c20;
+}
+.landing-card .credit-btn .credit-text {
+    color: #000;
+}
+.landing-card .credit-btn .red-price {
+    color: #e95c20;
+}
+.landing-card__warranty {
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+@media all and (max-width:1239px) {
+    .landing-card__warranty {
+    right: 16px;
+    top: 180px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .landing-card__warranty {
+    top: 120px;
+    z-index: 1;
+    right: 0;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .landing-card__warranty {
+    right: 16px;
+}
+}.prod-img-wrapper {
+    padding-top: 16px;
+}
+@media all and (max-width:1239px) {
+    .prod-img-wrapper {
+    text-align: center;
+    padding-top: 48px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .prod-img-wrapper {
+    padding-top: 0;
+}
+}.landing-slider {
+    margin-top: 46px;
+    padding: 0 30px 0 56px;
+}
+@media all and (max-width:1239px) {
+    .landing-slider {
+    padding: 0 30px 0 37px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .landing-slider {
+    padding: 0 24px 0 52px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .landing-slider {
+    padding: 0 24px 0 6%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) {
+    .landing-slider {
+    padding: 0 24px 0 10%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) and (max-width:400px) {
+    .landing-slider {
+    padding: 0 30px 0 10%}
+}@media (max-width:1239px) and (max-width:1023px) and (max-width:767px) and (max-width:500px) and (max-width:400px) and (max-width:370px) {
+    .landing-slider {
+    padding: 0 32px 0 17%}
+}.landing-slider .slick-arrow {
+    width: 30px;
+}
+.landing-slider .slick-prev {
+    height: 100%;
+    left: 0;
+    background: url(../images/svg/l-slick-prev.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-prev:hover {
+    background: url(../images/svg/l-slick-prev-hov-st.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-next {
+    height: 100%;
+    right: 0;
+    background: url(../images/svg/l-slick-next.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-next:hover {
+    background: url(../images/svg/l-slick-next-hov-st.svg) no-repeat;
+    background-size: 100% 100%}
+.landing-slider .slick-slide img {
+    border-radius: 10px;
+    border: none;
+}
+@media all and (max-width:1239px) {
+    .landing-slider .slick-slide img {
+    width: 88px;
+}
+}.l-video-link {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 184px;
+    width: 149px;
+    height: 35px;
+    background: url(../images/svg/landing-video.svg) no-repeat;
+}
+@media all and (max-width:1239px) {
+    .l-video-link {
+    bottom: 176px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .l-video-link {
+    bottom: 184px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .l-video-link {
+    display: none;
+}
+}.social-block {
+    margin-top: 30px;
+}
+.marco {
+    height: 1020px;
+    background: url(../images/landing/bg/perfetto/perfetto_01.webp) top center no-repeat;
+    background-size: cover;
+    color: #000;
+}
+@media all and (max-width:1239px) {
+    .marco {
+    height: 960px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .marco {
+    background: #fff;
+    height: auto;
+    padding-bottom: 110px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .marco {
+    padding-bottom: 50px;
+}
+}.marco1 {
+    height: 998px;
+    background: url(../images/landing/bg/perfetto/perfetto_01.webp) top center no-repeat;
+    padding-bottom: 10px;
+}
+.marco1 .b-product__ontime-box {
+    margin-left: 20px;
+}
+.marco1 .price-sticker__num {
+    margin-right: 22px!important;
+}
+.marco1 .p-head__title {
+    position: static;
+    width: 540px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.marco1 .b-product__left {
+    margin-top: 78px;
+}
+.marco1 .b-product__images {
+    overflow: visible;
+}
+.marco1 .slick-prev {
+    bottom: -5px;
+}
+.marco1 .slick-next {
+    right: -12px;
+}
+.marco1 .b-product__detail-icon {
+    margin-top: 0;
+}
+.marco1 .colors__item--larger {
+    height: 38px!important;
+}
+.landing__content h1, .landing__content h2, .landing__content h3, .landing__content p {
+    font-family: PTSans, sans-serif!important;
+}
+.landing__content .b-product--marco .b-product__detail {
+    margin-top: 22px;
+}
+.landing__content .b-product--marco .price-sticker__num {
+    margin-right: 28px!important;
+}
+.p-head--marco {
+    margin-bottom: 40px;
+}
+.p-head--marco .p-head__title {
+    line-height: 1;
+    color: #4f4f4f;
+    padding-top: 48px;
+    font-size: 30px;
+}
+.p-head--marco .p-head__title .t-bold {
+    display: block;
+    font-size: 51px;
+    font-weight: 700;
+}
+.p-head--marco .p-head__title .t-color {
+    color: #df8023;
+}
+.marco-advantages {
+    position: relative;
+    background: url(/landings/marco/images/bg/advantages_bg.webp);
+}
+.marco-advantages .plashka {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: none;
+}
+.marco-advantages__caption {
+    font-size: 42px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 22px;
+}
+.marco-advantages__text {
+    font-size: 21px;
+    line-height: 1.2;
+    color: #000;
+    margin-top: 54px;
+}
+.marco-advantages .advantages-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.marco-advantages .advantage-block {
+    width: 273px;
+    text-align: center;
+}
+.marco-advantages .advantage-block__caption {
+    font-size: 24px;
+    font-weight: 700;
+    color: #d8801b;
+}
+.marco-advantages .advantage-block__text {
+    font-size: 18px;
+    color: #000;
+    line-height: 1.1;
+    margin-top: 6px;
+}
+.marco3 {
+    height: 918px;
+    font-family: PTSans, sans-serif;
+}
+.marco3 .marco3-sm {
+    display: none;
+}
+.marco3__title {
+    padding: 46px 0 0 58px;
+    text-align: center;
+    color: #f49c1b;
+}
+.marco3__text {
+    padding: 31px 0 0 55px;
+    letter-spacing: -.1px;
+    text-align: center;
+    color: #000;
+}
+.marco4 {
+    height: 890px;
+}
+.marco4__title {
+    position: absolute;
+    top: 40px;
+    left: 38px;
+}
+.marco5 {
+    height: 649px;
+    font-family: PTSans, sans-serif;
+}
+.marco5 .marco5-sm {
+    display: none;
+}
+.marco5__title {
+    position: absolute;
+    top: 407px;
+    left: 10px;
+}
+.marco5__text {
+    position: absolute;
+    top: 428px;
+    left: 441px;
+    width: 670px;
+    color: #000;
+    text-align: right;
+}
+.marco6 {
+    height: 1063px;
+}
+.marco6 .marco6-sm {
+    display: none;
+}
+.marco6__desc {
+    position: absolute;
+    top: 215px;
+    left: 100px;
+    width: 420px;
+}
+.marco6__title {
+    color: #000;
+}
+.marco6__text {
+    margin: 20px 0 0 0;
+    color: #000;
+    font-family: PTSans, sans-serif;
+}
+.marco7 {
+    height: 498px;
+    font-family: PTSans, sans-serif;
+}
+.marco7__desc {
+    position: absolute;
+    top: 37px;
+    right: -10px;
+    text-align: right;
+}
+.marco7__title {
+    letter-spacing: 0;
+    color: #f49c1b;
+}
+.marco7__text {
+    margin: 12px 0 0 0;
+    color: #000;
+    letter-spacing: .3px;
+}
+.marco8 {
+    height: 751px;
+    font-family: PTSans, sans-serif;
+}
+.marco8 .marco8-sm {
+    display: none;
+}
+.marco8__title {
+    padding: 33px 0 0 21px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #f49c1b;
+}
+.marco8__text {
+    position: absolute;
+    top: 566px;
+    left: 143px;
+    text-align: center;
+    letter-spacing: .2px;
+    color: #000;
+}
+.marco9 {
+    height: 370px;
+    font-family: PTSans, sans-serif;
+}
+.marco9__desc {
+    position: absolute;
+    top: 29px;
+    left: 6px;
+    width: 570px;
+}
+.marco9__title {
+    color: #f49c1b;
+}
+.marco9__text {
+    margin: 10px 0 0 0;
+    letter-spacing: -.3px;
+    color: #000;
+}
+.marco10 {
+    height: 506px;
+}
+.marco10__text {
+    position: absolute;
+    top: 273px;
+    left: 700px;
+    width: 410px;
+    font-family: PTSans, sans-serif;
+    letter-spacing: -.3px;
+    text-align: right;
+    color: #000;
+}
+.marco11 {
+    height: 545px;
+    font-family: PTSans, sans-serif;
+}
+.marco11__title {
+    position: absolute;
+    top: 22px;
+    left: 9px;
+}
+.marco11__table {
+    position: absolute;
+    top: 138px;
+    left: 9px;
+    width: 380px;
+    height: 100%;
+    padding: 10px 15px;
+    border-radius: 0;
+    color: #000;
+}
+.marco11__table .l-table__th {
+    width: 154px;
+    padding: 5px 0 20px 18px;
+    vertical-align: middle;
+}
+.marco11__table .l-table__td {
+    padding: 5px 0 20px 20px;
+    vertical-align: middle;
+}
+.marco12 {
+    height: 689px;
+}
+.marco12 .form--landing {
+    top: 206px;
+    right: 83px;
+}
+.marco12__title {
+    position: absolute;
+    top: 64px;
+    left: 662px;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #000;
+}
+.marco12__title .t-bold {
+    font-size: 40px;
+    line-height: 47px;
+    color: #f49c1b;
+}
+@media (max-width:1200px) {
+    .landing__content .b-product--marco {
+    background-size: 3600px!important;
+    height: auto;
+}
+.landing__content .b-product--marco .b-product__head {
+    padding-top: 30px;
+}
+.landing__content .b-product--marco .b-product__head .p-head__title {
+    position: static;
+}
+.landing__content .b-product--marco .b-product__left {
+    float: none;
+    margin: 0 auto;
+}
+.landing__content .b-product--marco .b-product__left .b-product__img-wrap {
+    height: auto;
+}
+.landing__content .b-product--marco .b-product__left .b-product__img-wrap .b-product__img {
+    margin: 0 auto;
+}
+.landing__content .b-product--marco .b-product__right {
+    width: 564px;
+    overflow: visible;
+}
+.landing__content .b-product--marco .b-product__right .b-product__prices {
+    margin: 50px 0 0 0;
+}
+.landing__content .b-product--marco .b-product__right .b-product__prices .b-product__ontime .credit__question {
+    right: auto;
+    left: 164px;
+}
+.landing__content .b-product--marco .slick-prev {
+    top: -4px!important;
+}
+.landing__content .marco-advantages .plashka {
+    left: -446px;
+}
+.landing__content .marco-advantages .advantages-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.landing__content .marco-advantages .advantage-block {
+    width: 336px;
+    margin-bottom: 30px;
+}
+.landing__content .marco3 {
+    background-position-x: 52.6%!important;
+}
+.landing__content .marco3__title {
+    padding-left: 0;
+}
+.landing__content .marco3__text {
+    padding-left: 0;
+}
+.landing__content .marco4 {
+    background-position-x: 48%!important;
+}
+.landing__content .marco5__title {
+    font-size: 40px;
+}
+.landing__content .marco5__text {
+    left: auto;
+    right: 10px;
+    font-size: 20px;
+}
+.landing__content .marco6 {
+    background-position-x: -410px!important;
+}
+.landing__content .marco7__desc {
+    left: auto;
+    right: 10px;
+}
+.landing__content .marco8__text {
+    width: 830px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.landing__content .marco9 {
+    background-color: #fff!important;
+    background-size: 1355px!important;
+    background-position: center bottom!important;
+}
+.landing__content .marco9__desc {
+    left: 10px;
+}
+.landing__content .marco10 {
+    background-position-x: -614px!important;
+    background-size: 2029px!important;
+}
+.landing__content .marco10__text {
+    left: auto;
+    right: 10px;
+}
+.landing__content .marco11 {
+    background-size: 1716px!important;
+    background-color: #fff!important;
+    height: 530px;
+}
+.landing__content .marco11 .marco12__title {
+    font-size: 40px;
+}
+.landing__content .marco11 .marco11__table {
+    padding-top: 20px;
+    left: -12px;
+    top: 124px;
+    right: auto;
+    height: 554px;
+}
+.landing__content .marco11 .marco11__table .l-table__th {
+    padding: 5px 0 14px 18px;
+}
+.landing__content .marco11 .marco11__table .l-table__td {
+    padding: 5px 0 14px 18px;
+}
+.marco12 {
+    background-position-x: -380px!important;
+}
+.marco12 .marco12__title {
+    left: auto;
+    right: 20px;
+}
+.marco12 .form--landing {
+    position: absolute;
+    top: 210px;
+    right: 32px;
+}
+}@media (max-width:1023px) {
+    .landing__content .marco1 .slick-prev {
+    left: -5px;
+}
+.landing__content .marco1 .slick-next {
+    right: -6px;
+}
+.landing__content .marco-advantages .plashka {
+    left: -60px;
+    width: 1100px;
+}
+.landing__content .marco-advantages__caption {
+    font-size: 30px;
+    padding-top: 6px;
+}
+.landing__content .marco-advantages__text {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.landing__content .marco3 {
+    background: #fff!important;
+    height: auto;
+}
+.landing__content .marco3__title {
+    padding: 30px 0 0 0;
+    font-size: 30px;
+    text-align: left;
+    line-height: 1;
+}
+.landing__content .marco3__text {
+    font-size: 18px;
+    text-align: left;
+    padding-top: 20px;
+}
+.landing__content .marco3 .marco3-sm {
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+}
+.landing__content .marco4 {
+    display: none;
+}
+.landing__content .marco5 {
+    height: auto;
+    padding-bottom: 30px;
+    background: #dfdfe1!important;
+}
+.landing__content .marco5 .marco5-sm {
+    display: block;
+    width: 100%}
+.landing__content .marco5__title {
+    position: static;
+    font-size: 30px;
+    line-height: 1;
+    padding: 30px 0 20px 0;
+    color: #000;
+}
+.landing__content .marco5__text {
+    position: static;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+}
+.landing__content .marco6 {
+    background-position-x: -506px!important;
+    background-size: 1530px!important;
+    height: 420px;
+}
+.landing__content .marco6__desc {
+    position: static;
+}
+.landing__content .marco6__title {
+    font-size: 30px;
+    line-height: 1;
+    padding: 30px 0 20px 0;
+}
+.landing__content .marco6__text {
+    font-size: 18px;
+    margin-top: 0;
+}
+.landing__content .marco7__desc {
+    top: 0;
+}
+.landing__content .marco7__title {
+    font-size: 30px;
+    line-height: 1;
+    padding: 30px 0 20px 0;
+}
+.landing__content .marco7__text {
+    font-size: 18px;
+    margin-top: 0;
+}
+.landing__content .marco8__text {
+    font-size: 18px;
+}
+.landing__content .marco9 {
+    height: auto;
+    background: #fff!important;
+}
+.landing__content .marco9__desc {
+    position: static;
+    width: 100%}
+.landing__content .marco9__title {
+    font-size: 30px;
+    line-height: 1;
+    padding: 30px 0 20px 0;
+}
+.landing__content .marco9__text {
+    margin-top: 0;
+    font-size: 18px;
+}
+.landing__content .marco9 .marco9-sm {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+.landing__content .marco10 {
+    display: none;
+}
+.landing__content .marco11 {
+    background: #fff!important;
+    height: auto;
+    padding: 30px 0;
+}
+.landing__content .marco11 .marco11__title {
+    font-size: 30px;
+    float: none;
+    position: static;
+    text-align: center;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 20px;
+}
+.landing__content .marco11 .marco11__table {
+    position: static;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    height: auto;
+}
+.landing__content .marco11 .marco11-sm {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+.marco12 {
+    height: auto;
+    background: url(../images/product/marco/landing/screen12.webp)!important;
+    background-size: cover!important;
+}
+.marco12 .block__inner {
+    padding-bottom: 30px;
+    background: rgba(255, 255, 255, .3);
+}
+.marco12 .marco12__title {
+    position: static;
+    margin-right: 0;
+    float: none;
+    text-align: center;
+    line-height: 1;
+    width: 100%;
+    padding-top: 30px;
+    color: #000;
+}
+.marco12 .marco12__title span {
+    color: #000;
+    line-height: 1;
+}
+.marco12 .form--landing {
+    position: static!important;
+    margin: 30px auto 0 auto;
+}
+.marco12 .form--landing .form__submit {
+    padding: 6px 22px 6px 22px;
+    font-size: 24px!important;
+    margin-top: 6px;
+}
+}@media (max-width:768px) {
+    .landing__content .b-product--marco {
+    background-size: cover!important;
+}
+.landing__content .b-product--marco .b-product__head {
+    padding-top: 30px;
+}
+.landing__content .b-product--marco .b-product__head .p-head__title {
+    position: static;
+}
+.landing__content .b-product--marco .b-product__left {
+    width: 100%}
+.landing__content .b-product--marco .b-product__left .b-product__img-wrap .b-product__img {
+    width: 100%}
+.landing__content .b-product--marco .b-product__left .b-product__images {
+    margin: 0 auto!important;
+}
+.landing__content .b-product--marco .b-product__right {
+    width: 100%}
+.landing__content .b-product--marco .b-product__right .b-product__available {
+    margin-bottom: 20px;
+}
+.landing__content .b-product--marco .b-product__right .b-product__buttons {
+    margin: 0;
+}
+.landing__content .b-product--marco .b-product__right .b-product__delivery {
+    margin: 30px 0 0 0;
+}
+.landing__content .b-product--marco .b-product__right .b-product__colors {
+    margin-top: 20px;
+}
+.landing__content .marco-advantages .plashka {
+    left: -192px;
+}
+}@media (max-width:767px) {
+    .landing__content .marco1 .slick-prev {
+    left: -14px;
+}
+.landing__content .marco1 .slick-next {
+    right: -15px;
+}
+.landing__content .marco6 {
+    background: #e8e8e0!important;
+    height: auto;
+}
+.landing__content .marco6__desc {
+    width: 100%}
+.landing__content .marco6 .marco6-sm {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+.landing__content .marco7 {
+    background: #ecd09e!important;
+    height: auto;
+}
+.landing__content .marco7__desc {
+    position: static;
+    text-align: left;
+}
+.landing__content .marco7__title {
+    color: #000;
+}
+.landing__content .marco7 .marco7-sm {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+.landing__content .marco8 {
+    height: auto;
+    background: #fff!important;
+}
+.landing__content .marco8__title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 1;
+    padding: 30px 0 20px 0;
+}
+.landing__content .marco8__text {
+    position: static;
+    transform: none;
+    width: auto;
+    text-align: left;
+}
+.landing__content .marco8 .marco8-sm {
+    display: block;
+    width: 100%}
+}@media (max-width:450px) {
+    .landing__content .b-product--marco .b-product__head {
+    padding-top: 30px;
+}
+.landing__content .b-product--marco .b-product__head .p-head__title {
+    position: static;
+    width: auto;
+    padding-top: 0;
+}
+.landing__content .b-product--marco .b-product__head .p-head__title span {
+    font-size: 40px;
+    line-height: 1.1;
+}
+.landing__content .b-product--marco .b-product__left {
+    width: 100%}
+.landing__content .b-product--marco .b-product__left .b-product__img-wrap .b-product__img {
+    width: 100%}
+.landing__content .b-product--marco .b-product__left .b-product__images {
+    width: 100%;
+    margin: 0;
+}
+.landing__content .b-product--marco .b-product__left .b-product__images .slick-prev {
+    bottom: -12px;
+}
+.landing__content .b-product--marco .b-product__right {
+    width: 100%}
+.landing__content .b-product--marco .b-product__right .b-product__prices .b-product__price {
+    float: right;
+}
+.landing__content .b-product--marco .b-product__right .b-product__credit {
+    width: 174px;
+    float: right;
+}
+.landing__content .b-product--marco .b-product__right .b-product__ontime {
+    text-align: right;
+}
+.landing__content .b-product--marco .b-product__right .b-product__ontime .credit__question {
+    display: none;
+}
+.landing__content .b-product--marco .b-product__right .b-product__buttons .b-product__order-quick {
+    margin: 0;
+}
+.landing__content .b-product--marco .b-product__right .b-product__buttons>div {
+    display: flex;
+    justify-content: center;
+}
+.landing__content .marco11 .marco11__table {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+    font-size: 14px;
+}
+.landing__content .marco11 .marco11__table .l-table__td {
+    padding-right: 14px;
+}
+.landing__content .marco11 .l-table__th {
+    width: auto;
+    padding-left: 0;
+}
+}.landing-form-21__img {
+    background-color: #f1f1f1;
+}
+.landing-form-21__img img {
+    object-fit: contain;
+    width: 100%}
+
+/* Не подгрузившиеся стили при переносе */
+.l-title--x {
+    font-family: PTSans,sans-serif;
+    font-size: 42px;
+    line-height: 47px;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+.l-text--s {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+
+
+
+/* landing.css  */
+
+.block {
+    position: relative;
+}
+.t-bold {
+    font-weight: 700;
+}
+.landing__wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.landing__page {
+    color: #fff;
+}
+.block__inner {
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+.l-table--beige-trans {
+    background: rgba(255, 190, 63, .5);
+}
+.l-table {
+    padding: 17px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.l-table--beige-trans .l-table__th {
+    border-right: 1px solid #ae9166;
+}
+.chicago11 .l-table__table {
+    line-height: 1;
+}
+.l-table--white-50-trans .l-table__tr {
+    border-top: 1px solid #b3b0ae;
+}
+.l-table--white-50-trans .l-table__th {
+    border-right: 1px solid #b3b0ae;
+}
+.l-table--white-50-trans {
+    background: rgba(255, 255, 255, .5);
+}
+.l-table--beige-trans .l-table__tr {
+    border-top: 1px solid #ae9166;
+}
+.l-table__tr:first-child {
+    border: 0!important;
+}
+.l-table__table {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 15px;
+}
+.l-table--yellow {
+    background: #fce1ba;
+}
+table {
+    border-collapse: collapse;
+}
+.l-table--yellow .l-table__th {
+    border-right: 1px solid #bda98b;
+}
+/* landing.css адаптив */
+@media (max-width: 1200px) {
+.block__inner {
+    width: 100%;
+    overflow: hidden;
+}
+}
+@media (max-width: 1239px) {
+.block__inner {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+}
