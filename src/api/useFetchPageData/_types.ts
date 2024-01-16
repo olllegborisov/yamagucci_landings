@@ -7,6 +7,8 @@ export type FetchPageDataParams = {
   fullPathArray: string[] | string
   /** признак админской страницы */
   isAdminPage?: boolean
+  /** адрес веб */
+  webApi: string
 }
 
 export type FetchPageDataOriginalResult = schema['/api/shop/page_data']['post']['responses']['200']['content']['application/json']

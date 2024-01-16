@@ -1,5 +1,5 @@
 import { dehydrate, QueryClient } from '@tanstack/react-query'
-import { GetStaticProps } from 'next'
+import { GetServerSideProps } from 'next'
 import { memo } from 'react'
 
 import { getProducts, QUERY_KEY_FETCH_PRODUCTS } from '@/src/api/useFetchProducts/useFetchProducts'
