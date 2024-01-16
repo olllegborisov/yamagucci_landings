@@ -64,8 +64,6 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
     }
   }
 
-  if (!qrcodes?.length) return null
-
   return (
     <>
       <div
@@ -113,7 +111,7 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
         </div>
       </div>
 
-      {qrcodes?.map((qrcode, index) => (
+      {qrcodes.length > 0 && qrcodes?.map((qrcode, index) => (
         <QrcodeCard
           data={qrcode}
           key={index}
