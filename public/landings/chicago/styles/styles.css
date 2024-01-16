@@ -1831,7 +1831,7 @@ table {
 }
 }
 @media (max-width: 767px) {
-    img {
+    .slides {
         max-width: none;
     }
 }
