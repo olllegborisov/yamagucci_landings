@@ -48,6 +48,10 @@
   width:  100%;
   padding: 30px 20px;
 }
+.tab-panel-qr {
+  display: block !important;
+  width:  100%;
+}
 .tab-panel-category-main {
   padding: 30px 20px;
   row-gap: 50px;

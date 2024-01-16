@@ -329,6 +329,16 @@ export const productFormCfg: FormTabs = {
       tabTitle: 'Тех. Хар.'
     },
     {
+      panelClassName: 'tab-panel-qr',
+      tabContent: [
+        {
+          name: 'q_r_codes',
+          type: 'q_r_codes'
+        }
+      ],
+      tabTitle: 'QR'
+    },
+    {
       panelClassName: 'tab-panel-rent',
       tabContent: [
         {

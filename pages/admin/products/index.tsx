@@ -3,7 +3,7 @@ import { GetStaticProps } from 'next'
 import { memo } from 'react'
 
 import { getProducts, QUERY_KEY_FETCH_PRODUCTS } from '@/src/api/useFetchProducts/useFetchProducts'
-import ProductsPage from '@/src/components/pages/ProductsPage/ProductsPage'
+import ProductsPage from '@/src/components/pages/AdminProductsPage/AdminProductsPage'
 
 /** загрузка данных. */
 // ts-prune-ignore-next
