@@ -5,6 +5,7 @@ import { useFormContext } from 'react-hook-form'
 
 import { axiosBearerPost } from '@/src/api/axiosInstances'
 import ButtonIcon from '@/src/components/atoms/ButtonIcon/ButtonIcon'
+import { revalidatePage } from '@/src/lib/revalidatePage'
 
 import { ListCardQrcodesTypes } from './_types'
 import QrcodeCard from './QrcodeCard/QrcodeCard'
@@ -53,7 +54,8 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
       })
 
       if (response.status === 201) {
-        router.reload()
+        await revalidatePage()
+        // router.reload()
       } else {
         window.alert('Произошла ошибка при создании QR кода')
       }
