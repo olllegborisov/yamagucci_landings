@@ -13,7 +13,7 @@ const DynamicPage: FC<WrapperTypes> = ({ fullPathArray }) => {
   const isAdminPage = fullPathArray?.includes('admin')
 
   /** получение данных */
-  const { data, isLoading } = useFetchPageData({ fullPathArray, isAdminPage })
+  const { data, isLoading } = useFetchPageData({ fullPathArray, isAdminPage, webApi: 'https://api.yamaguchi.ru/api' })
 
   if (isAdminPage) {
     if (fullPathArray?.includes('categories')) {

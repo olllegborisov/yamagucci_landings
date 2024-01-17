@@ -9,21 +9,21 @@ import { FetchPageDataOriginalResult, FetchPageDataParams, FetchPageDataQueryKey
 export const QUERY_KEY_FETCH_PAGE_DATA = 'pageData'
 
 /** функция запроса продуктов */
-export const getPageData = async ({ fullPathArray }: FetchPageDataParams): Promise<FetchPageDataOriginalResult> => {
+export const getPageData = async ({ fullPathArray, webApi }: FetchPageDataParams): Promise<FetchPageDataOriginalResult> => {
   /** дата продуктов */
-  const { data } = await axiosBearerPost.post<FetchPageDataOriginalResult>(PAGE_DATA_API,
+  const { data } = await axiosBearerPost.post<FetchPageDataOriginalResult>(webApi + PAGE_DATA_API,
     {
-      urn: fullPathArray?.length === 1 ? fullPathArray[0] : `${fullPathArray[0]}/${fullPathArray[1]}`
+      urn: fullPathArray?.length === 2 ? fullPathArray[1] : `${fullPathArray[1]}/${fullPathArray[2]}`
     })
 
   return data
 }
 
 /** хук запроса списка продуктов */
-const useFetchPageData = ({ fullPathArray, isAdminPage }: FetchPageDataParams): UseQueryResult<FetchPageDataOriginalResult, Error> => useQuery<FetchPageDataOriginalResult, Error, FetchPageDataOriginalResult, FetchPageDataQueryKeyType>({
+const useFetchPageData = ({ fullPathArray, isAdminPage, webApi }: FetchPageDataParams): UseQueryResult<FetchPageDataOriginalResult, Error> => useQuery<FetchPageDataOriginalResult, Error, FetchPageDataOriginalResult, FetchPageDataQueryKeyType>({
   enabled: !!fullPathArray && !isAdminPage,
-  queryFn: () => getPageData({ fullPathArray }),
-  queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray }]
+  queryFn: () => getPageData({ fullPathArray, webApi }),
+  queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray, webApi }]
 })
 
 export default useFetchPageData

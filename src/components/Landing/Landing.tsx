@@ -72,6 +72,8 @@ const Landing: FC<LandingTypes> = ({ landingName }) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  if (!htmlContent) return null
+
   return (
     <div
       dangerouslySetInnerHTML={{ __html: htmlContent }}

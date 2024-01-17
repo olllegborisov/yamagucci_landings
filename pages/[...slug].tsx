@@ -27,8 +27,8 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   try {
     await Promise.all([
       queryClient.prefetchQuery({
-        queryFn: () => getPageData({ fullPathArray }),
-        queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray }]
+        queryFn: () => getPageData({ fullPathArray, webApi: 'https://api.yamaguchi.ru/api' }),
+        queryKey: [QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray, webApi: 'https://api.yamaguchi.ru/api' }]
       }),
       queryClient.prefetchQuery({
         queryFn: () => getCategory({ categoryId, webApi: 'https://api.yamaguchi.ru/api' }),
@@ -41,7 +41,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     ])
 
     /** список продуктов */
-    const page: FetchPageDataOriginalResult = queryClient.getQueryData([QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray }])
+    const page: FetchPageDataOriginalResult = queryClient.getQueryData([QUERY_KEY_FETCH_PAGE_DATA, { fullPathArray, webApi: 'https://api.yamaguchi.ru/api' }])
 
     if (!page?.data?.page_type && !fullPathArray.includes('admin')) {
       return {
