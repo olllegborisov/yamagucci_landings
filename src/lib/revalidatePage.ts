@@ -1,9 +1,9 @@
 /** функция принудительной ревалидации страницы */
-export const revalidatePage = async (): Promise<void> => {
+export const revalidatePage = async (url:string): Promise<void> => {
   try {
     /** ответ */
     const response = await fetch('/api/revalidate', {
-      body: JSON.stringify({ secret: 'revalidate' }),
+      body: JSON.stringify({ secret: 'revalidate', url }),
       headers: {
         'Content-Type': 'application/json'
       },

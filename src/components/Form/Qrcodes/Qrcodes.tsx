@@ -39,6 +39,8 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
     }))
   }
 
+  console.log(router)
+
   /** обработчик отправки */
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -54,7 +56,7 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
       })
 
       if (response.status === 201) {
-        await revalidatePage()
+        await revalidatePage(router.asPath)
         // router.reload()
       } else {
         window.alert('Произошла ошибка при создании QR кода')

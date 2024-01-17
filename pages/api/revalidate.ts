@@ -12,10 +12,9 @@ export default async function handler (req: NextApiRequest, res:NextApiResponse)
       return res.status(401).json({ message: 'Invalid token' })
     }
 
-    console.log('req.headers', req.headers)
-    console.log('page to revalidate', req.headers.referer)
+    console.log('req.query', req.body.url)
     // revalidate the path (change '/qr-codes' to your specific page path)
-    await res.revalidate(req.headers.referer)
+    await res.revalidate(req.body.url)
 
     return res.json({ revalidated: true })
   } catch (err) {
