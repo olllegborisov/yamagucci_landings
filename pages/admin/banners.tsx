@@ -14,13 +14,13 @@ export const getStaticProps: GetStaticProps = async () => {
   try {
     await Promise.all([
       await queryClient.prefetchQuery({
-        queryFn: () => getBanners({}),
-        queryKey: [QUERY_KEY_FETCH_BANNERS]
+        queryFn: () => getBanners({ webApi: 'https://api.yamaguchi.ru/api' }),
+        queryKey: [QUERY_KEY_FETCH_BANNERS, { webApi: 'https://api.yamaguchi.ru/api' }]
       })
     ])
 
     /** список продуктов */
-    const banners = queryClient.getQueryData([QUERY_KEY_FETCH_BANNERS])
+    const banners = queryClient.getQueryData([QUERY_KEY_FETCH_BANNERS, { webApi: 'https://api.yamaguchi.ru/api' }])
 
     if (!banners) {
       return {

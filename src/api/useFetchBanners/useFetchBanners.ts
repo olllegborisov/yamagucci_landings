@@ -10,9 +10,9 @@ import { FetchBannersParams, FetchBannersQueryKeyType, FetchBannersResult } from
 export const QUERY_KEY_FETCH_BANNERS = 'banners'
 
 /** функция запроса продуктов */
-export const getBanners = async ({ mockVariant }: FetchBannersParams): Promise<FetchBannersResult> => {
+export const getBanners = async ({ mockVariant, webApi }: FetchBannersParams): Promise<FetchBannersResult> => {
   /** дата продуктов */
-  const { data } = await axiosBearerGet.get<FetchBannersResult>(BANNERS_API,
+  const { data } = await axiosBearerGet.get<FetchBannersResult>(webApi + BANNERS_API,
     {
       params: {
         ...Object.assign(
@@ -40,9 +40,9 @@ export const getBanners = async ({ mockVariant }: FetchBannersParams): Promise<F
 }
 
 /** хук запроса списка продуктов */
-const useFetchBanners = ({ mockVariant }: FetchBannersParams): UseQueryResult<FetchBannersResult, Error> => useQuery<FetchBannersResult, Error, FetchBannersResult, FetchBannersQueryKeyType>({
-  queryFn: () => getBanners({ mockVariant }),
-  queryKey: [QUERY_KEY_FETCH_BANNERS, { mockVariant }]
+const useFetchBanners = ({ mockVariant, webApi }: FetchBannersParams): UseQueryResult<FetchBannersResult, Error> => useQuery<FetchBannersResult, Error, FetchBannersResult, FetchBannersQueryKeyType>({
+  queryFn: () => getBanners({ mockVariant, webApi }),
+  queryKey: [QUERY_KEY_FETCH_BANNERS, { mockVariant, webApi }]
 })
 
 export default useFetchBanners

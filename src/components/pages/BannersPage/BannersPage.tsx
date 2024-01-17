@@ -94,7 +94,7 @@ const BannersPage: FC<FetchBannersResult> = ({ archivedBanners, currentBanners }
 /** врапер для получения первоначальных данных */
 const Wrapper: FC = () => {
   /** получение данных */
-  const { data } = useFetchBanners({})
+  const { data } = useFetchBanners({ webApi: 'https://api.yamaguchi.ru/api' })
 
   if (!data) return null
 

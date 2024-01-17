@@ -49,6 +49,9 @@ const mainMiddleware = async (req: NextRequest): Promise<any> => {
         'Content-Type': 'application/json'
       },
       method: 'POST'
+    }).catch(err => {
+      // eslint-disable-next-line no-console
+      console.log(err)
     })
 
     /** роль юзера */
