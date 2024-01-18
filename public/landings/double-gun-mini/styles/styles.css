@@ -1,0 +1,2472 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local("Montserrat Light"), local("Montserrat-Light"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Light.woff2")
+      format("woff2"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local("Montserrat"), local("Montserrat-Regular"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Regular.woff2")
+      format("woff2"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local("Montserrat"), local("Montserrat-Regular"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Medium.woff2")
+      format("woff2"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: local("Montserrat Black"), local("Montserrat-Black"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Black.woff2")
+      format("woff2"),
+    url("/landings/double-gun-mini/fonts/Montserrat-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Muller Next Expanded Trial";
+  src: url("/landings/double-gun-mini/fonts/MullerNextExpandedTrial-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muller Next Expanded Trial";
+  src: url("/landings/double-gun-mini/fonts/MullerNextExpandedTrial-RegularItalic.otf");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muller Next Expanded Trial";
+  src: url("/landings/double-gun-mini/fonts/MullerNextExpandedTrial-ExtraBold.otf");
+  font-weight: 750;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muller Next Expanded Trial";
+  src: url("/landings/double-gun-mini/fonts/MullerNextExpandedTrial-Heavy.otf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller Next ExtraCond Trial";
+  src: url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller Next ExtraCond Trial";
+  src: url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-RegularItalic.otf");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller Next ExtraCond Trial";
+  src: url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-ExtraBold.otf");
+  font-weight: 750;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muller Next ExtraCond Trial";
+  src: url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf")
+      format("truetype"),
+    url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2")
+      format("woff2");
+  font-weight: 750;
+  font-style: italic;
+}
+
+/* html {
+  scroll-behavior: smooth;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  background: #181818;
+  color: #fff;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: outside none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  outline: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: 0;
+  border: 0;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.main-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+} */
+
+.container-box {
+  width: 1230px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@media all and (max-width: 1240px) {
+  .container-box {
+    width: 1023px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media all and (max-width: 1240px) and (max-width: 1023px) {
+  .container-box {
+    width: 708px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media all and (max-width: 1240px) and (max-width: 1023px) and (max-width: 767px) {
+  .container-box {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.main-wrapper section {
+  box-sizing: border-box;
+}
+
+figure,
+figcaption {
+  margin: 0;
+  /* padding: 0; */
+}
+@media all and (max-width: 767px) {
+  .container-box {
+    padding: 0 3%;
+  }
+}
+.section {
+  min-height: 900px;
+  font-family: Montserrat, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+}
+@media all and (max-width: 767px) {
+  .section {
+    min-height: unset;
+  }
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+figure {
+  margin: 0;
+}
+ol {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+@media all and (max-width: 767px) {
+  .container-box {
+    padding: 0 3%;
+  }
+}
+.section {
+  max-width: 1920px;
+  width: 100%;
+  min-height: 900px;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+}
+@media all and (max-width: 767px) {
+  .section {
+    min-height: unset;
+  }
+}
+.element-for-visible {
+  transition: opacity, scale 0.8s ease, transform 0.6s ease;
+}
+@media all and (max-width: 767px) {
+  .no-mobile {
+    display: none;
+  }
+}
+.mobile-show {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .mobile-show {
+    display: block;
+  }
+}
+.video-on-load {
+  width: 100%;
+}
+.top-video__title {
+  font-size: 35px;
+  text-align: center;
+  color: brown;
+}
+.product-preview {
+  position: relative;
+  background-color: #e03638;
+}
+@media all and (max-width: 767px) {
+  .product-preview {
+    padding-bottom: 9.1vw;
+    background-image: url("/landings/double-gun-mini/images/product-preview-bg-mob.webp");
+  }
+}
+.product-preview__container-box {
+  position: relative;
+  z-index: 1;
+  padding-top: 83px;
+}
+@media all and (max-width: 767px) {
+  .product-preview__container-box {
+    padding-top: 5.4vw;
+  }
+}
+.product-preview__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.product-preview__text-box {
+  width: 652px;
+  margin-left: auto;
+  margin-bottom: 421px;
+}
+@media all and (max-width: 767px) {
+  .product-preview__text-box {
+    width: 100%;
+    margin-bottom: 118vw;
+  }
+}
+.product-preview__supertitle {
+  margin-bottom: 20px;
+  font: normal 300 38px/125% Montserrat;
+  letter-spacing: 0.5px;
+  text-align: center;
+  transition: opacity 1s ease, transform 0.35s linear;
+}
+.product-preview__supertitle._hide {
+  transform: translateX(45vw);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .product-preview__supertitle {
+    letter-spacing: normal;
+    font-size: 7.4vw;
+    margin-bottom: 2.5vw;
+  }
+}
+.product-preview__title {
+  margin-bottom: 19px;
+  font: normal 400 44px / normal "Muller Next Expanded Trial";
+  text-transform: uppercase;
+  text-align: center;
+  transition: opacity 0.5s linear, transform 0.35s linear;
+}
+.product-preview__title._hide {
+  opacity: 0;
+  transform: translateX(-65vw);
+}
+@media all and (max-width: 767px) {
+  .product-preview__title {
+    margin-bottom: 2vw;
+    font-size: 6vw;
+    letter-spacing: 0.1vw;
+  }
+}
+.product-preview__subtitle {
+  font: italic 750 65px/1 "Muller Next ExtraCond Trial";
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+@media all and (max-width: 767px) {
+  .product-preview__subtitle {
+    font-size: 12.1vw;
+    line-height: 1.27;
+    letter-spacing: 0.1vw;
+  }
+}
+.product-preview__subtitle-mob-top {
+  color: #fff;
+  display: block;
+  transform: translateX(-80px);
+}
+@media all and (max-width: 767px) {
+  .product-preview__subtitle-mob-top {
+    display: block;
+    transform: translateX(0);
+    letter-spacing: 0.02vw;
+  }
+}
+.product-preview__subtitle-bottom {
+  display: block;
+  transform: translateX(-155px);
+  animation: knights-move 1s ease 50ms forwards;
+}
+.product-preview__subtitle-bottom.without-animation {
+  animation: none;
+}
+@media all and (max-width: 767px) {
+  .product-preview__subtitle-bottom {
+    display: inline-block;
+    width: 40vw;
+    animation: none;
+    opacity: 1;
+    transform: translateX(0);
+    font-size: 15.1vw;
+  }
+}
+.product-preview__text {
+  width: 595px;
+  margin-left: auto;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+}
+@media all and (max-width: 767px) {
+  .product-preview__text {
+    width: 100%;
+    font-size: 4.7vw;
+  }
+}
+.product-preview__running-line-container {
+  width: 100%;
+  height: 332px;
+  position: absolute;
+  top: 370px;
+}
+@media all and (max-width: 767px) {
+  .product-preview__running-line-container {
+    width: 209.4vw;
+    height: 36.9vw;
+    top: 104vw;
+  }
+}
+.product-preview__running-line-slide {
+  height: 100%;
+  display: flex;
+}
+.product-preview__running-line-img {
+  width: 1800px;
+  margin: auto;
+}
+@media all and (max-width: 767px) {
+  .product-preview__running-line-img {
+    width: 100%;
+  }
+}
+.double-percussion-mechanism {
+  position: relative;
+  padding-top: 138px;
+  background-color: #181818;
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism {
+    padding-top: 11.9vw;
+    padding-bottom: 9.7vw;
+  }
+}
+.double-percussion-mechanism::after {
+  content: "";
+  display: none;
+  position: absolute;
+  top: -27.2%;
+  left: 0;
+  width: 100%;
+  height: 1062px;
+  background-image: url("/landings/double-gun-mini/images/double-percussion-mechanism-svg-bg-v1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism::after {
+    background-image: url("/landings/double-gun-mini/images/double-percussion-mechanism-svg-bg-mob.svg");
+    height: 122.5vw;
+    top: 0;
+  }
+}
+.double-percussion-mechanism__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.double-percussion-mechanism__container-box {
+  display: grid;
+  grid-template-areas: "Tit Img Img" "Tit Img Img" "Tex Img Img";
+  row-gap: 42px;
+  position: relative;
+  z-index: 1;
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism__container-box {
+    display: block;
+  }
+}
+.double-percussion-mechanism__title-block {
+  width: 400px;
+  position: relative;
+  left: 10px;
+  font-style: italic;
+  font-size: 115px;
+  font-family: "Muller Next ExtraCond Trial";
+  text-transform: uppercase;
+  line-height: 94%;
+  grid-area: Tit;
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism__title-block {
+    width: 100%;
+    margin-bottom: 100vw;
+    margin-left: -2.9vw;
+    font-size: 19.6vw;
+  }
+}
+.double-percussion-mechanism__title-top {
+  display: block;
+  margin-bottom: 38px;
+  font: italic 750 174.5px/62.5% "Muller Next ExtraCond Trial";
+  color: #e03638;
+  opacity: 0;
+  transition: none;
+  animation: text-drop 0.15s ease-out 0.25s 1 normal forwards;
+}
+.double-percussion-mechanism__title-top._hide {
+  animation: none;
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism__title-top {
+    margin-bottom: 3.2vw;
+    font-size: 25.7vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism__title-middle {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    font-size: 20.7vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism__title-bottom {
+    display: block;
+    text-align: end;
+  }
+}
+.double-percussion-mechanism__img-container {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism__img-container {
+    display: block;
+    width: 100%;
+    height: 77.5vw;
+    margin-bottom: 9.7vw;
+  }
+}
+.double-percussion-mechanism__img {
+  width: 100%;
+  height: 100%;
+}
+.double-percussion-mechanism__text-block {
+  width: 380px;
+  font-size: 20px;
+  line-height: 34px;
+  grid-area: Tex;
+}
+.double-percussion-mechanism__text-block._hide {
+  transform: translateY(150px);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .double-percussion-mechanism__text-block {
+    padding-left: 4.1vw;
+    font-size: 4.7vw;
+    line-height: 170%;
+    width: 100%;
+  }
+}
+.form {
+  padding-top: 86px;
+  background-image: url("/landings/double-gun-mini/images/form-bg.webp");
+}
+@media all and (max-width: 767px) {
+  .form {
+    padding-top: 6.3vw;
+    padding-bottom: 4.9vw;
+    background-image: url("/landings/double-gun-mini/images/form-bg-mob.webp");
+  }
+}
+.form__title {
+  margin-bottom: 128px;
+  font: normal 750 177px/62% "Muller Next ExtraCond Trial";
+  text-transform: uppercase;
+  text-align: center;
+  color: #181818;
+}
+@media all and (max-width: 767px) {
+  .form__title {
+    margin-bottom: 70.7vw;
+    font-size: 16.2vw;
+  }
+}
+.form__title-red {
+  display: inline-block;
+  color: #e03638;
+}
+.form__title-red._hide {
+  transform: scaleY(3.5);
+  opacity: 0;
+}
+.form__text-block {
+  position: relative;
+  width: 486px;
+  margin-left: 55%;
+  font-size: 20px;
+  color: #181818;
+  line-height: 170%;
+}
+.form__text-block._hide {
+  transform: translateX(500px);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .form__text-block._hide {
+    transform: translateX(150px);
+  }
+}
+.form__text-block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f1f6f5;
+  border-radius: 511px;
+  filter: blur(37px);
+  z-index: 0;
+}
+@media all and (max-width: 767px) {
+  .form__text-block::before {
+    width: 175vw;
+    left: -59vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .form__text-block {
+    width: 100%;
+    margin-left: 0;
+    font-size: 4.7vw;
+    text-align: center;
+  }
+}
+.form__text {
+  position: relative;
+  z-index: 1;
+}
+.frequency-range {
+  padding-top: 76px;
+  padding-bottom: 43px;
+  background-color: #181818;
+  background-image: url("/landings/double-gun-mini/images/frequency-range-bg.webp");
+}
+@media all and (max-width: 767px) {
+  .frequency-range {
+    position: relative;
+    padding-top: 9.2vw;
+    padding-bottom: 60vw;
+    background-image: url("/landings/double-gun-mini/images/frequency-range-bg-mob.webp");
+  }
+}
+.frequency-range__title-block {
+  margin-bottom: 71px;
+  padding-left: 6px;
+  font: italic 400 106px "Muller Next Expanded Trial";
+  text-transform: uppercase;
+  line-height: 0.65;
+}
+.frequency-range__title-block._hide {
+  transform: translateX(1000px);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__title-block._hide {
+    transform: translateX(100px);
+  }
+}
+@media all and (max-width: 767px) {
+  .frequency-range__title-block {
+    margin-bottom: 4.7vw;
+    line-height: 0.45;
+  }
+}
+.frequency-range__title-block-top {
+  display: block;
+  margin-bottom: 14px;
+  font-weight: 400;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__title-block-top {
+    margin-bottom: 3.7vw;
+    font-size: 9.9vw;
+    font-weight: 750;
+  }
+}
+.frequency-range__title-bottom {
+  font-size: 51px;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__title-bottom {
+    display: block;
+    font-size: 9.7vw;
+    font-style: normal;
+    line-height: 111%;
+  }
+}
+.frequency-range__table-block {
+  margin-bottom: 52px;
+  width: fit-content;
+  padding: 44px 50px 46px 50px;
+  background-color: #181818;
+  border-radius: 21px;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table-block {
+    margin-bottom: 4vw;
+    padding: 4.7vw;
+    height: 41.9vw;
+  }
+}
+.frequency-range__table {
+  width: 675px;
+  height: 260px;
+}
+.frequency-range__table._hide {
+  transform: translateX(-1000px);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table._hide {
+    transform: translateX(-100px);
+  }
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table {
+    height: 100%;
+    width: 100%;
+  }
+}
+.frequency-range__table-header {
+  height: 62px;
+  border-bottom: 2px solid;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table-header {
+    height: 6.7vw;
+  }
+}
+.frequency-range__table-data {
+  width: 180px;
+  font-size: 20px;
+  text-align: center;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table-data {
+    width: 48vw;
+    font-size: 2.4vw;
+  }
+}
+.frequency-range__table-data:not(:last-child) {
+  border-right: 2px solid;
+}
+.frequency-range__table-data_header {
+  vertical-align: baseline;
+  font-size: 20px;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table-data_header {
+    font-size: 2.4vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table-body {
+    height: 25vw;
+  }
+}
+.frequency-range__table-row {
+  height: 48px;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table-row {
+    height: auto;
+  }
+}
+.frequency-range__circle-block {
+  width: 129px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__circle-block {
+    width: 15.7vw;
+  }
+}
+.frequency-range__circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__circle {
+    width: 3.4vw;
+    height: 3.4vw;
+  }
+}
+.frequency-range__circle_red {
+  background-color: #e03638;
+}
+.frequency-range__table-column-medium {
+  width: 255px;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__table-column-medium {
+    width: 63vw;
+  }
+}
+.frequency-range__table-column-third {
+  width: 210px;
+}
+.frequency-range__text-block {
+  width: 723px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.frequency-range__text-block._hide {
+  transform: translateY(-250px);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .frequency-range__text-block {
+    width: 100%;
+    font-size: 4.4vw;
+    text-align: left;
+  }
+}
+.universal-nozzles {
+  padding-top: 34px;
+  padding-bottom: 50px;
+  background-image: url("/landings/double-gun-mini/images/universal-nozzles-bg.webp");
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles {
+    position: relative;
+    z-index: 1;
+    padding-top: 5.7vw;
+    padding-bottom: 6vw;
+    background-image: url("/landings/double-gun-mini/images/universal-nozzles-bg-mob.webp");
+  }
+}
+.universal-nozzles__container-box {
+  display: grid;
+  grid-template-areas: "Tit" "Sub" "Tex" "Hie";
+  position: relative;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__container-box {
+    display: block;
+  }
+}
+.universal-nozzles__title-block {
+  margin-bottom: -10px;
+  font: italic 750 121px "Muller Next ExtraCond Trial";
+  text-transform: uppercase;
+  grid-area: Tit;
+  transition: opacity 1.25s ease, transform 0.25s linear;
+}
+.universal-nozzles__title-block._hide {
+  transform: translateX(250px);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__title-block {
+    width: 98.7%;
+    margin-bottom: -2.2vw;
+  }
+}
+.universal-nozzles__title-top-mob {
+  display: inline;
+  font-size: 121px;
+  font-weight: 750;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__title-top-mob {
+    display: block;
+    font-size: 20vw;
+    font-weight: 750;
+    line-height: 0.9;
+  }
+}
+.universal-nozzles__title-bottom-mob {
+  display: inline;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__title-bottom-mob {
+    display: block;
+    font-size: 23.2vw;
+    text-align: end;
+    line-height: 0.9;
+  }
+}
+.universal-nozzles__hieroglyphs {
+  grid-area: Hie;
+  color: #e03638;
+  font-size: 90px;
+  font-weight: 900;
+  transition: opacity 1.25s ease, transform 1s cubic-bezier(0, 1.65, 1, -0.6);
+}
+.universal-nozzles__hieroglyphs._hide {
+  transform: translateX(-1250px);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__hieroglyphs._hide {
+    transform: translateX(-150px);
+  }
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__hieroglyphs {
+    margin-bottom: 8vw;
+    font-size: 7.5vw;
+    text-align: center;
+  }
+}
+.universal-nozzles__image-block {
+  width: 656px;
+  height: 464px;
+  position: absolute;
+  top: 193px;
+  right: 0;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__image-block {
+    width: 91.7vw;
+    height: 64.2vw;
+    margin-bottom: 12.9vw;
+    position: static;
+  }
+}
+.universal-nozzles__img {
+  width: 100%;
+  height: 100%;
+}
+.universal-nozzles__subtitle {
+  margin-bottom: 83px;
+  font-size: 20px;
+  font-weight: 700;
+  grid-area: Sub;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__subtitle {
+    display: block;
+    margin-bottom: 4.7vw;
+    text-align: center;
+    font-size: 4.7vw;
+  }
+}
+.universal-nozzles__text-block {
+  width: 534px;
+  margin-bottom: 91px;
+  font-size: 20px;
+  line-height: 170%;
+  text-align: left;
+  grid-area: Tex;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__text-block {
+    width: 100%;
+    font-size: 4.4vw;
+    line-height: 170%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+.universal-nozzles__text:not(:last-child) {
+  margin-bottom: 63px;
+}
+@media all and (max-width: 767px) {
+  .universal-nozzles__text:not(:last-child) {
+    margin-bottom: 6vw;
+  }
+}
+.deep-massage {
+  min-height: 1000px;
+  position: relative;
+  padding-top: 45px;
+  background-color: #181818;
+}
+@media all and (max-width: 767px) {
+  .deep-massage {
+    min-height: auto;
+    height: 152vw;
+    padding-top: 11vw;
+  }
+}
+.deep-massage__container-box {
+  position: relative;
+  z-index: 2;
+}
+.deep-massage__title {
+  margin-bottom: 29px;
+  font: italic 750 98px "Muller Next ExtraCond Trial";
+  text-transform: uppercase;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__title {
+    margin-bottom: 3.6vw;
+    font-size: 14.1vw;
+    text-align: center;
+    line-height: 0.96;
+    letter-spacing: normal;
+  }
+}
+.deep-massage__red {
+  font-size: 93px;
+  display: inline-block;
+  vertical-align: text-top;
+  color: #e03638;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__red {
+    font-size: 14.1vw;
+  }
+}
+.deep-massage__swiper-top {
+  width: 100%;
+  height: 320px;
+  position: relative;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__swiper-top {
+    width: 100%;
+    height: 44.1vw;
+  }
+}
+.deep-massage__swiper-text {
+  width: 1095px;
+  height: 206px;
+  margin: auto;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__swiper-text {
+    width: 77%;
+    height: 100%;
+  }
+}
+.deep-massage__swiper-bg-mob {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__swiper-bg-mob {
+    display: block;
+    position: absolute;
+    top: 42vw;
+    left: 6.1vw;
+    width: 87.5vw;
+    height: 28.2vw;
+    background-color: #000;
+    border-radius: 2.7vw;
+  }
+}
+.deep-massage__text-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #181818;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__text-slide {
+    background-color: #181818;
+  }
+}
+.deep-massage__text-slide.swiper-slide-active {
+  display: block;
+  position: relative;
+  padding-top: 20px;
+  z-index: 1;
+  scale: 1.5;
+  text-align: center;
+  background-color: #e03638;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__text-slide.swiper-slide-active {
+    height: 100%;
+    scale: 1;
+    padding-top: 3.2vw;
+    border-radius: 4.1vw;
+  }
+}
+.deep-massage__text-slide.swiper-slide-active > .deep-massage__subtitle {
+  display: block;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__text-slide.swiper-slide-active > .deep-massage__subtitle {
+    font-size: 3.8vw;
+  }
+}
+.deep-massage__text-slide.swiper-slide-active > .deep-massage__text {
+  display: block;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__text-slide.swiper-slide-active > .deep-massage__text {
+    font-size: 3.8vw;
+  }
+}
+.deep-massage__text-slide.swiper-slide-next,
+.deep-massage__text-slide.swiper-slide-prev {
+  background-color: #000;
+}
+.deep-massage__title-slide {
+  position: relative;
+  top: 8px;
+  font: italic 750 43px "Muller Next ExtraCond Trial";
+  text-transform: uppercase;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__title-slide {
+    display: none;
+  }
+}
+.swiper-slide-active > .deep-massage__title-slide {
+  position: static;
+  font-size: 60px;
+}
+@media all and (max-width: 767px) {
+  .swiper-slide-active > .deep-massage__title-slide {
+    display: block;
+    font-size: 12vw;
+    margin-bottom: -1vw;
+  }
+}
+.deep-massage__subtitle {
+  display: none;
+}
+.swiper-slide-active > .deep-massage__subtitle {
+  margin-bottom: 13px;
+  font-size: 16px;
+}
+@media all and (max-width: 767px) {
+  .swiper-slide-active > .deep-massage__subtitle {
+    margin-bottom: 0;
+  }
+}
+.deep-massage__text {
+  display: none;
+}
+.swiper-slide-active > .deep-massage__text {
+  width: 300px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.7;
+}
+@media all and (max-width: 767px) {
+  .swiper-slide-active > .deep-massage__text {
+    width: 90%;
+  }
+}
+.deep-massage__container {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 900px;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__container {
+    height: 80vw;
+    bottom: 0;
+  }
+}
+.deep-massage__image {
+  width: 100%;
+  height: 100%;
+}
+.deep-massage__video {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+}
+@media all and (max-width: 767px) {
+  .deep-massage__video {
+    height: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  .swiper-button-prev {
+    left: 1.7vw;
+    top: 22.8vw;
+  }
+}
+.swiper-button-prev::after {
+  position: relative;
+  top: 5px;
+  font-size: 30px;
+  color: #fff;
+}
+@media all and (max-width: 767px) {
+  .swiper-button-prev::after {
+    left: 0;
+    top: 0;
+    font-size: 5vw !important;
+  }
+}
+@media all and (max-width: 767px) {
+  .swiper-button-next {
+    right: 3.2vw;
+    top: 22.5vw;
+  }
+}
+.swiper-button-next::after {
+  color: #fff;
+  font-size: 30px;
+  right: 0;
+  position: relative;
+  top: 5px;
+}
+@media all and (max-width: 767px) {
+  .swiper-button-next::after {
+    position: static;
+    font-size: 5vw !important;
+  }
+}
+.power {
+  position: relative;
+  height: clamp(1px, 46.78vw, 900px);
+}
+@media all and (max-width: 767px) {
+  .power {
+    height: unset;
+    padding-bottom: 9vw;
+    background-color: #181818;
+  }
+}
+.power__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-position: center;
+  object-fit: cover;
+}
+@media all and (max-width: 767px) {
+  .power__video {
+    width: 100vw;
+    height: 78vw;
+    top: 71vw;
+  }
+}
+.power__container {
+  position: relative;
+  z-index: 2;
+  padding-top: 3.5%;
+}
+@media all and (max-width: 767px) {
+  .power__container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 67vw;
+    width: 110%;
+    height: 15vw;
+    border-radius: 511px;
+    background: linear-gradient(
+      180deg,
+      #181818 24.85%,
+      rgba(24, 24, 24, 0.5) 70.02%,
+      rgba(24, 24, 24, 0) 100%
+    );
+    z-index: 0;
+  }
+}
+.power__title {
+  width: 600px;
+  margin-bottom: 55px;
+  font-family: "Muller Next ExtraCond Trial";
+  font-size: clamp(1px, 5.83vw, 112px);
+  font-style: italic;
+  font-weight: 750;
+  letter-spacing: -0.001rem;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: opacity 1s ease, transform 1s ease;
+}
+.power__title._hide {
+  transform: scale(2.5);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .power__title {
+    margin-bottom: 93.2vw;
+    font-size: 18.5vw;
+  }
+}
+.power__title-red {
+  display: block;
+  margin-bottom: -7px;
+  color: #e03638;
+}
+@media all and (max-width: 767px) {
+  .power__title-red {
+    margin-bottom: -2vw;
+  }
+}
+.power__subtitle {
+  margin-bottom: 36px;
+  font-size: clamp(1px, 1.7vw, 33px);
+  font-weight: 400;
+  line-height: 1.2;
+}
+@media all and (max-width: 767px) {
+  .power__subtitle {
+    font-size: 10.5vw;
+    margin-bottom: 5.4vw;
+  }
+}
+.power__paragraph {
+  width: 28%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1px, 1.2vw, 20px);
+  line-height: 1.7;
+}
+@media all and (max-width: 767px) {
+  .power__paragraph {
+    width: 100%;
+    font-size: 4.4vw;
+  }
+}
+.power__jap-text {
+  width: 644px;
+  height: 139px;
+  margin-left: auto;
+  margin-right: 17px;
+  position: relative;
+  top: 40px;
+  font-size: clamp(1px, 8.7vw, 167px);
+  line-height: 1;
+  color: #e03638;
+  text-align: right;
+}
+@media all and (max-width: 767px) {
+  .power__jap-text {
+    height: auto;
+    position: absolute;
+    top: 136.4vw;
+    left: 61vw;
+    width: 35.4vw;
+    font-size: 9vw;
+  }
+}
+.power__img {
+  width: 100%;
+  height: 100%;
+}
+.target {
+  position: relative;
+  overflow: hidden;
+  margin-top: -5px;
+  background: #e03638;
+}
+@media all and (max-width: 767px) {
+  .target {
+    margin: 0;
+  }
+}
+.target__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 44px;
+  padding-top: 2%;
+  padding-bottom: 2.5%;
+}
+@media all and (max-width: 767px) {
+  .target__container {
+    align-items: start;
+    padding-bottom: 0;
+    row-gap: 0;
+  }
+}
+.target__title {
+  width: 100%;
+  font-family: "Muller Next Expanded Trial", Montserrat;
+  font-size: clamp(18px, 5vw, 92px);
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  transition: opacity 1s ease, transform 1s ease;
+}
+.target__title._hide {
+  transform: scale(0.5);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .target__title {
+    margin-bottom: 5vw;
+    font-size: clamp(44px, 14.7vw, 92px);
+  }
+}
+.target__title_bold {
+  font-weight: 900;
+}
+.target__title-target {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+@media all and (max-width: 767px) {
+  .target__title-target {
+    display: block;
+    font-size: clamp(44px, 13.5vw, 92px);
+  }
+}
+.target__title-target_bold {
+  font-weight: 750;
+}
+.target__paragraph {
+  width: 47.8%;
+  font-size: clamp(12px, 1.2vw, 20px);
+  line-height: 1.7;
+  color: #fff;
+  transition: opacity 1s ease, transform 1s ease;
+}
+.target__paragraph._hide {
+  transform: translatex(50%);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .target__paragraph {
+    width: 100%;
+    margin-bottom: 25vw;
+    font-size: clamp(16px, 4vw, 20px);
+  }
+}
+.target__target-min-container {
+  position: absolute;
+  top: 18.3%;
+  left: 0.4%;
+  width: clamp(10px, 8vw, 140px);
+}
+@media all and (max-width: 767px) {
+  .target__target-min-container {
+    position: static;
+    width: 33.6%;
+  }
+}
+.target__target-min-img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+@media all and (max-width: 767px) {
+  .target__target-min-img {
+    margin-bottom: 3.3vw;
+  }
+}
+.target__target-min-paragraph {
+  font-size: clamp(12px, 1.2vw, 15px);
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+}
+@media all and (max-width: 767px) {
+  .target__target-min-paragraph {
+    font-size: 3.4vw;
+  }
+}
+.target__arrow-container {
+  width: clamp(200px, 25vw, 468px);
+  position: relative;
+  top: 25px;
+  right: 5px;
+}
+@media all and (max-width: 767px) {
+  .target__arrow-container {
+    position: absolute;
+    top: 80vw;
+    width: 56%;
+    right: -13vw;
+  }
+}
+@media all and (max-width: 450px) {
+  .target__arrow-container {
+    top: 90vw;
+  }
+}
+@media all and (max-width: 350px) {
+  .target__arrow-container {
+    top: 104vw;
+  }
+}
+.target__arrow-img {
+  width: 100%;
+}
+.target__dart-img {
+  position: absolute;
+  z-index: 3;
+  top: 22.8%;
+  left: 0.3%;
+  width: 52%;
+}
+.target__dart-img._hide {
+  transform: translate(-1230px, -220px);
+  opacity: 0;
+}
+@media all and (max-width: 767px) {
+  .target__dart-img._hide {
+    transform: translate(-80vw, -10vw);
+  }
+}
+.target__swiper {
+  position: absolute;
+  bottom: 0;
+  left: 50.3%;
+  transform: translateX(-85%);
+  width: 851px;
+  height: 824px;
+}
+@media all and (max-width: 767px) {
+  .target__swiper {
+    position: static;
+    transform: unset;
+    width: 115%;
+    height: 107vw;
+    margin: -43% 0 0 -3.8%;
+  }
+}
+.healthy-back {
+  position: relative;
+  background-color: #000;
+}
+@media all and (max-width: 767px) {
+  .healthy-back {
+    padding-bottom: 5.7vw;
+  }
+}
+.healthy-back__container-box {
+  padding-top: 105px;
+}
+@media all and (max-width: 767px) {
+  .healthy-back__container-box {
+    padding-top: 7.9vw;
+  }
+}
+.healthy-back__title {
+  width: 615px;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+  font: italic 750 76.3px "Muller Next ExtraCond Trial";
+  text-transform: uppercase;
+  line-height: 1.05;
+}
+@media all and (max-width: 767px) {
+  .healthy-back__title {
+    width: 100%;
+    font-size: 11.6vw;
+    text-align: center;
+    margin-bottom: -10vw;
+    line-height: 1.27;
+  }
+}
+.healthy-back__title._hide {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.healthy-back__title-red {
+  display: block;
+  color: #e03638;
+  font-size: 128.8px;
+  font-weight: 400;
+}
+@media all and (max-width: 767px) {
+  .healthy-back__title-red {
+    font-size: 19.4vw;
+  }
+}
+.healthy-back__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media all and (max-width: 767px) {
+  .healthy-back__video {
+    width: 110vw;
+    height: 147vw;
+    margin-bottom: -2vw;
+    position: static;
+    transform: translateX(-4vw);
+  }
+}
+.healthy-back__text-container {
+  position: relative;
+  width: 414px;
+  font-size: 20px;
+  line-height: 170%;
+}
+@media all and (max-width: 767px) {
+  .healthy-back__text-container {
+    width: 100%;
+    font-size: 4.7vw;
+  }
+}
+.healthy-back__text:not(:last-child) {
+  margin-bottom: 40px;
+}
+@media all and (max-width: 767px) {
+  .healthy-back__text:not(:last-child) {
+    margin-bottom: 10vw;
+  }
+}
+.deep-massage-help {
+  padding-top: 55px;
+  padding-bottom: 25px;
+  min-height: 845px;
+  background: #fff;
+}
+@media all and (max-width: 767px) {
+  .deep-massage-help {
+    min-height: auto;
+    padding-bottom: 7.9vw;
+  }
+}
+.deep-massage-help .swiper-wrapper {
+  transition-timing-function: linear;
+  display: flex;
+}
+.deep-massage-help__container-box {
+  margin-bottom: 44px;
+}
+@media all and (max-width: 767px) {
+  .deep-massage-help__container-box {
+    padding-top: 6.3vw;
+  }
+}
+.deep-massage-help__title {
+  margin-bottom: 12px;
+  color: #181818;
+  font-family: "Muller Next ExtraCond Trial";
+  font-style: italic;
+  font-weight: 750;
+  line-height: 94%;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: left;
+}
+@media all and (max-width: 767px) {
+  .deep-massage-help__title {
+    margin-bottom: 0.6vw;
+    font-size: 9.4vw;
+    line-height: 1;
+    text-align: center;
+  }
+}
+.deep-massage-help__title._hide {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.deep-massage-help__subtitle {
+  display: block;
+  color: #e03638;
+  font-family: "Muller Next ExtraCond Trial";
+  font-style: italic;
+  line-height: 94%;
+  text-transform: uppercase;
+  font-weight: 750;
+  font-size: 80px;
+  text-align: right;
+}
+@media all and (max-width: 767px) {
+  .deep-massage-help__subtitle {
+    font-size: 7vw;
+    line-height: 1;
+    letter-spacing: 0.25vw;
+    text-align: center;
+  }
+}
+.deep-massage-help__subtitle._hide {
+  opacity: 0;
+  transform: translateX(50%);
+}
+.deep-massage-help__wrapper {
+}
+.deep-massage-help__item {
+  display: flex;
+  flex-direction: column;
+  row-gap: clamp(28px, 3.5vw, 91px);
+  width: 442px;
+}
+.deep-massage-help__item:last-child {
+  row-gap: 0;
+}
+@media all and (max-width: 767px) {
+  .deep-massage-help__item img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  .deep-massage-help__item {
+    width: 100vw;
+    align-items: center;
+  }
+}
+.deep-massage-help__image {
+  text-align: center;
+}
+.deep-massage-help__image img {
+  width: 100%;
+}
+.deep-massage-help__description {
+  display: flex;
+  column-gap: 4%;
+  padding-left: 2%;
+  align-items: flex-start;
+}
+.deep-massage-help__description img {
+  margin-top: 6px;
+  width: clamp(1px, 1.5vw, 30px);
+}
+@media all and (max-width: 767px) {
+  .deep-massage-help__description {
+    margin-top: 18vw;
+  }
+  .deep-massage-help__description img {
+    margin-top: 3px;
+    height: 7vw;
+    width: 7vw;
+  }
+}
+.deep-massage-help__text {
+  color: #181818;
+  font-family: Montserrat;
+  font-size: clamp(16px, 1.4vw, 20px);
+  font-weight: 400;
+  line-height: normal;
+}
+@media all and (max-width: 767px) {
+  .deep-massage-help__text {
+    width: 100%;
+    font-size: 4.4vw;
+  }
+  .deep-massage-help__text::before {
+    width: 5vw;
+    height: 4vw;
+    transform: translateX(7vw);
+  }
+}
+.arm-pro-slider {
+  position: absolute;
+  z-index: 4;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+}
+@media all and (max-width: 767px) {
+  .arm-pro-slider {
+    display: none;
+  }
+}
+.arm-pro-slider_left {
+  transform: rotate(-90deg);
+  transform-origin: left;
+  left: 6.8%;
+}
+.arm-pro-slider_right {
+  transform: rotate(90deg);
+  transform-origin: right;
+  right: 7.4%;
+}
+.arm-pro-slider_element {
+  transition-timing-function: linear !important;
+}
+.arm-pro-slider .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+.arm-pro-slider__title {
+  font-family: "Muller Next ExtraCond Trial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 122px;
+  line-height: 1;
+  color: #fff;
+  opacity: 0.2;
+  text-align: center;
+  white-space: nowrap;
+}
+.all-muscules {
+  position: relative;
+  background-image: url("/landings/double-gun-mini/images/all-muscules-bg.webp");
+  min-height: 900px;
+  height: 1px;
+}
+@media all and (max-width: 1239px) {
+  .all-muscules {
+    min-height: fit-content;
+    height: auto;
+  }
+}
+@media all and (max-width: 767px) {
+  .all-muscules {
+    padding-top: 5.7vw;
+    background-image: url("/landings/double-gun-mini/images/all-muscules-bg-mob.webp");
+  }
+}
+@media all and (max-width: 1239px) {
+  .all-muscules .container-box {
+    width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media all and (max-width: 1023px) {
+  .all-muscules .container-box {
+    width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.all-muscules__content {
+  position: relative;
+  height: 100%;
+}
+@media all and (max-width: 767px) {
+  .all-muscules__content {
+    padding-bottom: 8vw;
+  }
+}
+.all-muscules__title {
+  position: relative;
+  color: #fff;
+  font-family: "Muller Next ExtraCond Trial";
+  font-size: 346px;
+  font-style: italic;
+  font-weight: 750;
+  line-height: normal;
+  text-transform: uppercase;
+  z-index: 0;
+  text-align: center;
+  padding-top: 21px;
+}
+@media all and (max-width: 1239px) {
+  .all-muscules__title {
+    font-size: clamp(167px, 25vw, 346px);
+    padding-top: 0;
+  }
+}
+@media all and (max-width: 767px) {
+  .all-muscules__title {
+    display: block;
+    font-family: "Muller Next ExtraCond Trial";
+    font-size: 26.9vw;
+    font-style: normal;
+    line-height: 0.9;
+  }
+}
+.all-muscules__title._hide {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.all-muscules__subtitle {
+  position: relative;
+  color: #fff;
+  text-shadow: 0 4.9412961006px 8.6472663879px rgba(0, 0, 0, 0.75);
+  font-family: "Muller Next ExtraCond Trial";
+  font-size: 167px;
+  font-style: italic;
+  font-weight: 750;
+  line-height: 106%;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+  text-align: center;
+}
+@media all and (max-width: 1239px) {
+  .all-muscules__subtitle {
+    font-size: clamp(77px, 11vw, 167px);
+  }
+}
+@media all and (max-width: 767px) {
+  .all-muscules__subtitle {
+    font-family: "Muller Next Expanded Trial";
+    font-size: 7.9vw;
+    font-style: normal;
+    line-height: 1.3;
+  }
+}
+.all-muscules__subtitle_big {
+  font-family: "Muller Next ExtraCond Trial";
+  font-size: 78px;
+  font-weight: 750;
+}
+@media all and (max-width: 767px) {
+  .all-muscules__subtitle_big {
+    font-size: 26vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .all-muscules__subtitle-bottom {
+    font-family: "Muller Next Expanded Trial";
+    font-size: 14.5vw;
+    font-style: normal;
+  }
+}
+.all-muscules__subtitle._hide {
+  opacity: 0;
+  transform: translateX(50%);
+}
+.all-muscules__content-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  width: 103%;
+  justify-content: space-between;
+  align-items: center;
+}
+@media all and (max-width: 1239px) {
+  .all-muscules__content-wrapper {
+    margin-top: clamp(0, 1vw, 600px);
+    padding: 0;
+    padding-bottom: 3vw;
+    column-gap: 0;
+    width: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  .all-muscules__content-wrapper {
+    position: relative;
+    flex-direction: column;
+    padding-right: 4vw;
+    padding-left: 3vw;
+    row-gap: 11vw;
+  }
+}
+.all-muscules__image {
+  position: absolute;
+  left: 48.4%;
+  transform: translateX(-50%);
+  height: 840px;
+  width: 1159px;
+  bottom: 0;
+}
+@media all and (max-width: 1239px) {
+  .all-muscules__image {
+    height: calc(100% + 3vw);
+  }
+}
+@media all and (max-width: 767px) {
+  .all-muscules__image {
+    top: -23.9vw;
+    left: 50vw;
+    position: relative;
+    width: 100vw;
+    margin-bottom: -11.9vw;
+    border-radius: 130px;
+  }
+}
+.all-muscules__image._hide {
+  opacity: 0;
+  transform: translate(-50%, 50%);
+}
+.all-muscules__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+@media all and (max-width: 1239px) {
+  .all-muscules__list {
+    row-gap: clamp(8px, 1vw, 32px);
+    width: 32%;
+  }
+}
+@media all and (max-width: 767px) {
+  .all-muscules__list {
+    width: 95vw;
+  }
+}
+.all-muscules__list_1 {
+  width: 30%;
+}
+@media all and (max-width: 767px) {
+  .all-muscules__list_1 {
+    width: 100%;
+    row-gap: 7vw;
+  }
+}
+.all-muscules__list_2 {
+  width: 34.1%;
+}
+@media all and (max-width: 767px) {
+  .all-muscules__list_2 {
+    width: 100%;
+    row-gap: 6.7vw;
+  }
+}
+.all-muscules__list_1._hide {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.all-muscules__list_2._hide {
+  opacity: 0;
+  transform: translateX(50%);
+}
+.all-muscules__list-item {
+  display: flex;
+  column-gap: 28px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  align-items: flex-start;
+}
+.all-muscules__list-item img {
+  margin-top: 2px;
+  width: clamp(1px, 1.5vw, 20px);
+}
+@media all and (max-width: 767px) {
+  .all-muscules__list-item img {
+    margin-top: 3px;
+    height: 7vw;
+    width: 7vw;
+  }
+}
+@media all and (max-width: 1699px) {
+  .all-muscules__list-item {
+    font-size: clamp(10px, 1.4vw, 16px);
+  }
+}
+@media all and (max-width: 1239px) {
+  .all-muscules__list-item {
+    column-gap: clamp(13px, 1.8vw, 32px);
+    font-size: clamp(10px, 1.2vw, 16px);
+  }
+}
+@media all and (max-width: 767px) {
+  .all-muscules__list-item {
+    font-size: 4.4vw;
+  }
+}
+.characters {
+  background-color: #202020;
+}
+.characters .swiper-slide {
+  width: clamp(160px, 14vw, 182px);
+}
+.characters__wrapper {
+  max-width: 1153px;
+  padding-top: 77px;
+  padding-left: 23px;
+  padding-bottom: 57px;
+  margin: auto;
+}
+.characters__swiper {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.characters__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  row-gap: clamp(20px, 7vw, 47px);
+}
+@media all and (max-width: 767px) {
+  .characters__item {
+    row-gap: 15.5vw;
+  }
+}
+.characters__item_bag {
+  padding-left: 7px;
+}
+@media all and (max-width: 767px) {
+  .characters__item_bag {
+    padding-left: 0;
+  }
+}
+.characters__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 135px;
+  background-color: #202020;
+}
+@media all and (max-width: 767px) {
+  .characters__icon {
+    height: 43.8vw;
+  }
+}
+.characters__icon_timer {
+  position: relative;
+  left: -15px;
+}
+@media all and (max-width: 767px) {
+  .characters__icon_timer {
+    left: -3.9vw;
+  }
+}
+.characters__icon_bag {
+  width: 65%;
+}
+@media all and (max-width: 767px) {
+  .characters__icon_bag {
+    width: auto;
+  }
+}
+.characters__text {
+  width: 80%;
+  font-size: clamp(10px, 0.95vw, 20px);
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.3;
+}
+@media all and (max-width: 767px) {
+  .characters__text {
+    width: 54vw;
+    font-size: 6.3vw;
+  }
+}
+.one-click {
+  padding-top: 75px;
+  background-image: url("/landings/double-gun-mini/images/one-click-bg.webp");
+}
+@media all and (max-width: 767px) {
+  .one-click {
+    background-image: url("/landings/double-gun-mini/images/one-click-bg-mob.webp");
+    padding-top: 10.2vw;
+    padding-bottom: 3.2vw;
+  }
+}
+.one-click__container-box {
+  position: relative;
+  min-height: 826px;
+}
+@media all and (max-width: 767px) {
+  .one-click__container-box {
+    min-height: auto;
+  }
+}
+.one-click__title {
+  margin-bottom: 125px;
+  font: italic 400 109px "Muller Next ExtraCond Trial";
+  text-align: end;
+  text-transform: uppercase;
+  line-height: 0.9;
+  letter-spacing: 0.6px;
+}
+@media all and (max-width: 767px) {
+  .one-click__title {
+    margin-bottom: 12.1vw;
+    font-size: 13.5vw;
+    line-height: 1;
+  }
+}
+.one-click__bolder-text {
+  display: inline-block;
+}
+.one-click__bolder-text._hide {
+  transform: scale(1.5);
+}
+@media all and (max-width: 767px) {
+  .one-click__bolder-text {
+    font-size: 19.7vw;
+  }
+}
+.one-click__svg-container {
+  position: absolute;
+  width: 654px;
+  height: 265.5px;
+  left: 494px;
+  top: 392px;
+}
+.one-click__svg-container._hide {
+  opacity: 0;
+  transform: translateX(-500px);
+}
+@media all and (max-width: 767px) {
+  .one-click__svg-container._hide {
+    transform: translateX(-150px);
+  }
+}
+@media all and (max-width: 767px) {
+  .one-click__svg-container {
+    width: 69.8vw;
+    height: 66.9vw;
+    top: 70vw;
+    left: 27vw;
+  }
+}
+.one-click__svg {
+  width: 100%;
+  height: 100%;
+}
+.one-click__list {
+  width: 28%;
+  margin-left: auto;
+  margin-right: 90px;
+  text-align: end;
+  font-size: 21px;
+  color: #181818;
+}
+.one-click__list._hide {
+  transform: translateX(500px);
+}
+@media all and (max-width: 767px) {
+  .one-click__list._hide {
+    transform: translateX(150px);
+  }
+}
+@media all and (max-width: 767px) {
+  .one-click__list {
+    width: auto;
+    margin-bottom: 35vw;
+    max-width: 50%;
+    margin-right: 0;
+    font-size: 3.5vw;
+  }
+}
+.one-click__item {
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+@media all and (max-width: 767px) {
+  .one-click__item {
+    margin-bottom: 7vw;
+  }
+}
+.one-click__item:first-child {
+  margin-bottom: 112px;
+}
+@media all and (max-width: 767px) {
+  .one-click__item:first-child {
+    margin-bottom: 11.4vw;
+  }
+}
+.one-click__item:last-child {
+  margin-bottom: 0;
+}
+.one-click__logotype {
+  position: absolute;
+  bottom: 43px;
+  right: 0;
+}
+.one-click__logotype._hide {
+  transform: scale(2);
+}
+@media all and (max-width: 767px) {
+  .one-click__logotype {
+    position: static;
+    width: 49.1vw;
+    display: block;
+    margin-left: auto;
+  }
+}
+.swiper-footer {
+  position: relative;
+}
+@media all and (max-width: 767px) {
+  .swiper-footer {
+    height: 282vw;
+  }
+}
+.swiper-footer__container {
+  width: 100%;
+  height: 900px;
+}
+@media all and (max-width: 767px) {
+  .swiper-footer__container {
+    height: 47vw;
+  }
+}
+@media all and (max-width: 767px) {
+  .swiper-footer__slide-wrapper {
+    flex-direction: column;
+  }
+}
+.swiper-footer__image {
+  width: 100%;
+  height: 100%;
+}
+.swiper-footer .swiper-pagination-bullet {
+  width: 92px;
+  height: 13px;
+  background: #fff;
+  border-radius: 6px;
+  opacity: 1;
+}
+.swiper-footer .swiper-pagination-bullet-active {
+  background-color: #e03638;
+}
+.charge {
+  position: relative;
+  min-height: 900px;
+  padding-top: 50px;
+}
+@media all and (max-width: 767px) {
+  .charge {
+    min-height: 145vw;
+    padding-top: 4vw;
+  }
+}
+.charge video {
+  position: absolute;
+  width: 1920px;
+  height: 100%;
+  top: 0;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: -1;
+  clip-path: inset(20% 1px 0 3px);
+}
+@media all and (max-width: 1420px) {
+  .charge video {
+    width: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  .charge video {
+    position: absolute;
+  }
+}
+.charge__content {
+  text-align: center;
+}
+.charge__title {
+  width: 812px;
+  margin: auto;
+  margin-bottom: 5px;
+  color: #fff;
+  font-family: "Muller Next ExtraCond Trial";
+  font-size: 109px;
+  font-style: italic;
+  font-weight: 750;
+  line-height: 100%;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 1;
+}
+@media all and (max-width: 767px) {
+  .charge__title {
+    width: 100%;
+    margin-bottom: 4vw;
+    font-size: 13.5vw;
+    text-align: left;
+    line-height: 1.2;
+  }
+}
+@media all and (max-width: 767px) {
+  .charge__title-top {
+    font-size: 13.2vw;
+  }
+}
+.charge__title-bottom {
+  display: block;
+  font-size: 104px;
+  text-align: end;
+}
+@media all and (max-width: 767px) {
+  .charge__title-bottom {
+    font-size: 16vw;
+  }
+}
+.charge__title._hide {
+  opacity: 0;
+  scale: 0.3;
+}
+.charge__subtitle {
+  width: 757px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 20px;
+}
+@media all and (max-width: 1420px) {
+  .charge__subtitle {
+    font-size: clamp(14px, 1.2vw, 20px);
+  }
+}
+@media all and (max-width: 767px) {
+  .charge__subtitle {
+    width: auto;
+    font-size: 5vw;
+  }
+}
+.charge__subtitle._hide {
+  opacity: 0;
+  scale: 0.3;
+}
+@keyframes running-string {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-25000px);
+  }
+}
+@keyframes text-drop {
+  0% {
+    opacity: 0;
+    transform: translate(220px, -139px) scale(2.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes knights-move {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  50% {
+    opacity: 0.75;
+    transform: translateX(150px) translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(150px) translateY(-65px);
+  }
+}

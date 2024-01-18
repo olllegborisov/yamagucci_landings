@@ -1,228 +1,67 @@
 @charset "UTF-8";
 @font-face {
-  font-family: Gothic;
+  font-family: PTSans;
   font-display: swap;
-  src: url(/landings/infinity/fonts/centurygothic.ttf) format('truetype');
+  src: url(/fonts/PTSans.eot);
+  src: url(/fonts/PTSans.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/PTSans.woff2) format('woff2'),
+    url(/fonts/PTSans.woff) format('woff'),
+    url(/fonts/PTSans.ttf) format('truetype'),
+    url(/fonts/PTSans.svg#PTSans) format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: PTSans;
   font-display: swap;
-  src: url(/landings/infinity/fonts/PTSans.eot);
-  src: url(/landings/infinity/fonts/PTSans.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/PTSans.woff2) format('woff2'),
-    url(/landings/infinity/fonts/PTSans.woff) format('woff'),
-    url(/landings/infinity/fonts/PTSans.ttf) format('truetype'),
-    url(/landings/infinity/fonts/PTSans.svg#PTSans) format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: PTSans;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/PTSansBold.eot);
-  src: url(/landings/infinity/fonts/PTSansBold.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/PTSansBold.woff2) format('woff2'),
-    url(/landings/infinity/fonts/PTSansBold.woff) format('woff'),
-    url(/landings/infinity/fonts/PTSansBold.ttf) format('truetype'),
-    url(/landings/infinity/fonts/PTSansBold.svg#PTSans) format('svg');
+  src: url(/fonts/PTSansBold.eot);
+  src: url(/fonts/PTSansBold.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/PTSansBold.woff2) format('woff2'),
+    url(/fonts/PTSansBold.woff) format('woff'),
+    url(/fonts/PTSansBold.ttf) format('truetype'),
+    url(/fonts/PTSansBold.svg#PTSans) format('svg');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: PTSans;
   font-display: swap;
-  src: url(/landings/infinity/fonts/PTSansItalic.ttf) format('truetype');
-  src: url(/landings/infinity/fonts/PTSansItalic.woff2) format('woff2'),
-    url(/landings/infinity/fonts/PTSansItalic.woff) format('woff');
+  src: url(/fonts/PTSansItalic.ttf) format('truetype');
+  src: url(/fonts/PTSansItalic.woff2) format('woff2'),
+    url(/fonts/PTSansItalic.woff) format('woff');
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: PTSansNarrow;
   font-display: swap;
-  src: url(/landings/infinity/fonts/PTSansNarrow.eot);
-  src: url(/landings/infinity/fonts/PTSansNarrow.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/PTSansNarrow.woff2) format('woff2'),
-    url(/landings/infinity/fonts/PTSansNarrow.woff) format('woff'),
-    url(/landings/infinity/fonts/PTSansNarrow.ttf) format('truetype'),
-    url(/landings/infinity/fonts/PTSansNarrow.svg#PTSansNarrow) format('svg');
+  src: url(/fonts/PTSansNarrow.eot);
+  src: url(/fonts/PTSansNarrow.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/PTSansNarrow.woff2) format('woff2'),
+    url(/fonts/PTSansNarrow.woff) format('woff'),
+    url(/fonts/PTSansNarrow.ttf) format('truetype'),
+    url(/fonts/PTSansNarrow.svg#PTSansNarrow) format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: PTSansNarrow;
   font-display: swap;
-  src: url(/landings/infinity/fonts/PTSansNarrowBold.eot);
-  src: url(/landings/infinity/fonts/PTSansNarrowBold.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/PTSansNarrowBold.woff2) format('woff2'),
-    url(/landings/infinity/fonts/PTSansNarrowBold.woff) format('woff'),
-    url(/landings/infinity/fonts/PTSansNarrowBold.ttf) format('truetype'),
-    url(/landings/infinity/fonts/PTSansNarrowBold.svg#PTSansNarrow) format('svg');
+  src: url(/fonts/PTSansNarrowBold.eot);
+  src: url(/fonts/PTSansNarrowBold.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/PTSansNarrowBold.woff2) format('woff2'),
+    url(/fonts/PTSansNarrowBold.woff) format('woff'),
+    url(/fonts/PTSansNarrowBold.ttf) format('truetype'),
+    url(/fonts/PTSansNarrowBold.svg#PTSansNarrow) format('svg');
   font-weight: 700;
   font-style: normal;
-}
-@font-face {
-  font-family: MyriadProLight;
-  src: url(/landings/infinity/fonts/MyriadProLight.eot);
-  src: url(/landings/infinity/fonts/MyriadProLight.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/MyriadProLight.woff) format('woff'),
-    url(/landings/infinity/fonts/MyriadProLight.woff2) format('woff2'),
-    url(/landings/infinity/fonts/MyriadProLight.ttf) format('truetype'),
-    url(/landings/infinity/fonts/MyriadProLight.svg#MyriadProLight) format('svg');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Myriad Pro';
-  src: url(/landings/infinity/fonts/MyriadPro.otf) format('opentype');
-  src: url(/landings/infinity/fonts/MyriadPro.woff2) format('woff2'),
-    url(/landings/infinity/fonts/MyriadPro.woff) format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: MyriadProBold;
-  src: url(/landings/infinity/fonts/MyriadProBold.otf) format('opentype');
-  src: url(/landings/infinity/fonts/MyriadProBold.woff2) format('woff2'),
-    url(/landings/infinity/fonts/MyriadProBold.woff) format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: PragmaticaC;
-  src: url(/landings/infinity/fonts/PTPragmaticaCyrillic.ttf) format('opentype');
-  src: url(/landings/infinity/fonts/PTPragmaticaCyrillic.woff2) format('woff2'),
-    url(/landings/infinity/fonts/PTPragmaticaCyrillic.woff) format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: PragmaticaC;
-  src: url(/landings/infinity/fonts/PTPragmaticaBoldCyrillic.ttf) format('opentype');
-  src: url(/landings/infinity/fonts/PTPragmaticaBoldCyrillic.woff2) format('woff2'),
-    url(/landings/infinity/fonts/PTPragmaticaBoldCyrillic.woff) format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Circe;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/Circe-Thin.eot);
-  src: url(/landings/infinity/fonts/Circe-Thin.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/Circe-Thin.woff) format('woff'),
-    url(/landings/infinity/fonts/Circe-Thin.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Circe-Thin.ttf) format('truetype');
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: Circe;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/Circe-ExtraLight.eot);
-  src: url(/landings/infinity/fonts/Circe-ExtraLight.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/Circe-ExtraLight.woff) format('woff'),
-    url(/landings/infinity/fonts/Circe-ExtraLight.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Circe-ExtraLight.ttf) format('truetype');
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: Circe;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/Circe-Light.eot);
-  src: url(/landings/infinity/fonts/Circe-Light.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/Circe-Light.woff) format('woff'),
-    url(/landings/infinity/fonts/Circe-Light.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Circe-Light.ttf) format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: Circe;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/Circe-Regular.eot);
-  src: url(/landings/infinity/fonts/Circe-Regular.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/Circe-Regular.woff) format('woff'),
-    url(/landings/infinity/fonts/Circe-Regular.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Circe-Regular.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Circe;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/Circe-Bold.eot);
-  src: url(/landings/infinity/fonts/Circe-Bold.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/Circe-Bold.woff) format('woff'),
-    url(/landings/infinity/fonts/Circe-Bold.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Circe-Bold.ttf) format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: Circe;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/Circe-ExtraBold.eot);
-  src: url(/landings/infinity/fonts/Circe-ExtraBold.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/Circe-ExtraBold.woff) format('woff'),
-    url(/landings/infinity/fonts/Circe-ExtraBold.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Circe-ExtraBold.ttf) format('truetype');
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: BebasNeue;
-  src: url(/landings/infinity/fonts/bebasneuethin.woff2) format('woff2');
-  src: local('☺'), url(/landings/infinity/fonts/bebasneuethin.woff) format('woff'),
-    url(/landings/infinity/fonts/bebasneuethin.ttf) format('truetype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: BebasNeue;
-  src: url(/landings/infinity/fonts/bebasneuelight.woff2) format('woff2');
-  src: local('☺'), url(/landings/infinity/fonts/bebasneuelight.ttf) format('truetype'),
-    url(/landings/infinity/fonts/bebasneuelight.woff) format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: BebasNeue;
-  src: url(/landings/infinity/fonts/bebasneueregular.eot);
-  src: local('☺'), url(/landings/infinity/fonts/bebasneueregular.woff2) format('woff2'),
-    url(/landings/infinity/fonts/bebasneueregular.woff) format('woff'),
-    url(/landings/infinity/fonts/bebasneueregular.ttf) format('truetype'),
-    url(/landings/infinity/fonts/bebasneueregular.svg) format('svg');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: BebasNeue;
-  src: url(/landings/infinity/fonts/bebasneuebold.eot);
-  src: local('☺'), url(/landings/infinity/fonts/bebasneuebold.woff2) format('woff2'),
-    url(/landings/infinity/fonts/bebasneuebold.woff) format('woff'),
-    url(/landings/infinity/fonts/bebasneuebold.ttf) format('truetype'),
-    url(/landings/infinity/fonts/bebasneuebold.svg) format('svg');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat Light'), local('Montserrat-Light'),
-    url(/landings/infinity/fonts/Montserrat-Light.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Montserrat-Light.woff) format('woff');
+    url(/fonts/Montserrat-Light.woff2) format('woff2'),
+    url(/fonts/Montserrat-Light.woff) format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -230,8 +69,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat'), local('Montserrat-Regular'),
-    url(/landings/infinity/fonts/Montserrat-Regular.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Montserrat-Regular.woff) format('woff');
+    url(/fonts/Montserrat-Regular.woff2) format('woff2'),
+    url(/fonts/Montserrat-Regular.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -239,8 +78,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat'), local('Montserrat-Regular'),
-    url(/landings/infinity/fonts/Montserrat-Medium.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Montserrat-Medium.woff) format('woff');
+    url(/fonts/Montserrat-Medium.woff2) format('woff2'),
+    url(/fonts/Montserrat-Medium.woff) format('woff');
   font-weight: 500;
   font-style: normal;
 }
@@ -248,8 +87,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat Bold'), local('Montserrat-Bold'),
-    url(/landings/infinity/fonts/Montserrat-Bold.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Montserrat-Bold.woff) format('woff');
+    url(/fonts/Montserrat-Bold.woff2) format('woff2'),
+    url(/fonts/Montserrat-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
 }
@@ -257,436 +96,10 @@
   font-family: Montserrat;
   font-display: swap;
   src: local('Montserrat Black'), local('Montserrat-Black'),
-    url(/landings/infinity/fonts/Montserrat-Black.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Montserrat-Black.woff) format('woff');
+    url(/fonts/Montserrat-Black.woff2) format('woff2'),
+    url(/fonts/Montserrat-Black.woff) format('woff');
   font-weight: 900;
   font-style: normal;
-}
-@font-face {
-  font-family: Morpha;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/Morpha-Bold.woff2) format('woff2');
-  src: local('☺'), url(/landings/infinity/fonts/Morpha-Bold.woff) format('woff'),
-    url(/landings/infinity/fonts/Morpha-Bold.ttf) format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Neue Machina';
-  font-display: swap;
-  src: local('NeueMachina-Bold'), local('NeueMachina-Bold'),
-    url(/landings/infinity/fonts/NeueMachina-Bold.woff2) format('woff2'),
-    url(/landings/infinity/fonts/NeueMachina-Bold.woff) format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Neue Machina';
-  font-display: swap;
-  src: local('NeueMachina-Black'), local('NeueMachina-Black'),
-    url(/landings/infinity/fonts/NeueMachina-Black.woff2) format('woff2'),
-    url(/landings/infinity/fonts/NeueMachina-Bold.woff) format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: Norican;
-  font-display: swap;
-  src: url(/landings/infinity/fonts/norican-regular.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Cy Grotesk';
-  font-display: swap;
-  src: url(/landings/infinity/fonts/cy-grotesk-grand-dark.otf);
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: RainerTestv04;
-  src: url(/landings/infinity/fonts/RainerTestv04-Bold.woff2), url(/landings/infinity/fonts/RainerTestv04-Bold.woff);
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Anticva;
-  font-display: swap;
-  src: local('Anticva'), local('Anticva'),
-    url(/landings/infinity/fonts/Anticva-Regular.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Anticva-Regular.woff) format('woff'),
-    url(/landings/infinity/fonts/Anticva-Regular.otf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Halvar Breitschrift';
-  src: local('HalvarBreit-Blk'), local('HalvarBreit-Blk'),
-    url(/landings/infinity/fonts/HalvarBreit-Blk.woff2) format('woff2'),
-    url(/landings/infinity/fonts/HalvarBreit-Blk.woff) format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: Damn;
-  font-display: swap;
-  src: local('Damn'), local('Damn'), url(/landings/infinity/fonts/Damn.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Damn.woff) format('woff'),
-    url(/landings/infinity/fonts/Damn.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Monologue DEMO';
-  font-display: swap;
-  src: local('Monologue_DEMO'), local('Monologue_DEMO'),
-    url(/landings/infinity/fonts/Monologue_DEMO.woff) format('woff'),
-    url(/landings/infinity/fonts/Monologue_DEMO.ttf) format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Nasalization;
-  font-display: swap;
-  src: local('Nasalization'), local('Nasalization'),
-    url(/landings/infinity/fonts/Nasalization.woff) format('woff'),
-    url(/landings/infinity/fonts/Nasalization.otf) format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: PatsySans;
-  font-display: swap;
-  src: local('PatsySans'), local('PatsySans'),
-    url(/landings/infinity/fonts/PatsySans.woff) format('woff'),
-    url(/landings/infinity/fonts/PatsySans.otf) format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lighthaus;
-  src: url(/landings/infinity/fonts/Lighthaus.eot);
-  src: url(/landings/infinity/fonts/Lighthaus.eot?#iefix) format('embedded-opentype'),
-    url(/landings/infinity/fonts/Lighthaus.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Lighthaus.woff) format('woff'),
-    url(/landings/infinity/fonts/Lighthaus.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: UltramonoWide-LightItalic;
-  src: url(/landings/infinity/fonts/UltramonoWide-LightItalic.woff2) format('woff2'),
-    url(/landings/infinity/fonts/UltramonoWide-LightItalic.woff) format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: UltramonoWide-Light;
-  src: url(/landings/infinity/fonts/UltramonoWide-Light.woff2) format('woff2'),
-    url(/landings/infinity/fonts/UltramonoWide-Light.woff) format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Nikkyou Sans';
-  src: url(/landings/infinity/fonts/NikkyouSans.woff2) format('woff2'),
-    url(/landings/infinity/fonts/NikkyouSans.woff) format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Corvetta;
-  src: url(/landings/infinity/fonts/Corvetta.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Corvetta.woff) format('woff'),
-    url(/landings/infinity/fonts/Corvetta.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: a_LCDNovaObl;
-  src: url(/landings/infinity/fonts/a_lcdnovaobl.woff) format('woff'),
-    url(/landings/infinity/fonts/a_lcdnovaobl.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Felidae;
-  src: url(/landings/infinity/fonts/Felidae.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Expanded Trial';
-  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-Thin.otf);
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Expanded Trial';
-  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-Regular.otf);
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Expanded Trial';
-  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-RegularItalic.otf);
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Expanded Trial';
-  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-ExtraBold.otf);
-  font-weight: 750;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Expanded Trial';
-  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-ExtraBoldItalic.otf);
-  font-weight: 750;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Expanded Trial';
-  src: url(/landings/infinity/fonts/MullerNextExpandedTrial-Heavy.otf);
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Expanded Trial';
-  src: url(/landings/infinity/fonts/MullerNextExpandedTrialThinItalic.otf);
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next ExtraCond Trial';
-  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-ExtraBold.otf);
-  font-weight: 750;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next ExtraCond Trial Heavy';
-  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-HeavyItalic.otf) format('opentype'),
-    url(/landings/infinity/fonts/MullerNextExtraCondTrial-HeavyItalic.ttf) format('truetype');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next ExtraCond Trial';
-  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf)
-      format('truetype'),
-    url(/landings/infinity/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2) format('woff2');
-  font-weight: 750;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Muller Next ExtraCond Trial';
-  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-Regular.otf);
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next ExtraCond Trial';
-  src: url(/landings/infinity/fonts/MullerNextExtraCondTrial-RegularItalic.otf);
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next ExtraCond Trial';
-  src: url(/landings/infinity/fonts/MullerNextExtraCondTrialThin.otf);
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Trial';
-  src: url(/landings/infinity/fonts/MullerNextTrial-Regular.otf);
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Trial';
-  src: url(/landings/infinity/fonts/MullerNextTrial-ExtraBold.otf);
-  font-weight: 750;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Muller Next Wide Trial';
-  src: url(/landings/infinity/fonts/MullerNextTrial-ThinItalic.woff2);
-  font-weight: 100;
-  font-style: italic;
-}
-@font-face {
-  font-family: Cakra;
-  src: url(/landings/infinity/fonts/Cakra-Normal.otf) format('opentype');
-  src: url(/landings/infinity/fonts/Cakra-Normal.woff2) format('woff2'),
-    url(/landings/infinity/fonts/Cakra-Normal.woff) format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Noteworthy;
-  src: url(/landings/infinity/fonts/NoteworthyLight.ttf) format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Technology;
-  src: url(/landings/infinity/fonts/Technology.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Technology;
-  src: url(/landings/infinity/fonts/Technology-Bold.ttf) format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Unbounded;
-  src: url(/landings/infinity/fonts/Unbounded-Bold.ttf) format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Unbounded;
-  src: url(/landings/infinity/fonts/Unbounded-Black.ttf) format('truetype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Inter;
-  src: url(/landings/infinity/fonts/Inter-Medium.ttf) format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Inter;
-  src: url(/landings/infinity/fonts/Inter-SemiBold.ttf) format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  src: url(/landings/infinity/fonts/MontserratAlternates-Light.ttf) format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Snell Roundhand';
-  src: url(/landings/infinity/fonts/snell-roundhand-900.otf) format('opentype');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Snell Roundhand';
-  src: url(/landings/infinity/fonts/snell-roundhand-700.otf) format('opentype');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Lighthaus;
-  src: url(/landings/infinity/fonts/Lighthaus-400.otf) format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Code pro black';
-  src: url(/landings/infinity/fonts/code_pro_black.otf) format('opentype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Boldstrom;
-  src: url(/landings/infinity/fonts/Boldstrom-b.otf) format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Europe ext regular';
-  src: url(/landings/infinity/fonts/europeext.otf) format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Europe ext bold';
-  src: url(/landings/infinity/fonts/europeext_bold.otf) format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Europe ext bold italic';
-  src: url(/landings/infinity/fonts/europeext_bold_italic.otf) format('opentype');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Smalls Trial';
-  src: url(/landings/infinity/fonts/TT-Smalls-Trial-Black.woff) format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Mak;
-  src: url(/landings/infinity/fonts/MAK.woff) format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: GTEestiProDisplay;
-  src: url(/landings/infinity/fonts/GTEestiProDisplay-Bold.woff2) format('woff2');
-  src: url(/landings/infinity/fonts/GTEestiProDisplay-Bold.woff) format('woff');
-  src: url(/landings/infinity/fonts/GTEestiProDisplay-Bold.ttf) format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: EuropeExt;
-  src: url(/landings/infinity/fonts/europeextnormal.woff2) format('woff2');
-  src: url(/landings/infinity/fonts/europeextnormal.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
 
 body {
