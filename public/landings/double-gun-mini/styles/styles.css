@@ -111,7 +111,7 @@
   font-style: italic;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
   font-weight: 400;
 }
@@ -193,7 +193,7 @@ img {
   max-width: 1920px;
   margin: 0 auto;
   overflow: hidden;
-}
+} */
 
 .container-box {
   width: 1230px;
