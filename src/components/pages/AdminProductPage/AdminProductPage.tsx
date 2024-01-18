@@ -21,7 +21,7 @@ const AdminProductPage: FC<FetchProductOriginalResult> = ({ data }) => {
   })
 
   // eslint-disable-next-line no-console
-  console.log('initialValues', data.q_r_codes)
+  console.log('initialValues', data)
 
   /** обработчик сабмита */
   const onSubmit = (data) => {
