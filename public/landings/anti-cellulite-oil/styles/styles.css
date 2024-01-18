@@ -4,8 +4,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/landings/anti-cellulite-oil/fonts/Montserrat-Regular.woff2") format("woff2"),
-    url("/landings/anti-cellulite-oil/fonts/Montserrat-Regular.woff") format("woff");
+    url("/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("/fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -13,8 +13,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/landings/anti-cellulite-oil/fonts/Montserrat-Medium.woff2") format("woff2"),
-    url("/landings/anti-cellulite-oil/fonts/Montserrat-Medium.woff") format("woff");
+    url("/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -22,22 +22,22 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("/landings/anti-cellulite-oil/fonts/Montserrat-Bold.woff2") format("woff2"),
-    url("/landings/anti-cellulite-oil/fonts/Montserrat-Bold.woff") format("woff");
+    url("/fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("/fonts/Montserrat-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Cy Grotesk";
   font-display: swap;
-  src: url("/landings/anti-cellulite-oil/fonts/cy-grotesk-grand-dark.otf");
+  src: url("/fonts/cy-grotesk-grand-dark.otf");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Europe ext regular";
-  src: url("/landings/anti-cellulite-oil/fonts/europeext.otf") format("opentype");
+  src: url("/fonts/europeext.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
