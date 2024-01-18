@@ -1,4 +1,4 @@
-import { FC, memo } from 'react'
+import { FC, memo, useContext } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 
 import { FetchCategoryOriginalResult } from '@/src/api/useFetchCategory/_types'
@@ -6,9 +6,9 @@ import useFetchCategory from '@/src/api/useFetchCategory/useFetchCategory'
 import ButtonIcon from '@/src/components/atoms/ButtonIcon/ButtonIcon'
 import TabsUnderline from '@/src/components/atoms/TabsUnderline/TabsUnderline'
 import Form from '@/src/components/Form/Form'
-import { WrapperTypes } from '@/src/components/pages/DynamicPage/_types'
 import { categoryFormCfg } from '@/src/constants/AdminFormConfigurations/categoryFormCfg'
 import { IconSave, IconTrash } from '@/src/constants/icons'
+import FullPathArrayContext from '@/src/contexts/FullPathArrayContext'
 
 import styles from './AdminCategoryPage.module.scss'
 
@@ -73,7 +73,9 @@ const AdminCategoryPage: FC<FetchCategoryOriginalResult> = ({ data }) => {
 }
 
 /** врапер для получения первоначальных данных хук-формы */
-const Wrapper: FC<WrapperTypes> = ({ fullPathArray }) => {
+const Wrapper: FC = () => {
+  /** полный путь */
+  const fullPathArray = useContext(FullPathArrayContext)
   /** получение данных */
   const { data } = useFetchCategory({ categoryId: fullPathArray?.[3], webApi: 'https://api.yamaguchi.ru/api' })
 

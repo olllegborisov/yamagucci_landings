@@ -1,4 +1,4 @@
-import PageError from '@/src/components/pages/PageError/PageError'
+import {PageError} from '@/src/components/pages/PageError/PageError'
 
 import React from 'react'
 

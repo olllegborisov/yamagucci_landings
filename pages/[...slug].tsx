@@ -54,7 +54,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
     return {
       props: {
-        dehydratedState: JSON.parse(JSON.stringify(dehydrate(queryClient))),
+        dehydratedState: dehydrate(queryClient),
         fullPathArray
       },
       revalidate: 1800
