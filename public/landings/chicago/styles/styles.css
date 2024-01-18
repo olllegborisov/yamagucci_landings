@@ -1198,6 +1198,14 @@ table {
 }
 }
 
+/* добавил при переносе лэндингов */
+.apple_way13 {
+    padding: 60px 0 0;
+    background: #7a7a7a;
+    color: #fff;
+    font-family: PTSans,sans-serif;
+}
+
 
 /* landing.css  */
 
