@@ -1,4 +1,4 @@
-import { FC, memo } from 'react'
+import { FC, memo, useContext } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 
 import { FetchProductOriginalResult } from '@/src/api/useFetchProduct/_types'
@@ -6,9 +6,9 @@ import useFetchProduct from '@/src/api/useFetchProduct/useFetchProduct'
 import ButtonIcon from '@/src/components/atoms/ButtonIcon/ButtonIcon'
 import TabsUnderline from '@/src/components/atoms/TabsUnderline/TabsUnderline'
 import Form from '@/src/components/Form/Form'
-import { WrapperTypes } from '@/src/components/pages/DynamicPage/_types'
 import { productFormCfg } from '@/src/constants/AdminFormConfigurations/productFormCfg'
 import { IconSave, IconTrash } from '@/src/constants/icons'
+import FullPathArrayContext from '@/src/contexts/FullPathArrayContext'
 
 import styles from './AdminProductPage.module.scss'
 
@@ -21,7 +21,7 @@ const AdminProductPage: FC<FetchProductOriginalResult> = ({ data }) => {
   })
 
   // eslint-disable-next-line no-console
-  // console.log('initialValues', data)
+  console.log('initialValues', data.q_r_codes)
 
   /** обработчик сабмита */
   const onSubmit = (data) => {
@@ -73,7 +73,9 @@ const AdminProductPage: FC<FetchProductOriginalResult> = ({ data }) => {
 }
 
 /** врапер для получения первоначальных данных хук-формы */
-const Wrapper: FC<WrapperTypes> = ({ fullPathArray }) => {
+const Wrapper: FC = () => {
+  /** полный путь */
+  const fullPathArray = useContext(FullPathArrayContext)
   /** получение данных */
   const { data } = useFetchProduct({ productId: fullPathArray?.[3], webApi: 'https://api.yamaguchi.ru/api' })
 

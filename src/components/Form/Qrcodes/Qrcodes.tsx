@@ -1,10 +1,11 @@
 import cn from 'classnames'
 import { useRouter } from 'next/router'
-import { type FC, useState } from 'react'
+import { type FC, useContext, useState } from 'react'
 import { useFormContext } from 'react-hook-form'
 
 import { axiosBearerPost } from '@/src/api/axiosInstances'
 import ButtonIcon from '@/src/components/atoms/ButtonIcon/ButtonIcon'
+import FullPathArrayContext from '@/src/contexts/FullPathArrayContext'
 import { revalidatePage } from '@/src/lib/revalidatePage'
 
 import { ListCardQrcodesTypes } from './_types'
@@ -13,6 +14,11 @@ import styles from './Qrcodes.module.scss'
 
 /** компонент qr кодов */
 const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
+  /** полный путь */
+  const fullPathArray = useContext(FullPathArrayContext)
+  /** полный путь со слешами для ревалидации */
+  const fullPath = `/${fullPathArray.join('/')}`
+
   /** состояние загрузки */
   const [loading, setLoading] = useState(false)
   /** состояние формы */
@@ -39,8 +45,6 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
     }))
   }
 
-  console.log(router)
-
   /** обработчик отправки */
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -56,8 +60,12 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
       })
 
       if (response.status === 201) {
-        await revalidatePage(router.asPath)
-        // router.reload()
+        /** обновляем страницу */
+        const res = await revalidatePage(fullPath)
+
+        if (res?.revalidated) {
+          router.reload()
+        }
       } else {
         window.alert('Произошла ошибка при создании QR кода')
       }
