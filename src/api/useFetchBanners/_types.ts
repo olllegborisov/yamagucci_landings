@@ -1,3 +1,4 @@
+import { CommonFetchParams } from '@/src/api/_types'
 import { paths as schema } from '@/src/types/schema'
 
 import { QUERY_KEY_FETCH_BANNERS } from './useFetchBanners'
@@ -14,13 +15,7 @@ export type FetchBannersResult = {
 }
 
 /** тип ключа */
-export type FetchBannersQueryKeyType = [
-  typeof QUERY_KEY_FETCH_BANNERS,
-  {
-    /** mockVariant */
-    mockVariant?:string
-  }
-  ];
+export type FetchBannersQueryKeyType = [typeof QUERY_KEY_FETCH_BANNERS, CommonFetchParams];
 
 export type FetchBannersParams = {
   /** mockVariant */
