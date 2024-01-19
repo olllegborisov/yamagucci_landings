@@ -20,7 +20,6 @@ $('.points__mob').slick({
 };
 
 // document.addEventListener('DOMContentLoaded', function(){
-    console.log('hi')
     let wrapper = document.getElementById('wrapper');
     let topLayer = wrapper.querySelector('.top');
     let handle = wrapper.querySelector('.handle');
