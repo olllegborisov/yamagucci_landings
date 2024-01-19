@@ -9,20 +9,20 @@ import IconWrapper from '@/src/components/atoms/IconWrapper/IconWrapper'
 import LoaderQuery from '@/src/components/atoms/LoaderQuery/LoaderQuery'
 import { ColumnResultCategories } from '@/src/components/TableWithModal/_types'
 import TableWithModal from '@/src/components/TableWithModal/TableWithModal'
-import { PAGE_CATEGORIES } from '@/src/constants/constants'
+import { CREATE_NEW, PAGE_CATEGORIES } from '@/src/constants/constants'
 import { IconMinusInSquare, IconPlusInSquare } from '@/src/constants/icons'
 import times from '@/src/lib/times'
 
 import styles from './AdminCategoriesPage.module.scss'
 
 /** страница тестовая */
-const AdminCategoriesPage = () => {
+const AdminCategoriesPage = ({ webApi }) => {
   /** получаем все продукты */
-  const { data, isLoading } = useFetchCategories({ webApi: 'https://api.yamaguchi.ru/api' })
+  const { data, isLoading } = useFetchCategories({ webApi })
 
   /** добавить новую категорию */
   const handleClickAddNewCategory = () => {
-    Router.push(`${PAGE_CATEGORIES}/new`)
+    Router.push(`${PAGE_CATEGORIES}${CREATE_NEW}`)
   }
 
   /** колонки хэдера и футера */

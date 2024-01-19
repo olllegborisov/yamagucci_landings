@@ -4,26 +4,30 @@ import { memo } from 'react'
 
 import { getProducts, QUERY_KEY_FETCH_PRODUCTS } from '@/src/api/useFetchProducts/useFetchProducts'
 import ProductsPage from '@/src/components/pages/AdminProductsPage/AdminProductsPage'
+import { getBaseUrlApi } from '@/src/lib/getBaseUrlApi'
 
 /** загрузка данных. */
 // ts-prune-ignore-next
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  // console.log('getServerSideProps', ctx.req.headers.host)
-
   /** queryClient */
   const queryClient = new QueryClient()
+  /** host */
+  const host = ctx?.req?.headers?.host
+  /** webApi */
+  const webApi = getBaseUrlApi(host)
 
   try {
     await Promise.all([
       queryClient.prefetchQuery({
-        queryFn: () => getProducts({ webApi: 'https://api.yamaguchi.ru/api' }),
-        queryKey: [QUERY_KEY_FETCH_PRODUCTS, { webApi: 'https://api.yamaguchi.ru/api' }]
+        queryFn: () => getProducts({ webApi }),
+        queryKey: [QUERY_KEY_FETCH_PRODUCTS, { webApi }]
       })
     ])
 
     return {
       props: {
-        dehydratedState: dehydrate(queryClient)
+        dehydratedState: dehydrate(queryClient),
+        webApi
       }
     }
   } catch (error) {

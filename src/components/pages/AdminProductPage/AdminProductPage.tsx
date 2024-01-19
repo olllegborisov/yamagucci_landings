@@ -21,7 +21,7 @@ const AdminProductPage: FC<FetchProductOriginalResult> = ({ data }) => {
   })
 
   // eslint-disable-next-line no-console
-  console.log('initialValues', data.q_r_codes)
+  console.log('initialValues', data)
 
   /** обработчик сабмита */
   const onSubmit = (data) => {
@@ -75,9 +75,9 @@ const AdminProductPage: FC<FetchProductOriginalResult> = ({ data }) => {
 /** врапер для получения первоначальных данных хук-формы */
 const Wrapper: FC = () => {
   /** полный путь */
-  const fullPathArray = useContext(FullPathArrayContext)
+  const { productId, webApi } = useContext(FullPathArrayContext)
   /** получение данных */
-  const { data } = useFetchProduct({ productId: fullPathArray?.[3], webApi: 'https://api.yamaguchi.ru/api' })
+  const { data } = useFetchProduct({ productId, webApi })
 
   if (!data) return null
 

@@ -4,6 +4,7 @@ import '@/styles/table.css'
 import 'react-tooltip/dist/react-tooltip.css'
 import '@/styles/modalWrapper.scss'
 import '@/styles/datePicker.css'
+import '@/styles/landingContainerBox.css'
 
 import { Montserrat } from '@next/font/google'
 import { HydrationBoundary, QueryClient, QueryClientProvider } from '@tanstack/react-query'

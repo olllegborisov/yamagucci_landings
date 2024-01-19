@@ -3,8 +3,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-Medium.woff2") format("woff2"),
-    url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-Medium.woff") format("woff");
+    url("/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-SemiBold"),
-      url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-SemiBold.ttf") format("truetype");
+    url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -20,13 +20,13 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-Bold.woff") format("woff"),
-    url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-Bold.woff2") format("woff2");
+    url("/fonts/Montserrat-Bold.woff") format("woff"),
+    url("/fonts/Montserrat-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
   font-weight: 400;
 }
@@ -128,35 +128,35 @@ box-sizing: border-box;
   padding-left: 16px;
   padding-right: 16px;
 }
-}
+} */
 
 .main-wrapper section {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-figure, figcaption {
-margin: 0;
-/* padding: 0; */
+figure,
+figcaption {
+  margin: 0;
+  /* padding: 0; */
 }
 @media all and (max-width: 767px) {
-.container-box {
-  padding: 0 3%;
-}
+  .container-box {
+    padding: 0 3%;
+  }
 }
 .section {
-min-height: 900px;
-font-family: Montserrat, sans-serif;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: #fff;
+  min-height: 900px;
+  font-family: Montserrat, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
 }
 @media all and (max-width: 767px) {
-.section {
-  min-height: unset;
+  .section {
+    min-height: unset;
+  }
 }
-}
-
 
 .wellness {
   padding: 78px 0 101px 0;

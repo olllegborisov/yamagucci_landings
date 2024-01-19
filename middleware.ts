@@ -9,7 +9,7 @@ const mainMiddleware = async (req: NextRequest): Promise<any> => {
   /** имя хоста */
   const host = req.nextUrl.hostname
   // eslint-disable-next-line no-console
-  console.log('host', host)
+  console.log('---------------> host from middleware:', host)
 
   /** абсолютная ссылка для редиректа */
   const url = req.nextUrl.clone()

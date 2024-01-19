@@ -1,24 +1,19 @@
 import { useQuery, UseQueryResult } from '@tanstack/react-query'
-import Cookies from 'js-cookie'
 
+import { CommonFetchParams } from '@/src/api/_types'
 import { axiosBearerGet } from '@/src/api/axiosInstances'
-import { COOKIES, ENV_IS_STORYBOOK, RENT_TYPES_API } from '@/src/constants/constants'
+import { ENV_IS_STORYBOOK, RENT_TYPES_API } from '@/src/constants/constants'
 
-import { FetchRentTypesOriginalResult, FetchRentTypesParams, FetchRentTypesQueryKeyType } from './_types'
+import { FetchRentTypesOriginalResult, FetchRentTypesQueryKeyType } from './_types'
 
 /** ключ под которым записываем */
 export const QUERY_KEY_FETCH_RENT_TYPES = 'rentTypes'
 
-/** */
-const HOST = Cookies.get(COOKIES.HOST)
-
 /** функция запроса продуктов */
 // ts-prune-ignore-next
-export const getRentTypes = async ({ mockVariant }: FetchRentTypesParams): Promise<FetchRentTypesOriginalResult> => {
-  console.log('HOST', HOST)
-
+export const getRentTypes = async ({ mockVariant, webApi }: CommonFetchParams): Promise<FetchRentTypesOriginalResult> => {
   /** дата продуктов */
-  const { data } = await axiosBearerGet.get<FetchRentTypesOriginalResult>(RENT_TYPES_API,
+  const { data } = await axiosBearerGet.get<FetchRentTypesOriginalResult>(webApi + RENT_TYPES_API,
     {
       params: {
         ...Object.assign(
@@ -33,9 +28,9 @@ export const getRentTypes = async ({ mockVariant }: FetchRentTypesParams): Promi
 }
 
 /** хук запроса списка продуктов */
-const useFetchRentTypes = ({ mockVariant }: FetchRentTypesParams): UseQueryResult<FetchRentTypesOriginalResult, Error> => useQuery<FetchRentTypesOriginalResult, Error, FetchRentTypesOriginalResult, FetchRentTypesQueryKeyType>({
-  queryFn: () => getRentTypes({ mockVariant }),
-  queryKey: [QUERY_KEY_FETCH_RENT_TYPES, { mockVariant }]
+const useFetchRentTypes = ({ mockVariant, webApi }: CommonFetchParams): UseQueryResult<FetchRentTypesOriginalResult, Error> => useQuery<FetchRentTypesOriginalResult, Error, FetchRentTypesOriginalResult, FetchRentTypesQueryKeyType>({
+  queryFn: () => getRentTypes({ mockVariant, webApi }),
+  queryKey: [QUERY_KEY_FETCH_RENT_TYPES, { mockVariant, webApi }]
 })
 
 export default useFetchRentTypes

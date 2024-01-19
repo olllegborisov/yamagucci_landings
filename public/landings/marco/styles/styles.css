@@ -1,598 +1,65 @@
 @charset "UTF-8";
-    @font-face {
-    font-family: Gothic;
+@font-face {
+    font-family: PTSans;
     font-display: swap;
-    src: url(/landings/marco/fonts/centurygothic.ttf) format("truetype");
+    src: url(/fonts/PTSans.eot);
+    src: url(/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSans.woff2) format("woff2"), url(/fonts/PTSans.woff) format("woff"), url(/fonts/PTSans.ttf) format("truetype"), url(/fonts/PTSans.svg#PTSans) format("svg");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: PTSans;
     font-display: swap;
-    src: url(/landings/marco/fonts/PTSans.eot);
-    src: url(/landings/marco/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/PTSans.woff2) format("woff2"), url(/landings/marco/fonts/PTSans.woff) format("woff"), url(/landings/marco/fonts/PTSans.ttf) format("truetype"), url(/landings/marco/fonts/PTSans.svg#PTSans) format("svg");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: PTSans;
-    font-display: swap;
-    src: url(/landings/marco/fonts/PTSansBold.eot);
-    src: url(/landings/marco/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/PTSansBold.woff2) format("woff2"), url(/landings/marco/fonts/PTSansBold.woff) format("woff"), url(/landings/marco/fonts/PTSansBold.ttf) format("truetype"), url(/landings/marco/fonts/PTSansBold.svg#PTSans) format("svg");
+    src: url(/fonts/PTSansBold.eot);
+    src: url(/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansBold.woff2) format("woff2"), url(/fonts/PTSansBold.woff) format("woff"), url(/fonts/PTSansBold.ttf) format("truetype"), url(/fonts/PTSansBold.svg#PTSans) format("svg");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: PTSans;
     font-display: swap;
-    src: url(/landings/marco/fonts/PTSansItalic.ttf) format("truetype");
-    src: url(/landings/marco/fonts/PTSansItalic.woff2) format("woff2"), url(/landings/marco/fonts/PTSansItalic.woff) format("woff");
+    src: url(/fonts/PTSansItalic.ttf) format("truetype");
+    src: url(/fonts/PTSansItalic.woff2) format("woff2"), url(/fonts/PTSansItalic.woff) format("woff");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: PTSansNarrow;
     font-display: swap;
-    src: url(/landings/marco/fonts/PTSansNarrow.eot);
-    src: url(/landings/marco/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/PTSansNarrow.woff2) format("woff2"), url(/landings/marco/fonts/PTSansNarrow.woff) format("woff"), url(/landings/marco/fonts/PTSansNarrow.ttf) format("truetype"), url(/landings/marco/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
+    src: url(/fonts/PTSansNarrow.eot);
+    src: url(/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansNarrow.woff2) format("woff2"), url(/fonts/PTSansNarrow.woff) format("woff"), url(/fonts/PTSansNarrow.ttf) format("truetype"), url(/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: PTSansNarrow;
     font-display: swap;
-    src: url(/landings/marco/fonts/PTSansNarrowBold.eot);
-    src: url(/landings/marco/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/landings/marco/fonts/PTSansNarrowBold.woff) format("woff"), url(/landings/marco/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/landings/marco/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
+    src: url(/fonts/PTSansNarrowBold.eot);
+    src: url(/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/fonts/PTSansNarrowBold.woff) format("woff"), url(/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: MyriadProLight;
-    src: url(/landings/marco/fonts/MyriadProLight.eot);
-    src: url(/landings/marco/fonts/MyriadProLight.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/MyriadProLight.woff) format("woff"), url(/landings/marco/fonts/MyriadProLight.woff2) format("woff2"), url(/landings/marco/fonts/MyriadProLight.ttf) format("truetype"), url(/landings/marco/fonts/MyriadProLight.svg#MyriadProLight) format("svg");
+    src: url(/fonts/MyriadProLight.eot);
+    src: url(/fonts/MyriadProLight.eot?#iefix) format("embedded-opentype"), url(/fonts/MyriadProLight.woff) format("woff"), url(/fonts/MyriadProLight.woff2) format("woff2"), url(/fonts/MyriadProLight.ttf) format("truetype"), url(/fonts/MyriadProLight.svg#MyriadProLight) format("svg");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: "Myriad Pro";
-    src: url(/landings/marco/fonts/MyriadPro.otf) format("opentype");
-    src: url(/landings/marco/fonts/MyriadPro.woff2) format("woff2"), url(/landings/marco/fonts/MyriadPro.woff) format("woff");
+    src: url(/fonts/MyriadPro.otf) format("opentype");
+    src: url(/fonts/MyriadPro.woff2) format("woff2"), url(/fonts/MyriadPro.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: MyriadProBold;
-    src: url(/landings/marco/fonts/MyriadProBold.otf) format("opentype");
-    src: url(/landings/marco/fonts/MyriadProBold.woff2) format("woff2"), url(/landings/marco/fonts/MyriadProBold.woff) format("woff");
+    src: url(/fonts/MyriadProBold.otf) format("opentype");
+    src: url(/fonts/MyriadProBold.woff2) format("woff2"), url(/fonts/MyriadProBold.woff) format("woff");
     font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: PragmaticaC;
-    src: url(/landings/marco/fonts/PTPragmaticaCyrillic.ttf) format("opentype");
-    src: url(/landings/marco/fonts/PTPragmaticaCyrillic.woff2) format("woff2"), url(/landings/marco/fonts/PTPragmaticaCyrillic.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: PragmaticaC;
-    src: url(/landings/marco/fonts/PTPragmaticaBoldCyrillic.ttf) format("opentype");
-    src: url(/landings/marco/fonts/PTPragmaticaBoldCyrillic.woff2) format("woff2"), url(/landings/marco/fonts/PTPragmaticaBoldCyrillic.woff) format("woff");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Circe;
-    font-display: swap;
-    src: url(/landings/marco/fonts/Circe-Thin.eot);
-    src: url(/landings/marco/fonts/Circe-Thin.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-Thin.woff) format("woff"), url(/landings/marco/fonts/Circe-Thin.woff2) format("woff2"), url(/landings/marco/fonts/Circe-Thin.ttf) format("truetype");
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: Circe;
-    font-display: swap;
-    src: url(/landings/marco/fonts/Circe-ExtraLight.eot);
-    src: url(/landings/marco/fonts/Circe-ExtraLight.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-ExtraLight.woff) format("woff"), url(/landings/marco/fonts/Circe-ExtraLight.woff2) format("woff2"), url(/landings/marco/fonts/Circe-ExtraLight.ttf) format("truetype");
-    font-weight: 200;
-    font-style: normal;
-}
-@font-face {
-    font-family: Circe;
-    font-display: swap;
-    src: url(/landings/marco/fonts/Circe-Light.eot);
-    src: url(/landings/marco/fonts/Circe-Light.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-Light.woff) format("woff"), url(/landings/marco/fonts/Circe-Light.woff2) format("woff2"), url(/landings/marco/fonts/Circe-Light.ttf) format("truetype");
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: Circe;
-    font-display: swap;
-    src: url(/landings/marco/fonts/Circe-Regular.eot);
-    src: url(/landings/marco/fonts/Circe-Regular.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-Regular.woff) format("woff"), url(/landings/marco/fonts/Circe-Regular.woff2) format("woff2"), url(/landings/marco/fonts/Circe-Regular.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: Circe;
-    font-display: swap;
-    src: url(/landings/marco/fonts/Circe-Bold.eot);
-    src: url(/landings/marco/fonts/Circe-Bold.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-Bold.woff) format("woff"), url(/landings/marco/fonts/Circe-Bold.woff2) format("woff2"), url(/landings/marco/fonts/Circe-Bold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: Circe;
-    font-display: swap;
-    src: url(/landings/marco/fonts/Circe-ExtraBold.eot);
-    src: url(/landings/marco/fonts/Circe-ExtraBold.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Circe-ExtraBold.woff) format("woff"), url(/landings/marco/fonts/Circe-ExtraBold.woff2) format("woff2"), url(/landings/marco/fonts/Circe-ExtraBold.ttf) format("truetype");
-    font-weight: 900;
-    font-style: normal;
-}
-@font-face {
-    font-family: BebasNeue;
-    src: url(/landings/marco/fonts/bebasneuethin.woff2) format("woff2");
-    src: local("☺"), url(/landings/marco/fonts/bebasneuethin.woff) format("woff"), url(/landings/marco/fonts/bebasneuethin.ttf) format("truetype");
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: BebasNeue;
-    src: url(/landings/marco/fonts/bebasneuelight.woff2) format("woff2");
-    src: local("☺"), url(/landings/marco/fonts/bebasneuelight.ttf) format("truetype"), url(/landings/marco/fonts/bebasneuelight.woff) format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: BebasNeue;
-    src: url(/landings/marco/fonts/bebasneueregular.eot);
-    src: local("☺"), url(/landings/marco/fonts/bebasneueregular.woff2) format("woff2"), url(/landings/marco/fonts/bebasneueregular.woff) format("woff"), url(/landings/marco/fonts/bebasneueregular.ttf) format("truetype"), url(/landings/marco/fonts/bebasneueregular.svg) format("svg");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: BebasNeue;
-    src: url(/landings/marco/fonts/bebasneuebold.eot);
-    src: local("☺"), url(/landings/marco/fonts/bebasneuebold.woff2) format("woff2"), url(/landings/marco/fonts/bebasneuebold.woff) format("woff"), url(/landings/marco/fonts/bebasneuebold.ttf) format("truetype"), url(/landings/marco/fonts/bebasneuebold.svg) format("svg");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Montserrat;
-    font-display: swap;
-    src: local("Montserrat Light"), local("Montserrat-Light"), url(/landings/marco/fonts/Montserrat-Light.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Light.woff) format("woff");
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: Montserrat;
-    font-display: swap;
-    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/marco/fonts/Montserrat-Regular.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Regular.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: Montserrat;
-    font-display: swap;
-    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/marco/fonts/Montserrat-Medium.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Medium.woff) format("woff");
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: Montserrat;
-    font-display: swap;
-    src: local("Montserrat Bold"), local("Montserrat-Bold"), url(/landings/marco/fonts/Montserrat-Bold.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Bold.woff) format("woff");
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: Montserrat;
-    font-display: swap;
-    src: local("Montserrat Black"), local("Montserrat-Black"), url(/landings/marco/fonts/Montserrat-Black.woff2) format("woff2"), url(/landings/marco/fonts/Montserrat-Black.woff) format("woff");
-    font-weight: 900;
-    font-style: normal;
-}
-@font-face {
-    font-family: Morpha;
-    font-display: swap;
-    src: url(/landings/marco/fonts/Morpha-Bold.woff2) format("woff2");
-    src: local("☺"), url(/landings/marco/fonts/Morpha-Bold.woff) format("woff"), url(/landings/marco/fonts/Morpha-Bold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Neue Machina";
-    font-display: swap;
-    src: local("NeueMachina-Bold"), local("NeueMachina-Bold"), url(/landings/marco/fonts/NeueMachina-Bold.woff2) format("woff2"), url(/landings/marco/fonts/NeueMachina-Bold.woff) format("woff");
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Neue Machina";
-    font-display: swap;
-    src: local("NeueMachina-Black"), local("NeueMachina-Black"), url(/landings/marco/fonts/NeueMachina-Black.woff2) format("woff2"), url(/landings/marco/fonts/NeueMachina-Bold.woff) format("woff");
-    font-weight: 900;
-    font-style: normal;
-}
-@font-face {
-    font-family: Norican;
-    font-display: swap;
-    src: url(/landings/marco/fonts/norican-regular.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Cy Grotesk";
-    font-display: swap;
-    src: url(/landings/marco/fonts/cy-grotesk-grand-dark.otf);
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: RainerTestv04;
-    src: url(/landings/marco/fonts/RainerTestv04-Bold.woff2), url(/landings/marco/fonts/RainerTestv04-Bold.woff);
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Anticva;
-    font-display: swap;
-    src: local("Anticva"), local("Anticva"), url(/landings/marco/fonts/Anticva-Regular.woff2) format("woff2"), url(/landings/marco/fonts/Anticva-Regular.woff) format("woff"), url(/landings/marco/fonts/Anticva-Regular.otf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Halvar Breitschrift";
-    src: local("HalvarBreit-Blk"), local("HalvarBreit-Blk"), url(/landings/marco/fonts/HalvarBreit-Blk.woff2) format("woff2"), url(/landings/marco/fonts/HalvarBreit-Blk.woff) format("woff");
-    font-weight: 900;
-    font-style: normal;
-}
-@font-face {
-    font-family: Damn;
-    font-display: swap;
-    src: local("Damn"), local("Damn"), url(/landings/marco/fonts/Damn.woff2) format("woff2"), url(/landings/marco/fonts/Damn.woff) format("woff"), url(/landings/marco/fonts/Damn.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Monologue DEMO";
-    font-display: swap;
-    src: local("Monologue_DEMO"), local("Monologue_DEMO"), url(/landings/marco/fonts/Monologue_DEMO.woff) format("woff"), url(/landings/marco/fonts/Monologue_DEMO.ttf) format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: Nasalization;
-    font-display: swap;
-    src: local("Nasalization"), local("Nasalization"), url(/landings/marco/fonts/Nasalization.woff) format("woff"), url(/landings/marco/fonts/Nasalization.otf) format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: PatsySans;
-    font-display: swap;
-    src: local("PatsySans"), local("PatsySans"), url(/landings/marco/fonts/PatsySans.woff) format("woff"), url(/landings/marco/fonts/PatsySans.otf) format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: Lighthaus;
-    src: url(/landings/marco/fonts/Lighthaus.eot);
-    src: url(/landings/marco/fonts/Lighthaus.eot?#iefix) format("embedded-opentype"), url(/landings/marco/fonts/Lighthaus.woff2) format("woff2"), url(/landings/marco/fonts/Lighthaus.woff) format("woff"), url(/landings/marco/fonts/Lighthaus.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: UltramonoWide-LightItalic;
-    src: url(/landings/marco/fonts/UltramonoWide-LightItalic.woff2) format("woff2"), url(/landings/marco/fonts/UltramonoWide-LightItalic.woff) format("woff");
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: UltramonoWide-Light;
-    src: url(/landings/marco/fonts/UltramonoWide-Light.woff2) format("woff2"), url(/landings/marco/fonts/UltramonoWide-Light.woff) format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Nikkyou Sans";
-    src: url(/landings/marco/fonts/NikkyouSans.woff2) format("woff2"), url(/landings/marco/fonts/NikkyouSans.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Corvetta;
-    src: url(/landings/marco/fonts/Corvetta.woff2) format("woff2"), url(/landings/marco/fonts/Corvetta.woff) format("woff"), url(/landings/marco/fonts/Corvetta.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: a_LCDNovaObl;
-    src: url(/landings/marco/fonts/a_lcdnovaobl.woff) format("woff"), url(/landings/marco/fonts/a_lcdnovaobl.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Felidae;
-    src: url(/landings/marco/fonts/Felidae.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Expanded Trial";
-    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-Thin.otf);
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Expanded Trial";
-    src: url(/landings/marco/fonts/MullerNextExpandedTrial-Regular.otf);
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Expanded Trial";
-    src: url(/landings/marco/fonts/MullerNextExpandedTrial-RegularItalic.otf);
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Expanded Trial";
-    src: url(/landings/marco/fonts/MullerNextExpandedTrial-ExtraBold.otf);
-    font-weight: 750;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Expanded Trial";
-    src: url(/landings/marco/fonts/MullerNextExpandedTrial-ExtraBoldItalic.otf);
-    font-weight: 750;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Expanded Trial";
-    src: url(/landings/marco/fonts/MullerNextExpandedTrial-Heavy.otf);
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Expanded Trial";
-    src: url(/landings/marco/fonts/MullerNextExpandedTrialThinItalic.otf);
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next ExtraCond Trial";
-    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-ExtraBold.otf);
-    font-weight: 750;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next ExtraCond Trial Heavy";
-    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-HeavyItalic.otf) format("opentype"), url(/landings/marco/fonts/MullerNextExtraCondTrial-HeavyItalic.ttf) format("truetype");
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next ExtraCond Trial";
-    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf) format("truetype"), url(/landings/marco/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2) format("woff2");
-    font-weight: 750;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Muller Next ExtraCond Trial";
-    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-Regular.otf);
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next ExtraCond Trial";
-    src: url(/landings/marco/fonts/MullerNextExtraCondTrial-RegularItalic.otf);
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next ExtraCond Trial";
-    src: url(/landings/marco/fonts/MullerNextExtraCondTrialThin.otf);
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Trial";
-    src: url(/landings/marco/fonts/MullerNextTrial-Regular.otf);
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Trial";
-    src: url(/landings/marco/fonts/MullerNextTrial-ExtraBold.otf);
-    font-weight: 750;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Muller Next Wide Trial";
-    src: url(/landings/marco/fonts/MullerNextTrial-ThinItalic.woff2);
-    font-weight: 100;
-    font-style: italic;
-}
-@font-face {
-    font-family: Cakra;
-    src: url(/landings/marco/fonts/Cakra-Normal.otf) format("opentype");
-    src: url(/landings/marco/fonts/Cakra-Normal.woff2) format("woff2"), url(/landings/marco/fonts/Cakra-Normal.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Noteworthy;
-    src: url(/landings/marco/fonts/NoteworthyLight.ttf) format("truetype");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Technology;
-    src: url(/landings/marco/fonts/Technology.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Technology;
-    src: url(/landings/marco/fonts/Technology-Bold.ttf) format("truetype");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Unbounded;
-    src: url(/landings/marco/fonts/Unbounded-Bold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Unbounded;
-    src: url(/landings/marco/fonts/Unbounded-Black.ttf) format("truetype");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Inter;
-    src: url(/landings/marco/fonts/Inter-Medium.ttf) format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Inter;
-    src: url(/landings/marco/fonts/Inter-SemiBold.ttf) format("truetype");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Montserrat Alternates";
-    src: url(/landings/marco/fonts/MontserratAlternates-Light.ttf) format("truetype");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Snell Roundhand";
-    src: url(/landings/marco/fonts/snell-roundhand-900.otf) format("opentype");
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Snell Roundhand";
-    src: url(/landings/marco/fonts/snell-roundhand-700.otf) format("opentype");
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: Lighthaus;
-    src: url(/landings/marco/fonts/Lighthaus-400.otf) format("opentype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Code pro black";
-    src: url(/landings/marco/fonts/code_pro_black.otf) format("opentype");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Boldstrom;
-    src: url(/landings/marco/fonts/Boldstrom-b.otf) format("opentype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Europe ext regular";
-    src: url(/landings/marco/fonts/europeext.otf) format("opentype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Europe ext bold";
-    src: url(/landings/marco/fonts/europeext_bold.otf) format("opentype");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Europe ext bold italic";
-    src: url(/landings/marco/fonts/europeext_bold_italic.otf) format("opentype");
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: "TT Smalls Trial";
-    src: url(/landings/marco/fonts/TT-Smalls-Trial-Black.woff) format("woff");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: Mak;
-    src: url(/landings/marco/fonts/MAK.woff) format("woff");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: GTEestiProDisplay;
-    src: url(/landings/marco/fonts/GTEestiProDisplay-Bold.woff2) format("woff2");
-    src: url(/landings/marco/fonts/GTEestiProDisplay-Bold.woff) format("woff");
-    src: url(/landings/marco/fonts/GTEestiProDisplay-Bold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: EuropeExt;
-    src: url(/landings/marco/fonts/europeextnormal.woff2) format("woff2");
-    src: url(/landings/marco/fonts/europeextnormal.ttf) format("truetype");
-    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }

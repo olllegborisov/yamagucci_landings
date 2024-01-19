@@ -1,3 +1,4 @@
+import { CommonFetchParams } from '@/src/api/_types'
 import { paths as schema } from '@/src/types/schema'
 
 import { QUERY_KEY_FETCH_CATEGORY } from './useFetchCategory'
@@ -5,10 +6,8 @@ import { QUERY_KEY_FETCH_CATEGORY } from './useFetchCategory'
 export type FetchCategoryParams = {
   /** id продукта */
   categoryId: string
-  /** адрес апи */
-  webApi: string
 }
 
-export type FetchCategoryQueryKeyType = [typeof QUERY_KEY_FETCH_CATEGORY, FetchCategoryParams];
+export type FetchCategoryQueryKeyType = [typeof QUERY_KEY_FETCH_CATEGORY, FetchCategoryParams & CommonFetchParams];
 
 export type FetchCategoryOriginalResult = schema['/api/admin/categories/{category}']['get']['responses']['200']['content']['application/json']

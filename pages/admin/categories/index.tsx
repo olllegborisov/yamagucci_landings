@@ -4,26 +4,30 @@ import { memo } from 'react'
 
 import { getCategories, QUERY_KEY_FETCH_CATEGORIES } from '@/src/api/useFetchCategories/useFetchCategories'
 import AdminCategoriesPage from '@/src/components/pages/AdminCategoriesPage/AdminCategoriesPage'
+import { getBaseUrlApi } from '@/src/lib/getBaseUrlApi'
 
 /** загрузка данных. */
 // ts-prune-ignore-next
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  // console.log('getServerSideProps', ctx.req.headers.host)
-
   /** queryClient */
   const queryClient = new QueryClient()
+  /** host */
+  const host = ctx?.req?.headers?.host
+  /** webApi */
+  const webApi = getBaseUrlApi(host)
 
   try {
     await Promise.all([
       queryClient.prefetchQuery({
-        queryFn: () => getCategories({ webApi: 'https://api.yamaguchi.ru/api' }),
-        queryKey: [QUERY_KEY_FETCH_CATEGORIES, { webApi: 'https://api.yamaguchi.ru/api' }]
+        queryFn: () => getCategories({ webApi }),
+        queryKey: [QUERY_KEY_FETCH_CATEGORIES, { webApi }]
       })
     ])
 
     return {
       props: {
-        dehydratedState: dehydrate(queryClient)
+        dehydratedState: dehydrate(queryClient),
+        webApi
       }
     }
   } catch (error) {
