@@ -1,0 +1,2078 @@
+@charset "UTF-8";
+    @font-face {
+    font-family: Gothic;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/centurygothic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/PTSans.eot);
+    src: url(/landings/apple_way/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/PTSans.woff2) format("woff2"), url(/landings/apple_way/fonts/PTSans.woff) format("woff"), url(/landings/apple_way/fonts/PTSans.ttf) format("truetype"), url(/landings/apple_way/fonts/PTSans.svg#PTSans) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/PTSansBold.eot);
+    src: url(/landings/apple_way/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/PTSansBold.woff2) format("woff2"), url(/landings/apple_way/fonts/PTSansBold.woff) format("woff"), url(/landings/apple_way/fonts/PTSansBold.ttf) format("truetype"), url(/landings/apple_way/fonts/PTSansBold.svg#PTSans) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/PTSansItalic.ttf) format("truetype");
+    src: url(/landings/apple_way/fonts/PTSansItalic.woff2) format("woff2"), url(/landings/apple_way/fonts/PTSansItalic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/PTSansNarrow.eot);
+    src: url(/landings/apple_way/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/PTSansNarrow.woff2) format("woff2"), url(/landings/apple_way/fonts/PTSansNarrow.woff) format("woff"), url(/landings/apple_way/fonts/PTSansNarrow.ttf) format("truetype"), url(/landings/apple_way/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/PTSansNarrowBold.eot);
+    src: url(/landings/apple_way/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/landings/apple_way/fonts/PTSansNarrowBold.woff) format("woff"), url(/landings/apple_way/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/landings/apple_way/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: MyriadProLight;
+    src: url(/landings/apple_way/fonts/MyriadProLight.eot);
+    src: url(/landings/apple_way/fonts/MyriadProLight.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/MyriadProLight.woff) format("woff"), url(/landings/apple_way/fonts/MyriadProLight.woff2) format("woff2"), url(/landings/apple_way/fonts/MyriadProLight.ttf) format("truetype"), url(/landings/apple_way/fonts/MyriadProLight.svg#MyriadProLight) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(/landings/apple_way/fonts/MyriadPro.otf) format("opentype");
+    src: url(/landings/apple_way/fonts/MyriadPro.woff2) format("woff2"), url(/landings/apple_way/fonts/MyriadPro.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url(/landings/apple_way/fonts/MyriadProBold.otf) format("opentype");
+    src: url(/landings/apple_way/fonts/MyriadProBold.woff2) format("woff2"), url(/landings/apple_way/fonts/MyriadProBold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/landings/apple_way/fonts/PTPragmaticaCyrillic.ttf) format("opentype");
+    src: url(/landings/apple_way/fonts/PTPragmaticaCyrillic.woff2) format("woff2"), url(/landings/apple_way/fonts/PTPragmaticaCyrillic.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/landings/apple_way/fonts/PTPragmaticaBoldCyrillic.ttf) format("opentype");
+    src: url(/landings/apple_way/fonts/PTPragmaticaBoldCyrillic.woff2) format("woff2"), url(/landings/apple_way/fonts/PTPragmaticaBoldCyrillic.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/Circe-Thin.eot);
+    src: url(/landings/apple_way/fonts/Circe-Thin.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/Circe-Thin.woff) format("woff"), url(/landings/apple_way/fonts/Circe-Thin.woff2) format("woff2"), url(/landings/apple_way/fonts/Circe-Thin.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/Circe-ExtraLight.eot);
+    src: url(/landings/apple_way/fonts/Circe-ExtraLight.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/Circe-ExtraLight.woff) format("woff"), url(/landings/apple_way/fonts/Circe-ExtraLight.woff2) format("woff2"), url(/landings/apple_way/fonts/Circe-ExtraLight.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/Circe-Light.eot);
+    src: url(/landings/apple_way/fonts/Circe-Light.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/Circe-Light.woff) format("woff"), url(/landings/apple_way/fonts/Circe-Light.woff2) format("woff2"), url(/landings/apple_way/fonts/Circe-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/Circe-Regular.eot);
+    src: url(/landings/apple_way/fonts/Circe-Regular.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/Circe-Regular.woff) format("woff"), url(/landings/apple_way/fonts/Circe-Regular.woff2) format("woff2"), url(/landings/apple_way/fonts/Circe-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/Circe-Bold.eot);
+    src: url(/landings/apple_way/fonts/Circe-Bold.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/Circe-Bold.woff) format("woff"), url(/landings/apple_way/fonts/Circe-Bold.woff2) format("woff2"), url(/landings/apple_way/fonts/Circe-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/Circe-ExtraBold.eot);
+    src: url(/landings/apple_way/fonts/Circe-ExtraBold.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/Circe-ExtraBold.woff) format("woff"), url(/landings/apple_way/fonts/Circe-ExtraBold.woff2) format("woff2"), url(/landings/apple_way/fonts/Circe-ExtraBold.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/apple_way/fonts/bebasneuethin.woff2) format("woff2");
+    src: local("☺"), url(/landings/apple_way/fonts/bebasneuethin.woff) format("woff"), url(/landings/apple_way/fonts/bebasneuethin.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/apple_way/fonts/bebasneuelight.woff2) format("woff2");
+    src: local("☺"), url(/landings/apple_way/fonts/bebasneuelight.ttf) format("truetype"), url(/landings/apple_way/fonts/bebasneuelight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/apple_way/fonts/bebasneueregular.eot);
+    src: local("☺"), url(/landings/apple_way/fonts/bebasneueregular.woff2) format("woff2"), url(/landings/apple_way/fonts/bebasneueregular.woff) format("woff"), url(/landings/apple_way/fonts/bebasneueregular.ttf) format("truetype"), url(/landings/apple_way/fonts/bebasneueregular.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/apple_way/fonts/bebasneuebold.eot);
+    src: local("☺"), url(/landings/apple_way/fonts/bebasneuebold.woff2) format("woff2"), url(/landings/apple_way/fonts/bebasneuebold.woff) format("woff"), url(/landings/apple_way/fonts/bebasneuebold.ttf) format("truetype"), url(/landings/apple_way/fonts/bebasneuebold.svg) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Light"), local("Montserrat-Light"), url(/landings/apple_way/fonts/Montserrat-Light.woff2) format("woff2"), url(/landings/apple_way/fonts/Montserrat-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/apple_way/fonts/Montserrat-Regular.woff2) format("woff2"), url(/landings/apple_way/fonts/Montserrat-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/landings/apple_way/fonts/Montserrat-Medium.woff2) format("woff2"), url(/landings/apple_way/fonts/Montserrat-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Bold"), local("Montserrat-Bold"), url(/landings/apple_way/fonts/Montserrat-Bold.woff2) format("woff2"), url(/landings/apple_way/fonts/Montserrat-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Black"), local("Montserrat-Black"), url(/landings/apple_way/fonts/Montserrat-Black.woff2) format("woff2"), url(/landings/apple_way/fonts/Montserrat-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Morpha;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/Morpha-Bold.woff2) format("woff2");
+    src: local("☺"), url(/landings/apple_way/fonts/Morpha-Bold.woff) format("woff"), url(/landings/apple_way/fonts/Morpha-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Bold"), local("NeueMachina-Bold"), url(/landings/apple_way/fonts/NeueMachina-Bold.woff2) format("woff2"), url(/landings/apple_way/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Black"), local("NeueMachina-Black"), url(/landings/apple_way/fonts/NeueMachina-Black.woff2) format("woff2"), url(/landings/apple_way/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Norican;
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/norican-regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cy Grotesk";
+    font-display: swap;
+    src: url(/landings/apple_way/fonts/cy-grotesk-grand-dark.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: RainerTestv04;
+    src: url(/landings/apple_way/fonts/RainerTestv04-Bold.woff2), url(/landings/apple_way/fonts/RainerTestv04-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Anticva;
+    font-display: swap;
+    src: local("Anticva"), local("Anticva"), url(/landings/apple_way/fonts/Anticva-Regular.woff2) format("woff2"), url(/landings/apple_way/fonts/Anticva-Regular.woff) format("woff"), url(/landings/apple_way/fonts/Anticva-Regular.otf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Halvar Breitschrift";
+    src: local("HalvarBreit-Blk"), local("HalvarBreit-Blk"), url(/landings/apple_way/fonts/HalvarBreit-Blk.woff2) format("woff2"), url(/landings/apple_way/fonts/HalvarBreit-Blk.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Damn;
+    font-display: swap;
+    src: local("Damn"), local("Damn"), url(/landings/apple_way/fonts/Damn.woff2) format("woff2"), url(/landings/apple_way/fonts/Damn.woff) format("woff"), url(/landings/apple_way/fonts/Damn.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Monologue DEMO";
+    font-display: swap;
+    src: local("Monologue_DEMO"), local("Monologue_DEMO"), url(/landings/apple_way/fonts/Monologue_DEMO.woff) format("woff"), url(/landings/apple_way/fonts/Monologue_DEMO.ttf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Nasalization;
+    font-display: swap;
+    src: local("Nasalization"), local("Nasalization"), url(/landings/apple_way/fonts/Nasalization.woff) format("woff"), url(/landings/apple_way/fonts/Nasalization.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PatsySans;
+    font-display: swap;
+    src: local("PatsySans"), local("PatsySans"), url(/landings/apple_way/fonts/PatsySans.woff) format("woff"), url(/landings/apple_way/fonts/PatsySans.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lighthaus;
+    src: url(/landings/apple_way/fonts/Lighthaus.eot);
+    src: url(/landings/apple_way/fonts/Lighthaus.eot?#iefix) format("embedded-opentype"), url(/landings/apple_way/fonts/Lighthaus.woff2) format("woff2"), url(/landings/apple_way/fonts/Lighthaus.woff) format("woff"), url(/landings/apple_way/fonts/Lighthaus.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: UltramonoWide-LightItalic;
+    src: url(/landings/apple_way/fonts/UltramonoWide-LightItalic.woff2) format("woff2"), url(/landings/apple_way/fonts/UltramonoWide-LightItalic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: UltramonoWide-Light;
+    src: url(/landings/apple_way/fonts/UltramonoWide-Light.woff2) format("woff2"), url(/landings/apple_way/fonts/UltramonoWide-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Nikkyou Sans";
+    src: url(/landings/apple_way/fonts/NikkyouSans.woff2) format("woff2"), url(/landings/apple_way/fonts/NikkyouSans.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Corvetta;
+    src: url(/landings/apple_way/fonts/Corvetta.woff2) format("woff2"), url(/landings/apple_way/fonts/Corvetta.woff) format("woff"), url(/landings/apple_way/fonts/Corvetta.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: a_LCDNovaObl;
+    src: url(/landings/apple_way/fonts/a_lcdnovaobl.woff) format("woff"), url(/landings/apple_way/fonts/a_lcdnovaobl.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Felidae;
+    src: url(/landings/apple_way/fonts/Felidae.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExtraCondTrial-Thin.otf);
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExpandedTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExpandedTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExpandedTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExpandedTrial-ExtraBoldItalic.otf);
+    font-weight: 750;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExpandedTrial-Heavy.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Expanded Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExpandedTrialThinItalic.otf);
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExtraCondTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial Heavy";
+    src: url(/landings/apple_way/fonts/MullerNextExtraCondTrial-HeavyItalic.otf) format("opentype"), url(/landings/apple_way/fonts/MullerNextExtraCondTrial-HeavyItalic.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf) format("truetype"), url(/landings/apple_way/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2) format("woff2");
+    font-weight: 750;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExtraCondTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExtraCondTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/landings/apple_way/fonts/MullerNextExtraCondTrialThin.otf);
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Trial";
+    src: url(/landings/apple_way/fonts/MullerNextTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Trial";
+    src: url(/landings/apple_way/fonts/MullerNextTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muller Next Wide Trial";
+    src: url(/landings/apple_way/fonts/MullerNextTrial-ThinItalic.woff2);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: Cakra;
+    src: url(/landings/apple_way/fonts/Cakra-Normal.otf) format("opentype");
+    src: url(/landings/apple_way/fonts/Cakra-Normal.woff2) format("woff2"), url(/landings/apple_way/fonts/Cakra-Normal.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Noteworthy;
+    src: url(/landings/apple_way/fonts/NoteworthyLight.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Technology;
+    src: url(/landings/apple_way/fonts/Technology.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Technology;
+    src: url(/landings/apple_way/fonts/Technology-Bold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Unbounded;
+    src: url(/landings/apple_way/fonts/Unbounded-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Unbounded;
+    src: url(/landings/apple_way/fonts/Unbounded-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Inter;
+    src: url(/landings/apple_way/fonts/Inter-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Inter;
+    src: url(/landings/apple_way/fonts/Inter-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url(/landings/apple_way/fonts/MontserratAlternates-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Snell Roundhand";
+    src: url(/landings/apple_way/fonts/snell-roundhand-900.otf) format("opentype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Snell Roundhand";
+    src: url(/landings/apple_way/fonts/snell-roundhand-700.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Lighthaus;
+    src: url(/landings/apple_way/fonts/Lighthaus-400.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Code pro black";
+    src: url(/landings/apple_way/fonts/code_pro_black.otf) format("opentype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Boldstrom;
+    src: url(/landings/apple_way/fonts/Boldstrom-b.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext regular";
+    src: url(/landings/apple_way/fonts/europeext.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext bold";
+    src: url(/landings/apple_way/fonts/europeext_bold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Europe ext bold italic";
+    src: url(/landings/apple_way/fonts/europeext_bold_italic.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "TT Smalls Trial";
+    src: url(/landings/apple_way/fonts/TT-Smalls-Trial-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Mak;
+    src: url(/landings/apple_way/fonts/MAK.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: GTEestiProDisplay;
+    src: url(/landings/apple_way/fonts/GTEestiProDisplay-Bold.woff2) format("woff2");
+    src: url(/landings/apple_way/fonts/GTEestiProDisplay-Bold.woff) format("woff");
+    src: url(/landings/apple_way/fonts/GTEestiProDisplay-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: EuropeExt;
+    src: url(/landings/apple_way/fonts/europeextnormal.woff2) format("woff2");
+    src: url(/landings/apple_way/fonts/europeextnormal.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.m-price-panel {
+    z-index: 1001;
+}
+.l-caption {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.1;
+    color: #2c2c33;
+}
+@media all and (max-width:1023px) {
+    .l-caption {
+    font-size: 30px;
+    line-height: 1.2;
+}
+}@media all and (max-width:767px) {
+    .l-caption.landing-card-sm__device {
+    margin: 14px 0 0 0;
+    font-size: 38px!important;
+    text-transform: uppercase;
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+}.apple-way {
+    font-family: ubuntu, sans-serif;
+}
+.apple-way .landing-card__caption {
+    font-size: 42px;
+    text-transform: none;
+}
+@media all and (max-width:1239px) {
+    .apple-way .landing-card__caption {
+    font-size: 40px;
+}
+}@media all and (max-width:1023px) {
+    .apple-way .landing-card__caption {
+    font-size: 28px;
+}
+}@media all and (max-width:767px) {
+    .apple-way .landing-card__caption {
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+}
+}@media all and (max-width:1239px) {
+    .apple-way .prod-img {
+    width: 100%}
+}@media all and (max-width:1023px) {
+    .apple-way .prod-img-wrapper {
+    margin-left: 10px;
+}
+}.apple-way .landing-card__product-name {
+    margin-bottom: 29px;
+}
+@media all and (max-width:1023px) {
+    .apple-way .landing-card__product-name {
+    font-size: 22px;
+}
+}.apple-way .landing-slider-new__slide img:hover {
+    border-color: #e03638;
+}
+@media all and (max-width:767px) {
+    .apple-way .landing-card-sm__buy-block {
+    font-size: 14px;
+}
+}.apple-way .landing-card-sm__name {
+    font-size: 16px;
+    color: #6d6d74;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: ubuntu, sans-serif!important;
+}
+.apple-way .other-items__caption {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1;
+    color: #fff;
+    margin: 0;
+    font-family: ubuntu, sans-serif;
+    text-transform: none;
+}
+@media all and (max-width:1239px) {
+    .apple-way .other-items__caption {
+    font-size: 40px;
+}
+}@media all and (max-width:767px) {
+    .apple-way .other-items__caption {
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+}
+}.apple-way .other-items__name {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    height: 40px;
+    font-family: ubuntu, sans-serif!important;
+}
+@media all and (max-width:1239px) {
+    .apple-way .other-items__name {
+    font-size: 18px;
+}
+}@media all and (max-width:1023px) {
+    .apple-way .other-items__name {
+    font-size: 14px;
+}
+}.l-mobile-form {
+    background: #ececec;
+    display: none;
+}
+@media all and (max-width:767px) {
+    .l-mobile-form {
+    display: block;
+    padding: 45px 0;
+}
+}.l-mobile-form .r-caption {
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+    color: #2c2c33;
+}
+.l-mobile-form__input {
+    border-bottom: 1px solid #2c2c33;
+    margin-top: 16px;
+    color: #2c2c33;
+    opacity: .7;
+}
+.l-mobile-form ::-webkit-input-placeholder {
+    color: #2c2c33;
+}
+.l-mobile-form :-ms-input-placeholder {
+    color: #2c2c33;
+}
+.l-mobile-form ::-moz-placeholder {
+    color: #2c2c33;
+    opacity: 1;
+}
+.l-mobile-form :-moz-placeholder {
+    color: #2c2c33;
+    opacity: 1;
+}
+.m-related {
+    display: none!important;
+}
+@media all and (max-width:767px) {
+    .m-related {
+    display: block!important;
+    background: #2c2c33;
+}
+}.m-related__cap {
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    line-height: 1!important;
+    margin: 0!important;
+}
+.m-related__block .r-caption {
+    margin: 0;
+    font-weight: 400;
+    font-size: 21px;
+    text-transform: none;
+    font-family: ubuntu, sans-serif!important;
+}
+.m-related__read-more {
+    font-family: ubuntu, sans-serif!important;
+}
+.m-related__img {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+@media all and (max-width:767px) {
+    .product-sticker_preorder {
+    position: static;
+    margin: 20px auto 10px;
+}
+}.sticky-panel {
+    opacity: 0!important;
+    pointer-events: none;
+}
+@media all and (max-width:767px) {
+    #other-products, .other-products {
+    display: none!important;
+}
+}.pickup__link {
+    color: #000;
+}
+.pickup__icon {
+    fill: #e95c20;
+}
+.pickup__warranty {
+    top: 50px;
+    right: 0;
+}
+@media all and (max-width:1239px) {
+    .pickup__warranty {
+    right: 16px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .pickup__warranty {
+    top: 70px;
+    right: 0;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) and (max-width:767px) {
+    .pickup__warranty {
+    display: none;
+    right: 16px;
+    top: 168px;
+}
+}.other-products__link {
+    border: 1px solid #b9b9d2;
+}
+.other-products__name {
+    background: rgba(128, 128, 125, .5);
+}
+.social-block {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+@media all and (max-width:767px) {
+    .social-block {
+    display: block;
+}
+}.social-block__caption {
+    margin-bottom: 0;
+}
+@media all and (max-width:767px) {
+    .social-block__caption {
+    margin-bottom: 10px;
+}
+}.social-block__wrapper {
+    margin-left: 30px;
+    width: 240px;
+}
+@media all and (max-width:767px) {
+    .social-block__wrapper {
+    margin-left: 0;
+    width: auto;
+}
+}.apple-plus-slider {
+    margin-top: 154px;
+}
+@media all and (max-width:1023px) {
+    .apple-plus-slider {
+    margin-top: 40px;
+}
+}.landing__content {
+    max-width: 1920px;
+    margin: auto;
+    font-family: PTSans, sans-serif;
+}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+.b-product--apple_way {
+    font-family: PTSans, sans-serif;
+    background: #fff;
+    min-height: 1100px;
+    padding-bottom: 80px;
+}
+@media (max-width:1200px) {
+    .b-product--apple_way {
+    height: auto;
+    padding-bottom: 30px;
+    background-size: cover;
+}
+}@media (max-width:960px) {
+    .b-product--apple_way .b-product__left {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 90%}
+}.b-product--apple_way .b-product__right {
+    width: 46%}
+@media (max-width:960px) {
+    .b-product--apple_way .b-product__right {
+    margin: 0 auto;
+    float: none;
+    overflow: hidden;
+    width: 80%}
+}@media (max-width:540px) {
+    .b-product--apple_way .b-product__right {
+    width: 100%}
+}.b-product--apple_way .slick-prev {
+    width: 16px;
+    height: 27px;
+    background: url(../images/landing/src/arrow_gray_big_left.webp) no-repeat;
+    left: -22px;
+}
+.b-product--apple_way .slick-next {
+    width: 16px;
+    height: 27px;
+    background: url(../images/landing/src/arrow_gray_big_right.webp) no-repeat;
+    right: 0;
+}
+@media (max-width:1200px) {
+    .b-product--apple_way .b-product__ontime .credit__question {
+    right: 0;
+}
+}.b-product--apple_way .b-product__head {
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+@media (max-width:540px) {
+    .b-product--apple_way .b-product__head {
+    margin-bottom: 0;
+}
+}.b-product--apple_way .b-product__head h1 {
+    font-family: PTSans, sans-serif;
+    color: #000;
+    font-size: 39px;
+    padding-top: 50px;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+@media (max-width:540px) {
+    .b-product--apple_way .b-product__head h1 {
+    margin-bottom: 0;
+}
+}.b-product--apple_way .b-product__head .p-head__apple_way {
+    background: url(/landings/apple_way/images/landing/logo.webp) center center no-repeat;
+    background-size: contain;
+    max-width: 552px;
+    height: 183px;
+    margin: 0 auto;
+}
+.b-product--apple_way .b-product__head .p-head__apple_way_plus {
+    background: url(/images/product/apple_way_plus/landing/logo.webp) center center no-repeat;
+    background-size: contain;
+    max-width: 556px;
+    height: 192px;
+    margin: 0 auto;
+}
+.b-product--apple_way .price-sticker {
+    width: 209px;
+    height: 72px;
+    padding: 5px 0 0 50px;
+    color: #fff;
+    background: url(/images/product/touch/landing/price.webp) center center no-repeat;
+    background-size: 100%}
+.b-product--apple_way .price-sticker .price-sticker__num {
+    font-family: "Myriad Pro", Calibri, "Lucida Sans", "Segoe UI", sans serif;
+    font-size: 47px;
+    font-weight: lighter;
+    letter-spacing: -1.2px;
+}
+.b-product--apple_way .price-sticker__ssbrf {
+    font-size: 12px;
+}
+.b-product--apple_way .b-product__ontime-box {
+    float: left;
+}
+.b-product--apple_way .b-product__img-wrap {
+    height: auto;
+    margin: 0;
+    margin-bottom: 100px;
+    width: auto;
+    text-align: center;
+}
+@media (max-width:540px) {
+    .b-product--apple_way .b-product__img {
+    width: 100%}
+}@media (max-width:540px) {
+    .b-product--apple_way .b-product__img {
+    width: 100%}
+}.b-product--apple_way .b-product__buttons {
+    margin: 13px 0 6px 0;
+    max-width: 445px;
+    clear: both;
+}
+@media (max-width:450px) {
+    .b-product--apple_way .b-product__buttons {
+    width: 97%}
+}.b-product--apple_way .b-product__order-quick {
+    float: right;
+    margin: 0;
+}
+@media (max-width:450px) {
+    .b-product--apple_way .b-product__order-quick {
+    float: none;
+    margin: 0 auto;
+}
+}.b-product--apple_way .b-product__delivery {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 97%;
+    max-width: 380px;
+}
+.b-product--apple_way .delivery__title {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.b-product--apple_way .delivery__row {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+@media (max-width:450px) {
+    .b-product--apple_way .delivery__row {
+    font-size: 13px;
+}
+}.b-product--apple_way .delivery__triangle {
+    margin-top: 7px;
+}
+.b-product--apple_way .button--red-gr {
+    background: linear-gradient(180deg, #c51f26 0, #9f1319 100%);
+}
+@media (max-width:450px) {
+    .b-product--apple_way .button--red-gr {
+    display: block;
+    margin-bottom: 10px;
+}
+}.b-product--apple_way .b-product__img-prev {
+    border: 0;
+    border-radius: 10px;
+}
+.b-product--apple_way .b-product__images {
+    overflow: visible;
+    float: none;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+@media (max-width:600px) {
+    .b-product--apple_way .b-product__images {
+    width: 100%}
+}.b-product--apple_way .owl-prev {
+    background-image: none;
+    margin-left: -34px;
+}
+.b-product--apple_way .owl-next {
+    background-image: none;
+    margin-right: -34px;
+}
+.b-product--apple_way .icon--arrow-gray-big-left {
+    width: 16px;
+    height: 27px;
+    background: url(../images/landing/src/fit-icon-left.webp) center center no-repeat;
+}
+.b-product--apple_way .icon--arrow-gray-big-right {
+    width: 16px;
+    height: 27px;
+    background: url(../images/landing/src/fit-icon-right.webp) center center no-repeat;
+}
+.b-product--apple_way .block__inner {
+    height: auto;
+}
+.b-product--apple_way .p-head__title {
+    font-family: "Myriad Pro", Calibri, "Lucida Sans", "Segoe UI", sans serif;
+    font-size: 56px;
+    color: #6c6c6c;
+    line-height: 1;
+    letter-spacing: 30px;
+    margin-left: 30px;
+}
+@media (max-width:600px) {
+    .b-product--apple_way .p-head__title {
+    font-size: 30px;
+    text-align: center;
+}
+.b-product--apple_way .p-head__title img {
+    width: 100%}
+}.b-product--apple_way .b-product__exclusive {
+    margin-top: 20px;
+}
+@media (max-width:450px) {
+    .b-product--apple_way .b-product__exclusive {
+    text-align: center;
+    margin: auto;
+    width: 156px;
+    float: none;
+    clear: both;
+}
+}.b-product--apple_way .exclusive__title {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #3b3a3a;
+}
+.b-product--apple_way .exclusive__model {
+    margin: 0 15px 15px 0;
+    border: 1px solid #ebeaea;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.b-product--apple_way .exclusive__model:nth-child(4) {
+    margin-right: 0;
+}
+.b-product--apple_way .exclusive__img {
+    border-radius: 10px;
+}
+.b-product--apple_way .exclusive__name {
+    border-radius: 0 0 10px 10px;
+    font-size: 13px;
+}
+.button--orange-matrix {
+    background: linear-gradient(180deg, #c98040 0, #c35e3b 56.68%, #bd4136 100%);
+    color: #fff;
+}
+@media (max-width:450px) {
+    .button--orange-matrix {
+    float: none;
+    display: block;
+    margin-left: 0;
+}
+}.apple_way2 {
+    font-family: PTSans, sans-serif;
+    background: #c1c1c1;
+    padding-bottom: 10px;
+}
+.apple_way2__title {
+    color: #282828;
+    padding: 55px 0;
+    font-size: 38px;
+    text-align: center;
+}
+@media (max-width:450px) {
+    .apple_way2__title {
+    font-size: 32px;
+    line-height: 1;
+}
+}.apple_way2__blocks {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.apple_way2__block {
+    float: left;
+    width: 24%;
+    min-height: 400px;
+    padding: 0 .5%;
+    text-align: center;
+}
+@media (max-width:960px) {
+    .apple_way2__block {
+    width: 48%;
+    margin-bottom: 15px;
+}
+}@media (max-width:540px) {
+    .apple_way2__block {
+    width: 100%}
+}.apple_way2__block .apple_way2__prop {
+    margin: 20px 0;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.apple_way2__block p {
+    color: #000;
+}
+.apple_way21 {
+    background: url(/landings/apple_way/images/landing/screen21.webp) center top no-repeat #f1faff;
+    min-height: 737px;
+    color: #000;
+    font-family: PTSans, sans-serif;
+    padding-top: 120px;
+    text-align: center;
+}
+@media (max-width:1024px) {
+    .apple_way21 {
+    background-size: 160%;
+    padding-top: 5%}
+}@media (max-width:780px) {
+    .apple_way21 {
+    background-size: 210%;
+    padding-top: 10%}
+}.apple_way21 .apple_way21__block {
+    float: left;
+    margin: 65px 50px;
+    width: 182px;
+}
+@media (max-width:1024px) {
+    .apple_way21 .apple_way21__block {
+    margin: 40% 0 0 25%}
+}@media (max-width:780px) {
+    .apple_way21 .apple_way21__block {
+    margin: 50% 0 0 15%}
+}.apple_way21 .apple_way21__block p {
+    font-size: 22px;
+    margin-top: 30px;
+}
+.apple_way21 .apple_way21__block.apple_way21__block_right {
+    float: right;
+}
+@media (max-width:1024px) {
+    .apple_way21 .apple_way21__block.apple_way21__block_right {
+    margin: 40% 25% 0 0;
+}
+}@media (max-width:780px) {
+    .apple_way21 .apple_way21__block.apple_way21__block_right {
+    margin: 50% 15% 0 0;
+}
+}@media (max-width:600px) {
+    .apple_way21 .apple_way21__block.apple_way21__block_right {
+    float: none;
+    margin: auto;
+}
+}@media (max-width:600px) {
+    .apple_way21 .apple_way21__block {
+    float: none;
+    margin: 65% auto 30px auto;
+}
+}.apple_way21 .apple_way21__body {
+    width: 75%;
+    height: auto;
+    margin: 500px auto 0 auto;
+    padding: 4% 8%}
+@media (max-width:1024px) {
+    .apple_way21 .apple_way21__body {
+    margin-top: 700px;
+}
+}@media (max-width:600px) {
+    .apple_way21 .apple_way21__body {
+    margin-top: 30px;
+}
+}.apple_way21__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+@media (max-width:600px) {
+    .apple_way21__title {
+    font-size: 24px;
+}
+}.apple_way21_plus {
+    background: url(/images/product/apple_way_plus/landing/screen21_pluse_element2.webp) 87% top no-repeat #dbdbdb;
+    color: #403f26;
+    padding-top: 85px;
+    text-align: center;
+}
+@media (max-width:1800px) {
+    .apple_way21_plus {
+    background-position: 97% top;
+}
+}@media (max-width:1250px) {
+    .apple_way21_plus {
+    background-position: center top;
+    padding-top: 487px;
+}
+}@media (max-width:450px) {
+    .apple_way21_plus {
+    background-size: 100%;
+    padding-top: 100%}
+}.apple_way21_plus .block__inner {
+    width: 100%;
+    padding-bottom: 150px;
+    background: url(/images/product/apple_way_plus/landing/screen21_pluse_element1.webp) 15% bottom no-repeat;
+}
+@media (max-width:1800px) {
+    .apple_way21_plus .block__inner {
+    background-position: 5% bottom;
+}
+}@media (max-width:1250px) {
+    .apple_way21_plus .block__inner {
+    background-position: center bottom;
+    padding-bottom: 487px;
+}
+}@media (max-width:450px) {
+    .apple_way21_plus .block__inner {
+    background-size: 100%;
+    padding-bottom: 85%}
+}.apple_way21_plus .apple_way21_plus__body {
+    width: 30%;
+    margin: auto;
+}
+@media (max-width:1250px) {
+    .apple_way21_plus .apple_way21_plus__body {
+    width: 90%}
+}.apple_way21_plus__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.apple_way22 {
+    font-family: PTSans, sans-serif;
+    color: #fff;
+    background: url(/landings/apple_way/images/landing/screen22.webp) center top no-repeat #c1c1c1;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+.apple_way22 .block__inner {
+    width: 1136px;
+}
+@media (max-width:1200px) {
+    .apple_way22 .block__inner {
+    width: 100%}
+}.apple_way22__title {
+    padding: 70px 0;
+    font-size: 35px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media (max-width:450px) {
+    .apple_way22__title {
+    font-size: 32px;
+    line-height: 1;
+}
+}.apple_way22__blocks {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.apple_way22__block {
+    float: left;
+    width: 274px;
+    min-height: 475px;
+    padding: 0 5px;
+    text-align: center;
+}
+@media (max-width:1200px) {
+    .apple_way22__block {
+    width: 48%;
+    margin-bottom: 15px;
+}
+}@media (max-width:600px) {
+    .apple_way22__block {
+    width: 100%}
+}.apple_way22__block .apple_way22__prop {
+    margin: 20px 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+.apple_way22__block p {
+    visibility: hidden;
+    opacity: 0;
+    width: 274px;
+    margin: 10px auto;
+    transition: all .3s ease-in-out;
+}
+.apple_way22__block:hover .apple_way22__prop {
+    color: #ffae00;
+}
+.apple_way22__block:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+.apple_way3 {
+    background: url(/landings/apple_way/images/landing/screen3.webp) center bottom no-repeat #0b0b0b;
+    height: 760px;
+    font-family: PTSans, sans-serif;
+}
+@media (max-width:780px) {
+    .apple_way3 {
+    height: auto;
+    background-position: 21% bottom;
+    background-size: cover;
+}
+}.apple_way3 .block__inner {
+    padding: 0;
+}
+.apple_way3__body {
+    background: rgba(0, 0, 0, .5);
+    padding: 250px 40px 10px 40px;
+    float: right;
+    width: 365px;
+    min-height: 500px;
+    color: #fff;
+}
+@media (max-width:780px) {
+    .apple_way3__body {
+    width: 92%;
+    padding: 20px 4%;
+    margin: auto;
+    text-align: center;
+}
+}.apple_way3__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.apple_way3__text {
+    margin-bottom: 100px;
+}
+@media (max-width:780px) {
+    .apple_way3__text {
+    margin-bottom: 250px;
+}
+}@media (max-width:600px) {
+    .apple_way3__text {
+    margin-bottom: 50px;
+}
+}.apple_way3__text p {
+    margin-bottom: 0;
+}
+.apple_way4 {
+    background: url(/landings/apple_way/images/landing/screen4.webp) center top no-repeat #fff;
+    height: 689px;
+    font-family: PTSans, sans-serif;
+}
+@media (max-width:780px) {
+    .apple_way4 {
+    padding-top: 3%;
+    height: auto;
+    background-size: cover;
+    padding-bottom: 57%;
+    background-position: right bottom;
+    background-size: 160%}
+}.apple_way4 .block__inner {
+    padding: 0;
+}
+.apple_way4__body {
+    background: rgba(255, 255, 255, .5);
+    padding: 140px 30px 10px 30px;
+    float: left;
+    width: 365px;
+    height: 459px;
+    color: #474747;
+}
+@media (max-width:780px) {
+    .apple_way4__body {
+    background: #fff;
+    width: 92%;
+    height: auto;
+    padding: 20px 4%;
+    margin: auto;
+    text-align: center;
+}
+}.apple_way4__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.apple_way5 {
+    font-family: PTSans, sans-serif;
+    color: #684826;
+    background: #979898;
+}
+.apple_way5__blocks {
+    overflow: hidden;
+}
+.apple_way5__block {
+    float: left;
+    width: 31%;
+    padding: 40px 1%;
+    text-align: center;
+}
+.apple_way5__block:hover .apple_way5__active {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+}
+@media (max-width:960px) {
+    .apple_way5__block {
+    width: 48%;
+    margin-bottom: 30px;
+}
+.apple_way5__block:first-child {
+    float: none;
+    margin: 0 auto 30px auto;
+}
+}@media (max-width:600px) {
+    .apple_way5__block {
+    width: 100%}
+}.apple_way5__wrap {
+    background: url(/landings/apple_way/images/landing/screen5_element.webp) center 32% no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%}
+.apple_way5__prop {
+    padding-top: 171px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+.apple_way5__active {
+    position: absolute;
+    top: -400px;
+    left: 0;
+    display: table;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    font-size: 22px;
+    background: rgba(255, 255, 255, .87);
+    transition: all .3s ease-in-out;
+}
+.apple_way5__active span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.apple_way6 {
+    background: url(/landings/apple_way/images/landing/screen6.webp) center top no-repeat #fff;
+    min-height: 691px;
+    background-size: cover;
+    font-family: PTSans, sans-serif;
+    color: #000;
+}
+@media (max-width:780px) {
+    .apple_way6 {
+    padding-top: 5%;
+    height: auto;
+    padding-bottom: 50%;
+    background-position: left -50px bottom;
+    background-size: 200%}
+}@media (max-width:450px) {
+    .apple_way6 {
+    padding-bottom: 85%}
+}.apple_way6__body {
+    padding: 155px 10px 10px 10px;
+    float: right;
+    width: 490px;
+}
+@media (max-width:780px) {
+    .apple_way6__body {
+    width: 92%;
+    padding: 5px 4%;
+    margin: auto;
+    text-align: center;
+}
+}.apple_way6__block {
+    float: left;
+    width: 31%;
+    margin-right: 2%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (max-width:450px) {
+    .apple_way6__block {
+    width: 46%}
+.apple_way6__block:first-child {
+    float: none;
+    margin: 0 auto 15px auto;
+}
+}.apple_way6__block .apple_way6__block__title {
+    text-transform: uppercase;
+}
+.apple_way6__block .apple_way6__img {
+    margin: 10px;
+}
+.apple_way6__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.apple_way6__text {
+    margin-bottom: 40px;
+}
+.apple_way7 {
+    height: 688px;
+    color: #fff;
+    font-family: PTSans, sans-serif;
+    background: url(/landings/apple_way/images/landing/screen7.webp) center bottom no-repeat #000;
+}
+@media (max-width:1024px) {
+    .apple_way7 {
+    height: auto;
+    background-size: cover;
+}
+}.apple_way7 .block__inner {
+    padding: 0;
+}
+.apple_way7__body {
+    padding: 200px 60px 10px 60px;
+    height: 488px;
+    max-width: 480px;
+    background: rgba(0, 0, 0, .39);
+}
+@media (max-width:600px) {
+    .apple_way7__body {
+    padding: 60px 30px;
+    text-align: center;
+}
+}.apple_way7__title {
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+@media (max-width:600px) {
+    .apple_way7__title {
+    font-size: 24px;
+}
+}.apple_way7__text p {
+    margin-bottom: 17px;
+}
+.apple_way8 {
+    background: url(/landings/apple_way/images/landing/screen8.webp) top center no-repeat #fff;
+    min-height: 787px;
+    font-family: PTSans, sans-serif;
+    color: #262626;
+}
+.apple_way8__block {
+    float: left;
+    width: 48%;
+    padding-top: 220px;
+    padding-right: 2%;
+    padding-bottom: 30px;
+}
+@media (max-width:1024px) {
+    .apple_way8__block {
+    width: 90%;
+    padding-top: 30px;
+    margin-left: 5%}
+}.apple_way8__title {
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.apple_way8__text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.apple_way8__block_right {
+    text-align: center;
+}
+@media (max-width:540px) {
+    .apple_way8__block_right img {
+    width: 100%}
+}@media (max-width:1024px) {
+    .apple_way8__wrap {
+    float: left;
+    width: 50%}
+}.apple_way9 {
+    background: url(/landings/apple_way/images/landing/screen9.webp) center center no-repeat #fff;
+    height: 690px;
+    color: #000;
+    font-family: PTSans, sans-serif;
+    padding-top: 190px;
+}
+@media (max-width:450px) {
+    .apple_way9 {
+    padding-top: 90px;
+    height: 790px;
+    background-position: 55% center;
+}
+}.apple_way9 .apple_way9__body {
+    width: 55%;
+    height: auto;
+    margin: auto;
+    padding: 4% 8%;
+    background: rgba(255, 255, 255, .75);
+    border-radius: 10px;
+    text-align: center;
+}
+@media (max-width:450px) {
+    .apple_way9 .apple_way9__body {
+    width: 75%}
+}.apple_way9__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.apple_way10 {
+    background: url(/landings/apple_way/images/landing/screen10.webp) center bottom no-repeat #fff;
+    height: 829px;
+    font-family: PTSans, sans-serif;
+    color: #858689;
+}
+@media (max-width:780px) {
+    .apple_way10 {
+    padding-top: 5%;
+    height: auto;
+    background-size: cover;
+    padding-bottom: 50%;
+    background-position: center bottom;
+    background-size: 125%}
+}@media (max-width:450px) {
+    .apple_way10 {
+    padding-bottom: 42%}
+}.apple_way10__body {
+    padding: 110px 0 10px 18%;
+    width: 540px;
+    text-align: center;
+}
+@media (max-width:780px) {
+    .apple_way10__body {
+    width: 92%;
+    padding: 5px 4%;
+    margin: auto;
+}
+}.apple_way10__block {
+    float: left;
+    width: 33%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (max-width:450px) {
+    .apple_way10__block {
+    width: 46%}
+.apple_way10__block:first-child {
+    float: none;
+    margin: 0 auto 15px auto;
+}
+}.apple_way10__block .apple_way10__block__title {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.apple_way10__block .apple_way10__img {
+    margin: 0 0 25px 0;
+}
+.apple_way10__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 55px;
+}
+.apple_way10__text {
+    margin-bottom: 40px;
+}
+.zona1_hover, .zona2_hover, .zona3_hover {
+    cursor: pointer;
+}
+.zona1_hover:before, .zona2_hover:before, .zona3_hover:before {
+    content: "";
+    position: absolute;
+    width: 303px;
+    height: 304px;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+}
+@media (max-width:1200px) {
+    .zona1_hover:before, .zona2_hover:before, .zona3_hover:before {
+    display: none;
+}
+}.zona1_hover:hover, .zona2_hover:hover, .zona3_hover:hover {
+    color: #ffae00;
+}
+.zona1_hover:hover:before, .zona2_hover:hover:before, .zona3_hover:hover:before {
+    opacity: 1;
+}
+.zona1_hover:before {
+    top: 380px;
+    left: 300px;
+    background: url(/landings/apple_way/images/landing/screen10_zona1.webp) center center no-repeat;
+}
+.zona2_hover:before {
+    top: 312px;
+    left: 637px;
+    background: url(/landings/apple_way/images/landing/screen10_zona1.webp) center center no-repeat;
+}
+.zona3_hover:before {
+    top: 111px;
+    left: 793px;
+    background: url(/landings/apple_way/images/landing/screen10_zona3.webp) center center no-repeat;
+}
+.apple_way11 {
+    background: url(/landings/apple_way/images/landing/screen11.webp) center top no-repeat #b2b8b7;
+    height: 649px;
+    font-family: PTSans, sans-serif;
+}
+@media (max-width:960px) {
+    .apple_way11 {
+    padding-top: 3%;
+    height: auto;
+    background-size: cover;
+    padding-bottom: 61%;
+    background-position: 71% bottom;
+    background-size: 172%}
+}.apple_way11 .block__inner {
+    padding: 0;
+}
+.apple_way11__body {
+    padding: 380px 10px 10px 10px;
+    float: left;
+    width: 470px;
+    color: #474747;
+}
+@media (max-width:960px) {
+    .apple_way11__body {
+    width: 92%;
+    padding: 20px 4%;
+    margin: auto;
+    text-align: center;
+}
+}.apple_way11__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.apple_way12 {
+    background: url(/landings/apple_way/images/landing/screen12.webp) center bottom no-repeat #fff;
+    height: 348px;
+    color: #000;
+    font-family: PTSans, sans-serif;
+    padding-top: 540px;
+    box-sizing: initial;
+}
+@media (max-width:960px) {
+    .apple_way12 {
+    padding-top: 0;
+    padding-bottom: 55%;
+    height: auto;
+    background-position: 55% bottom;
+    background-size: 105%}
+}.apple_way12 .apple_way12__body {
+    width: 52%;
+    height: auto;
+    float: left;
+    padding: 25px 3%;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+}
+@media (max-width:960px) {
+    .apple_way12 .apple_way12__body {
+    width: 90%}
+}.apple_way12__title {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+@media (max-width:960px) {
+    .apple_way12__title {
+    text-align: center;
+}
+}.apple_way13 {
+    padding: 60px 0 0;
+    background: #7a7a7a;
+    color: #fff;
+    font-family: PTSans, sans-serif;
+}
+.apple_way13__block {
+    float: left;
+    width: 49%;
+    padding-right: 1%;
+    padding-bottom: 60px;
+}
+@media (max-width:1024px) {
+    .apple_way13__block {
+    width: 90%;
+    margin-left: 5%}
+}.apple_way13__title {
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+}
+@media (max-width:600px) {
+    .apple_way13__title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+}.apple_way13__text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.apple_way13__block_right div, .apple_way13__block_right img, .apple_way13__block_right p {
+    text-align: center;
+}
+.apple_way13__block_right img {
+    padding: 55px 0 20px 0;
+    display: block;
+    margin: auto;
+}
+.apple_way13__wrap {
+    float: left;
+    width: 50%}
+@media (max-width:450px) {
+    .apple_way13__wrap {
+    width: 100%}
+}.apple_way13__block_plus {
+    width: 42%}
+@media (max-width:1024px) {
+    .apple_way13__block_plus {
+    width: 90%;
+    margin-left: 5%}
+}.apple_way13__block_right_plus {
+    width: 57%;
+    padding-right: 0;
+}
+@media (max-width:1024px) {
+    .apple_way13__block_right_plus {
+    width: 90%;
+    margin-left: 5%}
+}.apple_way13__block_right_plus .apple_way13__wrap:nth-child(3n), .apple_way13__block_right_plus .apple_way13__wrap:nth-child(4n), .apple_way13__block_right_plus .apple_way13__wrap:nth-child(5n) {
+    width: 33%}
+@media (max-width:450px) {
+    .apple_way13__block_right_plus .apple_way13__wrap:nth-child(3n), .apple_way13__block_right_plus .apple_way13__wrap:nth-child(4n), .apple_way13__block_right_plus .apple_way13__wrap:nth-child(5n) {
+    width: 100%}
+}.apple_way_bottom {
+    min-height: 672px;
+    background: url(/landings/apple_way/images/landing/screen_bottom.webp) center bottom no-repeat #fff;
+    font-family: PTSans, sans-serif;
+}
+@media (max-width:1200px) {
+    .apple_way_bottom {
+    background-position: 78% bottom;
+}
+}.apple_way_bottom .block__inner {
+    padding: 0;
+}
+.apple_way_bottom .apple_way_bottom__block {
+    float: left;
+    width: 48%}
+@media (max-width:450px) {
+    .apple_way_bottom .apple_way_bottom__block {
+    width: auto;
+}
+}.apple_way_bottom .apple_way_bottom__block .form--landing {
+    position: relative;
+    padding: 40px;
+    min-height: 592px;
+    background: #939ea8;
+    top: 0;
+    border-radius: 0;
+    right: auto;
+}
+@media (max-width:960px) {
+    .apple_way_bottom .apple_way_bottom__block .form--landing {
+    position: static;
+    margin: 0 auto;
+}
+}@media (max-width:450px) {
+    .apple_way_bottom .apple_way_bottom__block .form--landing {
+    width: auto;
+}
+}.apple_way_bottom .apple_way_bottom__block .form--landing .form__input {
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.apple_way_bottom .apple_way_bottom__block .form--landing .chosen-single {
+    padding: 21px 30px;
+    border-radius: 5px;
+}
+.apple_way_bottom .apple_way_bottom__block .form--landing .form__submit {
+    background: #fff;
+    font-size: 46px;
+    font-weight: lighter;
+    color: #ff0101;
+    text-transform: lowercase;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.apple_way_bottom__block__img {
+    margin: 135px 0 0 0;
+}
+@media (max-width:450px) {
+    .apple_way_bottom__block__img {
+    width: 100%}
+}.apple_way_bottomt__title {
+    font-size: 27px;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+.apple_way_bottomt__title span {
+    display: block;
+}main
+.apple_way_bottom--photo {
+    margin-top: 80px;
+}
+.list--carbon-gt li {
+    width: 25%}
+.sticker--appleway {
+    bottom: -120px;
+}
+@media (max-width:1040px) and (min-width:1000px) {
+    .b-product--apple_way .slider-slick-images {
+    margin-left: 12px;
+}
+}.landing-form-21__img {
+    background-color: #fff;
+}
+.landing-form-21__img img {
+    object-fit: contain;
+    width: 100%}
+
+
+    /* landing.css  */
+
+.block {
+    position: relative;
+}
+.t-bold {
+    font-weight: 700;
+}
+.landing__wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.landing__page {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+}
+.block__inner {
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+.l-table--beige-trans {
+    background: rgba(255, 190, 63, .5);
+}
+.l-table {
+    padding: 17px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.l-table--beige-trans .l-table__th {
+    border-right: 1px solid #ae9166;
+}
+.chicago11 .l-table__table {
+    line-height: 1;
+}
+.l-table--white-50-trans .l-table__tr {
+    border-top: 1px solid #b3b0ae;
+}
+.l-table--white-50-trans .l-table__th {
+    border-right: 1px solid #b3b0ae;
+}
+.l-table--white-50-trans {
+    background: rgba(255, 255, 255, .5);
+}
+.l-table--beige-trans .l-table__tr {
+    border-top: 1px solid #ae9166;
+}
+.l-table__tr:first-child {
+    border: 0!important;
+}
+.l-table__table {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 15px;
+}
+/* landing.css адаптив */
+@media (max-width: 1200px) {
+.block__inner {
+    width: 100%;
+    overflow: hidden;
+}
+}
+@media (max-width: 1239px) {
+.block__inner {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+}
+@media (max-width: 1024px) {
+.landing__page .block {
+    width: 100%;
+}
+}
+@media (max-width: 767px) {
+    .slides {
+        max-width: none;
+    }
+}
+.block__inner {
+    overflow: hidden;
+}
+
+
+

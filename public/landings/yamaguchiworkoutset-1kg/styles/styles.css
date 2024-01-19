@@ -3,8 +3,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-Medium.woff2") format("woff2"),
-    url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-Medium.woff") format("woff");
+    url("/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-SemiBold"),
-      url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-SemiBold.ttf") format("truetype");
+      url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -20,8 +20,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-Bold.woff") format("woff"),
-    url("/landings/yamaguchiworkoutset-1kg/fonts/Montserrat-Bold.woff2") format("woff2");
+    url("/fonts/Montserrat-Bold.woff") format("woff"),
+    url("/fonts/Montserrat-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
