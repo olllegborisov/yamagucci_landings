@@ -4,9 +4,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/landings/barbell-3-in-1/fonts/Montserrat-Regular.woff2")
-      format("woff2"),
-    url("/landings/barbell-3-in-1/fonts/Montserrat-Regular.woff") format("woff");
+    url("/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("/fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -14,9 +13,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/landings/barbell-3-in-1/fonts/Montserrat-Medium.woff2")
-      format("woff2"),
-    url("/landings/barbell-3-in-1/fonts/Montserrat-Medium.woff") format("woff");
+    url("/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -24,38 +22,36 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("/landings/barbell-3-in-1/fonts/Montserrat-Bold.woff2") format("woff2"),
-    url("/landings/barbell-3-in-1/fonts/Montserrat-Bold.woff") format("woff");
+    url("/fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("/fonts/Montserrat-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Muller Next ExtraCond Trial";
-  src: url("/landings/barbell-3-in-1/fonts/MullerNextExtraCondTrial-ExtraBold.otf");
+  src: url("/fonts/MullerNextExtraCondTrial-ExtraBold.otf");
   font-weight: 750;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Muller Next ExtraCond Trial";
-  src: url("/landings/barbell-3-in-1/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf")
+  src: url("/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf")
       format("truetype"),
-    url("/landings/barbell-3-in-1/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2")
-      format("woff2");
+    url("/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2") format("woff2");
   font-weight: 750;
   font-style: italic;
 }
 @font-face {
   font-family: "Code pro black";
-  src: url("/landings/barbell-3-in-1/fonts/code_pro_black.otf")
-    format("opentype");
+  src: url("/fonts/code_pro_black.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Boldstrom;
-  src: url("/landings/barbell-3-in-1/fonts/Boldstrom-b.otf") format("opentype");
+  src: url("/fonts/Boldstrom-b.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -174,7 +170,7 @@ figcaption {
   }
 } */
 
-.container-box {
+/* .container-box {
   width: 1230px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -199,7 +195,7 @@ figcaption {
     padding-left: 16px;
     padding-right: 16px;
   }
-}
+} */
 
 *,
 ::after,

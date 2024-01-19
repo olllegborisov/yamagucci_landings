@@ -3,9 +3,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat Light"), local("Montserrat-Light"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Light.woff2")
-      format("woff2"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Light.woff") format("woff");
+    url("/fonts/Montserrat-Light.woff2") format("woff2"),
+    url("/fonts/Montserrat-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -13,10 +12,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Regular.woff2")
-      format("woff2"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Regular.woff")
-      format("woff");
+    url("/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("/fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -24,9 +21,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Medium.woff2")
-      format("woff2"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Medium.woff") format("woff");
+    url("/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -34,8 +30,8 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Bold.woff2") format("woff2"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Bold.woff") format("woff");
+    url("/fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("/fonts/Montserrat-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -43,36 +39,35 @@
   font-family: Montserrat;
   font-display: swap;
   src: local("Montserrat Black"), local("Montserrat-Black"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Black.woff2")
-      format("woff2"),
-    url("/landings/double-gun-mini/fonts/Montserrat-Black.woff") format("woff");
+    url("/fonts/Montserrat-Black.woff2") format("woff2"),
+    url("/fonts/Montserrat-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Muller Next Expanded Trial";
-  src: url("/landings/double-gun-mini/fonts/MullerNextExpandedTrial-Regular.otf");
+  src: url("/fonts/MullerNextExpandedTrial-Regular.otf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Muller Next Expanded Trial";
-  src: url("/landings/double-gun-mini/fonts/MullerNextExpandedTrial-RegularItalic.otf");
+  src: url("/fonts/MullerNextExpandedTrial-RegularItalic.otf");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Muller Next Expanded Trial";
-  src: url("/landings/double-gun-mini/fonts/MullerNextExpandedTrial-ExtraBold.otf");
+  src: url("/fonts/MullerNextExpandedTrial-ExtraBold.otf");
   font-weight: 750;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Muller Next Expanded Trial";
-  src: url("/landings/double-gun-mini/fonts/MullerNextExpandedTrial-Heavy.otf");
+  src: url("/fonts/MullerNextExpandedTrial-Heavy.otf");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -80,7 +75,7 @@
 
 @font-face {
   font-family: "Muller Next ExtraCond Trial";
-  src: url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-Regular.otf");
+  src: url("/fonts/MullerNextExtraCondTrial-Regular.otf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -88,7 +83,7 @@
 
 @font-face {
   font-family: "Muller Next ExtraCond Trial";
-  src: url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-RegularItalic.otf");
+  src: url("/fonts/MullerNextExtraCondTrial-RegularItalic.otf");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -96,17 +91,16 @@
 
 @font-face {
   font-family: "Muller Next ExtraCond Trial";
-  src: url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-ExtraBold.otf");
+  src: url("/fonts/MullerNextExtraCondTrial-ExtraBold.otf");
   font-weight: 750;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Muller Next ExtraCond Trial";
-  src: url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf")
+  src: url("/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.ttf")
       format("truetype"),
-    url("/landings/double-gun-mini/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2")
-      format("woff2");
+    url("/fonts/MullerNextExtraCondTrial-ExtraBoldItalic.woff2") format("woff2");
   font-weight: 750;
   font-style: italic;
 }
@@ -195,7 +189,7 @@ img {
   overflow: hidden;
 } */
 
-.container-box {
+/* .container-box {
   width: 1230px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -220,7 +214,7 @@ img {
     padding-left: 16px;
     padding-right: 16px;
   }
-}
+} */
 
 .main-wrapper section {
   box-sizing: border-box;
