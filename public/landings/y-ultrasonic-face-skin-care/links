@@ -1,0 +1,23 @@
+<?php
+    /* @var $this \yii\base\View */
+
+    use app\modules\site\assets\LandingAsset;
+
+    //STYLES
+    $this->registerCssFile('css/y-ultrasonic-face-skin-care.css?0565345643', ['depends' => LandingAsset::className()]);
+
+    // SCRIPTS
+    $this->registerJsFile('js/site/lib/ScrollMagic.min.js', ['depends' => LandingAsset::className()]);
+    $this->registerJsFile('js/site/landing-scripts/y-ultrasonic-face-skin-care.js?87345634', ['depends' => LandingAsset::className()]);
+
+    $this->params['bread'][] = ['label' => 'Товары для красоты', 'url' => 'catalog', 'product' => $product]; 
+    
+
+    $this->registerCssFile('css/GetGoodOffer_21.css', ['depends' => LandingAsset::className()]);
+
+
+    $this->registerCssFile('css/landing_common.css?1', ['depends' => LandingAsset::className()]);
+    $this->registerCssFile('css/landing-card-new.css', ['depends' => LandingAsset::className()]);
+    $this->registerCssFile('css/landing-mobile.css', ['depends' => LandingAsset::className()]);
+
+?>
