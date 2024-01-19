@@ -1,0 +1,1562 @@
+@charset "UTF-8";
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/yamato/fonts/PTSans.eot);
+    src: url(/landings/yamato/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/landings/yamato/fonts/PTSans.woff2) format("woff2"), url(/landings/yamato/fonts/PTSans.woff) format("woff"), url(/landings/yamato/fonts/PTSans.ttf) format("truetype"), url(/landings/yamato/fonts/PTSans.svg#PTSans) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/yamato/fonts/PTSansBold.eot);
+    src: url(/landings/yamato/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/landings/yamato/fonts/PTSansBold.woff2) format("woff2"), url(/landings/yamato/fonts/PTSansBold.woff) format("woff"), url(/landings/yamato/fonts/PTSansBold.ttf) format("truetype"), url(/landings/yamato/fonts/PTSansBold.svg#PTSans) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/landings/yamato/fonts/PTSansItalic.ttf) format("truetype");
+    src: url(/landings/yamato/fonts/PTSansItalic.woff2) format("woff2"), url(/landings/yamato/fonts/PTSansItalic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/yamato/fonts/PTSansNarrow.eot);
+    src: url(/landings/yamato/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/landings/yamato/fonts/PTSansNarrow.woff2) format("woff2"), url(/landings/yamato/fonts/PTSansNarrow.woff) format("woff"), url(/landings/yamato/fonts/PTSansNarrow.ttf) format("truetype"), url(/landings/yamato/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/landings/yamato/fonts/PTSansNarrowBold.eot);
+    src: url(/landings/yamato/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/landings/yamato/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/landings/yamato/fonts/PTSansNarrowBold.woff) format("woff"), url(/landings/yamato/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/landings/yamato/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/yamato/fonts/bebasneuethin.woff2) format("woff2");
+    src: local("☺"), url(/landings/yamato/fonts/bebasneuethin.woff) format("woff"), url(/landings/yamato/fonts/bebasneuethin.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/yamato/fonts/bebasneuelight.woff2) format("woff2");
+    src: local("☺"), url(/landings/yamato/fonts/bebasneuelight.ttf) format("truetype"), url(/landings/yamato/fonts/bebasneuelight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/yamato/fonts/bebasneueregular.eot);
+    src: local("☺"), url(/landings/yamato/fonts/bebasneueregular.woff2) format("woff2"), url(/landings/yamato/fonts/bebasneueregular.woff) format("woff"), url(/landings/yamato/fonts/bebasneueregular.ttf) format("truetype"), url(/landings/yamato/fonts/bebasneueregular.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(/landings/yamato/fonts/bebasneuebold.eot);
+    src: local("☺"), url(/landings/yamato/fonts/bebasneuebold.woff2) format("woff2"), url(/landings/yamato/fonts/bebasneuebold.woff) format("woff"), url(/landings/yamato/fonts/bebasneuebold.ttf) format("truetype"), url(/landings/yamato/fonts/bebasneuebold.svg) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+.container-box {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+} 
+.m-price-panel {
+    z-index: 1001;
+}
+.l-caption {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.1;
+}
+@media all and (max-width:1023px) {
+    .l-caption {
+    font-size: 30px;
+    line-height: 1.2;
+}
+}@media all and (max-width:767px) {
+    .l-caption.landing-card-sm__device {
+    margin: 14px 0 0 0;
+    font-size: 38px!important;
+    text-transform: uppercase;
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+}.l-caption-new {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.1;
+}
+@media all and (max-width:1023px) {
+    .l-caption-new {
+    font-size: 30px;
+    line-height: 1.2;
+}
+}@media all and (max-width:767px) {
+    .l-caption-new.landing-card-sm__device {
+    margin: 14px 0 0 0;
+    font-size: 16px!important;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+}.yamato {
+    font-family: ubuntu, sans-serif!important;
+}
+.yamato.yamato-card {
+    background: url(/landings/yamato/images/landing/bg/yamato_01.webp) top center no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+}
+@media all and (max-width:1239px) {
+    .yamato.yamato-card {
+    padding-top: 45px;
+}
+}.yamato .landing-card__product-name {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+@media all and (max-width:1239px) {
+    .yamato .landing-card__product-name {
+    margin-bottom: 20px;
+}
+}.yamato .landing-card__caption {
+    font-size: 42px;
+    text-transform: none;
+}
+@media all and (max-width:1239px) {
+    .yamato .landing-card__caption {
+    font-size: 40px;
+}
+}@media all and (max-width:1023px) {
+    .yamato .landing-card__caption {
+    font-size: 28px;
+}
+}@media all and (max-width:767px) {
+    .yamato .landing-card__caption {
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+}
+}@media all and (max-width:1239px) {
+    .yamato .prod-img {
+    width: 100%}
+}@media all and (max-width:1023px) {
+    .yamato .prod-img-wrapper {
+    margin-left: 10px;
+}
+}.yamato .landing-slider-new__slide img:hover {
+    border-color: #e03638;
+}
+@media all and (max-width:767px) {
+    .yamato .landing-card-sm__buy-block {
+    font-size: 14px;
+}
+}.yamato .landing-card-sm__name {
+    font-size: 16px;
+    color: #6d6d74;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: ubuntu, sans-serif!important;
+}
+@media all and (max-width:767px) {
+    .yamato .function__text {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-top: 8px;
+    padding: 0 20%;
+    color: #000;
+}
+}.yamato .other-items__caption {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1;
+    margin: 0;
+    font-family: ubuntu, sans-serif;
+    text-transform: none;
+}
+@media all and (max-width:1239px) {
+    .yamato .other-items__caption {
+    font-size: 40px;
+}
+}@media all and (max-width:767px) {
+    .yamato .other-items__caption {
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+}
+}.yamato .other-items__name {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    height: 40px;
+    font-family: ubuntu, sans-serif!important;
+}
+@media all and (max-width:1239px) {
+    .yamato .other-items__name {
+    font-size: 18px;
+}
+}@media all and (max-width:1023px) {
+    .yamato .other-items__name {
+    font-size: 14px;
+}
+}.l-mobile-form {
+    background: #fff;
+    display: none;
+}
+@media all and (max-width:767px) {
+    .l-mobile-form {
+    display: block;
+    padding: 45px 0;
+}
+}.l-mobile-form .r-caption {
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+    color: #2c2c33;
+}
+.l-mobile-form__input {
+    border-bottom: 1px solid #2c2c33;
+    margin-top: 16px;
+    color: #2c2c33;
+    opacity: .7;
+}
+.l-mobile-form ::-webkit-input-placeholder {
+    color: #2c2c33;
+}
+.l-mobile-form :-ms-input-placeholder {
+    color: #2c2c33;
+}
+.l-mobile-form ::-moz-placeholder {
+    color: #2c2c33;
+    opacity: 1;
+}
+.l-mobile-form :-moz-placeholder {
+    color: #2c2c33;
+    opacity: 1;
+}
+.m-related {
+    display: none!important;
+}
+@media all and (max-width:767px) {
+    .m-related {
+    display: block!important;
+    background: #2c2c33;
+}
+}.m-related__cap {
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    line-height: 1!important;
+    margin: 0!important;
+}
+.m-related__block .r-caption {
+    margin: 0;
+    font-weight: 400;
+    font-size: 21px;
+    text-transform: none;
+    font-family: ubuntu, sans-serif!important;
+}
+.m-related__read-more {
+    font-family: ubuntu, sans-serif!important;
+}
+.m-related__img {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+@media all and (max-width:767px) {
+    .product-sticker_preorder {
+    position: static;
+    margin: 20px auto 10px;
+}
+}.sticky-panel {
+    opacity: 0!important;
+    pointer-events: none;
+}
+@media all and (max-width:767px) {
+    #other-products, .other-products {
+    display: none!important;
+}
+}.l-video-link {
+    left: 0;
+    bottom: 184px;
+}
+@media all and (max-width:1239px) {
+    .l-video-link {
+    bottom: 176px;
+}
+}@media all and (max-width:1239px) and (max-width:1023px) {
+    .l-video-link {
+    bottom: 184px;
+}
+}.yamato2 {
+    height: 477px;
+    font-family: PTSans, sans-serif;
+    background: url(/landings/yamato/images/landing/bg/yamato_02.webp) top center no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:1239px) {
+    .yamato2 {
+    height: 505px;
+}
+}@media all and (max-width:767px) {
+    .yamato2 {
+    display: none;
+}
+}@media all and (max-width:1023px) {
+    .yamato2__img {
+    width: 100%}
+}.yamato2__title {
+    padding: 19px 0 0 311px;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    color: #fff;
+}
+@media all and (max-width:1023px) {
+    .yamato2__title {
+    font-size: 36px;
+}
+}.yamato2__blocks {
+    margin: 45px 0 0 0;
+}
+.yamato2__block {
+    float: left;
+    width: 25%;
+    padding: 0 1%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.yamato2__head {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c90000;
+}
+.yamato2__txt {
+    margin: 11px 0 0 0;
+    font-size: 17px;
+    line-height: 19px;
+    color: #3c2415;
+}
+.yamato3 {
+    display: block;
+    height: 707px;
+    font-family: PTSans, sans-serif;
+}
+@media all and (max-width:767px) {
+    .yamato3 {
+    display: none;
+}
+}.yamato3__desc {
+    float: right;
+    margin: 15px 0 0 0;
+    width: 43%;
+    text-align: right;
+    letter-spacing: .6px;
+}
+.yamato3__title {
+    font-size: 51px;
+    line-height: 50px;
+}
+@media all and (max-width:1239px) {
+    .yamato3__title {
+    font-size: 45px;
+    line-height: 45px;
+}
+}@media all and (max-width:1023px) {
+    .yamato3__title {
+    font-size: 40px;
+    line-height: 40px;
+}
+}.yamato3__text {
+    margin: 9px 0 0 0;
+    font-size: 22px;
+    line-height: 24px;
+}
+@media all and (max-width:1239px) {
+    .yamato3__text {
+    margin: 9px 0 0 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+}@media all and (max-width:1023px) {
+    .yamato3__text {
+    margin: 9px 0 0 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+}.yamato4 {
+    height: 923px;
+    font-family: PTSans, sans-serif;
+    background: url(/landings/yamato/images/landing/bg/yamato_04.webp) top center no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:1023px) {
+    .yamato4 {
+    height: 780px;
+}
+}@media all and (max-width:1239px) {
+    .yamato4 {
+    height: 810px;
+}
+}@media all and (max-width:767px) {
+    .yamato4 {
+    display: none;
+}
+}.yamato4__title {
+    padding: 84px 0 0 0;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+.yamato4__blocks {
+    float: left;
+    width: 40.7%}
+.yamato4__block {
+    float: left;
+    text-align: right;
+}
+.yamato4__head {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: .7px;
+    color: #c90000;
+}
+@media all and (max-width:1023px) {
+    .yamato4__head {
+    font-size: 19px;
+}
+}.yamato4__txt {
+    margin: 12px 0 0 0;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: .4px;
+    color: #231f20;
+}
+@media all and (max-width:1023px) {
+    .yamato4__txt {
+    font-size: 18px;
+}
+}.yamato4__block--1 {
+    margin: 152px 0 0 10px;
+}
+@media all and (max-width:1239px) {
+    .yamato4__block--1 {
+    margin: 100px 0 0 20px;
+}
+}@media all and (max-width:1023px) {
+    .yamato4__block--1 {
+    margin: 100px 0 0 0;
+}
+}.yamato4__block--2 {
+    margin: 58px 10px 0 100px;
+}
+@media all and (max-width:1239px) {
+    .yamato4__block--2 {
+    margin: 35px 0 0 0;
+}
+}@media all and (max-width:1023px) {
+    .yamato4__block--2 {
+    margin: 35px 20px 0 0;
+}
+}.yamato4__block--3 {
+    margin: 78px 30px 0 50px;
+}
+@media all and (max-width:1239px) {
+    .yamato4__block--3 {
+    margin: 54px 20px 0 0;
+}
+}@media all and (max-width:1023px) {
+    .yamato4__block--3 {
+    margin: 40px 40px 0 0;
+}
+}.yamato5 {
+    display: block;
+    height: 782px;
+    font-family: PTSans, sans-serif;
+    background: url(/landings/yamato/images/landing/bg/yamato_05.webp) top center no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:767px) {
+    .yamato5 {
+    display: none;
+}
+}.yamato-car {
+    display: none;
+}
+@media all and (max-width:767px) {
+    .yamato-car {
+    display: block;
+    height: 635px;
+    font-family: PTSans, sans-serif;
+    background-image: url(/landings/yamato/images/landing/bg/bg-yamato-car.webp);
+    background-position: top 25% right 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.yamato-car__title {
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: BebasNeue, sans-serif;
+    color: #fff;
+}
+.yamato-car__text {
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: ubuntu, sans-serif;
+    color: #fff;
+    max-width: 500px;
+}
+.yamato-car .container-box {
+    padding-bottom: 5%;
+    height: 635px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+}.yamato5__desc {
+    float: right;
+    margin: 21px 0 0 0;
+    width: 42%;
+    text-align: right;
+}
+@media all and (max-width:1239px) {
+    .yamato5__desc {
+    width: 51%}
+}.yamato5__title {
+    font-size: 69px;
+    line-height: 77px;
+}
+@media all and (max-width:1239px) {
+    .yamato5__title {
+    font-size: 60px;
+    line-height: 60px;
+}
+}@media all and (max-width:767px) {
+    .yamato5__title {
+    font-size: 50px;
+    line-height: 60px;
+}
+}.yamato5__title .t-bold {
+    color: #c90000;
+}
+.yamato5__text {
+    margin: 3px 0 0 0;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: .5px;
+}
+@media all and (max-width:1239px) {
+    .yamato5__text {
+    font-size: 19px;
+    line-height: 30px;
+}
+}.yamato6 {
+    display: block;
+    height: 566px;
+    font-family: PTSans, sans-serif;
+    background: url(/landings/yamato/images/landing/bg/yamato_06.webp) top center no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:767px) {
+    .yamato6 {
+    display: none;
+}
+}.yamato-remote {
+    display: none;
+}
+@media all and (max-width:767px) {
+    .yamato-remote {
+    display: block;
+    height: 635px;
+    font-family: PTSans, sans-serif;
+    background-image: url(/landings/yamato/images/landing/bg/bg-yamato-remote.webp);
+    background-position: top 53% right 51%}
+.yamato-remote__title {
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: BebasNeue, sans-serif;
+    color: #fff;
+}
+.yamato-remote__text {
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: ubuntu, sans-serif;
+    color: #fff;
+    max-width: 500px;
+}
+.yamato-remote .container-box {
+    padding-top: 120px;
+    height: 635px;
+    display: flex;
+}
+}.yamato6__desc {
+    float: left;
+    width: 30%;
+    margin: 25px 0 0 0;
+    letter-spacing: .5px;
+}
+@media all and (max-width:1239px) {
+    .yamato6__desc {
+    margin: 25px 0 0 3%}
+}@media all and (max-width:1023px) {
+    .yamato6__desc {
+    width: 24%;
+    margin: 20px 0 0 0;
+}
+}.yamato6__title {
+    font-size: 41px;
+    line-height: 44px;
+}
+@media all and (max-width:1023px) {
+    .yamato6__title {
+    font-size: 40px;
+    line-height: 40px;
+}
+}.yamato6__text {
+    margin: 6px 0 0 0;
+    font-size: 23px;
+    line-height: 27px;
+}
+@media all and (max-width:1239px) {
+    .yamato6__text {
+    font-size: 19px;
+    line-height: 30px;
+}
+}@media all and (max-width:767px) {
+    .yamato6__text {
+    font-size: 18px;
+    line-height: 28px;
+}
+}.yamato7 {
+    display: block;
+    height: 550px;
+    font-family: PTSans, sans-serif;
+    background: url(/landings/yamato/images/landing/bg/yamato_07.webp) top center no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:1023px) {
+    .yamato7 {
+    height: 400px;
+}
+}@media all and (max-width:767px) {
+    .yamato7 {
+    display: none;
+}
+}.yamato-realpic {
+    display: none;
+}
+@media all and (max-width:767px) {
+    .yamato-realpic {
+    display: block;
+    width: 100%}
+}.yamato8 {
+    display: block;
+    height: 937px;
+    font-family: PTSans, sans-serif;
+    background: url(/landings/yamato/images/landing/bg/yamato_08.webp) top center no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:1239px) {
+    .yamato8 {
+    height: 610px;
+}
+}@media all and (max-width:1023px) {
+    .yamato8 {
+    height: 550px;
+}
+}@media all and (max-width:767px) {
+    .yamato8 {
+    display: none;
+}
+}@media all and (max-width:1239px) {
+    .yamato8__text-wrapper {
+    position: relative;
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+}@media all and (max-width:1023px) {
+    .yamato8__text-wrapper {
+    position: relative;
+    width: 748px;
+    height: 100%;
+    margin: 0 auto;
+}
+}.yamato8__title {
+    padding: 19px 0 0 144px;
+    font-size: 70px;
+    line-height: 79px;
+    text-transform: uppercase;
+}
+@media all and (max-width:1239px) {
+    .yamato8__title {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+}.yamato8__block {
+    position: absolute;
+    width: 320px;
+    color: #000;
+}
+@media all and (max-width:1239px) {
+    .yamato8__block {
+    width: 250px;
+}
+}.yamato8__head {
+    font-size: 100px;
+    line-height: 83px;
+    letter-spacing: 2.3px;
+}
+@media all and (max-width:1239px) {
+    .yamato8__head {
+    font-size: 50px;
+    line-height: 50px;
+}
+}@media all and (max-width:1023px) {
+    .yamato8__head {
+    font-size: 50px;
+    line-height: 50px;
+}
+}.yamato8__head .t-bold {
+    color: #c70000;
+}
+.yamato8__txt {
+    margin: 27px 0 0 7px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: .6px;
+}
+@media all and (max-width:1239px) {
+    .yamato8__txt {
+    font-size: 20px;
+    line-height: 23px;
+}
+}@media all and (max-width:1023px) {
+    .yamato8__txt {
+    font-size: 20px;
+    line-height: 23px;
+}
+}.yamato8__block--1 {
+    top: 380px;
+    left: 37px;
+}
+@media all and (max-width:1239px) {
+    .yamato8__block--1 {
+    top: 190px;
+    left: 177px;
+}
+}@media all and (max-width:1023px) {
+    .yamato8__block--1 {
+    top: 155px;
+    left: 74px;
+}
+}.yamato8__block--2 {
+    top: 468px;
+    left: 462px;
+}
+@media all and (max-width:1239px) {
+    .yamato8__block--2 {
+    top: 250px;
+    left: 455px;
+}
+}@media all and (max-width:1023px) {
+    .yamato8__block--2 {
+    top: 210px;
+    left: 323px;
+}
+}.yamato8__block--3 {
+    top: 570px;
+    left: 874px;
+}
+@media all and (max-width:1239px) {
+    .yamato8__block--3 {
+    top: 320px;
+    left: 723px;
+}
+}@media all and (max-width:1023px) {
+    .yamato8__block--3 {
+    top: 275px;
+    left: 565px;
+}
+}.yamato9 {
+    background: url(/landings/yamato/images/landing/bg/yamato_09.webp) top center no-repeat;
+    background-size: cover;
+    display: block;
+    height: 997px;
+    font-family: PTSans, sans-serif;
+}
+@media all and (max-width:1239px) {
+    .yamato9 {
+    height: 900px;
+}
+.yamato9 .block__inner {
+    width: 1004px;
+}
+}@media all and (max-width:1023px) {
+    .yamato9 {
+    display: none;
+}
+}.yamato9__title {
+    padding: 32px 0 0 111px;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.yamato9__title .t-bold {
+    font-size: 70px;
+    color: red;
+}
+.yamato9__blocks {
+    float: left;
+    width: 30%}
+@media all and (max-width:1239px) {
+    .yamato9__blocks {
+    height: 600px;
+}
+}.yamato9__block {
+    margin-top: 8%}
+.yamato9__head {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: red;
+}
+.yamato9__txt {
+    margin: 10px 0 0 16px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: .8px;
+}
+@media all and (max-width:1239px) {
+    .yamato9__block--1 {
+    margin-top: 5px;
+}
+}@media all and (max-width:1239px) {
+    .yamato9__block--2 {
+    margin-top: 20px;
+}
+}@media all and (max-width:1239px) {
+    .yamato9__block--3 {
+    margin-top: 10px;
+}
+}@media all and (max-width:1239px) {
+    .yamato9__block--4 {
+    margin-top: 15px;
+}
+}@media all and (max-width:1239px) {
+    .yamato9__block--5 {
+    margin-top: 10px;
+}
+}.yamato9__blocks2 {
+    float: right;
+    width: 26%}
+.yamato9__block2 {
+    margin-top: 56%;
+    text-align: center;
+}
+.yamato9__head2 {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: red;
+}
+.yamato9__txt2 {
+    margin: 6px 0 0 0;
+    font-size: 13px;
+    line-height: 11px;
+    letter-spacing: .3px;
+}
+.yamato9__block2--1 {
+    margin-top: 36%}
+@media all and (max-width:1239px) {
+    .yamato9__block2--1 {
+    margin-top: 76px;
+}
+}.yamato9__block2--2 {
+    margin-top: 160px;
+}
+@media all and (max-width:1239px) {
+    .yamato9__block2--2 {
+    margin-top: 142px;
+}
+}.yamato9__block2--3 {
+    margin-top: 160px;
+}
+@media all and (max-width:1239px) {
+    .yamato9__block2--3 {
+    margin-top: 141px;
+}
+}.yamato9__block2--4 {
+    margin-top: 57%}
+@media all and (max-width:1239px) {
+    .yamato9__block2--4 {
+    margin-top: 142px;
+}
+}.yamato10 {
+    display: block;
+    height: 477px;
+    font-family: PTSans, sans-serif;
+}
+@media all and (max-width:767px) {
+    .yamato10 {
+    display: none;
+}
+}.yamato10__title {
+    padding: 33px 0 0 0;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #231f20;
+}
+.yamato10__title .t-bold {
+    color: #c91c24;
+}
+.yamato10__table {
+    width: 31%;
+    margin: 2% auto 0;
+    height: 295px;
+    border-radius: 20px;
+    color: #fff;
+    background: rgba(201, 0, 0, .85);
+}
+.yamato10__table.l-table {
+    padding: 22px 14px 20px 34px;
+}
+.yamato10__table .l-table__table {
+    font-size: 12px;
+    line-height: 13px;
+}
+.yamato10__table .l-table__tr {
+    border: 0;
+}
+.yamato10__table .l-table__th {
+    padding: 8px 0 8px 3px;
+    border-right: 1px solid #cc5d5e;
+    border-bottom: 1px solid #cc5d5e;
+}
+.yamato10__table .l-table__th.l-table__th--last {
+    border-bottom: none;
+}
+.yamato10__table .l-table__td {
+    padding: 8px 0 8px 10px;
+    border-bottom: 1px solid #cc5d5e;
+}
+.yamato10__table .l-table__td.l-table__td--last {
+    border-bottom: none;
+}
+.yamato11 {
+    display: none;
+    height: 798px;
+    font-family: PTSans, sans-serif;
+}
+.yamato11 .form--landing {
+    top: 220px;
+    left: 164px;
+    width: 366px;
+    padding: 37px 19px 44px 21px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .52);
+}
+.yamato11 .form--landing .form__field {
+    margin: 0 0 27px 0;
+}
+.yamato11 .form--landing .form__input, .yamato11 .form--landing .form__select, .yamato11 .form--landing .form__textarea {
+    font-family: PTSans, sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 9px 18px 9px 18px;
+    color: #fff;
+    background: rgba(255, 255, 255, .5);
+}
+.yamato11 .form--landing .form__input ::placeholder {
+    color: #fff;
+}
+.yamato11 .form--landing .chosen-container-single .chosen-single {
+    font-family: PTSans, sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 11px 18px 11px 18px;
+    color: #fff;
+    background: rgba(255, 255, 255, .5);
+    box-shadow: none;
+}
+.yamato11 .form--landing .chosen-container-active.chosen-with-drop .chosen-single {
+    color: #fff;
+}
+.yamato11 .form--landing .form__submit {
+    margin: 22px 0 0 0;
+    padding: 20px 22px 24px 22px;
+    border-radius: 15px;
+    font-family: PTSans, sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #ce0000 0, #fd3500 50%, #ce0000 100%);
+}
+.yamato11 .form--landing .form__submit:hover {
+    background-image: linear-gradient(to right, #fd3500 0, #fd3500 100%);
+}
+.yamato11__title {
+    padding: 49px 0 0 0;
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #231f20;
+}
+.yamato11__title .t-bold {
+    color: #c91c24;
+}
+.hello-test {
+    font-size: 50px;
+}
+.functions .function__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #2c2c33;
+}
+.yamato-functions {
+    display: none;
+    background-color: #fff;
+    min-height: 545px;
+}
+@media all and (max-width:767px) {
+    .yamato-functions {
+    display: block;
+}
+.yamato-functions__header {
+    font-size: 38px!important;
+    text-transform: uppercase;
+    font-family: BebasNeue, Sans-Serif!important;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #2c2c33;
+    padding-top: 10px;
+}
+.yamato-functions__title {
+    display: block;
+    font-family: ubuntu, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #2c2c33;
+    padding: 8px 0 0 0;
+}
+.yamato-functions__text {
+    font-family: ubuntu, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #000;
+    max-width: 190px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.yamato-functions__img {
+    padding-top: 25px;
+}
+.yamato-functions__img-container {
+    text-align: center;
+}
+.yamato-functions .slick-arrow {
+    top: 33%}
+.yamato-functions .slick-prev {
+    margin: 0;
+    left: 0;
+    background: url(/landings/yamato/images/arrows/modal-arrow-left.svg) no-repeat;
+}
+.yamato-functions .slick-next {
+    right: 0;
+    margin: 0;
+    background: url(/landings/yamato/images/arrows/modal-arrow-right.svg) no-repeat;
+}
+.yamato-functions .slick-arrow {
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 37px;
+    z-index: 1001;
+}
+}.yamato-home {
+    display: none;
+}
+@media all and (max-width:767px) {
+    .yamato-home {
+    display: block;
+    height: 554px;
+    font-family: PTSans, sans-serif;
+    background-image: url(/landings/yamato/images/landing/bg/yamato_12-sm.webp);
+    background-position: top 15% right 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.yamato-home__title {
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: BebasNeue, sans-serif;
+    color: #fff;
+}
+.yamato-home__text {
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: ubuntu, sans-serif;
+    color: #fff;
+    max-width: 500px;
+}
+.yamato-home .container-box {
+    padding-bottom: 5%;
+    height: 635px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+}.yamato-features {
+    display: none;
+}
+@media all and (max-width:767px) {
+    .yamato-features {
+    padding-top: 30px;
+    margin-bottom: -230px;
+    background-color: #fff;
+    position: relative;
+    min-height: 715px;
+    max-height: 760px;
+}
+.yamato-features__title {
+    font-size: 38px!important;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-family: BebasNeue, sans-serif!important;
+    font-weight: 700;
+    text-align: left;
+    color: #2c2c33;
+}
+.yamato-features__text {
+    padding: 0;
+    font-size: 16px!important;
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: ubuntu, sans-serif;
+    color: #000;
+    margin-top: 10px;
+}
+.yamato-features__header {
+    font-size: 16px!important;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: ubuntu, sans-serif;
+    color: #000;
+}
+.yamato-features__info {
+    position: relative;
+    top: -420px;
+    width: 48%;
+    text-align: left;
+}
+.yamato-features__number {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    background-color: #4fbdff;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+}.yamato-back {
+    display: none;
+}
+@media all and (max-width:767px) {
+    .yamato-back {
+    display: block;
+}
+.yamato-back__title {
+    position: absolute;
+    z-index: 1001;
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: BebasNeue, sans-serif;
+    color: #2c2c33;
+    top: 20px;
+    left: 16px;
+    width: 90%}
+}.yamato-inner-func {
+    display: none;
+    background: #fff;
+    padding: 25px 0;
+}
+@media all and (max-width:1023px) {
+    .yamato-inner-func {
+    display: block;
+}
+}.yamato-inner-func__func {
+    text-align: center;
+}
+.yamato-inner-func__inner-img {
+    max-width: 320px;
+    position: relative;
+}
+.yamato-inner-func__relative-wrapper {
+    max-width: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+.yamato-inner-func__inner-img--1::after {
+    position: absolute;
+    content: "1";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 60px;
+    left: 48%;
+    text-align: center;
+}
+.yamato-inner-func__inner-img--2::after {
+    position: absolute;
+    content: "2";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 200px;
+    left: 45px;
+    text-align: center;
+}
+.yamato-inner-func__inner-img--3::after {
+    position: absolute;
+    content: "3";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 300px;
+    left: 150px;
+    text-align: center;
+}
+.yamato-inner-func__inner-img--4::after {
+    position: absolute;
+    content: "4";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 210px;
+    left: 148px;
+    text-align: center;
+}
+.yamato-inner-func__inner-img--5::after {
+    position: absolute;
+    content: "5";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 510px;
+    left: 70px;
+    text-align: center;
+}
+.yamato-inner-func__inner-img--6::after {
+    position: absolute;
+    content: "6";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 140px;
+    left: 195px;
+    text-align: center;
+}
+.yamato-inner-func__inner-img--7::after {
+    position: absolute;
+    content: "7";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 235px;
+    left: 180px;
+    text-align: center;
+}
+.yamato-inner-func__inner-img--8::after {
+    position: absolute;
+    content: "8";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 235px;
+    left: 180px;
+    text-align: center;
+}
+.yamato-inner-func__inner-img--9::after {
+    position: absolute;
+    content: "9";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4fbdff;
+    top: 235px;
+    left: 180px;
+    text-align: center;
+}
+.yamato-inner-func__title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: BebasNeue, sans-serif;
+    color: #2c2c33;
+}
+@media all and (max-width:1239px) {
+    .yamato-inner-func__header {
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: ubuntu, sans-serif;
+    color: #2c2c33;
+    text-align: left;
+    padding-top: 20px;
+}
+}@media all and (max-width:767px) {
+    .yamato-inner-func__header {
+    font-size: 18px;
+}
+}@media all and (max-width:1239px) {
+    .yamato-inner-func__text {
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+    font-style: italic;
+    font-family: ubuntu, sans-serif;
+    color: #2c2c33;
+    text-align: left;
+    padding-top: 5px;
+}
+}@media all and (max-width:767px) {
+    .yamato-inner-func__text {
+    font-size: 14px;
+}
+}.yamato-inner-func__img {
+    position: relative;
+    max-width: 100%;
+    padding-top: 30px;
+}
+.yamato-inner-func__characteristics {
+    display: block;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 500;
+    font-family: ubuntu, sans-serif;
+    color: #fff;
+    padding: 20px;
+    background-color: #e03638;
+    border-radius: 4px;
+    margin: 15px auto;
+    cursor: pointer;
+    max-width: 320px;
+    text-align: center;
+}
+.m-t-char {
+    padding: 60px 100px 120px;
+    max-width: 920px;
+    max-height: 90vh;
+    border-radius: 0;
+}
+@media all and (max-width:1023px) {
+    .m-t-char {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 90px 0 100px 0;
+}
+}@media all and (max-width:767px) {
+    .m-t-char {
+    max-height: 100vh;
+}
+}.m-t-char::-webkit-scrollbar-button {
+    background-image: url("");
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0;
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+}
+.m-t-char::-webkit-scrollbar-track {
+    background-color: #ecedee;
+}
+.m-t-char::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #6dc0c8;
+}
+.m-t-char::-webkit-scrollbar-thumb:hover {
+    background-color: #56999f;
+}
+.m-t-char::-webkit-resizer {
+    background-image: url("");
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0;
+}
+.m-t-char::-webkit-scrollbar {
+    width: 4px;
+}
+.m-t-char__caption {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0 10px;
+    color: #2c2c33;
+}
+@media all and (max-width:1023px) {
+    .m-t-char__caption {
+    font-size: 30px;
+}
+}.m-t-char table {
+    width: 675px;
+    margin: 0 auto;
+}
+@media all and (max-width:1023px) {
+    .m-t-char table {
+    width: 100%}
+}.m-t-char table tr:nth-child(2n) {
+    background: 0 0;
+}
+@media all and (max-width:1023px) {
+    .m-t-char table tr:nth-child(2n) {
+    background: #f4f4f4;
+}
+}.m-t-char table td {
+    vertical-align: top;
+    padding: 6px 9px;
+}
+.m-t-char table td:last-child {
+    text-align: left;
+}
+.landing-form-21__img {
+    background-color: #383838;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.yamato-functions__img {
+    width: 203px;
+    margin: 0 auto;
+}
+.block {
+    position: relative;
+}
+.block__inner {
+    position: relative;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+@media (max-width: 1240px) and (max-width: 1023px) {
+    .container-box {
+        width: 708px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 1240px) and (max-width: 1023px) and (max-width: 767px) {
+    .container-box {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+@media (max-width: 767px) {
+    .container-box {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }  
+}
