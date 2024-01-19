@@ -7,18 +7,21 @@ import AdminProductPage from '@/src/components/pages/AdminProductPage/AdminProdu
 import PublicProductPage from '@/src/components/pages/PublicProductPage/PublicProductPage'
 import FullPathArrayProvider from '@/src/contexts/FullPathArrayProvider'
 
-import { WrapperTypes } from './_types'
+import { DynamicPageTypes } from './_types'
 
 /** динамическая страница */
-const DynamicPage: FC<WrapperTypes> = ({ fullPathArray }) => {
-  /** проверка на админку */
-  const isAdminPage = fullPathArray?.includes('admin')
-
+const DynamicPage: FC<DynamicPageTypes> = ({ categoryId, fullPathArray, isAdminPage, productId, revalidatePath, webApi }) => {
   /** получение данных */
-  const { data, isLoading } = useFetchPageData({ fullPathArray, isAdminPage, webApi: 'https://api.yamaguchi.ru/api' })
+  const { data, isLoading } = useFetchPageData({ fullPathArray, isAdminPage, webApi })
 
   return (
-    <FullPathArrayProvider fullPathArray={fullPathArray}>
+    <FullPathArrayProvider
+      categoryId={categoryId}
+      fullPathArray={fullPathArray}
+      productId={productId}
+      revalidatePath={revalidatePath}
+      webApi={webApi}
+    >
       {isAdminPage
         ? (
           fullPathArray?.includes('categories')

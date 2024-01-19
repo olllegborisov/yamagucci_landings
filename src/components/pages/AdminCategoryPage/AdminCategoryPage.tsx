@@ -75,9 +75,10 @@ const AdminCategoryPage: FC<FetchCategoryOriginalResult> = ({ data }) => {
 /** врапер для получения первоначальных данных хук-формы */
 const Wrapper: FC = () => {
   /** полный путь */
-  const fullPathArray = useContext(FullPathArrayContext)
+  const { categoryId, webApi } = useContext(FullPathArrayContext)
+
   /** получение данных */
-  const { data } = useFetchCategory({ categoryId: fullPathArray?.[3], webApi: 'https://api.yamaguchi.ru/api' })
+  const { data } = useFetchCategory({ categoryId, webApi })
 
   if (!data) return null
 

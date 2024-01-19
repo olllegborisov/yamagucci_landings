@@ -24,6 +24,7 @@ export const PAGE_NOT_FOUND = '/404'
 export const PAGE_PRODUCTS = '/admin/products'
 export const PAGE_BANNERS = '/admin/banners'
 export const PAGE_CATEGORIES = '/admin/categories'
+export const CREATE_NEW = '/new'
 
 // cookies
 export const COOKIES = {
