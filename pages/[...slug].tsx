@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   const categoryId = fullPathArray?.includes('categories') ? fullPathArray?.[3] : null
   /** categoryId */
   const productId = fullPathArray?.includes('products') ? fullPathArray?.[3] : null
-  /** базовое api url */
+  /** базовое апи url */
   const webApi = getBaseUrlApi(fullPathArray[0])
 
   try {
