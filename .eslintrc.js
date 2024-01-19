@@ -33,7 +33,6 @@ module.exports = {
     "simple-import-sort"
   ],
   "rules": {
-    "camelcase": ["error", { "properties": "never" }],
     "deprecate/import": ["error", {"nameRegExp": "^src", "use": "@/src"},],
     "arrow-body-style": ["error", "as-needed"],
     "indent": ["error", 2, {
