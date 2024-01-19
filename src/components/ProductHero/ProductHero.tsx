@@ -17,9 +17,9 @@ const ProductHero: FC<ProductHeroTypes> = ({ gallery, isLoading, name, slogan_co
       isLoading={isLoading}
     >
       <Img
-        alt={gallery?.[0].photo_alt}
+        alt={gallery?.[0]?.photo_alt}
         imgClassname={styles.mainImg}
-        photos={gallery?.[0].photos}
+        photos={gallery?.[0]?.photos}
       />
     </LoaderQuery>
 

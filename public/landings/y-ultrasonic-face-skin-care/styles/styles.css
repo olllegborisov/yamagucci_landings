@@ -1,1663 +1,1542 @@
-<<<<<<< HEAD
 @charset "UTF-8";
+    @font-face {
+    font-family: Gothic;
+    font-display: swap;
+    src: url(/fonts/centurygothic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/fonts/PTSans.eot);
+    src: url(/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSans.woff2) format("woff2"), url(/fonts/PTSans.woff) format("woff"), url(/fonts/PTSans.ttf) format("truetype"), url(/fonts/PTSans.svg#PTSans) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/fonts/PTSansBold.eot);
+    src: url(/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansBold.woff2) format("woff2"), url(/fonts/PTSansBold.woff) format("woff"), url(/fonts/PTSansBold.ttf) format("truetype"), url(/fonts/PTSansBold.svg#PTSans) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSans;
+    font-display: swap;
+    src: url(/fonts/PTSansItalic.ttf) format("truetype");
+    src: url(/fonts/PTSansItalic.woff2) format("woff2"), url(/fonts/PTSansItalic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/fonts/PTSansNarrow.eot);
+    src: url(/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansNarrow.woff2) format("woff2"), url(/fonts/PTSansNarrow.woff) format("woff"), url(/fonts/PTSansNarrow.ttf) format("truetype"), url(/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PTSansNarrow;
+    font-display: swap;
+    src: url(/fonts/PTSansNarrowBold.eot);
+    src: url(/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/fonts/PTSansNarrowBold.woff) format("woff"), url(/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: MyriadProLight;
+    src: url(/fonts/MyriadProLight.eot);
+    src: url(/fonts/MyriadProLight.eot?#iefix) format("embedded-opentype"), url(/fonts/MyriadProLight.woff) format("woff"), url(/fonts/MyriadProLight.woff2) format("woff2"), url(/fonts/MyriadProLight.ttf) format("truetype"), url(/fonts/MyriadProLight.svg#MyriadProLight) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(/fonts/MyriadPro.otf) format("opentype");
+    src: url(/fonts/MyriadPro.woff2) format("woff2"), url(/fonts/MyriadPro.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url(/fonts/MyriadProBold.otf) format("opentype");
+    src: url(/fonts/MyriadProBold.woff2) format("woff2"), url(/fonts/MyriadProBold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/fonts/PTPragmaticaCyrillic.ttf) format("opentype");
+    src: url(/fonts/PTPragmaticaCyrillic.woff2) format("woff2"), url(/fonts/PTPragmaticaCyrillic.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: PragmaticaC;
+    src: url(/fonts/PTPragmaticaBoldCyrillic.ttf) format("opentype");
+    src: url(/fonts/PTPragmaticaBoldCyrillic.woff2) format("woff2"), url(/fonts/PTPragmaticaBoldCyrillic.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Circe;
+    font-display: swap;
+    src: url(/fonts/Circe-Thin.eot);
+    src: url(/fonts/Circe-Thin.eot?#iefix) format("embedded-opentype"), url(/fonts/Circe-Thin.woff) format("woff"), url(/fonts/Circe-Thin.woff2) format("woff2"), url(/fonts/Circe-Thin.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
 @font-face {
-  font-family: "Gothic";
-  font-display: swap;
-  src: url("/fonts/centurygothic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Circe;
+    font-display: swap;
+    src: url(/fonts/Circe-ExtraLight.eot);
+    src: url(/fonts/Circe-ExtraLight.eot?#iefix) format("embedded-opentype"), url(/fonts/Circe-ExtraLight.woff) format("woff"), url(/fonts/Circe-ExtraLight.woff2) format("woff2"), url(/fonts/Circe-ExtraLight.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
 }
 @font-face {
-  font-family: "PTSans";
-  font-display: swap;
-  src: url("/fonts/PTSans.eot");
-  src: url("/fonts/PTSans.eot?#iefix") format("embedded-opentype"), url("/fonts/PTSans.woff2") format("woff2"), url("/fonts/PTSans.woff") format("woff"), url("/fonts/PTSans.ttf") format("truetype"), url("/fonts/PTSans.svg#PTSans") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Circe;
+    font-display: swap;
+    src: url(/fonts/Circe-Light.eot);
+    src: url(/fonts/Circe-Light.eot?#iefix) format("embedded-opentype"), url(/fonts/Circe-Light.woff) format("woff"), url(/fonts/Circe-Light.woff2) format("woff2"), url(/fonts/Circe-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
 }
 @font-face {
-  font-family: "PTSans";
-  font-display: swap;
-  src: url("/fonts/PTSansBold.eot");
-  src: url("/fonts/PTSansBold.eot?#iefix") format("embedded-opentype"), url("/fonts/PTSansBold.woff2") format("woff2"), url("/fonts/PTSansBold.woff") format("woff"), url("/fonts/PTSansBold.ttf") format("truetype"), url("/fonts/PTSansBold.svg#PTSans") format("svg");
-  font-weight: bold;
-  font-style: normal;
+    font-family: Circe;
+    font-display: swap;
+    src: url(/fonts/Circe-Regular.eot);
+    src: url(/fonts/Circe-Regular.eot?#iefix) format("embedded-opentype"), url(/fonts/Circe-Regular.woff) format("woff"), url(/fonts/Circe-Regular.woff2) format("woff2"), url(/fonts/Circe-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-  font-family: "PTSans";
-  font-display: swap;
-  src: url("/fonts/PTSansItalic.ttf") format("truetype");
-  src: url("/fonts/PTSansItalic.woff2") format("woff2"), url("/fonts/PTSansItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
+    font-family: Circe;
+    font-display: swap;
+    src: url(/fonts/Circe-Bold.eot);
+    src: url(/fonts/Circe-Bold.eot?#iefix) format("embedded-opentype"), url(/fonts/Circe-Bold.woff) format("woff"), url(/fonts/Circe-Bold.woff2) format("woff2"), url(/fonts/Circe-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
-  font-family: "PTSansNarrow";
-  font-display: swap;
-  src: url("/fonts/PTSansNarrow.eot");
-  src: url("/fonts/PTSansNarrow.eot?#iefix") format("embedded-opentype"), url("/fonts/PTSansNarrow.woff2") format("woff2"), url("/fonts/PTSansNarrow.woff") format("woff"), url("/fonts/PTSansNarrow.ttf") format("truetype"), url("/fonts/PTSansNarrow.svg#PTSansNarrow") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Circe;
+    font-display: swap;
+    src: url(/fonts/Circe-ExtraBold.eot);
+    src: url(/fonts/Circe-ExtraBold.eot?#iefix) format("embedded-opentype"), url(/fonts/Circe-ExtraBold.woff) format("woff"), url(/fonts/Circe-ExtraBold.woff2) format("woff2"), url(/fonts/Circe-ExtraBold.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
 }
 @font-face {
-  font-family: "PTSansNarrow";
-  font-display: swap;
-  src: url("/fonts/PTSansNarrowBold.eot");
-  src: url("/fonts/PTSansNarrowBold.eot?#iefix") format("embedded-opentype"), url("/fonts/PTSansNarrowBold.woff2") format("woff2"), url("/fonts/PTSansNarrowBold.woff") format("woff"), url("/fonts/PTSansNarrowBold.ttf") format("truetype"), url("/fonts/PTSansNarrowBold.svg#PTSansNarrow") format("svg");
-  font-weight: bold;
-  font-style: normal;
+    font-family: BebasNeue;
+    src: url(/fonts/bebasneuethin.woff2) format("woff2");
+    src: local("☺"), url(/fonts/bebasneuethin.woff) format("woff"), url(/fonts/bebasneuethin.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "MyriadProLight";
-  src: url("/fonts/MyriadProLight.eot");
-  src: url("/fonts/MyriadProLight.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadProLight.woff") format("woff"), url("/fonts/MyriadProLight.woff2") format("woff2"), url("/fonts/MyriadProLight.ttf") format("truetype"), url("/fonts/MyriadProLight.svg#MyriadProLight") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: BebasNeue;
+    src: url(/fonts/bebasneuelight.woff2) format("woff2");
+    src: local("☺"), url(/fonts/bebasneuelight.ttf) format("truetype"), url(/fonts/bebasneuelight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Myriad Pro";
-  src: url("/fonts/MyriadPro.otf") format("opentype");
-  src: url("/fonts/MyriadPro.woff2") format("woff2"), url("/fonts/MyriadPro.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: BebasNeue;
+    src: url(/fonts/bebasneueregular.eot);
+    src: local("☺"), url(/fonts/bebasneueregular.woff2) format("woff2"), url(/fonts/bebasneueregular.woff) format("woff"), url(/fonts/bebasneueregular.ttf) format("truetype"), url(/fonts/bebasneueregular.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "MyriadProBold";
-  src: url("/fonts/MyriadProBold.otf") format("opentype");
-  src: url("/fonts/MyriadProBold.woff2") format("woff2"), url("/fonts/MyriadProBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: BebasNeue;
+    src: url(/fonts/bebasneuebold.eot);
+    src: local("☺"), url(/fonts/bebasneuebold.woff2) format("woff2"), url(/fonts/bebasneuebold.woff) format("woff"), url(/fonts/bebasneuebold.ttf) format("truetype"), url(/fonts/bebasneuebold.svg) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "PragmaticaC";
-  src: url("/fonts/PTPragmaticaCyrillic.ttf") format("opentype");
-  src: url("/fonts/PTPragmaticaCyrillic.woff2") format("woff2"), url("/fonts/PTPragmaticaCyrillic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Light"), local("Montserrat-Light"), url(/fonts/Montserrat-Light.woff2) format("woff2"), url(/fonts/Montserrat-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
 }
 @font-face {
-  font-family: "PragmaticaC";
-  src: url("/fonts/PTPragmaticaBoldCyrillic.ttf") format("opentype");
-  src: url("/fonts/PTPragmaticaBoldCyrillic.woff2") format("woff2"), url("/fonts/PTPragmaticaBoldCyrillic.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/fonts/Montserrat-Regular.woff2) format("woff2"), url(/fonts/Montserrat-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Circe";
-  font-display: swap;
-  src: url("/fonts/Circe-Thin.eot");
-  src: url("/fonts/Circe-Thin.eot?#iefix") format("embedded-opentype"), url("/fonts/Circe-Thin.woff") format("woff"), url("/fonts/Circe-Thin.woff2") format("woff2"), url("/fonts/Circe-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat"), local("Montserrat-Regular"), url(/fonts/Montserrat-Medium.woff2) format("woff2"), url(/fonts/Montserrat-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Circe";
-  font-display: swap;
-  src: url("/fonts/Circe-ExtraLight.eot");
-  src: url("/fonts/Circe-ExtraLight.eot?#iefix") format("embedded-opentype"), url("/fonts/Circe-ExtraLight.woff") format("woff"), url("/fonts/Circe-ExtraLight.woff2") format("woff2"), url("/fonts/Circe-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Bold"), local("Montserrat-Bold"), url(/fonts/Montserrat-Bold.woff2) format("woff2"), url(/fonts/Montserrat-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Circe";
-  font-display: swap;
-  src: url("/fonts/Circe-Light.eot");
-  src: url("/fonts/Circe-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/Circe-Light.woff") format("woff"), url("/fonts/Circe-Light.woff2") format("woff2"), url("/fonts/Circe-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+    font-family: Montserrat;
+    font-display: swap;
+    src: local("Montserrat Black"), local("Montserrat-Black"), url(/fonts/Montserrat-Black.woff2) format("woff2"), url(/fonts/Montserrat-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Circe";
-  font-display: swap;
-  src: url("/fonts/Circe-Regular.eot");
-  src: url("/fonts/Circe-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Circe-Regular.woff") format("woff"), url("/fonts/Circe-Regular.woff2") format("woff2"), url("/fonts/Circe-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: Morpha;
+    font-display: swap;
+    src: url(/fonts/Morpha-Bold.woff2) format("woff2");
+    src: local("☺"), url(/fonts/Morpha-Bold.woff) format("woff"), url(/fonts/Morpha-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Circe";
-  font-display: swap;
-  src: url("/fonts/Circe-Bold.eot");
-  src: url("/fonts/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Circe-Bold.woff") format("woff"), url("/fonts/Circe-Bold.woff2") format("woff2"), url("/fonts/Circe-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Bold"), local("NeueMachina-Bold"), url(/fonts/NeueMachina-Bold.woff2) format("woff2"), url(/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Circe";
-  font-display: swap;
-  src: url("/fonts/Circe-ExtraBold.eot");
-  src: url("/fonts/Circe-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/fonts/Circe-ExtraBold.woff") format("woff"), url("/fonts/Circe-ExtraBold.woff2") format("woff2"), url("/fonts/Circe-ExtraBold.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Neue Machina";
+    font-display: swap;
+    src: local("NeueMachina-Black"), local("NeueMachina-Black"), url(/fonts/NeueMachina-Black.woff2) format("woff2"), url(/fonts/NeueMachina-Bold.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
 }
 @font-face {
-  font-family: "BebasNeue";
-  src: url("/fonts/bebasneuethin.woff2") format("woff2");
-  src: local("☺"), url("/fonts/bebasneuethin.woff") format("woff"), url("/fonts/bebasneuethin.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Cy Grotesk";
+    font-display: swap;
+    src: url(/fonts/cy-grotesk-grand-dark.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "BebasNeue";
-  src: url("/fonts/bebasneuelight.woff2") format("woff2");
-  src: local("☺"), url("/fonts/bebasneuelight.ttf") format("truetype"), url("/fonts/bebasneuelight.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+    font-family: RainerTestv04;
+    src: url(/fonts/RainerTestv04-Bold.woff2), url(/fonts/RainerTestv04-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "BebasNeue";
-  src: url("/fonts/bebasneueregular.eot");
-  src: local("☺"), url("/fonts/bebasneueregular.woff2") format("woff2"), url("/fonts/bebasneueregular.woff") format("woff"), url("/fonts/bebasneueregular.ttf") format("truetype"), url("/fonts/bebasneueregular.svg") format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: Anticva;
+    font-display: swap;
+    src: local("Anticva"), local("Anticva"), url(/fonts/Anticva-Regular.woff2) format("woff2"), url(/fonts/Anticva-Regular.woff) format("woff"), url(/fonts/Anticva-Regular.otf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-  font-family: "BebasNeue";
-  src: url("/fonts/bebasneuebold.eot");
-  src: local("☺"), url("/fonts/bebasneuebold.woff2") format("woff2"), url("/fonts/bebasneuebold.woff") format("woff"), url("/fonts/bebasneuebold.ttf") format("truetype"), url("/fonts/bebasneuebold.svg") format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Halvar Breitschrift";
+    src: local("HalvarBreit-Blk"), local("HalvarBreit-Blk"), url(/fonts/HalvarBreit-Blk.woff2) format("woff2"), url(/fonts/HalvarBreit-Blk.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
-  font-display: swap;
-  src: local("Montserrat Light"), local("Montserrat-Light"), url("/fonts/Montserrat-Light.woff2") format("woff2"), url("/fonts/Montserrat-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
+    font-family: Damn;
+    font-display: swap;
+    src: local("Damn"), local("Damn"), url(/fonts/Damn.woff2) format("woff2"), url(/fonts/Damn.woff) format("woff"), url(/fonts/Damn.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
-  font-display: swap;
-  src: local("Montserrat"), local("Montserrat-Regular"), url("/fonts/Montserrat-Regular.woff2") format("woff2"), url("/fonts/Montserrat-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Monologue DEMO";
+    font-display: swap;
+    src: local("Monologue_DEMO"), local("Monologue_DEMO"), url(/fonts/Monologue_DEMO.woff) format("woff"), url(/fonts/Monologue_DEMO.ttf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
-  font-display: swap;
-  src: local("Montserrat"), local("Montserrat-Regular"), url("/fonts/Montserrat-Medium.woff2") format("woff2"), url("/fonts/Montserrat-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
+    font-family: Nasalization;
+    font-display: swap;
+    src: local("Nasalization"), local("Nasalization"), url(/fonts/Nasalization.woff) format("woff"), url(/fonts/Nasalization.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
-  font-display: swap;
-  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("/fonts/Montserrat-Bold.woff2") format("woff2"), url("/fonts/Montserrat-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
+    font-family: PatsySans;
+    font-display: swap;
+    src: local("PatsySans"), local("PatsySans"), url(/fonts/PatsySans.woff) format("woff"), url(/fonts/PatsySans.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
-  font-display: swap;
-  src: local("Montserrat Black"), local("Montserrat-Black"), url("/fonts/Montserrat-Black.woff2") format("woff2"), url("/fonts/Montserrat-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
+    font-family: Lighthaus;
+    src: url(/fonts/Lighthaus.eot);
+    src: url(/fonts/Lighthaus.eot?#iefix) format("embedded-opentype"), url(/fonts/Lighthaus.woff2) format("woff2"), url(/fonts/Lighthaus.woff) format("woff"), url(/fonts/Lighthaus.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Morpha";
-  font-display: swap;
-  src: url("/fonts/Morpha-Bold.woff2") format("woff2");
-  src: local("☺"), url("/fonts/Morpha-Bold.woff") format("woff"), url("/fonts/Morpha-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+    font-family: UltramonoWide-LightItalic;
+    src: url(/fonts/UltramonoWide-LightItalic.woff2) format("woff2"), url(/fonts/UltramonoWide-LightItalic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Neue Machina";
-  font-display: swap;
-  src: local("NeueMachina-Bold"), local("NeueMachina-Bold"), url("/fonts/NeueMachina-Bold.woff2") format("woff2"), url("/fonts/NeueMachina-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
+    font-family: UltramonoWide-Light;
+    src: url(/fonts/UltramonoWide-Light.woff2) format("woff2"), url(/fonts/UltramonoWide-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Neue Machina";
-  font-display: swap;
-  src: local("NeueMachina-Black"), local("NeueMachina-Black"), url("/fonts/NeueMachina-Black.woff2") format("woff2"), url("/fonts/NeueMachina-Bold.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Nikkyou Sans";
+    src: url(/fonts/NikkyouSans.woff2) format("woff2"), url(/fonts/NikkyouSans.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Cy Grotesk";
-  font-display: swap;
-  src: url("/fonts/cy-grotesk-grand-dark.otf");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
+    font-family: Corvetta;
+    src: url(/fonts/Corvetta.woff2) format("woff2"), url(/fonts/Corvetta.woff) format("woff"), url(/fonts/Corvetta.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "RainerTestv04";
-  src: url("/fonts/RainerTestv04-Bold.woff2"), url("/fonts/RainerTestv04-Bold.woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+    font-family: a_LCDNovaObl;
+    src: url(/fonts/a_lcdnovaobl.woff) format("woff"), url(/fonts/a_lcdnovaobl.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Anticva";
-  font-display: swap;
-  src: local("Anticva"), local("Anticva"), url("/fonts/Anticva-Regular.woff2") format("woff2"), url("/fonts/Anticva-Regular.woff") format("woff"), url("/fonts/Anticva-Regular.otf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Felidae;
+    src: url(/fonts/Felidae.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Halvar Breitschrift";
-  src: local("HalvarBreit-Blk"), local("HalvarBreit-Blk"), url("/fonts/HalvarBreit-Blk.woff2") format("woff2"), url("/fonts/HalvarBreit-Blk.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Muller Next Expanded Trial";
+    src: url(/fonts/MullerNextExtraCondTrial-Thin.otf);
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Damn";
-  font-display: swap;
-  src: local("Damn"), local("Damn"), url("/fonts/Damn.woff2") format("woff2"), url("/fonts/Damn.woff") format("woff"), url("/fonts/Damn.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Muller Next Expanded Trial";
+    src: url(/fonts/MullerNextExpandedTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Monologue DEMO";
-  font-display: swap;
-  src: local("Monologue_DEMO"), local("Monologue_DEMO"), url("/fonts/Monologue_DEMO.woff") format("woff"), url("/fonts/Monologue_DEMO.ttf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Muller Next Expanded Trial";
+    src: url(/fonts/MullerNextExpandedTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Nasalization";
-  font-display: swap;
-  src: local("Nasalization"), local("Nasalization"), url("/fonts/Nasalization.woff") format("woff"), url("/fonts/Nasalization.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Muller Next Expanded Trial";
+    src: url(/fonts/MullerNextExpandedTrial-Heavy.otf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "PatsySans";
-  font-display: swap;
-  src: local("PatsySans"), local("PatsySans"), url("/fonts/PatsySans.woff") format("woff"), url("/fonts/PatsySans.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Muller Next Expanded Trial";
+    src: url(/fonts/MullerNextExpandedTrialThinItalic.otf);
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Lighthaus";
-  src: url("/fonts/Lighthaus.eot");
-  src: url("/fonts/Lighthaus.eot?#iefix") format("embedded-opentype"), url("/fonts/Lighthaus.woff2") format("woff2"), url("/fonts/Lighthaus.woff") format("woff"), url("/fonts/Lighthaus.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/fonts/MullerNextExtraCondTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "UltramonoWide-LightItalic";
-  src: url("/fonts/UltramonoWide-LightItalic.woff2") format("woff2"), url("/fonts/UltramonoWide-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/fonts/MullerNextExtraCondTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "UltramonoWide-Light";
-  src: url("/fonts/UltramonoWide-Light.woff2") format("woff2"), url("/fonts/UltramonoWide-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/fonts/MullerNextExtraCondTrial-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Nikkyou Sans";
-  src: url("/fonts/NikkyouSans.woff2") format("woff2"), url("/fonts/NikkyouSans.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Muller Next ExtraCond Trial";
+    src: url(/fonts/MullerNextExtraCondTrialThin.otf);
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Corvetta";
-  src: url("/fonts/Corvetta.woff2") format("woff2"), url("/fonts/Corvetta.woff") format("woff"), url("/fonts/Corvetta.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Muller Next Trial";
+    src: url(/fonts/MullerNextTrial-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "a_LCDNovaObl";
-  src: url("/fonts/a_lcdnovaobl.woff") format("woff"), url("/fonts/a_lcdnovaobl.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Muller Next Trial";
+    src: url(/fonts/MullerNextTrial-ExtraBold.otf);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Felidae";
-  src: url("/fonts/Felidae.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Muller Next Wide Trial";
+    src: url(/fonts/MullerNextTrial-ThinItalic.woff2);
+    font-weight: 100;
+    font-style: italic;
 }
 @font-face {
-  font-family: "Muller Next Expanded Trial";
-  src: url("/fonts/MullerNextExtraCondTrial-Thin.otf");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
+    font-family: Cakra;
+    src: url(/fonts/Cakra-Normal.otf) format("opentype");
+    src: url(/fonts/Cakra-Normal.woff2) format("woff2"), url(/fonts/Cakra-Normal.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next Expanded Trial";
-  src: url("/fonts/MullerNextExpandedTrial-Regular.otf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: Noteworthy;
+    src: url(/fonts/NoteworthyLight.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next Expanded Trial";
-  src: url("/fonts/MullerNextExpandedTrial-ExtraBold.otf");
-  font-weight: 750;
-  font-style: normal;
-  font-display: swap;
+    font-family: Technology;
+    src: url(/fonts/Technology.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next Expanded Trial";
-  src: url("/fonts/MullerNextExpandedTrial-Heavy.otf");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
+    font-family: Technology;
+    src: url(/fonts/Technology-Bold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next Expanded Trial";
-  src: url("/fonts/MullerNextExpandedTrialThinItalic.otf");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
+    font-family: Unbounded;
+    src: url(/fonts/Unbounded-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next ExtraCond Trial";
-  src: url("/fonts/MullerNextExtraCondTrial-ExtraBold.otf");
-  font-weight: 750;
-  font-style: normal;
-  font-display: swap;
+    font-family: Unbounded;
+    src: url(/fonts/Unbounded-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next ExtraCond Trial";
-  src: url("/fonts/MullerNextExtraCondTrial-Regular.otf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: Inter;
+    src: url(/fonts/Inter-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next ExtraCond Trial";
-  src: url("/fonts/MullerNextExtraCondTrialThin.otf");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
+    font-family: Inter;
+    src: url(/fonts/Inter-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next Trial";
-  src: url("/fonts/MullerNextTrial-Regular.otf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Montserrat Alternates";
+    src: url(/fonts/MontserratAlternates-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next Trial";
-  src: url("/fonts/MullerNextTrial-ExtraBold.otf");
-  font-weight: 750;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Snell Roundhand";
+    src: url(/fonts/snell-roundhand-900.otf) format("opentype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Muller Next Wide Trial";
-  src: url("/fonts/MullerNextTrial-ThinItalic.woff2");
-  font-weight: 100;
-  font-style: italic;
+    font-family: "Snell Roundhand";
+    src: url(/fonts/snell-roundhand-700.otf) format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Cakra";
-  src: url("/fonts/Cakra-Normal.otf") format("opentype");
-  src: url("/fonts/Cakra-Normal.woff2") format("woff2"), url("/fonts/Cakra-Normal.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: Lighthaus;
+    src: url(/fonts/Lighthaus-400.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face {
-  font-family: "Noteworthy";
-  src: url("/fonts/NoteworthyLight.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Technology";
-  src: url("/fonts/Technology.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Technology";
-  src: url("/fonts/Technology-Bold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url("/fonts/Unbounded-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url("/fonts/Unbounded-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Inter";
-  src: url("/fonts/Inter-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Inter";
-  src: url("/fonts/Inter-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat Alternates";
-  src: url("/fonts/MontserratAlternates-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Snell Roundhand";
-  src: url("/fonts/snell-roundhand-900.otf") format("opentype");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Snell Roundhand";
-  src: url("/fonts/snell-roundhand-700.otf") format("opentype");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Lighthaus";
-  src: url("/fonts/Lighthaus-400.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-/* --------------------------------- */
-*,
-::before,
-::after {
-  box-sizing: border-box;
+*, ::after, ::before {
+    box-sizing: border-box;
 }
-
 body {
-  font-family: "Montserrat", sans-serif;
+    font-family: Montserrat, sans-serif;
 }
-
-p, span, h3 {
-  -moz-user-select: -moz-none;
-  -o-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
+h3, p, span {
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
-
 .advantages {
-  height: 900px;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/advantages-section-bgr-desc-v3.webp) no-repeat center;
-  background-size: cover;
-  padding: 63px 0 31px;
-  padding-top: 0px;
+    height: 900px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/advantages-section-bgr-desc-v3.webp) no-repeat center;
+    background-size: cover;
+    padding: 63px 0 31px;
+    padding-top: 0;
 }
-@media all and (max-width: 767px) {
-  .advantages {
-    background: url(../images/landing/y-ultrasonic-face-skin-care/advantages-section-bgr-mob-v3.webp) no-repeat center;
+@media all and (max-width:767px) {
+    .advantages {
+    background: url(/landings/y-ultrasonic-face-skin-care/images/advantages-section-bgr-mob-v3.webp) no-repeat center;
     background-size: cover;
     height: auto;
     padding: 14px 0 5px;
-  }
 }
-.advantages.active .advantages__description li {
-  transform: unset;
-  opacity: 1;
+}.advantages.active .advantages__description li {
+    transform: unset;
+    opacity: 1;
 }
 .advantages .container-box {
-  height: 100%;
-}
+    height: 100%}
 .advantages__container {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  height: 100%;
-}
-@media all and (max-width: 767px) {
-  .advantages__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%}
+@media all and (max-width:767px) {
+    .advantages__container {
     flex-direction: column;
     row-gap: 156vw;
-  }
 }
-.advantages__title {
-  display: flex;
-  flex-direction: column-reverse;
+}.advantages__title {
+    display: flex;
+    flex-direction: column-reverse;
 }
 .advantages__title h2 {
-  font-family: "Cy Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: clamp(32px, 4vw, 64px);
-  line-height: clamp(34px, 4vw, 68px);
-  text-transform: uppercase;
-  color: #FFFFFF;
+    font-family: "Cy Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(32px, 4vw, 64px);
+    line-height: clamp(34px, 4vw, 68px);
+    text-transform: uppercase;
+    color: #fff;
 }
-@media all and (max-width: 767px) {
-  .advantages__title h2 {
+@media all and (max-width:767px) {
+    .advantages__title h2 {
     font-size: clamp(32px, 10vw, 76px);
     line-height: clamp(34px, 4vw, 82px);
     text-align: center;
-  }
 }
-.advantages__title span {
-  font-family: "Cy Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: clamp(28px, 4vw, 49px);
-  line-height: 53px;
-  text-transform: uppercase;
-  color: #FFFFFF;
+}.advantages__title span {
+    font-family: "Cy Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(28px, 4vw, 49px);
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #fff;
 }
-@media all and (max-width: 767px) {
-  .advantages__title span {
+@media all and (max-width:767px) {
+    .advantages__title span {
     font-size: clamp(76px, 24vw, 117px);
     line-height: clamp(75px, 22vw, 114px);
-  }
 }
-.advantages__title img {
-  width: 174px;
+}.advantages__title img {
+    width: 174px;
 }
-@media all and (max-width: 767px) {
-  .advantages__title img {
+@media all and (max-width:767px) {
+    .advantages__title img {
     width: 100%;
     margin-bottom: 11px;
-  }
 }
-@media all and (max-width: 1239px) {
-  .advantages__description {
+}@media all and (max-width:1239px) {
+    .advantages__description {
     transform: translateX(94px);
-  }
 }
-@media all and (max-width: 767px) {
-  .advantages__description {
+}@media all and (max-width:767px) {
+    .advantages__description {
     transform: none;
-  }
 }
-.advantages__description ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 100%;
-  list-style: none;
+}.advantages__description ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    list-style: none;
 }
 .advantages__description li {
-  transition: all 0.3s ease-in-out 0.2s;
-  opacity: 0;
-  position: relative;
-  font-style: italic;
-  font-weight: 700;
-  font-size: clamp(15px, 4vw, 20px);
-  line-height: clamp(19px, 4vw, 30px);
-  text-transform: uppercase;
-  color: #FFFFFF;
-  display: flex;
-  column-gap: 25px;
-  align-items: center;
+    transition: all .3s ease-in-out .2s;
+    opacity: 0;
+    position: relative;
+    font-style: italic;
+    font-weight: 700;
+    font-size: clamp(15px, 4vw, 20px);
+    line-height: clamp(19px, 4vw, 30px);
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
 }
-@media all and (max-width: 767px) {
-  .advantages__description li {
+@media all and (max-width:767px) {
+    .advantages__description li {
     align-items: flex-start;
     column-gap: unset;
     margin-bottom: 20px;
-  }
 }
-.advantages__description li:nth-child(2) {
-  transition: all 0.3s ease-in-out 0.4s;
-  transform: translateY(-25px);
+}.advantages__description li:nth-child(2) {
+    transition: all .3s ease-in-out .4s;
+    transform: translateY(-25px);
 }
 .advantages__description li:nth-child(3) {
-  transition: all 0.3s ease-in-out 0.55s;
-  transform: translateY(-25px);
+    transition: all .3s ease-in-out .55s;
+    transform: translateY(-25px);
 }
 .advantages__description li:nth-child(4) {
-  transition: all 0.3s ease-in-out 0.65s;
-  transform: translateY(-25px);
+    transition: all .3s ease-in-out .65s;
+    transform: translateY(-25px);
 }
 .advantages__description li:nth-child(5) {
-  transition: all 0.3s ease-in-out 0.85s;
-  transform: translateY(-25px);
+    transition: all .3s ease-in-out .85s;
+    transform: translateY(-25px);
 }
 .advantages__description li:nth-child(6) {
-  transition: all 0.3s ease-in-out 0.95s;
-  transform: translateY(-25px);
+    transition: all .3s ease-in-out .95s;
+    transform: translateY(-25px);
 }
 .advantages__description li:nth-child(7) {
-  transition: all 0.3s ease-in-out 1.05s;
-  transform: translateY(-25px);
+    transition: all .3s ease-in-out 1.05s;
+    transform: translateY(-25px);
 }
 .advantages__description li::before {
-  top: 9px;
-  left: -62px;
-  content: "";
-  background: url(../images/landing/y-ultrasonic-face-skin-care/list-style-img.svg);
-  width: 38px;
-  height: 34px;
+    top: 9px;
+    left: -62px;
+    content: "";
+    background: url(/landings/y-ultrasonic-face-skin-care/images/list-style-img.svg);
+    width: 38px;
+    height: 34px;
 }
-@media all and (max-width: 767px) {
-  .advantages__description li::before {
-    background: url(../images/landing/y-ultrasonic-face-skin-care/list-style-img-mobile.svg) no-repeat;
+@media all and (max-width:767px) {
+    .advantages__description li: :before {
+    background: url(/landings/y-ultrasonic-face-skin-care/images/list-style-img-mobile.svg) no-repeat;
     left: -42px;
-  }
 }
-
-.ultrasound {
-  height: 900px;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/ultrasound-section-bgr-desc.webp) no-repeat center;
-  background-size: cover;
-  -moz-user-select: -moz-none;
-  -o-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
+}.ultrasound {
+    height: 900px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/ultrasound-section-bgr-desc.webp) no-repeat center;
+    background-size: cover;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
-@media all and (max-width: 767px) {
-  .ultrasound {
-    background: url(../images/landing/y-ultrasonic-face-skin-care/ultrasound-section-bgr-mob.webp) no-repeat center;
+@media all and (max-width:767px) {
+    .ultrasound {
+    background: url(/landings/y-ultrasonic-face-skin-care/images/ultrasound-section-bgr-mob.webp) no-repeat center;
     background-size: cover;
     height: auto;
-  }
 }
-.ultrasound.active .ultrasound__content_description--top {
-  opacity: 1;
-  transform: unset;
+}.ultrasound.active .ultrasound__content_description--top {
+    opacity: 1;
+    transform: unset;
 }
 .ultrasound.active .ultrasound__content_description--bottom {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .ultrasound .container-box {
-  height: 100%;
-  position: relative;
+    height: 100%;
+    position: relative;
 }
 .ultrasound__frequency {
-  background: #FFFFFF;
-  border-radius: 50%;
-  width: 230px;
-  height: 230px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    background: #fff;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-@media all and (max-width: 767px) {
-  .ultrasound__frequency {
+@media all and (max-width:767px) {
+    .ultrasound__frequency {
     width: 125px;
     height: 125px;
     transform: translate(51vw, -66vw);
-  }
 }
-.ultrasound__frequency span {
-  font-style: italic;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 53px;
-  text-transform: uppercase;
-  color: #57CDE1;
+}.ultrasound__frequency span {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #57cde1;
 }
-@media all and (max-width: 767px) {
-  .ultrasound__frequency span {
+@media all and (max-width:767px) {
+    .ultrasound__frequency span {
     font-size: 16px;
     line-height: 29px;
-  }
 }
-.ultrasound__frequency p {
-  font-style: italic;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 40px;
-  color: #57CDE1;
+}.ultrasound__frequency p {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #57cde1;
 }
-@media all and (max-width: 767px) {
-  .ultrasound__frequency p {
+@media all and (max-width:767px) {
+    .ultrasound__frequency p {
     font-size: 12px;
     line-height: 22px;
-  }
 }
-.ultrasound__frequency img {
-  width: 61px;
+}.ultrasound__frequency img {
+    width: 61px;
 }
-@media all and (max-width: 767px) {
-  .ultrasound__frequency img {
+@media all and (max-width:767px) {
+    .ultrasound__frequency img {
     width: 34px;
-  }
 }
-.ultrasound__container {
-  position: relative;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  z-index: 2;
-  padding-bottom: 48px;
-  padding-top: 38px;
+}.ultrasound__container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    padding-bottom: 48px;
+    padding-top: 38px;
 }
-@media all and (max-width: 767px) {
-  .ultrasound__container {
+@media all and (max-width:767px) {
+    .ultrasound__container {
     padding-top: 11px;
     flex-direction: column-reverse;
     row-gap: 182vw;
-  }
 }
-.ultrasound__content {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
+}.ultrasound__content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 .ultrasound__content_description--top {
-  transform: scale(1.2);
-  transition: opacity 0.8s ease, transform 1s ease;
-  opacity: 0;
-  font-style: italic;
-  font-weight: 600;
-  font-size: clamp(15px, 4vw, 18px);
-  line-height: clamp(22px, 4vw, 31px);
-  color: #FFFFFF;
-  width: 422px;
-  margin-bottom: 20px;
+    transform: scale(1.2);
+    transition: opacity .8s ease, transform 1s ease;
+    opacity: 0;
+    font-style: italic;
+    font-weight: 600;
+    font-size: clamp(15px, 4vw, 18px);
+    line-height: clamp(22px, 4vw, 31px);
+    color: #fff;
+    width: 422px;
+    margin-bottom: 20px;
 }
-@media all and (max-width: 767px) {
-  .ultrasound__content_description--top {
+@media all and (max-width:767px) {
+    .ultrasound__content_description--top {
     width: unset;
-  }
 }
-.ultrasound__content_description--bottom {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
-  font-family: "Cy Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: clamp(21px, 6.7vw, 44px);
-  line-height: clamp(26px, 7vw, 58px);
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 4px rgba(0, 206, 181, 0.53);
+}.ultrasound__content_description--bottom {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
+    font-family: "Cy Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(21px, 6.7vw, 44px);
+    line-height: clamp(26px, 7vw, 58px);
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0, 206, 181, .53);
 }
-@media all and (max-width: 767px) {
-  .ultrasound__content_description--bottom {
+@media all and (max-width:767px) {
+    .ultrasound__content_description--bottom {
     text-align: center;
-  }
 }
-@media all and (max-width: 767px) {
-  .ultrasound__content_description {
+}@media all and (max-width:767px) {
+    .ultrasound__content_description {
     display: flex;
     flex-direction: column-reverse;
     row-gap: 68vw;
-  }
 }
-.ultrasound__content_video {
-  position: relative;
-  border-radius: 50%;
-  width: 292px;
-  width: min(20vw, 292px);
-  height: min(20vw, 292px);
-  border: 2.5px solid #fff;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
+}.ultrasound__content_video {
+    position: relative;
+    border-radius: 50%;
+    width: 292px;
+    width: min(20vw, 292px);
+    height: min(20vw, 292px);
+    border: 2.5px solid #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
 }
-@media all and (max-width: 767px) {
-  .ultrasound__content_video {
+@media all and (max-width:767px) {
+    .ultrasound__content_video {
     position: absolute;
     top: 31vw;
     left: 0;
     width: 100%;
     border-radius: 15px;
     height: unset;
-  }
 }
-.ultrasound__content_video img {
-  position: relative;
-  height: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+}.ultrasound__content_video img {
+    position: relative;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
 }
-@media all and (max-width: 767px) {
-  .ultrasound__content_video img {
-    width: 100%;
-  }
+@media all and (max-width:767px) {
+    .ultrasound__content_video img {
+    width: 100%}
+}.ultrasound__content_video::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .2s ease-in;
+    background: no-repeat center url(../images/product/axiom-new/white-beige/video-play-icon-foot-sensor.webp);
+    z-index: 3;
 }
-.ultrasound__content_video::before {
-  content: "";
-  position: absolute;
-  width: 90px;
-  height: 90px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.2s ease-in;
-  background: no-repeat center url(../images/product/axiom-new/white-beige/video-play-icon-foot-sensor.webp);
-  z-index: 3;
-}
-@media all and (max-width: 767px) {
-  .ultrasound__content_video::before {
-    top: 56%;
-  }
-}
-.ultrasound__content_video:hover {
-  cursor: pointer;
+@media all and (max-width:767px) {
+    .ultrasound__content_video: :before {
+    top: 56%}
+}.ultrasound__content_video:hover {
+    cursor: pointer;
 }
 .ultrasound__content_video:hover::before {
-  transform: translate(-50%, -50%) scale(1.2);
-  cursor: pointer;
+    transform: translate(-50%, -50%) scale(1.2);
+    cursor: pointer;
 }
 .ultrasound__main-img {
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-46%);
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-46%);
 }
-@media all and (max-width: 767px) {
-  .ultrasound__main-img {
+@media all and (max-width:767px) {
+    .ultrasound__main-img {
     transform: translateX(-50%);
-  }
 }
-
-.phonoforez {
-  height: 2006px;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-section-bgr-desc.webp) no-repeat center;
-  background-size: cover;
-  padding-top: 86px;
+}.phonoforez {
+    height: 2006px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/phonoforez-section-bgr-desc.webp) no-repeat center;
+    background-size: cover;
+    padding-top: 86px;
 }
-@media all and (max-width: 767px) {
-  .phonoforez {
+@media all and (max-width:767px) {
+    .phonoforez {
     height: auto;
-    background: url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-section-bgr-mob.webp) no-repeat center;
-    padding-top: 0px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/phonoforez-section-bgr-mob.webp) no-repeat center;
+    padding-top: 0;
     padding-bottom: 63px;
-  }
 }
-@media all and (max-width: 767px) {
-  .phonoforez .container-box {
+}@media all and (max-width:767px) {
+    .phonoforez .container-box {
     padding-left: 10px;
     padding-right: 10px;
-  }
 }
-.phonoforez__image-mobile {
-  display: none;
-  width: 100%;
-  margin-top: 19px;
+}.phonoforez__image-mobile {
+    display: none;
+    width: 100%;
+    margin-top: 19px;
 }
-@media all and (max-width: 767px) {
-  .phonoforez__image-mobile {
+@media all and (max-width:767px) {
+    .phonoforez__image-mobile {
     display: block;
-  }
 }
-.phonoforez__top {
-  height: 750px;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-img-mobile-top-v2.webp) no-repeat;
-  background-size: contain;
-  background-position: right;
-  margin-bottom: 109px;
+}.phonoforez__top {
+    height: 750px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/phonoforez-img-mobile-top-v2.webp) no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-bottom: 109px;
 }
-@media all and (max-width: 1239px) {
-  .phonoforez__top {
-    background: no-repeat 27vw 3vw/67% url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-img-mobile-top-v2.webp);
-  }
+@media all and (max-width:1239px) {
+    .phonoforez__top {
+    background: no-repeat 27vw 3vw/67% url(/landings/y-ultrasonic-face-skin-care/images/phonoforez-img-mobile-top-v2.webp);
 }
-@media all and (max-width: 767px) {
-  .phonoforez__top {
+}@media all and (max-width:767px) {
+    .phonoforez__top {
     background: unset;
     height: auto;
     margin-bottom: 0;
-  }
 }
-.phonoforez__top.active .phonoforez__top_content span {
-  opacity: 1;
-  transform: unset;
+}.phonoforez__top.active .phonoforez__top_content span {
+    opacity: 1;
+    transform: unset;
 }
 .phonoforez__top.active .phonoforez__top_content p {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .phonoforez__top_content {
-  max-width: 663px;
-  padding-top: 104px;
+    max-width: 663px;
+    padding-top: 104px;
 }
-@media all and (max-width: 767px) {
-  .phonoforez__top_content {
+@media all and (max-width:767px) {
+    .phonoforez__top_content {
     padding-top: 17px;
-  }
 }
-.phonoforez__top_content span {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
-  font-family: "Cy Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: clamp(21px, 4vw, 44px);
-  line-height: clamp(28px, 4vw, 58px);
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 46px;
-  display: block;
+}.phonoforez__top_content span {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
+    font-family: "Cy Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(21px, 4vw, 44px);
+    line-height: clamp(28px, 4vw, 58px);
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 46px;
+    display: block;
 }
-@media all and (max-width: 767px) {
-  .phonoforez__top_content span {
+@media all and (max-width:767px) {
+    .phonoforez__top_content span {
     margin-bottom: 20px;
     font-size: 6.7vw;
-    line-height: 130%;
-  }
+    line-height: 130%}
+}.phonoforez__top_content p {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
+    font-style: italic;
+    font-weight: 600;
+    font-size: clamp(15px, 4vw, 20px);
+    line-height: clamp(22px, 4vw, 34px);
+    color: #fff;
+    max-width: 501px;
 }
-.phonoforez__top_content p {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
-  font-style: italic;
-  font-weight: 600;
-  font-size: clamp(15px, 4vw, 20px);
-  line-height: clamp(22px, 4vw, 34px);
-  color: #FFFFFF;
-  max-width: 501px;
-}
-@media all and (max-width: 767px) {
-  .phonoforez__top_content p {
+@media all and (max-width:767px) {
+    .phonoforez__top_content p {
     max-width: unset;
     font-size: 4.5vw;
-    line-height: 170%;
-  }
-}
-.phonoforez__bottom {
-  height: 792px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-img-mobile-bottom-v2.webp) no-repeat;
-  background-size: contain;
-  background-position: left;
+    line-height: 170%}
+}.phonoforez__bottom {
+    height: 792px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/phonoforez-img-mobile-bottom-v2.webp) no-repeat;
+    background-size: contain;
+    background-position: left;
 }
 .phonoforez__bottom.active .phonoforez__bottom_content span {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .phonoforez__bottom.active .phonoforez__bottom_content p {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
-@media all and (max-width: 1239px) {
-  .phonoforez__bottom {
-    background: no-repeat 0vw 25vw/51% url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-img-mobile-bottom-v2.webp);
-  }
+@media all and (max-width:1239px) {
+    .phonoforez__bottom {
+    background: no-repeat 0 25vw/51% url(/landings/y-ultrasonic-face-skin-care/images/phonoforez-img-mobile-bottom-v2.webp);
 }
-@media all and (max-width: 767px) {
-  .phonoforez__bottom {
+}@media all and (max-width:767px) {
+    .phonoforez__bottom {
     background: unset;
     height: auto;
     margin-top: 60px;
-  }
 }
-.phonoforez__bottom_content {
-  max-width: 539px;
-  transform: translate(-32px, 171px);
+}.phonoforez__bottom_content {
+    max-width: 539px;
+    transform: translate(-32px, 171px);
 }
 .phonoforez__bottom_content span {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
-  font-family: "Cy Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: clamp(25px, 4vw, 44px);
-  line-height: clamp(25px, 4vw, 58px);
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 24px;
-  display: block;
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
+    font-family: "Cy Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(25px, 4vw, 44px);
+    line-height: clamp(25px, 4vw, 58px);
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 24px;
+    display: block;
 }
-@media all and (max-width: 767px) {
-  .phonoforez__bottom_content span {
+@media all and (max-width:767px) {
+    .phonoforez__bottom_content span {
     font-size: 8vw;
-    line-height: 130%;
-  }
+    line-height: 130%}
+}.phonoforez__bottom_content p {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
+    font-style: italic;
+    font-weight: 600;
+    font-size: clamp(15px, 4vw, 20px);
+    line-height: clamp(22px, 4vw, 34px);
+    color: #fff;
+    max-width: 539px;
 }
-.phonoforez__bottom_content p {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
-  font-style: italic;
-  font-weight: 600;
-  font-size: clamp(15px, 4vw, 20px);
-  line-height: clamp(22px, 4vw, 34px);
-  color: #FFFFFF;
-  max-width: 539px;
-}
-@media all and (max-width: 767px) {
-  .phonoforez__bottom_content p {
+@media all and (max-width:767px) {
+    .phonoforez__bottom_content p {
     max-width: unset;
     font-size: 4.69vw;
-    line-height: 170%;
-  }
-}
-@media all and (max-width: 767px) {
-  .phonoforez__bottom_content {
+    line-height: 170%}
+}@media all and (max-width:767px) {
+    .phonoforez__bottom_content {
     max-width: unset;
     transform: unset;
-  }
 }
-
-.modes {
-  height: 3437px;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/modes-section-bgr-desc.webp) no-repeat center;
-  background-size: cover;
-  padding-top: 81px;
+}.modes {
+    height: 3437px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/modes-section-bgr-desc.webp) no-repeat center;
+    background-size: cover;
+    padding-top: 81px;
 }
-@media all and (max-width: 767px) {
-  .modes {
-    background: url(../images/landing/y-ultrasonic-face-skin-care/modes-section-bgr-mob-v2.webp) no-repeat center;
+@media all and (max-width:767px) {
+    .modes {
+    background: url(/landings/y-ultrasonic-face-skin-care/images/modes-section-bgr-mob-v2.webp) no-repeat center;
     background-size: cover;
     height: auto;
-    padding: 8.5% 0 13%;
-  }
+    padding: 8.5% 0 13%}
+}@media all and (max-width:767px) {
+    .modes .container-box {
+    padding: 0 3%}
+}.modes__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
-@media all and (max-width: 767px) {
-  .modes .container-box {
-    padding: 0 3%;
-  }
-}
-.modes__badge {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-@media all and (max-width: 767px) {
-  .modes__badge {
+@media all and (max-width:767px) {
+    .modes__badge {
     display: none;
-  }
 }
-@media all and (max-width: 767px) {
-  .modes__span {
+}@media all and (max-width:767px) {
+    .modes__span {
     margin-bottom: 6.25vw;
-  }
 }
-.modes__image-mob {
-  display: none;
+}.modes__image-mob {
+    display: none;
 }
-@media all and (max-width: 767px) {
-  .modes__image-mob {
+@media all and (max-width:767px) {
+    .modes__image-mob {
     display: block;
-    width: 100%;
-  }
-}
-.modes span {
-  font-family: "Cy Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: clamp(25px, 4vw, 44px);
-  line-height: clamp(39px, 4vw, 58px);
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 34px;
-  display: block;
+    width: 100%}
+}.modes span {
+    font-family: "Cy Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(25px, 4vw, 44px);
+    line-height: clamp(39px, 4vw, 58px);
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 34px;
+    display: block;
 }
 .modes p {
-  font-style: italic;
-  font-weight: 600;
-  font-size: clamp(15px, 4vw, 20px);
-  line-height: clamp(26px, 4vw, 34px);
-  color: #FFFFFF;
-  max-width: 461px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: clamp(15px, 4vw, 20px);
+    line-height: clamp(26px, 4vw, 34px);
+    color: #fff;
+    max-width: 461px;
 }
-@media all and (max-width: 767px) {
-  .modes p {
+@media all and (max-width:767px) {
+    .modes p {
     max-width: unset;
     font-size: 4.69vw;
-    line-height: 170%;
-  }
+    line-height: 170%}
+}.modes h3 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(34px, 4vw, 44px);
+    line-height: 45px;
+    color: #fff;
+    font-family: Montserrat;
+    text-transform: none;
+    margin-bottom: 34px;
 }
-.modes h3 {
-  font-style: italic;
-  font-weight: 500;
-  font-size: clamp(34px, 4vw, 44px);
-  line-height: 45px;
-  color: #FFFFFF;
-  font-family: "Montserrat";
-  text-transform: none;
-  margin-bottom: 34px;
-}
-@media all and (max-width: 767px) {
-  .modes h3 {
+@media all and (max-width:767px) {
+    .modes h3 {
     font-size: 10.85vw;
-    line-height: 130%;
-  }
-}
-.modes__top {
-  height: 938px;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/modes-top-bgr-desc.webp) no-repeat;
-  background-size: contain;
-  background-position: right;
-  margin-bottom: 120px;
+    line-height: 130%}
+}.modes__top {
+    height: 938px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/modes-top-bgr-desc.webp) no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-bottom: 120px;
 }
 .modes__top.active .modes__top_content span {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__top.active .modes__top_content h3 {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__top.active .modes__top_content p {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__top_content {
-  transform: translate(-3px, 205px);
+    transform: translate(-3px, 205px);
 }
 .modes__top_content p {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
-  max-width: 413px;
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
+    max-width: 413px;
 }
-@media all and (max-width: 767px) {
-  .modes__top_content p {
+@media all and (max-width:767px) {
+    .modes__top_content p {
     max-width: unset;
-  }
 }
-@media all and (max-width: 767px) {
-  .modes__top_content {
+}@media all and (max-width:767px) {
+    .modes__top_content {
     transform: unset;
-  }
 }
-@media all and (max-width: 767px) {
-  .modes__top {
+}@media all and (max-width:767px) {
+    .modes__top {
     height: auto;
     margin-bottom: 12%;
     background: unset;
-  }
 }
-.modes__top span {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
+}.modes__top span {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
 }
-@media all and (max-width: 767px) {
-  .modes__top span {
+@media all and (max-width:767px) {
+    .modes__top span {
     margin-bottom: 7.5vw;
     font-size: 9vw;
-    line-height: 130%;
-  }
+    line-height: 130%}
+}.modes__top h3 {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
 }
-.modes__top h3 {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
-}
-@media all and (max-width: 767px) {
-  .modes__top h3 {
+@media all and (max-width:767px) {
+    .modes__top h3 {
     margin-bottom: 5vw;
-  }
 }
-.modes__middle {
-  height: 1027px;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/modes-middle-bgr-desc.webp) no-repeat;
-  background-size: contain;
-  background-position: left;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 98px;
-  position: relative;
+}.modes__middle {
+    height: 1027px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/modes-middle-bgr-desc.webp) no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 98px;
+    position: relative;
 }
 .modes__middle.active .modes__middle_content span {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__middle.active .modes__middle_content h3 {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__middle.active .modes__middle_content p {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__middle_content {
-  transform: translate(-11px, 248px);
+    transform: translate(-11px, 248px);
 }
 .modes__middle_content p {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
 }
-@media all and (max-width: 767px) {
-  .modes__middle_content p {
+@media all and (max-width:767px) {
+    .modes__middle_content p {
     margin-bottom: 11vw;
-  }
 }
-@media all and (max-width: 767px) {
-  .modes__middle_content {
+}@media all and (max-width:767px) {
+    .modes__middle_content {
     transform: unset;
-  }
 }
-@media all and (max-width: 767px) {
-  .modes__middle {
+}@media all and (max-width:767px) {
+    .modes__middle {
     height: auto;
     margin-bottom: 12%;
     background: unset;
-  }
 }
-.modes__middle span {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
+}.modes__middle span {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
 }
-@media all and (max-width: 767px) {
-  .modes__middle span {
+@media all and (max-width:767px) {
+    .modes__middle span {
     font-size: 8vw;
-    line-height: 130%;
-  }
-}
-.modes__middle h3 {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
+    line-height: 130%}
+}.modes__middle h3 {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
 }
 .modes__bottom {
-  height: 1027px;
-  background: url(../images/landing/y-ultrasonic-face-skin-care/modes-bottom-bgr-desc.webp) no-repeat;
-  background-size: contain;
-  background-position: right;
+    height: 1027px;
+    background: url(/landings/y-ultrasonic-face-skin-care/images/modes-bottom-bgr-desc.webp) no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 .modes__bottom.active .modes__bottom_content span {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__bottom.active .modes__bottom_content h3 {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__bottom.active .modes__bottom_content p {
-  opacity: 1;
-  transform: unset;
+    opacity: 1;
+    transform: unset;
 }
 .modes__bottom_content p {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
 }
-@media all and (max-width: 767px) {
-  .modes__bottom_content p {
+@media all and (max-width:767px) {
+    .modes__bottom_content p {
     margin-bottom: 6vw;
-  }
 }
-@media all and (max-width: 767px) {
-  .modes__bottom {
+}@media all and (max-width:767px) {
+    .modes__bottom {
     background: unset;
     height: auto;
-  }
 }
-.modes__bottom span {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
+}.modes__bottom span {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
 }
-@media all and (max-width: 767px) {
-  .modes__bottom span {
+@media all and (max-width:767px) {
+    .modes__bottom span {
     margin-bottom: 10vw;
     font-size: 11.5vw;
-    line-height: 130%;
-  }
+    line-height: 130%}
+}.modes__bottom h3 {
+    transition: opacity .8s ease, transform 1s ease;
+    transform: scale(1.2);
+    opacity: 0;
 }
-.modes__bottom h3 {
-  transition: opacity 0.8s ease, transform 1s ease;
-  transform: scale(1.2);
-  opacity: 0;
-}
-
 .effect {
-  height: 900px;
-  padding: 41px 0 0;
-  -moz-user-select: -moz-none;
-  -o-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  background: linear-gradient(210.64deg, #FFB7D1 20.23%, #CFE5FF 81.94%);
+    height: 900px;
+    padding: 41px 0 0;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    background: linear-gradient(210.64deg, #ffb7d1 20.23%, #cfe5ff 81.94%);
 }
-@media all and (max-width: 767px) {
-  .effect {
+@media all and (max-width:767px) {
+    .effect {
     height: auto;
     padding: 8% 0 10%;
-    background: linear-gradient(210.64deg, #FFB7D1 20.23%, #CFE5FF 81.94%);
-  }
+    background: linear-gradient(210.64deg, #ffb7d1 20.23%, #cfe5ff 81.94%);
 }
-@media all and (max-width: 767px) {
-  .effect .container-box {
-    padding: 0 3%;
-  }
+}@media all and (max-width:767px) {
+    .effect .container-box {
+    padding: 0 3%}
+}.effect__swiper {
+    width: 100%;
+    height: fit-content;
+    padding: 0 38px 0;
 }
-.effect__swiper {
-  width: 100%;
-  height: fit-content;
-  padding: 0 38px 0;
+@media all and (max-width:767px) {
+    .effect__swiper {
+    padding: 0 5%}
+}.effect__title {
+    max-width: 80%;
+    margin: 0 auto 88px;
+    font-family: "Cy Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46.371px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
 }
-@media all and (max-width: 767px) {
-  .effect__swiper {
-    padding: 0 5%;
-  }
-}
-.effect__title {
-  max-width: 80%;
-  margin: 0 auto 88px;
-  font-family: "Cy Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 46.371px;
-  line-height: 60px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-align: center;
-}
-@media all and (max-width: 767px) {
-  .effect__title {
+@media all and (max-width:767px) {
+    .effect__title {
     max-width: 95%;
     margin-bottom: 28vw;
-    font-family: "Montserrat";
+    font-family: Montserrat;
     font-size: 6.175vw;
-    line-height: 110%;
-  }
-}
-.effect__list {
-  display: flex;
-  justify-content: space-between;
+    line-height: 110%}
+}.effect__list {
+    display: flex;
+    justify-content: space-between;
 }
 .effect__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: clamp(278px, 21vw, 443px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: clamp(278px, 21vw, 443px);
 }
-@media all and (max-width: 450px) {
-  .effect__item {
+@media all and (max-width:450px) {
+    .effect__item {
+    width: 100%}
+}.effect__item img {
     width: 100%;
-  }
+    margin-bottom: 68px;
 }
-.effect__item img {
-  width: 100%;
-  margin-bottom: 68px;
-}
-@media all and (max-width: 767px) {
-  .effect__item img {
-    margin-bottom: 13%;
-  }
-}
-.effect__item_title {
-  display: flex;
-  align-items: flex-start;
+@media all and (max-width:767px) {
+    .effect__item img {
+    margin-bottom: 13%}
+}.effect__item_title {
+    display: flex;
+    align-items: flex-start;
 }
 .effect__item_title img {
-  width: 33px;
+    width: 33px;
 }
-@media all and (max-width: 767px) {
-  .effect__item_title img {
-    width: 7.45%;
-  }
+@media all and (max-width:767px) {
+    .effect__item_title img {
+    width: 7.45%}
+}.effect__item_title span {
+    font-weight: 400;
+    font-size: 20.7101px;
+    line-height: 31px;
+    letter-spacing: -.01em;
+    color: #181818;
 }
-.effect__item_title span {
-  font-weight: 400;
-  font-size: 20.7101px;
-  line-height: 31px;
-  letter-spacing: -0.01em;
-  color: #181818;
-}
-@media all and (max-width: 767px) {
-  .effect__item_title span {
+@media all and (max-width:767px) {
+    .effect__item_title span {
     font-size: 4.16vw;
+    line-height: 150%}
+}.effect__text {
+    font-size: clamp(13px, 1vw, 20px);
     line-height: 150%;
-  }
+    display: flex;
+    align-items: flex-start;
+    letter-spacing: -.01em;
+    color: #fff;
+    margin-top: 59px;
 }
-.effect__text {
-  font-size: clamp(13px, 1vw, 20px);
-  line-height: 150%;
-  display: flex;
-  align-items: flex-start;
-  letter-spacing: -0.01em;
-  color: #FFFFFF;
-  margin-top: 59px;
-}
-@media all and (max-width: 767px) {
-  .effect__text {
+@media all and (max-width:767px) {
+    .effect__text {
     margin-top: 37px;
-  }
 }
-.effect__text::before {
-  margin-right: 5px;
-  content: url("/images/landing/hair-styler/check-white.svg");
+}.effect__text::before {
+    margin-right: 5px;
+    content: url(/images/landing/hair-styler/check-white.svg);
 }
 .effect__description-slide {
-  transform: translateY(-90px);
+    transform: translateY(-90px);
 }
-
 .hyaluronic-acid {
-  height: 900px;
-  padding-top: 58px;
-  background: linear-gradient(210.64deg, #CFE5FF 20.23%, #FFB7D1 81.94%);
+    height: 900px;
+    padding-top: 58px;
+    background: linear-gradient(210.64deg, #cfe5ff 20.23%, #ffb7d1 81.94%);
 }
-@media all and (max-width: 767px) {
-  .hyaluronic-acid {
+@media all and (max-width:767px) {
+    .hyaluronic-acid {
     height: unset;
-    padding: 5% 0 10%;
-  }
+    padding: 5% 0 10%}
+}@media all and (max-width:767px) {
+    .hyaluronic-acid .container-box {
+    padding: 0 3%}
+}.hyaluronic-acid__wrapper {
+    display: flex;
+    position: relative;
 }
-@media all and (max-width: 767px) {
-  .hyaluronic-acid .container-box {
-    padding: 0 3%;
-  }
-}
-.hyaluronic-acid__wrapper {
-  display: flex;
-  position: relative;
-}
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__wrapper {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__wrapper {
     flex-direction: column;
-  }
 }
-.hyaluronic-acid__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 279px;
-  height: 55px;
-  background-color: #E03638;
-  border-radius: 15px;
+}.hyaluronic-acid__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 279px;
+    height: 55px;
+    background-color: #e03638;
+    border-radius: 15px;
 }
 .hyaluronic-acid__button h5 {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 31px;
-  color: #FFFFFF;
-  border: 1px solid #E03638;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color: #fff;
+    border: 1px solid #e03638;
 }
 .hyaluronic-acid__button:hover {
-  transform: scale(1.03);
-  cursor: pointer;
-  transition: all 0.2s linear;
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: all .2s linear;
 }
 .hyaluronic-acid__image-section {
-  position: absolute;
-  right: 0;
-  display: flex;
-  height: 763px;
-  z-index: 2;
+    position: absolute;
+    right: 0;
+    display: flex;
+    height: 763px;
+    z-index: 2;
 }
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__image-section {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__image-section {
     position: static;
     width: 50%;
     height: auto;
-    margin-bottom: 5%;
-  }
+    margin-bottom: 5%}
+}.hyaluronic-acid__image-section img {
+    margin-right: 27px;
+    z-index: 2;
 }
-.hyaluronic-acid__image-section img {
-  margin-right: 27px;
-  z-index: 2;
-}
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__image-section img {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__image-section img {
     width: 50%;
-    margin-right: 5%;
-  }
+    margin-right: 5%}
+}.hyaluronic-acid__image-section img:last-child {
+    width: 52%;
+    height: 83%;
+    margin-top: 69px;
 }
-.hyaluronic-acid__image-section img:last-child {
-  width: 52%;
-  height: 83%;
-  margin-top: 69px;
-}
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__image-section img:last-child {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__image-section img: last-child {
     width: 59%;
     height: 100%;
-    margin-top: 22%;
-  }
+    margin-top: 22%}
+}.hyaluronic-acid__video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
 }
-.hyaluronic-acid__video-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px;
-}
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__video-section {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__video-section {
     padding-top: 0;
-  }
 }
-.hyaluronic-acid__video-section span {
-  margin-bottom: 7px;
-  font-family: "Cy Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 90.4746px;
-  line-height: 98px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #B789F6;
+}.hyaluronic-acid__video-section span {
+    margin-bottom: 7px;
+    font-family: "Cy Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90.4746px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #b789f6;
 }
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__video-section span {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__video-section span {
     margin-bottom: 1.5%;
     font-size: 15.5vw;
-    line-height: 108.29%;
-  }
+    line-height: 108.29%}
+}.hyaluronic-acid__video-section p {
+    margin-bottom: 47px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 43px;
+    color: #000;
+    text-align: center;
 }
-.hyaluronic-acid__video-section p {
-  margin-bottom: 47px;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 43px;
-  color: #000000;
-  text-align: center;
-}
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__video-section p {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__video-section p {
     margin-bottom: 2.9%;
     font-size: 6.135vw;
-    line-height: 170%;
-  }
+    line-height: 170%}
+}.hyaluronic-acid__video-section_video {
+    position: relative;
+    width: 500px;
+    margin-bottom: 55px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 3px #fff solid;
 }
-.hyaluronic-acid__video-section_video {
-  position: relative;
-  width: 500px;
-  margin-bottom: 55px;
-  overflow: hidden;
-  border-radius: 15px;
-  border: 3px white solid;
-}
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__video-section_video {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__video-section_video {
     width: 100%;
     height: auto;
-    margin: 0 0 5%;
-  }
-}
-.hyaluronic-acid__video-section_video img {
-  position: relative;
-  border-radius: 15px;
-  width: 100%;
-  height: 100%;
-}
+    margin: 0 0 5%}
+}.hyaluronic-acid__video-section_video img {
+    position: relative;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%}
 .hyaluronic-acid__video-section_video img:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 .hyaluronic-acid__video-section_video::before {
-  content: "";
-  position: absolute;
-  width: 66px;
-  height: 78px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.2s ease-in;
-  background: no-repeat center url("../images/landing/y-ultrasonic-face-skin-care/ultrasonic-play.svg");
-  background-size: 100%;
-  z-index: 3;
+    content: "";
+    position: absolute;
+    width: 66px;
+    height: 78px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .2s ease-in;
+    background: no-repeat center url(/landings/y-ultrasonic-face-skin-care/images/ultrasonic-play.svg);
+    background-size: 100%;
+    z-index: 3;
 }
-@media all and (max-width: 767px) {
-  .hyaluronic-acid__video-section_video::before {
+@media all and (max-width:767px) {
+    .hyaluronic-acid__video-section_video: :before {
     width: 16vw;
     height: 18vw;
-  }
 }
-.hyaluronic-acid__video-section_video:hover {
-  cursor: pointer;
+}.hyaluronic-acid__video-section_video:hover {
+    cursor: pointer;
 }
 .hyaluronic-acid__video-section_video:hover::before {
-  transform: translate(-50%, -50%) scale(1.2);
-  cursor: pointer;
+    transform: translate(-50%, -50%) scale(1.2);
+    cursor: pointer;
 }
-
 .br-mobile {
-  display: none;
-}
-@media all and (max-width: 767px) {
-  .br-mobile {
-    display: block;
-  }
-}
-
-.br-desc {
-  display: block;
-}
-@media all and (max-width: 767px) {
-  .br-desc {
     display: none;
-  }
 }
-
-.video-section {
-  margin-bottom: -5px;
+@media all and (max-width:767px) {
+    .br-mobile {
+    display: block;
 }
-
+}.br-desc {
+    display: block;
+}
+@media all and (max-width:767px) {
+    .br-desc {
+    display: none;
+}
+}.video-section {
+    margin-bottom: -5px;
+}
 .ultrasonic-bottom-swiper__slide img {
-  width: 100%;
-}
-=======
-@charset "UTF-8";@font-face{font-family:Gothic;font-display:swap;src:url(/fonts/centurygothic.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:PTSans;font-display:swap;src:url(/fonts/PTSans.eot);src:url(/fonts/PTSans.eot?#iefix) format("embedded-opentype"),url(/fonts/PTSans.woff2) format("woff2"),url(/fonts/PTSans.woff) format("woff"),url(/fonts/PTSans.ttf) format("truetype"),url(/fonts/PTSans.svg#PTSans) format("svg");font-weight:400;font-style:normal}@font-face{font-family:PTSans;font-display:swap;src:url(/fonts/PTSansBold.eot);src:url(/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"),url(/fonts/PTSansBold.woff2) format("woff2"),url(/fonts/PTSansBold.woff) format("woff"),url(/fonts/PTSansBold.ttf) format("truetype"),url(/fonts/PTSansBold.svg#PTSans) format("svg");font-weight:700;font-style:normal}@font-face{font-family:PTSans;font-display:swap;src:url(/fonts/PTSansItalic.ttf) format("truetype");src:url(/fonts/PTSansItalic.woff2) format("woff2"),url(/fonts/PTSansItalic.woff) format("woff");font-weight:400;font-style:italic}@font-face{font-family:PTSansNarrow;font-display:swap;src:url(/fonts/PTSansNarrow.eot);src:url(/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"),url(/fonts/PTSansNarrow.woff2) format("woff2"),url(/fonts/PTSansNarrow.woff) format("woff"),url(/fonts/PTSansNarrow.ttf) format("truetype"),url(/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");font-weight:400;font-style:normal}@font-face{font-family:PTSansNarrow;font-display:swap;src:url(/fonts/PTSansNarrowBold.eot);src:url(/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"),url(/fonts/PTSansNarrowBold.woff2) format("woff2"),url(/fonts/PTSansNarrowBold.woff) format("woff"),url(/fonts/PTSansNarrowBold.ttf) format("truetype"),url(/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");font-weight:700;font-style:normal}@font-face{font-family:MyriadProLight;src:url(/fonts/MyriadProLight.eot);src:url(/fonts/MyriadProLight.eot?#iefix) format("embedded-opentype"),url(/fonts/MyriadProLight.woff) format("woff"),url(/fonts/MyriadProLight.woff2) format("woff2"),url(/fonts/MyriadProLight.ttf) format("truetype"),url(/fonts/MyriadProLight.svg#MyriadProLight) format("svg");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:"Myriad Pro";src:url(/fonts/MyriadPro.otf) format("opentype");src:url(/fonts/MyriadPro.woff2) format("woff2"),url(/fonts/MyriadPro.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:MyriadProBold;src:url(/fonts/MyriadProBold.otf) format("opentype");src:url(/fonts/MyriadProBold.woff2) format("woff2"),url(/fonts/MyriadProBold.woff) format("woff");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:PragmaticaC;src:url(/fonts/PTPragmaticaCyrillic.ttf) format("opentype");src:url(/fonts/PTPragmaticaCyrillic.woff2) format("woff2"),url(/fonts/PTPragmaticaCyrillic.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:PragmaticaC;src:url(/fonts/PTPragmaticaBoldCyrillic.ttf) format("opentype");src:url(/fonts/PTPragmaticaBoldCyrillic.woff2) format("woff2"),url(/fonts/PTPragmaticaBoldCyrillic.woff) format("woff");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Circe;font-display:swap;src:url(/fonts/Circe-Thin.eot);src:url(/fonts/Circe-Thin.eot?#iefix) format("embedded-opentype"),url(/fonts/Circe-Thin.woff) format("woff"),url(/fonts/Circe-Thin.woff2) format("woff2"),url(/fonts/Circe-Thin.ttf) format("truetype");font-weight:100;font-style:normal}@font-face{font-family:Circe;font-display:swap;src:url(/fonts/Circe-ExtraLight.eot);src:url(/fonts/Circe-ExtraLight.eot?#iefix) format("embedded-opentype"),url(/fonts/Circe-ExtraLight.woff) format("woff"),url(/fonts/Circe-ExtraLight.woff2) format("woff2"),url(/fonts/Circe-ExtraLight.ttf) format("truetype");font-weight:200;font-style:normal}@font-face{font-family:Circe;font-display:swap;src:url(/fonts/Circe-Light.eot);src:url(/fonts/Circe-Light.eot?#iefix) format("embedded-opentype"),url(/fonts/Circe-Light.woff) format("woff"),url(/fonts/Circe-Light.woff2) format("woff2"),url(/fonts/Circe-Light.ttf) format("truetype");font-weight:300;font-style:normal}@font-face{font-family:Circe;font-display:swap;src:url(/fonts/Circe-Regular.eot);src:url(/fonts/Circe-Regular.eot?#iefix) format("embedded-opentype"),url(/fonts/Circe-Regular.woff) format("woff"),url(/fonts/Circe-Regular.woff2) format("woff2"),url(/fonts/Circe-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:Circe;font-display:swap;src:url(/fonts/Circe-Bold.eot);src:url(/fonts/Circe-Bold.eot?#iefix) format("embedded-opentype"),url(/fonts/Circe-Bold.woff) format("woff"),url(/fonts/Circe-Bold.woff2) format("woff2"),url(/fonts/Circe-Bold.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:Circe;font-display:swap;src:url(/fonts/Circe-ExtraBold.eot);src:url(/fonts/Circe-ExtraBold.eot?#iefix) format("embedded-opentype"),url(/fonts/Circe-ExtraBold.woff) format("woff"),url(/fonts/Circe-ExtraBold.woff2) format("woff2"),url(/fonts/Circe-ExtraBold.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:BebasNeue;src:url(/fonts/bebasneuethin.woff2) format("woff2");src:local("☺"),url(/fonts/bebasneuethin.woff) format("woff"),url(/fonts/bebasneuethin.ttf) format("truetype");font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:BebasNeue;src:url(/fonts/bebasneuelight.woff2) format("woff2");src:local("☺"),url(/fonts/bebasneuelight.ttf) format("truetype"),url(/fonts/bebasneuelight.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:BebasNeue;src:url(/fonts/bebasneueregular.eot);src:local("☺"),url(/fonts/bebasneueregular.woff2) format("woff2"),url(/fonts/bebasneueregular.woff) format("woff"),url(/fonts/bebasneueregular.ttf) format("truetype"),url(/fonts/bebasneueregular.svg) format("svg");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:BebasNeue;src:url(/fonts/bebasneuebold.eot);src:local("☺"),url(/fonts/bebasneuebold.woff2) format("woff2"),url(/fonts/bebasneuebold.woff) format("woff"),url(/fonts/bebasneuebold.ttf) format("truetype"),url(/fonts/bebasneuebold.svg) format("svg");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Montserrat;font-display:swap;src:local("Montserrat Light"),local("Montserrat-Light"),url(/fonts/Montserrat-Light.woff2) format("woff2"),url(/fonts/Montserrat-Light.woff) format("woff");font-weight:300;font-style:normal}@font-face{font-family:Montserrat;font-display:swap;src:local("Montserrat"),local("Montserrat-Regular"),url(/fonts/Montserrat-Regular.woff2) format("woff2"),url(/fonts/Montserrat-Regular.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:Montserrat;font-display:swap;src:local("Montserrat"),local("Montserrat-Regular"),url(/fonts/Montserrat-Medium.woff2) format("woff2"),url(/fonts/Montserrat-Medium.woff) format("woff");font-weight:500;font-style:normal}@font-face{font-family:Montserrat;font-display:swap;src:local("Montserrat Bold"),local("Montserrat-Bold"),url(/fonts/Montserrat-Bold.woff2) format("woff2"),url(/fonts/Montserrat-Bold.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:Montserrat;font-display:swap;src:local("Montserrat Black"),local("Montserrat-Black"),url(/fonts/Montserrat-Black.woff2) format("woff2"),url(/fonts/Montserrat-Black.woff) format("woff");font-weight:900;font-style:normal}@font-face{font-family:Morpha;font-display:swap;src:url(/fonts/Morpha-Bold.woff2) format("woff2");src:local("☺"),url(/fonts/Morpha-Bold.woff) format("woff"),url(/fonts/Morpha-Bold.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Neue Machina";font-display:swap;src:local("NeueMachina-Bold"),local("NeueMachina-Bold"),url(/fonts/NeueMachina-Bold.woff2) format("woff2"),url(/fonts/NeueMachina-Bold.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:"Neue Machina";font-display:swap;src:local("NeueMachina-Black"),local("NeueMachina-Black"),url(/fonts/NeueMachina-Black.woff2) format("woff2"),url(/fonts/NeueMachina-Bold.woff) format("woff");font-weight:900;font-style:normal}@font-face{font-family:"Cy Grotesk";font-display:swap;src:url(/fonts/cy-grotesk-grand-dark.otf);font-weight:800;font-style:normal;font-display:swap}@font-face{font-family:RainerTestv04;src:url(/fonts/RainerTestv04-Bold.woff2),url(/fonts/RainerTestv04-Bold.woff);font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Anticva;font-display:swap;src:local("Anticva"),local("Anticva"),url(/fonts/Anticva-Regular.woff2) format("woff2"),url(/fonts/Anticva-Regular.woff) format("woff"),url(/fonts/Anticva-Regular.otf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Halvar Breitschrift";src:local("HalvarBreit-Blk"),local("HalvarBreit-Blk"),url(/fonts/HalvarBreit-Blk.woff2) format("woff2"),url(/fonts/HalvarBreit-Blk.woff) format("woff");font-weight:900;font-style:normal}@font-face{font-family:Damn;font-display:swap;src:local("Damn"),local("Damn"),url(/fonts/Damn.woff2) format("woff2"),url(/fonts/Damn.woff) format("woff"),url(/fonts/Damn.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Monologue DEMO";font-display:swap;src:local("Monologue_DEMO"),local("Monologue_DEMO"),url(/fonts/Monologue_DEMO.woff) format("woff"),url(/fonts/Monologue_DEMO.ttf) format("opentype");font-weight:400;font-style:normal}@font-face{font-family:Nasalization;font-display:swap;src:local("Nasalization"),local("Nasalization"),url(/fonts/Nasalization.woff) format("woff"),url(/fonts/Nasalization.otf) format("opentype");font-weight:400;font-style:normal}@font-face{font-family:PatsySans;font-display:swap;src:local("PatsySans"),local("PatsySans"),url(/fonts/PatsySans.woff) format("woff"),url(/fonts/PatsySans.otf) format("opentype");font-weight:400;font-style:normal}@font-face{font-family:Lighthaus;src:url(/fonts/Lighthaus.eot);src:url(/fonts/Lighthaus.eot?#iefix) format("embedded-opentype"),url(/fonts/Lighthaus.woff2) format("woff2"),url(/fonts/Lighthaus.woff) format("woff"),url(/fonts/Lighthaus.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:UltramonoWide-LightItalic;src:url(/fonts/UltramonoWide-LightItalic.woff2) format("woff2"),url(/fonts/UltramonoWide-LightItalic.woff) format("woff");font-weight:300;font-style:italic;font-display:swap}@font-face{font-family:UltramonoWide-Light;src:url(/fonts/UltramonoWide-Light.woff2) format("woff2"),url(/fonts/UltramonoWide-Light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:"Nikkyou Sans";src:url(/fonts/NikkyouSans.woff2) format("woff2"),url(/fonts/NikkyouSans.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Corvetta;src:url(/fonts/Corvetta.woff2) format("woff2"),url(/fonts/Corvetta.woff) format("woff"),url(/fonts/Corvetta.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:a_LCDNovaObl;src:url(/fonts/a_lcdnovaobl.woff) format("woff"),url(/fonts/a_lcdnovaobl.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Felidae;src:url(/fonts/Felidae.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next Expanded Trial";src:url(/fonts/MullerNextExtraCondTrial-Thin.otf);font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next Expanded Trial";src:url(/fonts/MullerNextExpandedTrial-Regular.otf);font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next Expanded Trial";src:url(/fonts/MullerNextExpandedTrial-ExtraBold.otf);font-weight:750;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next Expanded Trial";src:url(/fonts/MullerNextExpandedTrial-Heavy.otf);font-weight:800;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next Expanded Trial";src:url(/fonts/MullerNextExpandedTrialThinItalic.otf);font-weight:100;font-style:italic;font-display:swap}@font-face{font-family:"Muller Next ExtraCond Trial";src:url(/fonts/MullerNextExtraCondTrial-ExtraBold.otf);font-weight:750;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next ExtraCond Trial";src:url(/fonts/MullerNextExtraCondTrial-Regular.otf);font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next ExtraCond Trial";src:url(/fonts/MullerNextExtraCondTrial-RegularItalic.otf);font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:"Muller Next ExtraCond Trial";src:url(/fonts/MullerNextExtraCondTrialThin.otf);font-weight:100;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next Trial";src:url(/fonts/MullerNextTrial-Regular.otf);font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next Trial";src:url(/fonts/MullerNextTrial-ExtraBold.otf);font-weight:750;font-style:normal;font-display:swap}@font-face{font-family:"Muller Next Wide Trial";src:url(/fonts/MullerNextTrial-ThinItalic.woff2);font-weight:100;font-style:italic}@font-face{font-family:Cakra;src:url(/fonts/Cakra-Normal.otf) format("opentype");src:url(/fonts/Cakra-Normal.woff2) format("woff2"),url(/fonts/Cakra-Normal.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Noteworthy;src:url(/fonts/NoteworthyLight.ttf) format("truetype");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:Technology;src:url(/fonts/Technology.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Technology;src:url(/fonts/Technology-Bold.ttf) format("truetype");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:Unbounded;src:url(/fonts/Unbounded-Bold.ttf) format("truetype");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Unbounded;src:url(/fonts/Unbounded-Black.ttf) format("truetype");font-weight:900;font-style:normal;font-display:swap}@font-face{font-family:Inter;src:url(/fonts/Inter-Medium.ttf) format("truetype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Inter;src:url(/fonts/Inter-SemiBold.ttf) format("truetype");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:"Montserrat Alternates";src:url(/fonts/MontserratAlternates-Light.ttf) format("truetype");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:"Snell Roundhand";src:url(/fonts/snell-roundhand-900.otf) format("opentype");font-weight:900;font-style:italic;font-display:swap}@font-face{font-family:"Snell Roundhand";src:url(/fonts/snell-roundhand-700.otf) format("opentype");font-weight:700;font-style:italic;font-display:swap}@font-face{font-family:Lighthaus;src:url(/fonts/Lighthaus-400.otf) format("opentype");font-weight:400;font-style:normal;font-display:swap}*,::after,::before{box-sizing:border-box}body{font-family:Montserrat,sans-serif}h3,p,span{-moz-user-select:-moz-none;-o-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none}.advantages{height:900px;background:url(../images/landing/y-ultrasonic-face-skin-care/advantages-section-bgr-desc-v3.webp) no-repeat center;background-size:cover;padding:63px 0 31px;padding-top:0}@media all and (max-width:767px){.advantages{background:url(../images/landing/y-ultrasonic-face-skin-care/advantages-section-bgr-mob-v3.webp) no-repeat center;background-size:cover;height:auto;padding:14px 0 5px}}.advantages.active .advantages__description li{transform:unset;opacity:1}.advantages .container-box{height:100%}.advantages__container{display:flex;width:100%;justify-content:space-between;height:100%}@media all and (max-width:767px){.advantages__container{flex-direction:column;row-gap:156vw}}.advantages__title{display:flex;flex-direction:column-reverse}.advantages__title h2{font-family:"Cy Grotesk";font-style:normal;font-weight:800;font-size:clamp(32px,4vw,64px);line-height:clamp(34px,4vw,68px);text-transform:uppercase;color:#fff}@media all and (max-width:767px){.advantages__title h2{font-size:clamp(32px,10vw,76px);line-height:clamp(34px,4vw,82px);text-align:center}}.advantages__title span{font-family:"Cy Grotesk";font-style:normal;font-weight:800;font-size:clamp(28px,4vw,49px);line-height:53px;text-transform:uppercase;color:#fff}@media all and (max-width:767px){.advantages__title span{font-size:clamp(76px,24vw,117px);line-height:clamp(75px,22vw,114px)}}.advantages__title img{width:174px}@media all and (max-width:767px){.advantages__title img{width:100%;margin-bottom:11px}}@media all and (max-width:1239px){.advantages__description{transform:translateX(94px)}}@media all and (max-width:767px){.advantages__description{transform:none}}.advantages__description ul{display:flex;flex-direction:column;justify-content:space-evenly;height:100%;list-style:none}.advantages__description li{transition:all .3s ease-in-out .2s;opacity:0;position:relative;font-style:italic;font-weight:700;font-size:clamp(15px,4vw,20px);line-height:clamp(19px,4vw,30px);text-transform:uppercase;color:#fff;display:flex;column-gap:25px;align-items:center}@media all and (max-width:767px){.advantages__description li{align-items:flex-start;column-gap:unset;margin-bottom:20px}}.advantages__description li:nth-child(2){transition:all .3s ease-in-out .4s;transform:translateY(-25px)}.advantages__description li:nth-child(3){transition:all .3s ease-in-out .55s;transform:translateY(-25px)}.advantages__description li:nth-child(4){transition:all .3s ease-in-out .65s;transform:translateY(-25px)}.advantages__description li:nth-child(5){transition:all .3s ease-in-out .85s;transform:translateY(-25px)}.advantages__description li:nth-child(6){transition:all .3s ease-in-out .95s;transform:translateY(-25px)}.advantages__description li:nth-child(7){transition:all .3s ease-in-out 1.05s;transform:translateY(-25px)}.advantages__description li::before{top:9px;left:-62px;content:"";background:url(../images/landing/y-ultrasonic-face-skin-care/list-style-img.svg);width:38px;height:34px}@media all and (max-width:767px){.advantages__description li::before{background:url(../images/landing/y-ultrasonic-face-skin-care/list-style-img-mobile.svg) no-repeat;left:-42px}}.ultrasound{height:900px;background:url(../images/landing/y-ultrasonic-face-skin-care/ultrasound-section-bgr-desc.webp) no-repeat center;background-size:cover;-moz-user-select:-moz-none;-o-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none}@media all and (max-width:767px){.ultrasound{background:url(../images/landing/y-ultrasonic-face-skin-care/ultrasound-section-bgr-mob.webp) no-repeat center;background-size:cover;height:auto}}.ultrasound.active .ultrasound__content_description--top{opacity:1;transform:unset}.ultrasound.active .ultrasound__content_description--bottom{opacity:1;transform:unset}.ultrasound .container-box{height:100%;position:relative}.ultrasound__frequency{background:#fff;border-radius:50%;width:230px;height:230px;display:flex;justify-content:center;align-items:center;flex-direction:column}@media all and (max-width:767px){.ultrasound__frequency{width:125px;height:125px;transform:translate(51vw,-66vw)}}.ultrasound__frequency span{font-style:italic;font-weight:700;font-size:32px;line-height:53px;text-transform:uppercase;color:#57cde1}@media all and (max-width:767px){.ultrasound__frequency span{font-size:16px;line-height:29px}}.ultrasound__frequency p{font-style:italic;font-weight:700;font-size:24px;line-height:40px;color:#57cde1}@media all and (max-width:767px){.ultrasound__frequency p{font-size:12px;line-height:22px}}.ultrasound__frequency img{width:61px}@media all and (max-width:767px){.ultrasound__frequency img{width:34px}}.ultrasound__container{position:relative;height:100%;display:flex;flex-direction:column;justify-content:space-between;z-index:2;padding-bottom:48px;padding-top:38px}@media all and (max-width:767px){.ultrasound__container{padding-top:11px;flex-direction:column-reverse;row-gap:182vw}}.ultrasound__content{display:flex;justify-content:space-between;position:relative}.ultrasound__content_description--top{transform:scale(1.2);transition:opacity .8s ease,transform 1s ease;opacity:0;font-style:italic;font-weight:600;font-size:clamp(15px,4vw,18px);line-height:clamp(22px,4vw,31px);color:#fff;width:422px;margin-bottom:20px}@media all and (max-width:767px){.ultrasound__content_description--top{width:unset}}.ultrasound__content_description--bottom{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0;font-family:"Cy Grotesk";font-style:normal;font-weight:800;font-size:clamp(21px,6.7vw,44px);line-height:clamp(26px,7vw,58px);text-transform:uppercase;color:#fff;text-shadow:0 4px 4px rgba(0,206,181,.53)}@media all and (max-width:767px){.ultrasound__content_description--bottom{text-align:center}}@media all and (max-width:767px){.ultrasound__content_description{display:flex;flex-direction:column-reverse;row-gap:68vw}}.ultrasound__content_video{position:relative;border-radius:50%;width:292px;width:min(20vw,292px);height:min(20vw,292px);border:2.5px solid #fff;overflow:hidden;display:flex;align-items:center;flex-shrink:0}@media all and (max-width:767px){.ultrasound__content_video{position:absolute;top:31vw;left:0;width:100%;border-radius:15px;height:unset}}.ultrasound__content_video img{position:relative;height:100%;left:50%;transform:translateX(-50%)}@media all and (max-width:767px){.ultrasound__content_video img{width:100%}}.ultrasound__content_video::before{content:"";position:absolute;width:90px;height:90px;top:50%;left:50%;transform:translate(-50%,-50%);transition:.2s ease-in;background:no-repeat center url(../images/product/axiom-new/white-beige/video-play-icon-foot-sensor.webp);z-index:3}@media all and (max-width:767px){.ultrasound__content_video::before{top:56%}}.ultrasound__content_video:hover{cursor:pointer}.ultrasound__content_video:hover::before{transform:translate(-50%,-50%) scale(1.2);cursor:pointer}.ultrasound__main-img{width:100%;position:absolute;left:50%;bottom:0;transform:translateX(-46%)}@media all and (max-width:767px){.ultrasound__main-img{transform:translateX(-50%)}}.phonoforez{height:2006px;background:url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-section-bgr-desc.webp) no-repeat center;background-size:cover;padding-top:86px}@media all and (max-width:767px){.phonoforez{height:auto;background:url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-section-bgr-mob.webp) no-repeat center;padding-top:0;padding-bottom:63px}}@media all and (max-width:767px){.phonoforez .container-box{padding-left:10px;padding-right:10px}}.phonoforez__image-mobile{display:none;width:100%;margin-top:19px}@media all and (max-width:767px){.phonoforez__image-mobile{display:block}}.phonoforez__top{height:750px;background:url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-img-mobile-top-v2.webp) no-repeat;background-size:contain;background-position:right;margin-bottom:109px}@media all and (max-width:1239px){.phonoforez__top{background:no-repeat 27vw 3vw/67% url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-img-mobile-top-v2.webp)}}@media all and (max-width:767px){.phonoforez__top{background:unset;height:auto;margin-bottom:0}}.phonoforez__top.active .phonoforez__top_content span{opacity:1;transform:unset}.phonoforez__top.active .phonoforez__top_content p{opacity:1;transform:unset}.phonoforez__top_content{max-width:663px;padding-top:104px}@media all and (max-width:767px){.phonoforez__top_content{padding-top:17px}}.phonoforez__top_content span{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0;font-family:"Cy Grotesk";font-style:normal;font-weight:800;font-size:clamp(21px,4vw,44px);line-height:clamp(28px,4vw,58px);text-transform:uppercase;color:#fff;margin-bottom:46px;display:block}@media all and (max-width:767px){.phonoforez__top_content span{margin-bottom:20px;font-size:6.7vw;line-height:130%}}.phonoforez__top_content p{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0;font-style:italic;font-weight:600;font-size:clamp(15px,4vw,20px);line-height:clamp(22px,4vw,34px);color:#fff;max-width:501px}@media all and (max-width:767px){.phonoforez__top_content p{max-width:unset;font-size:4.5vw;line-height:170%}}.phonoforez__bottom{height:792px;display:flex;align-items:flex-end;justify-content:flex-end;background:url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-img-mobile-bottom-v2.webp) no-repeat;background-size:contain;background-position:left}.phonoforez__bottom.active .phonoforez__bottom_content span{opacity:1;transform:unset}.phonoforez__bottom.active .phonoforez__bottom_content p{opacity:1;transform:unset}@media all and (max-width:1239px){.phonoforez__bottom{background:no-repeat 0 25vw/51% url(../images/landing/y-ultrasonic-face-skin-care/phonoforez-img-mobile-bottom-v2.webp)}}@media all and (max-width:767px){.phonoforez__bottom{background:unset;height:auto;margin-top:60px}}.phonoforez__bottom_content{max-width:539px;transform:translate(-32px,171px)}.phonoforez__bottom_content span{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0;font-family:"Cy Grotesk";font-style:normal;font-weight:800;font-size:clamp(25px,4vw,44px);line-height:clamp(25px,4vw,58px);text-transform:uppercase;color:#fff;margin-bottom:24px;display:block}@media all and (max-width:767px){.phonoforez__bottom_content span{font-size:8vw;line-height:130%}}.phonoforez__bottom_content p{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0;font-style:italic;font-weight:600;font-size:clamp(15px,4vw,20px);line-height:clamp(22px,4vw,34px);color:#fff;max-width:539px}@media all and (max-width:767px){.phonoforez__bottom_content p{max-width:unset;font-size:4.69vw;line-height:170%}}@media all and (max-width:767px){.phonoforez__bottom_content{max-width:unset;transform:unset}}.modes{height:3437px;background:url(../images/landing/y-ultrasonic-face-skin-care/modes-section-bgr-desc.webp) no-repeat center;background-size:cover;padding-top:81px}@media all and (max-width:767px){.modes{background:url(../images/landing/y-ultrasonic-face-skin-care/modes-section-bgr-mob-v2.webp) no-repeat center;background-size:cover;height:auto;padding:8.5% 0 13%}}@media all and (max-width:767px){.modes .container-box{padding:0 3%}}.modes__badge{position:absolute;top:0;right:0}@media all and (max-width:767px){.modes__badge{display:none}}@media all and (max-width:767px){.modes__span{margin-bottom:6.25vw}}.modes__image-mob{display:none}@media all and (max-width:767px){.modes__image-mob{display:block;width:100%}}.modes span{font-family:"Cy Grotesk";font-style:normal;font-weight:800;font-size:clamp(25px,4vw,44px);line-height:clamp(39px,4vw,58px);text-transform:uppercase;color:#fff;margin-bottom:34px;display:block}.modes p{font-style:italic;font-weight:600;font-size:clamp(15px,4vw,20px);line-height:clamp(26px,4vw,34px);color:#fff;max-width:461px}@media all and (max-width:767px){.modes p{max-width:unset;font-size:4.69vw;line-height:170%}}.modes h3{font-style:italic;font-weight:500;font-size:clamp(34px,4vw,44px);line-height:45px;color:#fff;font-family:Montserrat;text-transform:none;margin-bottom:34px}@media all and (max-width:767px){.modes h3{font-size:10.85vw;line-height:130%}}.modes__top{height:938px;background:url(../images/landing/y-ultrasonic-face-skin-care/modes-top-bgr-desc.webp) no-repeat;background-size:contain;background-position:right;margin-bottom:120px}.modes__top.active .modes__top_content span{opacity:1;transform:unset}.modes__top.active .modes__top_content h3{opacity:1;transform:unset}.modes__top.active .modes__top_content p{opacity:1;transform:unset}.modes__top_content{transform:translate(-3px,205px)}.modes__top_content p{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0;max-width:413px}@media all and (max-width:767px){.modes__top_content p{max-width:unset}}@media all and (max-width:767px){.modes__top_content{transform:unset}}@media all and (max-width:767px){.modes__top{height:auto;margin-bottom:12%;background:unset}}.modes__top span{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0}@media all and (max-width:767px){.modes__top span{margin-bottom:7.5vw;font-size:9vw;line-height:130%}}.modes__top h3{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0}@media all and (max-width:767px){.modes__top h3{margin-bottom:5vw}}.modes__middle{height:1027px;background:url(../images/landing/y-ultrasonic-face-skin-care/modes-middle-bgr-desc.webp) no-repeat;background-size:contain;background-position:left;display:flex;justify-content:flex-end;margin-bottom:98px;position:relative}.modes__middle.active .modes__middle_content span{opacity:1;transform:unset}.modes__middle.active .modes__middle_content h3{opacity:1;transform:unset}.modes__middle.active .modes__middle_content p{opacity:1;transform:unset}.modes__middle_content{transform:translate(-11px,248px)}.modes__middle_content p{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0}@media all and (max-width:767px){.modes__middle_content p{margin-bottom:11vw}}@media all and (max-width:767px){.modes__middle_content{transform:unset}}@media all and (max-width:767px){.modes__middle{height:auto;margin-bottom:12%;background:unset}}.modes__middle span{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0}@media all and (max-width:767px){.modes__middle span{font-size:8vw;line-height:130%}}.modes__middle h3{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0}.modes__bottom{height:1027px;background:url(../images/landing/y-ultrasonic-face-skin-care/modes-bottom-bgr-desc.webp) no-repeat;background-size:contain;background-position:right}.modes__bottom.active .modes__bottom_content span{opacity:1;transform:unset}.modes__bottom.active .modes__bottom_content h3{opacity:1;transform:unset}.modes__bottom.active .modes__bottom_content p{opacity:1;transform:unset}.modes__bottom_content p{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0}@media all and (max-width:767px){.modes__bottom_content p{margin-bottom:6vw}}@media all and (max-width:767px){.modes__bottom{background:unset;height:auto}}.modes__bottom span{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0}@media all and (max-width:767px){.modes__bottom span{margin-bottom:10vw;font-size:11.5vw;line-height:130%}}.modes__bottom h3{transition:opacity .8s ease,transform 1s ease;transform:scale(1.2);opacity:0}.effect{height:900px;padding:41px 0 0;-moz-user-select:-moz-none;-o-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;background:linear-gradient(210.64deg,#ffb7d1 20.23%,#cfe5ff 81.94%)}@media all and (max-width:767px){.effect{height:auto;padding:8% 0 10%;background:linear-gradient(210.64deg,#ffb7d1 20.23%,#cfe5ff 81.94%)}}@media all and (max-width:767px){.effect .container-box{padding:0 3%}}.effect__swiper{width:100%;height:fit-content;padding:0 38px 0}@media all and (max-width:767px){.effect__swiper{padding:0 5%}}.effect__title{max-width:80%;margin:0 auto 88px;font-family:"Cy Grotesk";font-style:normal;font-weight:800;font-size:46.371px;line-height:60px;text-transform:uppercase;color:#fff;text-align:center}@media all and (max-width:767px){.effect__title{max-width:95%;margin-bottom:28vw;font-family:Montserrat;font-size:6.175vw;line-height:110%}}.effect__list{display:flex;justify-content:space-between}.effect__item{display:flex;flex-direction:column;justify-content:space-between;width:clamp(278px,21vw,443px)}@media all and (max-width:450px){.effect__item{width:100%}}.effect__item img{width:100%;margin-bottom:68px}@media all and (max-width:767px){.effect__item img{margin-bottom:13%}}.effect__item_title{display:flex;align-items:flex-start}.effect__item_title img{width:33px}@media all and (max-width:767px){.effect__item_title img{width:7.45%}}.effect__item_title span{font-weight:400;font-size:20.7101px;line-height:31px;letter-spacing:-.01em;color:#181818}@media all and (max-width:767px){.effect__item_title span{font-size:4.16vw;line-height:150%}}.effect__text{font-size:clamp(13px,1vw,20px);line-height:150%;display:flex;align-items:flex-start;letter-spacing:-.01em;color:#fff;margin-top:59px}@media all and (max-width:767px){.effect__text{margin-top:37px}}.effect__text::before{margin-right:5px;content:url(/images/landing/hair-styler/check-white.svg)}.effect__description-slide{transform:translateY(-90px)}.hyaluronic-acid{height:900px;padding-top:58px;background:linear-gradient(210.64deg,#cfe5ff 20.23%,#ffb7d1 81.94%)}@media all and (max-width:767px){.hyaluronic-acid{height:unset;padding:5% 0 10%}}@media all and (max-width:767px){.hyaluronic-acid .container-box{padding:0 3%}}.hyaluronic-acid__wrapper{display:flex;position:relative}@media all and (max-width:767px){.hyaluronic-acid__wrapper{flex-direction:column}}.hyaluronic-acid__button{display:flex;justify-content:center;align-items:center;width:279px;height:55px;background-color:#e03638;border-radius:15px}.hyaluronic-acid__button h5{font-weight:600;font-size:18px;line-height:31px;color:#fff;border:1px solid #e03638}.hyaluronic-acid__button:hover{transform:scale(1.03);cursor:pointer;transition:all .2s linear}.hyaluronic-acid__image-section{position:absolute;right:0;display:flex;height:763px;z-index:2}@media all and (max-width:767px){.hyaluronic-acid__image-section{position:static;width:50%;height:auto;margin-bottom:5%}}.hyaluronic-acid__image-section img{margin-right:27px;z-index:2}@media all and (max-width:767px){.hyaluronic-acid__image-section img{width:50%;margin-right:5%}}.hyaluronic-acid__image-section img:last-child{width:52%;height:83%;margin-top:69px}@media all and (max-width:767px){.hyaluronic-acid__image-section img:last-child{width:59%;height:100%;margin-top:22%}}.hyaluronic-acid__video-section{display:flex;flex-direction:column;align-items:center;padding-top:30px}@media all and (max-width:767px){.hyaluronic-acid__video-section{padding-top:0}}.hyaluronic-acid__video-section span{margin-bottom:7px;font-family:"Cy Grotesk";font-style:normal;font-weight:800;font-size:90.4746px;line-height:98px;text-align:center;text-transform:uppercase;color:#b789f6}@media all and (max-width:767px){.hyaluronic-acid__video-section span{margin-bottom:1.5%;font-size:15.5vw;line-height:108.29%}}.hyaluronic-acid__video-section p{margin-bottom:47px;font-style:italic;font-weight:700;font-size:25px;line-height:43px;color:#000;text-align:center}@media all and (max-width:767px){.hyaluronic-acid__video-section p{margin-bottom:2.9%;font-size:6.135vw;line-height:170%}}.hyaluronic-acid__video-section_video{position:relative;width:500px;margin-bottom:55px;overflow:hidden;border-radius:15px;border:3px #fff solid}@media all and (max-width:767px){.hyaluronic-acid__video-section_video{width:100%;height:auto;margin:0 0 5%}}.hyaluronic-acid__video-section_video img{position:relative;border-radius:15px;width:100%;height:100%}.hyaluronic-acid__video-section_video img:hover{cursor:pointer}.hyaluronic-acid__video-section_video::before{content:"";position:absolute;width:66px;height:78px;top:50%;left:50%;transform:translate(-50%,-50%);transition:.2s ease-in;background:no-repeat center url(../images/landing/y-ultrasonic-face-skin-care/ultrasonic-play.svg);background-size:100%;z-index:3}@media all and (max-width:767px){.hyaluronic-acid__video-section_video::before{width:16vw;height:18vw}}.hyaluronic-acid__video-section_video:hover{cursor:pointer}.hyaluronic-acid__video-section_video:hover::before{transform:translate(-50%,-50%) scale(1.2);cursor:pointer}.br-mobile{display:none}@media all and (max-width:767px){.br-mobile{display:block}}.br-desc{display:block}@media all and (max-width:767px){.br-desc{display:none}}.video-section{margin-bottom:-5px}.ultrasonic-bottom-swiper__slide img{width:100%}
->>>>>>> a8ee200f7482e6fe56f8e050e6f28fd049b9d68e
+    width: 100%}
