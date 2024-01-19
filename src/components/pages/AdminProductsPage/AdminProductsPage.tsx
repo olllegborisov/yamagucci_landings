@@ -10,20 +10,20 @@ import IconWrapper from '@/src/components/atoms/IconWrapper/IconWrapper'
 import LoaderQuery from '@/src/components/atoms/LoaderQuery/LoaderQuery'
 import { ColumnResultProducts } from '@/src/components/TableWithModal/_types'
 import TableWithModal from '@/src/components/TableWithModal/TableWithModal'
-import { PAGE_CATEGORIES, PAGE_PRODUCTS } from '@/src/constants/constants'
+import { CREATE_NEW, PAGE_CATEGORIES, PAGE_PRODUCTS } from '@/src/constants/constants'
 import { IconExternalLink, IconSearch } from '@/src/constants/icons'
 import times from '@/src/lib/times'
 
 import styles from './AdminProductsPage.module.scss'
 
 /** страница тестовая */
-const AdminProductPage = () => {
+const AdminProductPage = ({ webApi }) => {
   /** получаем все продукты */
-  const { data, isLoading } = useFetchProducts({ webApi: 'https://api.yamaguchi.ru/api' })
+  const { data, isLoading } = useFetchProducts({ webApi })
 
   /** добавить новую категорию */
   const handleClickAddNewProduct = () => {
-    Router.push(`${PAGE_PRODUCTS}/new`)
+    Router.push(`${PAGE_PRODUCTS}${CREATE_NEW}`)
   }
 
   /** колонки хэдера и футера */

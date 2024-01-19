@@ -26,7 +26,7 @@
   font-weight: 700;
   font-style: normal;
 }
-html {
+/* html {
   scroll-behavior: smooth;
   font-weight: 400;
 }
@@ -128,33 +128,34 @@ box-sizing: border-box;
   padding-left: 16px;
   padding-right: 16px;
 }
-}
+} */
 
 .main-wrapper section {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-figure, figcaption {
-margin: 0;
-/* padding: 0; */
+figure,
+figcaption {
+  margin: 0;
+  /* padding: 0; */
 }
 @media all and (max-width: 767px) {
-.container-box {
-  padding: 0 3%;
-}
+  .container-box {
+    padding: 0 3%;
+  }
 }
 .section {
-min-height: 900px;
-font-family: Montserrat, sans-serif;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: #fff;
+  min-height: 900px;
+  font-family: Montserrat, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
 }
 @media all and (max-width: 767px) {
-.section {
-  min-height: unset;
-}
+  .section {
+    min-height: unset;
+  }
 }
 .silicone-dumbell {
   position: relative;
@@ -710,7 +711,7 @@ background-color: #fff;
   }
 }
 
-.better-set__img{
+.better-set__img {
   max-width: fit-content;
 }
 .better-set__btn-img {
@@ -734,6 +735,7 @@ background-color: #fff;
   font-style: normal;
   font-weight: 700;
   line-height: 37px;
+  color: #fff;
 }
 .better-set__btn-link.disabled {
   pointer-events: none;

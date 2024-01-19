@@ -120,7 +120,7 @@ export const adminNavConfiguration: AdminNavItemTypes[] = [
     id: 13,
     submenu: [
       {
-        href: '#',
+        href: 'users',
         icon: '',
         id: 131,
         title: 'Список'

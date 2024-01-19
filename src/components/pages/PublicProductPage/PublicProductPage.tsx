@@ -13,7 +13,6 @@ const PublicProductPage: FC<PublicProductPageTypes> = ({ data, isLoading }) => (
       {...data?.product}
     />
     <Landing landingName={data?.product?.system_name} />
-    <Landing landingName='y-osaka-aurum' />
   </>
 )
 

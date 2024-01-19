@@ -15,9 +15,7 @@ import styles from './Qrcodes.module.scss'
 /** компонент qr кодов */
 const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
   /** полный путь */
-  const fullPathArray = useContext(FullPathArrayContext)
-  /** полный путь со слешами для ревалидации */
-  const fullPath = `/${fullPathArray.join('/')}`
+  const { revalidatePath } = useContext(FullPathArrayContext)
 
   /** состояние загрузки */
   const [loading, setLoading] = useState(false)
@@ -61,7 +59,7 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
 
       if (response.status === 201) {
         /** обновляем страницу */
-        const res = await revalidatePage(fullPath)
+        const res = await revalidatePage(revalidatePath)
 
         if (res?.revalidated) {
           router.reload()
