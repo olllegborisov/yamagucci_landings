@@ -2,71 +2,71 @@
 @font-face {
     font-family: PTSans;
     font-display: swap;
-    src: url(/landings/yamato/fonts/PTSans.eot);
-    src: url(/landings/yamato/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/landings/yamato/fonts/PTSans.woff2) format("woff2"), url(/landings/yamato/fonts/PTSans.woff) format("woff"), url(/landings/yamato/fonts/PTSans.ttf) format("truetype"), url(/landings/yamato/fonts/PTSans.svg#PTSans) format("svg");
+    src: url(/fonts/PTSans.eot);
+    src: url(/fonts/PTSans.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSans.woff2) format("woff2"), url(/fonts/PTSans.woff) format("woff"), url(/fonts/PTSans.ttf) format("truetype"), url(/fonts/PTSans.svg#PTSans) format("svg");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: PTSans;
     font-display: swap;
-    src: url(/landings/yamato/fonts/PTSansBold.eot);
-    src: url(/landings/yamato/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/landings/yamato/fonts/PTSansBold.woff2) format("woff2"), url(/landings/yamato/fonts/PTSansBold.woff) format("woff"), url(/landings/yamato/fonts/PTSansBold.ttf) format("truetype"), url(/landings/yamato/fonts/PTSansBold.svg#PTSans) format("svg");
+    src: url(/fonts/PTSansBold.eot);
+    src: url(/fonts/PTSansBold.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansBold.woff2) format("woff2"), url(/fonts/PTSansBold.woff) format("woff"), url(/fonts/PTSansBold.ttf) format("truetype"), url(/fonts/PTSansBold.svg#PTSans) format("svg");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: PTSans;
     font-display: swap;
-    src: url(/landings/yamato/fonts/PTSansItalic.ttf) format("truetype");
-    src: url(/landings/yamato/fonts/PTSansItalic.woff2) format("woff2"), url(/landings/yamato/fonts/PTSansItalic.woff) format("woff");
+    src: url(/fonts/PTSansItalic.ttf) format("truetype");
+    src: url(/fonts/PTSansItalic.woff2) format("woff2"), url(/fonts/PTSansItalic.woff) format("woff");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: PTSansNarrow;
     font-display: swap;
-    src: url(/landings/yamato/fonts/PTSansNarrow.eot);
-    src: url(/landings/yamato/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/landings/yamato/fonts/PTSansNarrow.woff2) format("woff2"), url(/landings/yamato/fonts/PTSansNarrow.woff) format("woff"), url(/landings/yamato/fonts/PTSansNarrow.ttf) format("truetype"), url(/landings/yamato/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
+    src: url(/fonts/PTSansNarrow.eot);
+    src: url(/fonts/PTSansNarrow.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansNarrow.woff2) format("woff2"), url(/fonts/PTSansNarrow.woff) format("woff"), url(/fonts/PTSansNarrow.ttf) format("truetype"), url(/fonts/PTSansNarrow.svg#PTSansNarrow) format("svg");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: PTSansNarrow;
     font-display: swap;
-    src: url(/landings/yamato/fonts/PTSansNarrowBold.eot);
-    src: url(/landings/yamato/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/landings/yamato/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/landings/yamato/fonts/PTSansNarrowBold.woff) format("woff"), url(/landings/yamato/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/landings/yamato/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
+    src: url(/fonts/PTSansNarrowBold.eot);
+    src: url(/fonts/PTSansNarrowBold.eot?#iefix) format("embedded-opentype"), url(/fonts/PTSansNarrowBold.woff2) format("woff2"), url(/fonts/PTSansNarrowBold.woff) format("woff"), url(/fonts/PTSansNarrowBold.ttf) format("truetype"), url(/fonts/PTSansNarrowBold.svg#PTSansNarrow) format("svg");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: BebasNeue;
-    src: url(/landings/yamato/fonts/bebasneuethin.woff2) format("woff2");
-    src: local("☺"), url(/landings/yamato/fonts/bebasneuethin.woff) format("woff"), url(/landings/yamato/fonts/bebasneuethin.ttf) format("truetype");
+    src: url(/fonts/bebasneuethin.woff2) format("woff2");
+    src: local("☺"), url(/fonts/bebasneuethin.woff) format("woff"), url(/fonts/bebasneuethin.ttf) format("truetype");
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: BebasNeue;
-    src: url(/landings/yamato/fonts/bebasneuelight.woff2) format("woff2");
-    src: local("☺"), url(/landings/yamato/fonts/bebasneuelight.ttf) format("truetype"), url(/landings/yamato/fonts/bebasneuelight.woff) format("woff");
+    src: url(/fonts/bebasneuelight.woff2) format("woff2");
+    src: local("☺"), url(/fonts/bebasneuelight.ttf) format("truetype"), url(/fonts/bebasneuelight.woff) format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: BebasNeue;
-    src: url(/landings/yamato/fonts/bebasneueregular.eot);
-    src: local("☺"), url(/landings/yamato/fonts/bebasneueregular.woff2) format("woff2"), url(/landings/yamato/fonts/bebasneueregular.woff) format("woff"), url(/landings/yamato/fonts/bebasneueregular.ttf) format("truetype"), url(/landings/yamato/fonts/bebasneueregular.svg) format("svg");
+    src: url(/fonts/bebasneueregular.eot);
+    src: local("☺"), url(/fonts/bebasneueregular.woff2) format("woff2"), url(/fonts/bebasneueregular.woff) format("woff"), url(/fonts/bebasneueregular.ttf) format("truetype"), url(/fonts/bebasneueregular.svg) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: BebasNeue;
-    src: url(/landings/yamato/fonts/bebasneuebold.eot);
-    src: local("☺"), url(/landings/yamato/fonts/bebasneuebold.woff2) format("woff2"), url(/landings/yamato/fonts/bebasneuebold.woff) format("woff"), url(/landings/yamato/fonts/bebasneuebold.ttf) format("truetype"), url(/landings/yamato/fonts/bebasneuebold.svg) format("svg");
+    src: url(/fonts/bebasneuebold.eot);
+    src: local("☺"), url(/fonts/bebasneuebold.woff2) format("woff2"), url(/fonts/bebasneuebold.woff) format("woff"), url(/fonts/bebasneuebold.ttf) format("truetype"), url(/fonts/bebasneuebold.svg) format("svg");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
