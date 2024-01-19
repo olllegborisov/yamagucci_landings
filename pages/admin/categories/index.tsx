@@ -12,7 +12,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
   /** queryClient */
   const queryClient = new QueryClient()
   /** host */
-  const host = ctx.req.headers.host
+  const host = ctx?.req?.headers?.host
   /** webApi */
   const webApi = getBaseUrlApi(host)
 
