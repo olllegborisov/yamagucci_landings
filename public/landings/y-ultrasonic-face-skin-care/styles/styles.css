@@ -672,6 +672,17 @@ h3, p, span {
 }.ultrasound.active .ultrasound__content_description--top {
     opacity: 1;
     transform: unset;
+
+}
+@media (max-width: 767px) {
+    .ultrasound.active .ultrasound__content_description--top {
+        opacity: 0;
+    }
+}
+@media (max-width: 450px) {
+    .ultrasound.active .ultrasound__content_description--top {
+        opacity: 1;
+    }
 }
 .ultrasound.active .ultrasound__content_description--bottom {
     opacity: 1;
@@ -861,11 +872,16 @@ h3, p, span {
 @media all and (max-width:767px) {
     .phonoforez {
     height: auto;
-    background: url(/landings/y-ultrasonic-face-skin-care/images/phonoforez-section-bgr-mob.webp) no-repeat center;
     padding-top: 0;
     padding-bottom: 63px;
 }
-}@media all and (max-width:767px) {
+}
+@media (max-width: 450px) {
+    .phonoforez {
+        background: url(/landings/y-ultrasonic-face-skin-care/images/phonoforez-section-bgr-mob.webp) no-repeat center;
+    }
+}
+@media all and (max-width:767px) {
     .phonoforez .container-box {
     padding-left: 10px;
     padding-right: 10px;

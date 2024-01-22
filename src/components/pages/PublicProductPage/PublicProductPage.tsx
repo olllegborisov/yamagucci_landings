@@ -12,7 +12,7 @@ const PublicProductPage: FC<PublicProductPageTypes> = ({ data, isLoading }) => (
       isLoading={isLoading}
       {...data?.product}
     />
-    <Landing landingName="y-ultrasonic-face-skin-care" />
+    <Landing landingName={data?.product?.system_name} />
   </>
 )
 
