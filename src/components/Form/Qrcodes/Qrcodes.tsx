@@ -43,7 +43,7 @@ const Qrcodes: FC<ListCardQrcodesTypes> = ({ name }) => {
     }))
   }
 
-  /** обработчик отправки */
+  /** обработчик создания нового qr кода */
   const handleSubmit = async (e) => {
     e.preventDefault()
 
